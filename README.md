@@ -5,3 +5,11 @@ This is a project website for Code Institute Full Stack Development course Strea
 ## Flask Project
 
 The site development began with the creation of a Flask project. This was then deployed to GitHub along with the README.md file and a skeleton HTML template.
+
+## Site Design
+
+The site was designed responsively using 'mobile first' principles.
+
+### Page Layout
+
+Design elements were chosen reflecting the snooker theme. A green background was used for the page header to represent a snooker table, while coloured elements reflecting the colours of snooker balls were also included. The navigation menu items were decorated with CSS elements styled to look like snooker balls of different colours.
