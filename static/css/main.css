@@ -19,15 +19,6 @@ header {
 	flex: 1;
 }
 
-.ball {
-	height: 20px;
-	width: 20px;
-	margin: 2px 2px 2px 10px;
-	border-radius: 50%;
-	float: left;
-	/*background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff0000 5%, #000000)*/
-}
-
 .red {
 	background-color: #ee0000;
 	color: white;
@@ -129,4 +120,40 @@ h2 {
 
 .menuLink:hover {
 	text-decoration: underline;
+}
+
+.ball {
+	height: 20px;
+	width: 20px;
+	margin: 2px 2px 2px 10px;
+	border-radius: 50%;
+	float: left;
+}
+
+.redGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff0000 5%, #000000)
+}
+
+.yellowGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ffff00 5%, #000000)
+}
+
+.greenGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #006600 5%, #000000)
+}
+
+.brownGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #663300 5%, #000000)
+}
+
+.blueGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, blue 5%, #000000)
+}
+
+.pinkGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff6666 5%, #000000)
+}
+
+.blackGrad {
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #333333 5%, #000000)
 }
