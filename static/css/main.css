@@ -1,0 +1,132 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: "Times New Roman", serif;
+}
+
+header {
+	background-color: #009900;
+}
+
+#colours {
+	display: flex;
+}
+
+.bar {
+	height: 5px;
+	flex: 1;
+}
+
+.ball {
+	height: 20px;
+	width: 20px;
+	margin: 2px 2px 2px 10px;
+	border-radius: 50%;
+	float: left;
+	/*background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff0000 5%, #000000)*/
+}
+
+.red {
+	background-color: #ee0000;
+	color: white;
+}
+.yellow {
+	background-color: yellow;
+	color: black;
+}
+.green {
+	background-color: #006600;
+	color: white;
+}
+.brown {
+	background-color: #663300;
+	color: white;
+}
+.blue {
+	background-color: blue;
+	color: white;
+}
+.pink {
+	background-color: #ff6666;
+	color: black;
+}
+.black {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.subHeader {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+}
+
+#pageTitle {
+	border-radius: 0 0 20px 20px;
+}
+
+#pageTitle.red {
+	box-shadow: 0px 2px 2px 2px #cc9999;
+}
+
+#menuHeader {
+	background-color: #996600;
+	padding: 5px;
+	color: white;
+	border-top: 1px solid #663300;
+	border-bottom: 1px solid #663300;
+}
+
+.toggle {
+	display: none;
+}
+
+.activate {
+	display: block;
+}
+
+.menuItem {
+	display: block;
+	height: 24px;
+	background-color: #009900;
+	border-bottom: 1px solid white;
+}
+
+.menuItem:last-of-type {
+	border-bottom: none;
+}
+
+.menuLink {
+	line-height: 24px;
+	width: 100px;
+	display: inline;
+	margin-left: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.menuLink:hover {
+	text-decoration: underline;
+}

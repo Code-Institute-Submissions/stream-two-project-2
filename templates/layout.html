@@ -11,12 +11,78 @@
         The Crucible: A statistical guide to the World Snooker Championship since 1977.
     </title>
 
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/main.css')}}">
+
 </head>
 
 <body>
 
+	<header>
+		<div id="colours">
+			<div class="red bar"></div>
+			<div class="yellow bar"></div>
+			<div class="green bar"></div>
+			<div class="brown bar"></div>
+			<div class="blue bar"></div>
+			<div class="pink bar"></div>
+			<div class="black bar"></div>
+		</div>
+
+		<h1>The Crucible</h1>
+		<div class="subHeader">
+			A statistical guide to the World Snooker Championship since 1977.
+		</div>
+	</header>
+
+	<div id="menuHeader" onclick="menuToggle()">
+			MENU &#8801;
+	</div>
+
+	<nav id="mainMenu" class="toggle">
+		<div class="menuItem">
+			<div class="red ball"></div>
+			<a class="menuLink" href="/">Champions</a>
+		</div>
+		<div class="menuItem">
+			<div class="yellow ball"></div>
+			<a class="menuLink" href="/tournaments">Tournaments</a>
+		</div>
+		<div class="menuItem">
+			<div class="green ball"></div>
+			<a class="menuLink" href="/matches">Matches</a>
+		</div>
+		<div class="menuItem">
+			<div class="brown ball"></div>
+			<a class="menuLink" href="/frames">Frames</a>
+		</div>
+		<div class="menuItem">
+			<div class="blue ball"></div>
+			<a class="menuLink" href="/players">Players</a>
+		</div>
+		<div class="menuItem">
+			<div class="pink ball"></div>
+			<a class="menuLink" href="/countries">Countries</a>
+		</div>
+		<div class="menuItem">
+			<div class="black ball"></div>
+			<a class="menuLink" href="/h2h">Head-to-head</a>
+		</div>
+	</nav>
+
+	<div id="colours">
+		<div class="red bar"></div>
+		<div class="yellow bar"></div>
+		<div class="green bar"></div>
+		<div class="brown bar"></div>
+		<div class="blue bar"></div>
+		<div class="pink bar"></div>
+		<div class="black bar"></div>
+	</div>
+
     {% block content %}
     {% endblock %}
+
+    <script src="{{ url_for ('static', filename='js/toggle.js')}}"></script>
 
 </body>
 
