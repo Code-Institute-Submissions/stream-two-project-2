@@ -76,10 +76,7 @@ h2 {
 
 #pageTitle {
 	border-radius: 0 0 20px 20px;
-}
-
-#pageTitle.red {
-	box-shadow: 0px 2px 2px 2px #cc9999;
+	box-shadow: 0px 2px 3px 3px #cccccc;
 }
 
 #menuHeader {
@@ -111,7 +108,6 @@ h2 {
 
 .menuLink {
 	line-height: 24px;
-	width: 100px;
 	display: inline;
 	margin-left: 5px;
 	color: white;
