@@ -10,7 +10,11 @@
 	<title>
         The Crucible: A statistical guide to the World Snooker Championship since 1977.
     </title>
-
+	
+	
+	<link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
+	
+	<link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='css/main.css')}}">
 
 </head>
@@ -90,7 +94,15 @@
     {% block content %}
     {% endblock %}
 
-    <script src="{{ url_for ('static', filename='js/toggle.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+	<script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+	<script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
+	<script src="{{ url_for ('static', filename='js/toggle.js')}}"></script>
 
 </body>
 

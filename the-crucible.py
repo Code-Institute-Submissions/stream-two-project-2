@@ -1,6 +1,13 @@
 from flask import Flask, render_template
+from pymongo import MongoClient
+import json
 
 app = Flask(__name__)
+ 
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
+DBS_NAME = 'snooker'
+COLLECTION_NAME = 'results'
 
 
 @app.route('/')
@@ -36,6 +43,24 @@ def countries():
 @app.route('/h2h')
 def head_to_head():
     return render_template('head_to_head.html')
+
+
+@app.route('/results')
+def results():
+
+    FIELDS = {
+        '_id': False, 'year': True, 'round': True,
+        'winner': True, 'winner_nat': True,
+        'winner_score': True, 'loser': True,
+        'loser_nat': True, 'loser_score': True
+    }
+
+    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+
+        collection = conn[DBS_NAME][COLLECTION_NAME]
+        results = collection.find(projection=FIELDS)
+
+        return json.dumps(list(results))
 
 
 if __name__ == '__main__':

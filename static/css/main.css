@@ -151,3 +151,39 @@ h2 {
 .blackGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #333333 5%, #000000)
 }
+
+.dashboard {
+	margin: 10px;
+}
+
+.countWrapper {
+	margin: 20px auto 10px auto;
+	text-align: center;
+	max-width: 250px;
+}
+
+.counterTitle {
+	background-color: #996600;
+	font-size: 2em;
+	color: white;
+	font-weight: normal;
+	margin: auto;
+	border: 1px solid #663300;
+	border-radius: 10px 10px 0 0;
+}
+
+.numberCounter {
+	display: block;
+	overflow: auto;
+	border: 1px solid #006600;
+	border-top: none;
+	border-radius: 0 0 10px 10px;
+}
+
+#totalTournaments {
+	margin: auto;
+	font-size: 5em;
+	background-color: #009900;
+	color: white;
+	width: 100%;
+}
