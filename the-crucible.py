@@ -40,9 +40,9 @@ def countries():
     return render_template('countries.html')
 
 
-@app.route('/h2h')
+@app.route('/rivalries')
 def head_to_head():
-    return render_template('head_to_head.html')
+    return render_template('rivalries.html')
 
 
 @app.route('/results')

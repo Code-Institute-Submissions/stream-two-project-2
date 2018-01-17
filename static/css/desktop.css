@@ -1,0 +1,35 @@
+
+#menuHeader {
+	display: none;
+}
+
+.toggle {
+	display: block;
+}
+
+#emptyHeader {
+	width: 100%;
+	height: 2px;
+	background-color: #996600;
+	border-top: 1px solid #663300;
+	border-bottom: 1px solid #663300;
+} 
+
+#mainMenu {
+	display: flex;
+}
+
+.menuLink {
+	display: inline-block;
+	border-bottom: none;
+	flex: 1;
+}
+
+.ball {
+	margin: 2px;
+	margin-right: 3px;
+}
+
+.dashboard {
+	flex-flow: row;
+}

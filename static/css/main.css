@@ -97,13 +97,12 @@ h2 {
 
 .menuLink {
 	height: 24px;
-	background-color: #009900;
+	background-color: #339933;
 	border-bottom: 1px solid white;
 	line-height: 24px;
-	display: inline-block;
+	display: block;
 	color: white;
 	text-decoration: none;
-	width: 100%;
 }
 
 .menuLink:last-of-type {
@@ -153,7 +152,15 @@ h2 {
 }
 
 .dashboard {
-	margin: 10px;
+	display: flex;
+	flex-flow: column;
+}
+
+.dashColumn {
+	flex: 1;
+	padding: 10px;
+	min-width: 400px;
+	box-sizing: border-box;
 }
 
 .countWrapper {
@@ -177,7 +184,6 @@ h2 {
 	overflow: auto;
 	border: 1px solid #006600;
 	border-top: none;
-	border-radius: 0 0 10px 10px;
 }
 
 #totalTournaments {
@@ -202,7 +208,7 @@ h2 {
 	color: white;
 }
 
-.resultsTable {
+.resultsTable, .chartWrapper {
 	max-width: 600px;
 	margin: 10px auto;
 }
