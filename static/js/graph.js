@@ -34,12 +34,9 @@ function makeGraphs(error, crucible_results) {
     // Grouping the data
     var all = championsFilter.groupAll();
 
-    // Min and max dates
-    var minDate = yearDim.bottom(1)[0]["year"];
-    var maxDate = yearDim.top(1)[0]["year"];
-
     // Charts
     var tournaments = dc.numberDisplay("#totalTournaments");
+    var honourRoll = dc.dataTable("#winnersTable");
 
     tournaments
     	.formatNumber(d3.format("d"))
@@ -47,6 +44,40 @@ function makeGraphs(error, crucible_results) {
             return d;
         })
         .group(all);
+
+    honourRoll
+    	.dimension(yearDim)
+    	.group(function (d) {
+       		return d.year;
+   		})
+   		.size(Infinity)
+   		.columns([
+   			function (d) {
+       			return d.year;
+   			},
+   			function (d) {
+       			return d.winner;
+   			},
+   			function (d) {
+       			return "<img class='flagIcon' src='static/img/" + d.winner_nat.toLowerCase() + ".png' alt=" + d.winner_nat + " />";
+   			},
+   			function (d) {
+       			return d.winner_score;
+   			},
+   			function (d) {
+       			return "-";
+   			},
+   			function (d) {
+       			return d.loser_score;
+   			},
+   			function (d) {
+       			return "<img class='flagIcon' src='static/img/" + d.loser_nat.toLowerCase() + ".png' alt=" + d.loser_nat + " />";
+   			},
+   			function (d) {
+       			return d.loser;
+   			}
+
+   		])
 
     dc.renderAll();
 }

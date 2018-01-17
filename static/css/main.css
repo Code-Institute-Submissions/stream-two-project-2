@@ -187,3 +187,62 @@ h2 {
 	color: white;
 	width: 100%;
 }
+
+#winnersTable {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	color: white;
+}
+
+.resultsTable {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resultsTable .dc-table-group {
+	display: none;
+}
+
+.flagIcon {
+	height: 15px;
+	width: 15px;
+}
+
+.resultsTable .headerRow {
+	background-color: #996600;
+	color: white;
+	border: 1px solid #663300;
+}
+
+.resultsTable .dc-table-row {
+	background-color: #339933;
+	border: 1px solid #006600;
+}
+
+.resultsTable .dc-table-row:hover {
+	background-color: #336633;
+	transition: 0.2s;
+}
+
+.resultsTable .dc-table-column {
+	margin: 0 5px;
+}
+
+.resultsTable ._1 {
+	text-align: right;
+}
+
+.resultsTable ._7 {
+	text-align: left;
+}
+
+@media screen and (max-width: 400px) {
+	#winnersTable {
+		font-size: 0.8em;
+	}
+	.resultsTable ._2, ._6 {
+		display: none;
+	}
+}
