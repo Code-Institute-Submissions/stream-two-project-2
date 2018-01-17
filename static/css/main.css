@@ -24,7 +24,7 @@ header {
 	color: white;
 }
 .yellow {
-	background-color: yellow;
+	background-color: #ffff00;
 	color: black;
 }
 .green {
@@ -36,7 +36,7 @@ header {
 	color: white;
 }
 .blue {
-	background-color: blue;
+	background-color: #0000ff;
 	color: white;
 }
 .pink {
@@ -44,7 +44,7 @@ header {
 	color: black;
 }
 .black {
-	background-color: black;
+	background-color: #000000;
 	color: white;
 }
 
@@ -141,7 +141,7 @@ h2 {
 }
 
 .blueGrad {
-	background: radial-gradient(circle at 7px 7px, #ffffff 2%, blue 5%, #000000)
+	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #0000ff 5%, #000000)
 }
 
 .pinkGrad {
@@ -183,9 +183,16 @@ h2 {
 #totalTournaments {
 	margin: auto;
 	font-size: 5em;
-	background-color: #009900;
+	background-color: #339933;
 	color: white;
 	width: 100%;
+}
+
+.chartStyle {
+	background-color: #339933;
+	overflow: auto;
+	border: 1px solid #006600;
+	border-top: 0;
 }
 
 #winnersTable {
@@ -197,8 +204,7 @@ h2 {
 
 .resultsTable {
 	max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 10px auto;
 }
 
 .resultsTable .dc-table-group {
@@ -210,10 +216,22 @@ h2 {
 	width: 15px;
 }
 
-.resultsTable .headerRow {
+.tableTitle, .chartTitle {
 	background-color: #996600;
 	color: white;
 	border: 1px solid #663300;
+	border-radius: 10px 10px 0 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.2em;
+	box-sizing: border-box;
+}
+
+.resultsTable .headerRow {
+	background-color: #006600;
+	color: white;
+	border: 1px solid #003300;
+	border-top: 0;
 }
 
 .resultsTable .dc-table-row {
@@ -252,7 +270,7 @@ footer {
 	#winnersTable {
 		font-size: 0.8em;
 	}
-	.resultsTable ._2, ._6 {
+	.resultsTable td._2, td._6, th._2, th._6 {
 		display: none;
 	}
 }
