@@ -10,7 +10,7 @@ header {
 	background-color: #009900;
 }
 
-#colours {
+.colours {
 	display: flex;
 }
 
@@ -236,6 +236,16 @@ h2 {
 
 .resultsTable ._7 {
 	text-align: left;
+}
+
+footer {
+	background-color: #009900;
+}
+
+#footerText {
+	padding: 5px;
+	color: white;
+	text-align: center;
 }
 
 @media screen and (max-width: 400px) {
