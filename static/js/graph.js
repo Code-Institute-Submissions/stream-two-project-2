@@ -55,7 +55,7 @@ function makeGraphs(error, crucible_results) {
     	.ordinalColors(["#996600"])
     	.dimension(winnerDim)
     	.group(winners)
-    	.width(250)
+    	.width(280)
     	.height(500)
     	.rowsCap(20)
     	.ordering(function(d) { return -d.value; })
