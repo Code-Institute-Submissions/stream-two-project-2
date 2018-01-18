@@ -39,7 +39,7 @@ function makeGraphs(error, crucible_results) {
     });
 
     // Filtering the data
-    var finalFilter = finalRound.filter("F");
+    var finalFilter = finalRound.filter("The Final");
 
     // Grouping the data
     var allFinals = finals.groupAll();
@@ -53,9 +53,9 @@ function makeGraphs(error, crucible_results) {
     		}
     	);
 
-    //Defining min and max values
-    var minDate = finalWinner.bottom(1)[0]["winner"];
-    var maxDate = finalWinner.top(1)[0]["winner"];
+    // //Defining min and max values
+    // var minDate = finalWinner.bottom(1)[0]["winner"];
+    // var maxDate = finalWinner.top(1)[0]["winner"];
 
     // Charts
     var tournaments = dc.numberDisplay("#totalTournaments");

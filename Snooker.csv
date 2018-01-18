@@ -1,1210 +1,1210 @@
-year,round,best_of,winner,winner_nat,winner_seed,winner_score,loser,loser_nat,loser_seed,loser_score
-1977,16,25,Ray Reardon,WAL,1,13,Patsy Fagan,IRL,u,7
-1977,16,25,John Spencer,ENG,8,13,John Virgo,ENG,u,9
-1977,16,25,Graham Miles,ENG,5,13,Willie Thorne,ENG,u,4
-1977,16,25,John Pulman,ENG,u,13,Fred Davis,ENG,4,12
-1977,16,25,Eddie Charlton,AUS,3,13,David Taylor,ENG,u,5
-1977,16,25,Cliff Thorburn,CAN,u,13,Rex Williams,ENG,6,6
-1977,16,25,Dennis Taylor,NIR,u,13,Perrie Mans,RSA,7,11
-1977,16,25,Doug Mountjoy,WAL,u,13,Alex Higgins,NIR,2,12
-1977,QF,25,John Spencer,ENG,8,13,Ray Reardon,WAL,1,6
-1977,QF,25,John Pulman,ENG,u,13,Graham Miles,ENG,5,10
-1977,QF,25,Cliff Thorburn,CAN,u,13,Eddie Charlton,AUS,3,12
-1977,QF,25,Dennis Taylor,NIR,u,13,Doug Mountjoy,WAL,u,11
-1977,SF,35,John Spencer,ENG,8,18,John Pulman,ENG,u,16
-1977,SF,35,Cliff Thorburn,CAN,u,18,Dennis Taylor,NIR,u,16
-1977,F,49,John Spencer,ENG,8,25,Cliff Thorburn,CAN,u,21
-1978,16,25,Perrie Mans,RSA,u,13,John Spencer,ENG,1,8
-1978,16,25,Graham Miles,ENG,8,13,David Taylor,ENG,u,10
-1978,16,25,Patsy Fagan,IRL,u,13,Alex Higgins,NIR,5,12
-1978,16,25,Fred Davis,ENG,u,13,Dennis Taylor,NIR,4,9
-1978,16,25,Eddie Charlton,AUS,3,13,Willie Thorne,ENG,u,12
-1978,16,25,Cliff Thorburn,CAN,6,13,Pat Houlihan,ENG,u,8
-1978,16,25,Bill Werbeniuk,CAN,u,13,John Pulman,ENG,7,4
-1978,16,25,Ray Reardon,WAL,2,13,Doug Mountjoy,WAL,u,9
-1978,QF,25,Perrie Mans,RSA,u,13,Graham Miles,ENG,8,7
-1978,QF,25,Fred Davis,ENG,u,13,Patsy Fagan,IRL,u,10
-1978,QF,25,Eddie Charlton,AUS,3,13,Cliff Thorburn,CAN,6,12
-1978,QF,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,6
-1978,SF,35,Perrie Mans,RSA,u,18,Fred Davis,ENG,u,16
-1978,SF,35,Ray Reardon,WAL,2,18,Eddie Charlton,AUS,3,14
-1978,3P,13,Eddie Charlton,AUS,3,7,Fred Davis,ENG,u,3
-1978,F,49,Ray Reardon,WAL,2,25,Perrie Mans,RSA,u,18
-1979,16,25,Ray Reardon,WAL,1,13,Graham Miles,ENG,u,8
-1979,16,25,Dennis Taylor,NIR,8,13,Steve Davis,ENG,u,11
-1979,16,25,John Virgo,ENG,u,13,Cliff Thorburn,CAN,5,10
-1979,16,25,Bill Werbeniuk,CAN,u,13,John Spencer,ENG,4,11
-1979,16,25,Eddie Charlton,AUS,3,13,Doug Mountjoy,WAL,u,6
-1979,16,25,Fred Davis,ENG,6,13,Kirk Stevens,CAN,u,8
-1979,16,25,Alex Higgins,NIR,7,13,David Taylor,ENG,u,5
-1979,16,25,Terry Griffiths,WAL,u,13,Perrie Mans,RSA,2,8
-1979,QF,25,Dennis Taylor,NIR,8,13,Ray Reardon,WAL,1,8
-1979,QF,25,John Virgo,ENG,u,13,Bill Werbeniuk,CAN,u,9
-1979,QF,25,Eddie Charlton,AUS,3,13,Fred Davis,ENG,6,4
-1979,QF,25,Terry Griffiths,WAL,u,13,Alex Higgins,NIR,7,12
-1979,SF,37,Dennis Taylor,NIR,8,19,John Virgo,ENG,u,12
-1979,SF,37,Terry Griffiths,WAL,u,19,Eddie Charlton,AUS,3,17
-1979,3P,13,Eddie Charlton,AUS,3,7,John Virgo,ENG,u,3
-1979,F,47,Terry Griffiths,WAL,u,24,Dennis Taylor,NIR,8,16
-1980,1R,19,Steve Davis,ENG,u,10,Patsy Fagan,IRL,u,6
-1980,1R,19,Alex Higgins,NIR,u,10,Tony Meo,ENG,u,9
-1980,1R,19,Kirk Stevens,CAN,u,10,Graham Miles,ENG,u,3
-1980,1R,19,John Virgo,ENG,u,10,Jim Meadowcroft,ENG,u,2
-1980,1R,19,Doug Mountjoy,WAL,u,10,Cliff Wilson,WAL,u,6
-1980,1R,19,Jim Wych,CAN,u,10,John Pulman,ENG,u,5
-1980,1R,19,David Taylor,ENG,u,10,Ray Edmonds,ENG,u,3
-1980,1R,19,Bill Werbeniuk,CAN,u,10,Willie Thorne,ENG,u,9
-1980,16,25,Steve Davis,ENG,u,13,Terry Griffiths,WAL,1,10
-1980,16,25,Alex Higgins,NIR,u,13,Perrie Mans,RSA,8,6
-1980,16,25,Kirk Stevens,CAN,u,13,John Spencer,ENG,5,8
-1980,16,25,Eddie Charlton,AUS,4,13,John Virgo,ENG,u,12
-1980,16,25,Cliff Thorburn,CAN,3,13,Doug Mountjoy,WAL,u,10
-1980,16,25,Jim Wych,CAN,u,13,Dennis Taylor,NIR,6,10
-1980,16,25,David Taylor,ENG,u,13,Fred Davis,ENG,7,5
-1980,16,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,6
-1980,QF,25,Alex Higgins,NIR,u,13,Steve Davis,ENG,u,9
-1980,QF,25,Kirk Stevens,CAN,u,13,Eddie Charlton,AUS,4,7
-1980,QF,25,Cliff Thorburn,CAN,3,13,Jim Wych,CAN,u,6
-1980,QF,25,David Taylor,ENG,u,13,Ray Reardon,WAL,2,11
-1980,SF,31,Alex Higgins,NIR,u,16,Kirk Stevens,CAN,u,13
-1980,SF,31,Cliff Thorburn,CAN,3,16,David Taylor,ENG,u,7
-1980,F,35,Cliff Thorburn,CAN,3,18,Alex Higgins,NIR,u,16
-1981,1R,19,Graham Miles,ENG,u,10,Tony Knowles,ENG,u,8
-1981,1R,19,David Taylor,ENG,u,10,Cliff Wilson,WAL,u,6
-1981,1R,19,Tony Meo,ENG,u,10,John Virgo,ENG,u,6
-1981,1R,19,Steve Davis,ENG,u,10,Jimmy White,ENG,u,8
-1981,1R,19,Doug Mountjoy,WAL,u,10,Willie Thorne,ENG,u,6
-1981,1R,19,Kirk Stevens,CAN,u,10,John Dunning,ENG,u,4
-1981,1R,19,Bill Werbeniuk,CAN,u,10,Dave Martin,ENG,u,4
-1981,1R,19,John Spencer,ENG,u,10,Ray Edmonds,ENG,u,9
-1981,16,25,Cliff Thorburn,CAN,1,13,Graham Miles,ENG,u,2
-1981,16,25,David Taylor,ENG,u,13,Fred Davis,ENG,8,3
-1981,16,25,Terry Griffiths,WAL,5,13,Tony Meo,ENG,u,6
-1981,16,25,Steve Davis,ENG,u,13,Alex Higgins,NIR,4,8
-1981,16,25,Doug Mountjoy,WAL,u,13,Eddie Charlton,AUS,3,7
-1981,16,25,Dennis Taylor,NIR,6,13,Kirk Stevens,CAN,u,11
-1981,16,25,Bill Werbeniuk,CAN,u,13,Perrie Mans,RSA,7,5
-1981,16,25,Ray Reardon,WAL,2,13,John Spencer,ENG,u,11
-1981,QF,25,Cliff Thorburn,CAN,1,13,David Taylor,ENG,u,6
-1981,QF,25,Steve Davis,ENG,u,13,Terry Griffiths,WAL,5,9
-1981,QF,25,Doug Mountjoy,WAL,u,13,Dennis Taylor,NIR,6,8
-1981,QF,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,10
-1981,SF,31,Steve Davis,ENG,u,16,Cliff Thorburn,CAN,1,10
-1981,SF,31,Doug Mountjoy,WAL,u,16,Ray Reardon,WAL,2,10
-1981,F,35,Steve Davis,ENG,u,18,Doug Mountjoy,WAL,u,12
-1982,1R,19,Tony Knowles,ENG,u,10,Steve Davis,ENG,1,1
-1982,1R,19,Graham Miles,ENG,16,10,Dave Martin,ENG,u,5
-1982,1R,19,Bill Werbeniuk,CAN,9,10,John Bear,CAN,u,7
-1982,1R,19,Eddie Charlton,AUS,8,10,Cliff Wilson,WAL,u,5
-1982,1R,19,Silvino Francisco,RSA,u,10,Dennis Taylor,NIR,5,7
-1982,1R,19,Dean Reynolds,ENG,u,10,Fred Davis,ENG,12,7
-1982,1R,19,John Virgo,ENG,13,10,Mike Hallett,ENG,u,4
-1982,1R,19,Ray Reardon,WAL,4,10,Jim Donnelly,SCO,u,5
-1982,1R,19,Willie Thorne,ENG,u,10,Terry Griffiths,WAL,3,6
-1982,1R,19,John Spencer,ENG,14,10,John Dunning,ENG,u,4
-1982,1R,19,Alex Higgins,NIR,11,10,Jim Meadowcroft,ENG,u,5
-1982,1R,19,Doug Mountjoy,WAL,6,10,Rex Williams,ENG,u,3
-1982,1R,19,Patsy Fagan,IRL,u,10,David Taylor,ENG,7,9
-1982,1R,19,Kirk Stevens,CAN,10,10,Jack Fitzmaurice,ENG,u,4
-1982,1R,19,Perrie Mans,RSA,15,10,Tony Meo,ENG,u,8
-1982,1R,19,Jimmy White,ENG,u,10,Cliff Thorburn,CAN,2,4
-1982,16,25,Tony Knowles,ENG,u,13,Graham Miles,ENG,16,7
-1982,16,25,Eddie Charlton,AUS,8,13,Bill Werbeniuk,CAN,9,5
-1982,16,25,Silvino Francisco,RSA,u,13,Dean Reynolds,ENG,u,8
-1982,16,25,Ray Reardon,WAL,4,13,John Virgo,ENG,13,8
-1982,16,25,Willie Thorne,ENG,u,13,John Spencer,ENG,14,5
-1982,16,25,Alex Higgins,NIR,11,13,Doug Mountjoy,WAL,6,12
-1982,16,25,Kirk Stevens,CAN,10,13,Patsy Fagan,IRL,u,7
-1982,16,25,Jimmy White,ENG,u,13,Perrie Mans,RSA,15,6
-1982,QF,25,Eddie Charlton,AUS,8,13,Tony Knowles,ENG,u,11
-1982,QF,25,Ray Reardon,WAL,4,13,Silvino Francisco,RSA,u,8
-1982,QF,25,Alex Higgins,NIR,11,13,Willie Thorne,ENG,u,10
-1982,QF,25,Jimmy White,ENG,u,13,Kirk Stevens,CAN,10,9
-1982,SF,31,Ray Reardon,WAL,4,16,Eddie Charlton,AUS,8,11
-1982,SF,31,Alex Higgins,NIR,11,16,Jimmy White,ENG,u,15
-1982,F,35,Alex Higgins,NIR,11,18,Ray Reardon,WAL,4,15
-1983,1R,19,Alex Higgins,NIR,1,10,Dean Reynolds,ENG,u,4
-1983,1R,19,Willie Thorne,ENG,16,10,John Virgo,ENG,u,3
-1983,1R,19,Bill Werbeniuk,CAN,9,10,Dave Martin,ENG,u,4
-1983,1R,19,David Taylor,ENG,8,10,Jim Meadowcroft,ENG,u,2
-1983,1R,19,Eddie Charlton,AUS,5,10,Les Dodd,ENG,u,7
-1983,1R,19,John Spencer,ENG,12,10,Mike Hallett,ENG,u,7
-1983,1R,19,Dennis Taylor,NIR,13,10,Silvino Francisco,RSA,u,9
-1983,1R,19,Steve Davis,ENG,4,10,Rex Williams,ENG,u,4
-1983,1R,19,Cliff Thorburn,CAN,3,10,John Campbell,AUS,u,5
-1983,1R,19,Terry Griffiths,WAL,14,10,Mark Wildman,ENG,u,8
-1983,1R,19,Perrie Mans,RSA,11,10,Ian Black,SCO,u,3
-1983,1R,19,Kirk Stevens,CAN,6,10,Mick Fisher,ENG,u,2
-1983,1R,19,Doug Mountjoy,WAL,7,10,Cliff Wilson,WAL,u,2
-1983,1R,19,Tony Meo,ENG,u,10,Jimmy White,ENG,10,8
-1983,1R,19,Tony Knowles,ENG,15,10,Graham Miles,ENG,u,3
-1983,1R,19,Ray Reardon,WAL,2,10,Eugene Hughes,IRL,u,7
-1983,16,25,Alex Higgins,NIR,1,13,Willie Thorne,ENG,16,8
-1983,16,25,Bill Werbeniuk,CAN,9,13,David Taylor,ENG,8,10
-1983,16,25,Eddie Charlton,AUS,5,13,John Spencer,ENG,12,11
-1983,16,25,Steve Davis,ENG,4,13,Dennis Taylor,NIR,13,11
-1983,16,25,Cliff Thorburn,CAN,3,13,Terry Griffiths,WAL,14,12
-1983,16,25,Kirk Stevens,CAN,6,13,Perrie Mans,RSA,11,3
-1983,16,25,Tony Meo,ENG,u,13,Doug Mountjoy,WAL,7,11
-1983,16,25,Tony Knowles,ENG,15,13,Ray Reardon,WAL,2,12
-1983,QF,25,Alex Higgins,NIR,1,13,Bill Werbeniuk,CAN,9,11
-1983,QF,25,Steve Davis,ENG,4,13,Eddie Charlton,AUS,5,5
-1983,QF,25,Cliff Thorburn,CAN,3,13,Kirk Stevens,CAN,6,12
-1983,QF,25,Tony Knowles,ENG,15,13,Tony Meo,ENG,u,9
-1983,SF,31,Steve Davis,ENG,4,16,Alex Higgins,NIR,1,5
-1983,SF,31,Cliff Thorburn,CAN,3,16,Tony Knowles,ENG,15,15
-1983,F,35,Steve Davis,ENG,4,18,Cliff Thorburn,CAN,3,6
-1984,1R,19,Steve Davis,ENG,1,10,Warren King,AUS,u,3
-1984,1R,19,John Spencer,ENG,16,10,Graham Miles,ENG,u,3
-1984,1R,19,Terry Griffiths,WAL,9,10,Paul Mifsud,MLT,u,2
-1984,1R,19,Bill Werbeniuk,CAN,8,10,Fred Davis,ENG,u,4
-1984,1R,19,Neal Foulds,ENG,u,10,Alex Higgins,NIR,5,9
-1984,1R,19,Doug Mountjoy,WAL,12,10,Mike Hallett,ENG,u,4
-1984,1R,19,Dennis Taylor,NIR,13,10,Joe Johnson,ENG,u,1
-1984,1R,19,John Parrott,ENG,u,10,Tony Knowles,ENG,4,7
-1984,1R,19,Cliff Thorburn,CAN,3,10,Mario Morra,CAN,u,3
-1984,1R,19,Willie Thorne,ENG,u,10,John Virgo,ENG,14,9
-1984,1R,19,Jimmy White,ENG,11,10,Rex Williams,ENG,u,6
-1984,1R,19,Eddie Charlton,AUS,6,10,Roy Andrewartha,ENG,u,4
-1984,1R,19,Kirk Stevens,CAN,7,10,Eddie Sinclair,SCO,u,1
-1984,1R,19,David Taylor,ENG,10,10,Marcel Gauvreau,CAN,u,5
-1984,1R,19,Silvino Francisco,RSA,u,10,Tony Meo,ENG,15,5
-1984,1R,19,Ray Reardon,WAL,2,10,Jim Wych,CAN,u,7
-1984,16,25,Steve Davis,ENG,1,13,John Spencer,ENG,16,5
-1984,16,25,Terry Griffiths,WAL,9,13,Bill Werbeniuk,CAN,8,5
-1984,16,25,Doug Mountjoy,WAL,12,13,Neal Foulds,ENG,u,6
-1984,16,25,Dennis Taylor,NIR,13,13,John Parrott,ENG,u,11
-1984,16,25,Cliff Thorburn,CAN,3,13,Willie Thorne,ENG,u,11
-1984,16,25,Jimmy White,ENG,11,13,Eddie Charlton,AUS,6,7
-1984,16,25,Kirk Stevens,CAN,7,13,David Taylor,ENG,10,10
-1984,16,25,Ray Reardon,WAL,2,13,Silvino Francisco,RSA,u,8
-1984,QF,25,Steve Davis,ENG,1,13,Terry Griffiths,WAL,9,10
-1984,QF,25,Dennis Taylor,NIR,13,13,Doug Mountjoy,WAL,12,8
-1984,QF,25,Jimmy White,ENG,11,13,Cliff Thorburn,CAN,3,8
-1984,QF,25,Kirk Stevens,CAN,7,13,Ray Reardon,WAL,2,2
-1984,SF,31,Steve Davis,ENG,1,16,Dennis Taylor,NIR,13,9
-1984,SF,31,Jimmy White,ENG,11,16,Kirk Stevens,CAN,7,14
-1984,F,35,Steve Davis,ENG,1,18,Jimmy White,ENG,11,16
-1985,1R,19,Steve Davis,ENG,1,10,Neal Foulds,ENG,u,8
-1985,1R,19,David Taylor,ENG,16,10,Dene O'Kane,NZL,u,4
-1985,1R,19,Alex Higgins,NIR,9,10,Dean Reynolds,ENG,u,4
-1985,1R,19,Terry Griffiths,WAL,8,10,Rex Williams,ENG,u,3
-1985,1R,19,Ray Reardon,WAL,5,10,Eugene Hughes,IRL,u,9
-1985,1R,19,Patsy Fagan,IRL,u,10,Willie Thorne,ENG,12,6
-1985,1R,19,John Parrott,ENG,u,10,John Spencer,ENG,13,3
-1985,1R,19,Kirk Stevens,CAN,4,10,Ray Edmonds,ENG,u,8
-1985,1R,19,Cliff Thorburn,CAN,3,10,Mike Hallett,ENG,u,8
-1985,1R,19,Bill Werbeniuk,CAN,14,10,Joe Johnson,ENG,u,8
-1985,1R,19,Dennis Taylor,NIR,11,10,Silvino Francisco,RSA,u,2
-1985,1R,19,Eddie Charlton,AUS,6,10,John Campbell,AUS,u,3
-1985,1R,19,Jimmy White,ENG,7,10,Wayne Jones,WAL,u,4
-1985,1R,19,Tony Meo,ENG,10,10,John Virgo,ENG,u,6
-1985,1R,19,Doug Mountjoy,WAL,15,10,Murdo MacLeod,SCO,u,5
-1985,1R,19,Tony Knowles,ENG,2,10,Tony Jones,ENG,u,8
-1985,16,25,Steve Davis,ENG,1,13,David Taylor,ENG,16,4
-1985,16,25,Terry Griffiths,WAL,8,13,Alex Higgins,NIR,9,7
-1985,16,25,Ray Reardon,WAL,5,13,Patsy Fagan,IRL,u,9
-1985,16,25,John Parrott,ENG,u,13,Kirk Stevens,CAN,4,6
-1985,16,25,Cliff Thorburn,CAN,3,13,Bill Werbeniuk,CAN,14,3
-1985,16,25,Dennis Taylor,NIR,11,13,Eddie Charlton,AUS,6,6
-1985,16,25,Jimmy White,ENG,7,13,Tony Meo,ENG,10,11
-1985,16,25,Tony Knowles,ENG,2,13,Doug Mountjoy,WAL,15,6
-1985,QF,25,Steve Davis,ENG,1,13,Terry Griffiths,WAL,8,6
-1985,QF,25,Ray Reardon,WAL,5,13,John Parrott,ENG,u,12
-1985,QF,25,Dennis Taylor,NIR,11,13,Cliff Thorburn,CAN,3,5
-1985,QF,25,Tony Knowles,ENG,2,13,Jimmy White,ENG,7,10
-1985,SF,31,Steve Davis,ENG,1,16,Ray Reardon,WAL,5,5
-1985,SF,31,Dennis Taylor,NIR,11,16,Tony Knowles,ENG,2,5
-1985,F,35,Dennis Taylor,NIR,11,18,Steve Davis,ENG,1,17
-1986,1R,19,Mike Hallett,ENG,u,10,Dennis Taylor,NIR,1,6
-1986,1R,19,Joe Johnson,ENG,16,10,Dave Martin,ENG,u,3
-1986,1R,19,Alex Higgins,NIR,9,10,John Spencer,ENG,u,7
-1986,1R,19,Terry Griffiths,WAL,8,10,Danny Fowler,ENG,u,2
-1986,1R,19,Kirk Stevens,CAN,5,10,Dean Reynolds,ENG,u,6
-1986,1R,19,Eddie Charlton,AUS,12,10,Cliff Wilson,WAL,u,6
-1986,1R,19,Silvino Francisco,RSA,13,10,Rex Williams,ENG,u,4
-1986,1R,19,Tony Knowles,ENG,4,10,Neal Foulds,ENG,u,9
-1986,1R,19,Cliff Thorburn,CAN,3,10,Bill Werbeniuk,CAN,u,5
-1986,1R,19,Eugene Hughes,IRL,u,10,David Taylor,ENG,14,7
-1986,1R,19,Willie Thorne,ENG,11,10,Stephen Hendry,SCO,u,8
-1986,1R,19,John Campbell,AUS,u,10,Ray Reardon,WAL,6,8
-1986,1R,19,Jimmy White,ENG,7,10,John Virgo,ENG,u,7
-1986,1R,19,John Parrott,ENG,u,10,Tony Meo,ENG,10,4
-1986,1R,19,Doug Mountjoy,WAL,15,10,Perrie Mans,RSA,u,3
-1986,1R,19,Steve Davis,ENG,2,10,Ray Edmonds,ENG,u,4
-1986,16,25,Joe Johnson,ENG,16,13,Mike Hallett,ENG,u,6
-1986,16,25,Terry Griffiths,WAL,8,13,Alex Higgins,NIR,9,12
-1986,16,25,Kirk Stevens,CAN,5,13,Eddie Charlton,AUS,12,12
-1986,16,25,Tony Knowles,ENG,4,13,Silvino Francisco,RSA,13,10
-1986,16,25,Cliff Thorburn,CAN,3,13,Eugene Hughes,IRL,u,6
-1986,16,25,Willie Thorne,ENG,11,13,John Campbell,AUS,u,9
-1986,16,25,Jimmy White,ENG,7,13,John Parrott,ENG,u,8
-1986,16,25,Steve Davis,ENG,2,13,Doug Mountjoy,WAL,15,5
-1986,QF,25,Joe Johnson,ENG,16,13,Terry Griffiths,WAL,8,12
-1986,QF,25,Tony Knowles,ENG,4,13,Kirk Stevens,CAN,5,9
-1986,QF,25,Cliff Thorburn,CAN,3,13,Willie Thorne,ENG,11,6
-1986,QF,25,Steve Davis,ENG,2,13,Jimmy White,ENG,7,5
-1986,SF,31,Joe Johnson,ENG,16,16,Tony Knowles,ENG,4,8
-1986,SF,31,Steve Davis,ENG,2,16,Cliff Thorburn,CAN,3,12
-1986,F,35,Joe Johnson,ENG,16,18,Steve Davis,ENG,2,12
-1987,1R,19,Joe Johnson,ENG,1,10,Eugene Hughes,IRL,u,9
-1987,1R,19,Murdo McLeod,SCO,u,10,Rex Williams,ENG,16,5
-1987,1R,19,Steve Longworth,ENG,u,10,Kirk Stevens,CAN,9,4
-1987,1R,19,Stephen Hendry,SCO,u,10,Willie Thorne,ENG,8,7
-1987,1R,19,Mike Hallett,ENG,u,10,Tony Knowles,ENG,5,6
-1987,1R,19,Silvino Francisco,RSA,12,10,John Campbell,AUS,u,3
-1987,1R,19,Neal Foulds,ENG,13,10,John Virgo,ENG,u,4
-1987,1R,19,Dennis Taylor,NIR,4,10,Mark Bennett,WAL,u,4
-1987,1R,19,Dene O'Kane,NZL,u,10,Cliff Thorburn,CAN,3,5
-1987,1R,19,Doug Mountjoy,WAL,14,10,David Taylor,ENG,u,5
-1987,1R,19,John Parrott,ENG,u,10,Tony Meo,ENG,11,8
-1987,1R,19,Jimmy White,ENG,6,10,Dean Reynolds,ENG,u,8
-1987,1R,19,Alex Higgins,NIR,7,10,Jon Wright,ENG,u,6
-1987,1R,19,Terry Griffiths,WAL,10,10,Jim Wych,CAN,u,4
-1987,1R,19,Ray Reardon,WAL,15,10,Barry West,ENG,u,5
-1987,1R,19,Steve Davis,ENG,2,10,Warren King,AUS,u,7
-1987,16,25,Joe Johnson,ENG,1,13,Murdo McLeod,SCO,u,7
-1987,16,25,Stephen Hendry,SCO,u,13,Steve Longworth,ENG,u,7
-1987,16,25,Mike Hallett,ENG,u,13,Silvino Francisco,RSA,12,9
-1987,16,25,Neal Foulds,ENG,13,13,Dennis Taylor,NIR,4,10
-1987,16,25,Dene O'Kane,NZL,u,13,Doug Mountjoy,WAL,14,5
-1987,16,25,Jimmy White,ENG,6,13,John Parrott,ENG,u,11
-1987,16,25,Terry Griffiths,WAL,10,13,Alex Higgins,NIR,7,10
-1987,16,25,Steve Davis,ENG,2,13,Ray Reardon,WAL,15,4
-1987,QF,25,Joe Johnson,ENG,1,13,Stephen Hendry,SCO,u,12
-1987,QF,25,Neal Foulds,ENG,13,13,Mike Hallett,ENG,u,9
-1987,QF,25,Jimmy White,ENG,6,13,Dene O'Kane,NZL,u,6
-1987,QF,25,Steve Davis,ENG,2,13,Terry Griffiths,WAL,10,5
-1987,SF,31,Joe Johnson,ENG,1,16,Neal Foulds,ENG,13,9
-1987,SF,31,Steve Davis,ENG,2,16,Jimmy White,ENG,6,11
-1987,F,35,Steve Davis,ENG,2,18,Joe Johnson,ENG,1,14
-1988,1R,19,Steve Davis,ENG,1,10,John Virgo,ENG,u,8
-1988,1R,19,Mike Hallett,ENG,16,10,Bob Chaperon,CAN,u,2
-1988,1R,19,Tony Drago,MLT,u,10,Alex Higgins,NIR,9,2
-1988,1R,19,Dennis Taylor,NIR,8,10,Bill Werbeniuk,CAN,u,8
-1988,1R,19,Joe Johnson,ENG,5,10,Cliff Wilson,WAL,u,7
-1988,1R,19,Steve James,ENG,u,10,Rex Williams,ENG,12,6
-1988,1R,19,John Parrott,ENG,13,10,Warren King,AUS,u,4
-1988,1R,19,Cliff Thorburn,CAN,4,10,Kirk Stevens,CAN,u,6
-1988,1R,19,Neal Foulds,ENG,3,10,Wayne Jones,WAL,u,7
-1988,1R,19,Doug Mountjoy,WAL,14,10,Barry West,ENG,u,6
-1988,1R,19,Willie Thorne,ENG,11,10,Peter Francisco,RSA,u,6
-1988,1R,19,Terry Griffiths,WAL,6,10,Steve Longworth,ENG,u,1
-1988,1R,19,Tony Knowles,ENG,7,10,Danny Fowler,ENG,u,8
-1988,1R,19,Eddie Charlton,AUS,u,10,Silvino Francisco,RSA,10,7
-1988,1R,19,Stephen Hendry,SCO,u,10,Dean Reynolds,ENG,15,6
-1988,1R,19,Jimmy White,ENG,2,10,John Campbell,AUS,u,3
-1988,16,25,Steve Davis,ENG,1,13,Mike Hallett,ENG,16,1
-1988,16,25,Tony Drago,MLT,u,13,Dennis Taylor,NIR,8,5
-1988,16,25,Steve James,ENG,u,13,Joe Johnson,ENG,5,9
-1988,16,25,Cliff Thorburn,CAN,4,13,John Parrott,ENG,13,10
-1988,16,25,Neal Foulds,ENG,3,13,Doug Mountjoy,WAL,14,1
-1988,16,25,Terry Griffiths,WAL,6,13,Willie Thorne,ENG,11,9
-1988,16,25,Tony Knowles,ENG,7,13,Eddie Charlton,AUS,u,7
-1988,16,25,Jimmy White,ENG,2,13,Stephen Hendry,SCO,u,12
-1988,QF,25,Steve Davis,ENG,1,13,Tony Drago,MLT,u,4
-1988,QF,25,Cliff Thorburn,CAN,4,13,Steve James,ENG,u,11
-1988,QF,25,Terry Griffiths,WAL,6,13,Neal Foulds,ENG,3,9
-1988,QF,25,Jimmy White,ENG,2,13,Tony Knowles,ENG,7,6
-1988,SF,31,Steve Davis,ENG,1,16,Cliff Thorburn,CAN,4,8
-1988,SF,31,Terry Griffiths,WAL,6,16,Jimmy White,ENG,2,11
-1988,F,35,Steve Davis,ENG,1,18,Terry Griffiths,WAL,6,11
-1989,1R,19,Steve Davis,ENG,1,10,Steve Newbury,WAL,u,5
-1989,1R,19,Steve Duggan,ENG,u,10,Cliff Wilson,WAL,16,1
-1989,1R,19,Mike Hallett,ENG,9,10,Doug Mountjoy,WAL,u,7
-1989,1R,19,David Roe,ENG,u,10,Tony Knowles,ENG,8,6
-1989,1R,19,Terry Griffiths,WAL,5,10,Bob Chaperon,CAN,u,6
-1989,1R,19,Silvino Francisco,RSA,12,10,Joe O'Boye,NIR,u,6
-1989,1R,19,Willie Thorne,ENG,13,10,Paddy Browne,IRL,u,5
-1989,1R,19,Stephen Hendry,SCO,4,10,Gary Wilkinson,ENG,u,9
-1989,1R,19,Wayne Jones,WAL,u,10,Neal Foulds,ENG,3,9
-1989,1R,19,Dean Reynolds,ENG,u,10,Peter Francisco,RSA,14,7
-1989,1R,19,Tony Meo,ENG,u,10,Joe Johnson,ENG,11,5
-1989,1R,19,Eddie Charlton,AUS,u,10,Cliff Thorburn,CAN,6,9
-1989,1R,19,John Parrott,ENG,7,10,Steve James,ENG,u,9
-1989,1R,19,Dennis Taylor,NIR,10,10,Eugene Hughes,IRL,u,3
-1989,1R,19,John Virgo,ENG,15,10,Darren Morgan,WAL,u,4
-1989,1R,19,Jimmy White,ENG,2,10,Dene O'Kane,NZL,u,7
-1989,16,25,Steve Davis,ENG,1,13,Steve Duggan,ENG,u,3
-1989,16,25,Mike Hallett,ENG,9,13,David Roe,ENG,u,12
-1989,16,25,Terry Griffiths,WAL,5,13,Silvino Francisco,RSA,12,9
-1989,16,25,Stephen Hendry,SCO,4,13,Willie Thorne,ENG,13,4
-1989,16,25,Dean Reynolds,ENG,u,13,Wayne Jones,WAL,u,3
-1989,16,25,Tony Meo,ENG,u,13,Eddie Charlton,AUS,u,8
-1989,16,25,John Parrott,ENG,7,13,Dennis Taylor,NIR,10,10
-1989,16,25,Jimmy White,ENG,2,13,John Virgo,ENG,15,12
-1989,QF,25,Steve Davis,ENG,1,13,Mike Hallett,ENG,9,3
-1989,QF,25,Stephen Hendry,SCO,4,13,Terry Griffiths,WAL,5,5
-1989,QF,25,Tony Meo,ENG,u,13,Dean Reynolds,ENG,u,9
-1989,QF,25,John Parrott,ENG,7,13,Jimmy White,ENG,2,7
-1989,SF,31,Steve Davis,ENG,1,16,Stephen Hendry,SCO,4,9
-1989,SF,31,John Parrott,ENG,7,16,Tony Meo,ENG,u,7
-1989,F,35,Steve Davis,ENG,1,18,John Parrott,ENG,7,3
-1990,1R,19,Steve Davis,ENG,1,10,Eddie Charlton,AUS,u,1
-1990,1R,19,Steve James,ENG,16,10,Alex Higgins,NIR,u,5
-1990,1R,19,Willie Thorne,ENG,9,10,Tony Drago,MLT,u,4
-1990,1R,19,Neal Foulds,ENG,u,10,Dennis Taylor,NIR,8,8
-1990,1R,19,Terry Griffiths,WAL,5,10,Nigel Gilbert,ENG,u,4
-1990,1R,19,Tony Knowles,ENG,12,10,Tony Chappel,WAL,u,4
-1990,1R,19,John Virgo,ENG,13,10,Gary Wilkinson,ENG,u,6
-1990,1R,19,Jimmy White,ENG,4,10,Danny Fowler,ENG,u,4
-1990,1R,19,Stephen Hendry,SCO,3,10,Alain Robidoux,CAN,u,7
-1990,1R,19,Tony Meo,ENG,14,10,Wayne Jones,WAL,u,8
-1990,1R,19,Darren Morgan,WAL,u,10,Joe Johnson,ENG,11,8
-1990,1R,19,Mike Hallett,ENG,6,10,Steve Newbury,WAL,u,9
-1990,1R,19,Cliff Thorburn,CAN,7,10,Cliff Wilson,WAL,u,6
-1990,1R,19,Doug Mountjoy,WAL,10,10,Brady Gollan,CAN,u,8
-1990,1R,19,Dean Reynolds,ENG,15,10,Peter Francisco,RSA,u,7
-1990,1R,19,John Parrott,ENG,2,10,Mark Bennett,WAL,u,9
-1990,16,25,Steve Davis,ENG,1,13,Steve James,ENG,16,7
-1990,16,25,Neal Foulds,ENG,u,13,Willie Thorne,ENG,9,11
-1990,16,25,Terry Griffiths,WAL,5,13,Tony Knowles,ENG,12,6
-1990,16,25,Jimmy White,ENG,4,13,John Virgo,ENG,13,6
-1990,16,25,Stephen Hendry,SCO,3,13,Tony Meo,ENG,14,7
-1990,16,25,Darren Morgan,WAL,u,13,Mike Hallett,ENG,6,8
-1990,16,25,Cliff Thorburn,CAN,7,13,Doug Mountjoy,WAL,10,12
-1990,16,25,John Parrott,ENG,2,13,Dean Reynolds,ENG,15,11
-1990,QF,25,Steve Davis,ENG,1,13,Neal Foulds,ENG,u,8
-1990,QF,25,Jimmy White,ENG,4,13,Terry Griffiths,WAL,5,5
-1990,QF,25,Stephen Hendry,SCO,3,13,Darren Morgan,WAL,u,6
-1990,QF,25,John Parrott,ENG,2,13,Cliff Thorburn,CAN,7,6
-1990,SF,31,Jimmy White,ENG,4,16,Steve Davis,ENG,1,14
-1990,SF,31,Stephen Hendry,SCO,3,16,John Parrott,ENG,2,11
-1990,F,35,Stephen Hendry,SCO,3,18,Jimmy White,ENG,4,12
-1991,1R,19,Stephen Hendry,SCO,1,10,Warren King,AUS,u,4
-1991,1R,19,Alain Robidoux,CAN,16,10,Steve Newbury,WAL,u,5
-1991,1R,19,Steve James,ENG,9,10,Ian Graham,ENG,u,3
-1991,1R,19,Dean Reynolds,ENG,8,10,Robert Marshall,ENG,u,8
-1991,1R,19,Gary Wilkinson,ENG,u,10,Doug Mountjoy,WAL,5,2
-1991,1R,19,Martin Clark,ENG,12,10,Mark Bennett,WAL,u,6
-1991,1R,19,Neal Foulds,ENG,13,10,Eddie Charlton,AUS,u,7
-1991,1R,19,Jimmy White,ENG,4,10,Nick Dyson,ENG,u,3
-1991,1R,19,John Parrott,ENG,3,10,Nigel Gilbert,ENG,u,6
-1991,1R,19,Tony Knowles,ENG,u,10,John Virgo,ENG,14,8
-1991,1R,19,Alan McManus,SCO,u,10,Willie Thorne,ENG,11,8
-1991,1R,19,Terry Griffiths,WAL,6,10,Barry Pinches,ENG,u,3
-1991,1R,19,Tony Jones,ENG,u,10,Mike Hallett,ENG,7,4
-1991,1R,19,Dennis Taylor,NIR,10,10,Joe Johnson,ENG,u,6
-1991,1R,19,Tony Meo,ENG,15,10,Craig Edwards,ENG,u,7
-1991,1R,19,Steve Davis,ENG,2,10,Ken Doherty,IRL,u,8
-1991,16,25,Stephen Hendry,SCO,1,13,Alain Robidoux,CAN,16,8
-1991,16,25,Steve James,ENG,9,13,Dean Reynolds,ENG,8,12
-1991,16,25,Gary Wilkinson,ENG,u,13,Martin Clark,ENG,12,9
-1991,16,25,Jimmy White,ENG,4,13,Neal Foulds,ENG,13,12
-1991,16,25,John Parrott,ENG,3,13,Tony Knowles,ENG,u,1
-1991,16,25,Terry Griffiths,WAL,6,13,Alan McManus,SCO,u,12
-1991,16,25,Dennis Taylor,NIR,10,13,Tony Jones,ENG,u,8
-1991,16,25,Steve Davis,ENG,2,13,Tony Meo,ENG,15,6
-1991,QF,25,Steve James,ENG,9,13,Stephen Hendry,SCO,1,11
-1991,QF,25,Jimmy White,ENG,4,13,Gary Wilkinson,ENG,u,3
-1991,QF,25,John Parrott,ENG,3,13,Terry Griffiths,WAL,6,10
-1991,QF,25,Steve Davis,ENG,2,13,Dennis Taylor,NIR,10,7
-1991,SF,31,Jimmy White,ENG,4,16,Steve James,ENG,9,9
-1991,SF,31,John Parrott,ENG,3,16,Steve Davis,ENG,2,10
-1991,F,35,John Parrott,ENG,3,18,Jimmy White,ENG,4,11
-1992,1R,19,John Parrott,ENG,1,10,Eddie Charlton,AUS,u,0
-1992,1R,19,Tony Knowles,ENG,16,10,Mark Johnston-Allen,ENG,u,4
-1992,1R,19,Mick Price,ENG,u,10,Dennis Taylor,NIR,9,6
-1992,1R,19,Alan McManus,SCO,u,10,Mike Hallett,ENG,8,8
-1992,1R,19,Willie Thorne,ENG,u,10,Gary Wilkinson,ENG,5,6
-1992,1R,19,Jim Wych,CAN,u,10,Dean Reynolds,ENG,12,7
-1992,1R,19,Alain Robidoux,CAN,13,10,Nigel Bond,ENG,u,7
-1992,1R,19,Jimmy White,ENG,4,10,Tony Drago,MLT,u,4
-1992,1R,19,Peter Ebdon,ENG,u,10,Steve Davis,ENG,3,4
-1992,1R,19,Martin Clark,ENG,14,10,Peter Francisco,RSA,u,7
-1992,1R,19,Terry Griffiths,WAL,11,10,Bob Chaperon,CAN,u,8
-1992,1R,19,Neal Foulds,ENG,6,10,Jason Ferguson,ENG,u,8
-1992,1R,19,Dene O'Kane,NZL,u,10,Steve James,ENG,7,9
-1992,1R,19,Chris Small,SCO,u,10,Doug Mountjoy,WAL,10,7
-1992,1R,19,James Wattana,THA,15,10,Tony Jones,ENG,u,5
-1992,1R,19,Stephen Hendry,SCO,2,10,Stephen Murphy,IRL,u,3
-1992,16,25,John Parrott,ENG,1,13,Tony Knowles,ENG,16,4
-1992,16,25,Alan McManus,SCO,u,13,Mick Price,ENG,u,10
-1992,16,25,Jim Wych,CAN,u,13,Willie Thorne,ENG,u,6
-1992,16,25,Jimmy White,ENG,4,13,Alain Robidoux,CAN,13,11
-1992,16,25,Peter Ebdon,ENG,u,13,Martin Clark,ENG,14,4
-1992,16,25,Terry Griffiths,WAL,11,13,Neal Foulds,ENG,6,7
-1992,16,25,Dene O'Kane,NZL,u,13,Chris Small,SCO,u,10
-1992,16,25,Stephen Hendry,SCO,2,13,James Wattana,THA,15,10
-1992,QF,25,Alan McManus,SCO,u,13,John Parrott,ENG,1,12
-1992,QF,25,Jimmy White,ENG,4,13,Jim Wych,CAN,u,9
-1992,QF,25,Terry Griffiths,WAL,11,13,Peter Ebdon,ENG,u,7
-1992,QF,25,Stephen Hendry,SCO,2,13,Dene O'Kane,NZL,u,6
-1992,SF,31,Jimmy White,ENG,4,16,Alan McManus,SCO,u,7
-1992,SF,31,Stephen Hendry,SCO,2,16,Terry Griffiths,WAL,11,4
-1992,F,35,Stephen Hendry,SCO,2,18,Jimmy White,ENG,4,14
-1993,1R,19,Stephen Hendry,SCO,1,10,Danny Fowler,ENG,u,1
-1993,1R,19,Darren Morgan,WAL,16,10,Les Dodd,ENG,u,5
-1993,1R,19,Nigel Bond,ENG,9,10,Spencer Dunn,ENG,u,4
-1993,1R,19,Gary Wilkinson,ENG,8,10,Dean Reynolds,ENG,u,4
-1993,1R,19,Neal Foulds,ENG,5,10,Brian Morgan,ENG,u,5
-1993,1R,19,Martin Clark,ENG,12,10,Karl Payne,ENG,u,6
-1993,1R,19,Alan McManus,SCO,13,10,Ronnie O'Sullivan,ENG,u,7
-1993,1R,19,Steve Davis,ENG,4,10,Peter Ebdon,ENG,u,3
-1993,1R,19,Jimmy White,ENG,3,10,Joe Swail,NIR,u,4
-1993,1R,19,Doug Mountjoy,WAL,u,10,Alain Robidoux,CAN,14,6
-1993,1R,19,Dennis Taylor,NIR,11,10,Tony Drago,MLT,u,9
-1993,1R,19,Terry Griffiths,WAL,6,10,David Roe,ENG,u,6
-1993,1R,19,James Wattana,THA,7,10,Tony Jones,ENG,u,7
-1993,1R,19,Steve James,ENG,10,10,John Giles,ENG,u,2
-1993,1R,19,Willie Thorne,ENG,15,10,Shaun Mellish,ENG,u,6
-1993,1R,19,John Parrott,ENG,2,10,Stephen O'Connor,IRL,u,1
-1993,16,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,16,4
-1993,16,25,Nigel Bond,ENG,9,13,Gary Wilkinson,ENG,8,7
-1993,16,25,Neal Foulds,ENG,5,13,Martin Clark,ENG,12,7
-1993,16,25,Alan McManus,SCO,13,13,Steve Davis,ENG,4,11
-1993,16,25,Jimmy White,ENG,3,13,Doug Mountjoy,WAL,u,6
-1993,16,25,Dennis Taylor,NIR,11,13,Terry Griffiths,WAL,6,11
-1993,16,25,James Wattana,THA,7,13,Steve James,ENG,10,7
-1993,16,25,John Parrott,ENG,2,13,Willie Thorne,ENG,15,9
-1993,QF,25,Stephen Hendry,SCO,1,13,Nigel Bond,ENG,9,7
-1993,QF,25,Alan McManus,SCO,13,13,Neal Foulds,ENG,5,11
-1993,QF,25,Jimmy White,ENG,3,13,Dennis Taylor,NIR,11,8
-1993,QF,25,James Wattana,THA,7,13,John Parrott,ENG,2,6
-1993,SF,31,Stephen Hendry,SCO,1,16,Alan McManus,SCO,13,8
-1993,SF,31,Jimmy White,ENG,3,16,James Wattana,THA,7,9
-1993,F,35,Stephen Hendry,SCO,1,18,Jimmy White,ENG,3,5
-1994,1R,19,Stephen Hendry,SCO,1,10,Surinder Gill,ENG,u,1
-1994,1R,19,Dave Harold,ENG,u,10,David Roe,ENG,16,8
-1994,1R,19,Nigel Bond,ENG,9,10,Cliff Thorburn,CAN,u,9
-1994,1R,19,Terry Griffiths,WAL,8,10,Mark Davis,ENG,u,7
-1994,1R,19,James Wattana,THA,5,10,Peter Ebdon,ENG,u,6
-1994,1R,19,Brian Morgan,ENG,u,10,Martin Clark,ENG,12,9
-1994,1R,19,Steve James,ENG,13,10,Les Dodd,ENG,u,9
-1994,1R,19,Steve Davis,ENG,4,10,Dene O'Kane,NZL,u,3
-1994,1R,19,Jimmy White,ENG,3,10,Billy Snaddon,SCO,u,6
-1994,1R,19,Neal Foulds,ENG,14,10,Anthony Davies,WAL,u,7
-1994,1R,19,Ken Doherty,IRL,11,10,Alex Higgins,NIR,u,6
-1994,1R,19,Alan McManus,SCO,6,10,Fergal O'Brien,IRL,u,7
-1994,1R,19,Willie Thorne,ENG,7,10,Gary Ponting,ENG,u,2
-1994,1R,19,Darren Morgan,WAL,10,10,Mark King,ENG,u,5
-1994,1R,19,Ronnie O'Sullivan,ENG,u,10,Dennis Taylor,NIR,15,6
-1994,1R,19,John Parrott,ENG,2,10,Drew Henry,SCO,u,9
-1994,16,25,Stephen Hendry,SCO,1,13,Dave Harold,ENG,u,2
-1994,16,25,Nigel Bond,ENG,9,13,Terry Griffiths,WAL,8,8
-1994,16,25,James Wattana,THA,5,13,Brian Morgan,ENG,u,9
-1994,16,25,Steve Davis,ENG,4,13,Steve James,ENG,13,3
-1994,16,25,Jimmy White,ENG,3,13,Neal Foulds,ENG,14,10
-1994,16,25,Ken Doherty,IRL,11,13,Alan McManus,SCO,6,11
-1994,16,25,Darren Morgan,WAL,10,13,Willie Thorne,ENG,7,12
-1994,16,25,John Parrott,ENG,2,13,Ronnie O'Sullivan,ENG,u,3
-1994,QF,25,Stephen Hendry,SCO,1,13,Nigel Bond,ENG,9,8
-1994,QF,25,Steve Davis,ENG,4,13,James Wattana,THA,5,9
-1994,QF,25,Jimmy White,ENG,3,13,Ken Doherty,IRL,11,10
-1994,QF,25,Darren Morgan,WAL,10,13,John Parrott,ENG,2,11
-1994,SF,31,Stephen Hendry,SCO,1,16,Steve Davis,ENG,4,9
-1994,SF,31,Jimmy White,ENG,3,16,Darren Morgan,WAL,10,8
-1994,F,35,Stephen Hendry,SCO,1,18,Jimmy White,ENG,3,17
-1995,1R,19,Stephen Hendry,SCO,1,10,Stefan Mazrocis,ENG,u,3
-1995,1R,19,Tony Drago,MLT,16,10,Paul Cavney,ENG,u,2
-1995,1R,19,Ronnie O'Sullivan,ENG,9,10,Dave Harold,ENG,u,3
-1995,1R,19,Darren Morgan,WAL,8,10,Anthony Davies,WAL,u,3
-1995,1R,19,John Parrott,ENG,5,10,Brian Morgan,ENG,u,5
-1995,1R,19,Joe Swail,NIR,12,10,Nigel Gilbert,ENG,u,8
-1995,1R,19,David Roe,ENG,13,10,Billy Snaddon,SCO,u,6
-1995,1R,19,Jimmy White,ENG,4,10,Peter Francisco,RSA,u,2
-1995,1R,19,Gary Wilkinson,ENG,u,10,James Wattana,THA,3,8
-1995,1R,19,Terry Griffiths,WAL,14,10,Alain Robidoux,CAN,u,6
-1995,1R,19,Nigel Bond,ENG,11,10,Stephen Lee,ENG,u,8
-1995,1R,19,Alan McManus,SCO,6,10,John Higgins,SCO,u,3
-1995,1R,19,Mark Davis,ENG,u,10,Ken Doherty,IRL,7,7
-1995,1R,19,Peter Ebdon,ENG,10,10,Rod Lawler,ENG,u,2
-1995,1R,19,Willie Thorne,ENG,15,10,Tai Pichit,THA,u,6
-1995,1R,19,Andy Hicks,ENG,u,10,Steve Davis,ENG,2,7
-1995,16,25,Stephen Hendry,SCO,1,13,Tony Drago,MLT,16,6
-1995,16,25,Ronnie O'Sullivan,ENG,9,13,Darren Morgan,WAL,8,8
-1995,16,25,John Parrott,ENG,5,13,Joe Swail,NIR,12,11
-1995,16,25,Jimmy White,ENG,4,13,David Roe,ENG,13,7
-1995,16,25,Gary Wilkinson,ENG,u,13,Terry Griffiths,WAL,14,9
-1995,16,25,Nigel Bond,ENG,11,13,Alan McManus,SCO,6,10
-1995,16,25,Peter Ebdon,ENG,10,13,Mark Davis,ENG,u,7
-1995,16,25,Andy Hicks,ENG,u,13,Willie Thorne,ENG,15,7
-1995,QF,25,Stephen Hendry,SCO,1,13,Ronnie O'Sullivan,ENG,9,8
-1995,QF,25,Jimmy White,ENG,4,13,John Parrott,ENG,5,11
-1995,QF,25,Nigel Bond,ENG,11,13,Gary Wilkinson,ENG,u,7
-1995,QF,25,Andy Hicks,ENG,u,13,Peter Ebdon,ENG,10,8
-1995,SF,31,Stephen Hendry,SCO,1,16,Jimmy White,ENG,4,12
-1995,SF,31,Nigel Bond,ENG,11,16,Andy Hicks,ENG,u,11
-1995,F,35,Stephen Hendry,SCO,1,18,Nigel Bond,ENG,11,9
-1996,1R,19,Stephen Hendry,SCO,1,10,Jason Ferguson,ENG,u,8
-1996,1R,19,Gary Wilkinson,ENG,u,10,David Roe,ENG,16,9
-1996,1R,19,Ken Doherty,IRL,9,10,Nick Terry,ENG,u,5
-1996,1R,19,Darren Morgan,WAL,8,10,Drew Henry,SCO,u,8
-1996,1R,19,James Wattana,THA,5,10,Jimmy Michie,ENG,u,8
-1996,1R,19,Nigel Bond,ENG,12,10,Anthony Hamilton,ENG,u,9
-1996,1R,19,Dave Harold,ENG,13,10,Neal Foulds,ENG,u,4
-1996,1R,19,Rod Lawler,ENG,u,10,John Parrott,ENG,4,6
-1996,1R,19,Ronnie O'Sullivan,ENG,3,10,Alain Robidoux,CAN,u,3
-1996,1R,19,Tony Drago,MLT,14,10,Steve James,ENG,u,2
-1996,1R,19,John Higgins,SCO,11,10,Martin Clark,ENG,u,5
-1996,1R,19,Alan McManus,SCO,6,10,Mick Price,ENG,u,5
-1996,1R,19,Jimmy White,ENG,7,10,Euan Henderson,SCO,u,9
-1996,1R,19,Peter Ebdon,ENG,10,10,Dene O'Kane,NZL,u,1
-1996,1R,19,Terry Griffiths,WAL,15,10,Jamie Burnett,SCO,u,9
-1996,1R,19,Steve Davis,ENG,2,10,Willie Thorne,ENG,u,8
-1996,16,25,Stephen Hendry,SCO,1,13,Gary Wilkinson,ENG,u,7
-1996,16,25,Darren Morgan,WAL,8,13,Ken Doherty,IRL,9,5
-1996,16,25,Nigel Bond,ENG,12,13,James Wattana,THA,5,4
-1996,16,25,Dave Harold,ENG,13,13,Rod Lawler,ENG,u,6
-1996,16,25,Ronnie O'Sullivan,ENG,3,13,Tony Drago,MLT,14,4
-1996,16,25,John Higgins,SCO,11,13,Alan McManus,SCO,6,5
-1996,16,25,Peter Ebdon,ENG,10,13,Jimmy White,ENG,7,12
-1996,16,25,Steve Davis,ENG,2,13,Terry Griffiths,WAL,15,8
-1996,QF,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,8,5
-1996,QF,25,Nigel Bond,ENG,12,13,Dave Harold,ENG,13,7
-1996,QF,25,Ronnie O'Sullivan,ENG,3,13,John Higgins,SCO,11,12
-1996,QF,25,Peter Ebdon,ENG,10,13,Steve Davis,ENG,2,10
-1996,SF,31,Stephen Hendry,SCO,1,16,Nigel Bond,ENG,12,7
-1996,SF,31,Peter Ebdon,ENG,10,16,Ronnie O'Sullivan,ENG,3,14
-1996,F,35,Stephen Hendry,SCO,1,18,Peter Ebdon,ENG,10,12
-1997,1R,19,Stephen Hendry,SCO,1,10,Andy Hicks,ENG,u,6
-1997,1R,19,Mark Williams,WAL,16,10,Terry Griffiths,WAL,u,9
-1997,1R,19,Darren Morgan,WAL,9,10,Gary Wilkinson,ENG,u,5
-1997,1R,19,Ronnie O'Sullivan,ENG,8,10,Mick Price,ENG,u,6
-1997,1R,19,Stephen Lee,ENG,u,10,Nigel Bond,ENG,5,8
-1997,1R,19,James Wattana,THA,12,10,Graeme Dott,SCO,u,9
-1997,1R,19,Anthony Hamilton,ENG,u,10,Jimmy White,ENG,13,9
-1997,1R,19,John Parrott,ENG,4,10,Bradley Jones,ENG,u,9
-1997,1R,19,Stefan Mazrocis,ENG,u,10,Peter Ebdon,ENG,3,3
-1997,1R,19,Alain Robidoux,CAN,14,10,Brian Morgan,ENG,u,8
-1997,1R,19,Lee Walker,WAL,u,10,Dave Harold,ENG,11,7
-1997,1R,19,Alan McManus,SCO,6,10,Billy Snaddon,SCO,u,9
-1997,1R,19,Ken Doherty,IRL,7,10,Mark Davis,ENG,u,8
-1997,1R,19,Steve Davis,ENG,10,10,David McLellan,SCO,u,2
-1997,1R,19,Dominic Dale,WAL,u,10,Tony Drago,MLT,15,9
-1997,1R,19,John Higgins,SCO,2,10,Graham Horne,SCO,u,6
-1997,16,25,Stephen Hendry,SCO,1,13,Mark Williams,WAL,16,8
-1997,16,25,Darren Morgan,WAL,9,13,Ronnie O'Sullivan,ENG,8,12
-1997,16,25,James Wattana,THA,12,13,Stephen Lee,ENG,u,7
-1997,16,25,John Parrott,ENG,4,13,Anthony Hamilton,ENG,u,11
-1997,16,25,Alain Robidoux,CAN,14,13,Stefan Mazrocis,ENG,u,9
-1997,16,25,Lee Walker,WAL,u,13,Alan McManus,SCO,6,10
-1997,16,25,Ken Doherty,IRL,7,13,Steve Davis,ENG,10,3
-1997,16,25,John Higgins,SCO,2,13,Dominic Dale,WAL,u,5
-1997,QF,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,9,10
-1997,QF,25,James Wattana,THA,12,13,John Parrott,ENG,4,10
-1997,QF,25,Alain Robidoux,CAN,14,13,Lee Walker,WAL,u,8
-1997,QF,25,Ken Doherty,IRL,7,13,John Higgins,SCO,2,9
-1997,SF,33,Stephen Hendry,SCO,1,17,James Wattana,THA,12,13
-1997,SF,33,Ken Doherty,IRL,7,17,Alain Robidoux,CAN,14,7
-1997,F,35,Ken Doherty,IRL,7,18,Stephen Hendry,SCO,1,12
-1998,1R,19,Ken Doherty,IRL,1,10,Lee Walker,WAL,u,8
-1998,1R,19,Stephen Lee,ENG,16,10,Andy Hicks,ENG,u,4
-1998,1R,19,Matthew Stevens,WAL,u,10,Alain Robidoux,CAN,9,8
-1998,1R,19,Mark King,ENG,u,10,Nigel Bond,ENG,8,5
-1998,1R,19,Peter Ebdon,ENG,5,10,Terry Murphy,NIR,u,3
-1998,1R,19,Fergal O'Brien,IRL,u,10,James Wattana,THA,12,9
-1998,1R,19,Steve Davis,ENG,13,10,Simon Bedford,ENG,u,6
-1998,1R,19,Mark Williams,WAL,4,10,Quinten Hann,AUS,u,9
-1998,1R,19,John Higgins,SCO,3,10,Jason Ferguson,ENG,u,8
-1998,1R,19,Anthony Hamilton,ENG,14,10,Dave Harold,ENG,u,8
-1998,1R,19,Tony Drago,MLT,11,10,Alfie Burden,ENG,u,8
-1998,1R,19,John Parrott,ENG,6,10,Peter Lines,ENG,u,4
-1998,1R,19,Ronnie O'Sullivan,ENG,7,10,Joe Swail,NIR,u,5
-1998,1R,19,Alan McManus,SCO,10,10,David Gray,ENG,u,8
-1998,1R,19,Darren Morgan,WAL,15,10,Jason Prince,NIR,u,8
-1998,1R,19,Jimmy White,ENG,u,10,Stephen Hendry,SCO,2,4
-1998,16,25,Ken Doherty,IRL,1,13,Stephen Lee,ENG,16,8
-1998,16,25,Matthew Stevens,WAL,u,13,Mark King,ENG,u,9
-1998,16,25,Peter Ebdon,ENG,5,13,Fergal O'Brien,IRL,u,5
-1998,16,25,Mark Williams,WAL,4,13,Steve Davis,ENG,13,6
-1998,16,25,John Higgins,SCO,3,13,Anthony Hamilton,ENG,14,9
-1998,16,25,John Parrott,ENG,6,13,Tony Drago,MLT,11,7
-1998,16,25,Ronnie O'Sullivan,ENG,7,13,Alan McManus,SCO,10,4
-1998,16,25,Jimmy White,ENG,u,13,Darren Morgan,WAL,15,3
-1998,QF,25,Ken Doherty,IRL,1,13,Matthew Stevens,WAL,u,10
-1998,QF,25,Mark Williams,WAL,4,13,Peter Ebdon,ENG,5,11
-1998,QF,25,John Higgins,SCO,3,13,John Parrott,ENG,6,11
-1998,QF,25,Ronnie O'Sullivan,ENG,7,13,Jimmy White,ENG,u,7
-1998,SF,33,Ken Doherty,IRL,1,17,Mark Williams,WAL,4,14
-1998,SF,33,John Higgins,SCO,3,17,Ronnie O'Sullivan,ENG,7,9
-1998,F,35,John Higgins,SCO,3,18,Ken Doherty,IRL,1,12
-1999,1R,19,John Higgins,SCO,1,10,Gerard Greene,NIR,u,2
-1999,1R,19,Mark King,ENG,16,10,Darren Morgan,WAL,u,8
-1999,1R,19,Stephen Lee,ENG,9,10,John Lardner,SCO,u,7
-1999,1R,19,Alan McManus,SCO,8,10,Jimmy White,ENG,u,7
-1999,1R,19,Mark Williams,WAL,5,10,Ian McCulloch,ENG,u,4
-1999,1R,19,Nick Walker,ENG,u,10,Alain Robidoux,CAN,12,6
-1999,1R,19,Nigel Bond,ENG,13,10,Dominic Dale,WAL,u,6
-1999,1R,19,Ken Doherty,IRL,4,10,Steve James,ENG,u,3
-1999,1R,19,Ronnie O'Sullivan,ENG,3,10,Leo Fernandez,IRL,u,3
-1999,1R,19,Joe Perry,ENG,u,10,Steve Davis,ENG,14,9
-1999,1R,19,Chris Small,SCO,u,10,Anthony Hamilton,ENG,11,9
-1999,1R,19,John Parrott,ENG,6,10,Terry Murphy,NIR,u,8
-1999,1R,19,Matthew Stevens,WAL,u,10,Peter Ebdon,ENG,7,7
-1999,1R,19,Tony Drago,MLT,10,10,Fergal O'Brien,IRL,u,4
-1999,1R,19,James Wattana,THA,15,10,Marco Fu,HKG,u,8
-1999,1R,19,Stephen Hendry,SCO,2,10,Paul Hunter,ENG,u,8
-1999,16,25,John Higgins,SCO,1,13,Mark King,ENG,16,4
-1999,16,25,Stephen Lee,ENG,9,13,Alan McManus,SCO,8,7
-1999,16,25,Mark Williams,WAL,5,13,Nick Walker,ENG,u,7
-1999,16,25,Ken Doherty,IRL,4,13,Nigel Bond,ENG,13,11
-1999,16,25,Ronnie O'Sullivan,ENG,3,13,Joe Perry,ENG,u,8
-1999,16,25,John Parrott,ENG,6,13,Chris Small,SCO,u,12
-1999,16,25,Matthew Stevens,WAL,u,13,Tony Drago,MLT,10,8
-1999,16,25,Stephen Hendry,SCO,2,13,James Wattana,THA,15,7
-1999,QF,25,John Higgins,SCO,1,13,Stephen Lee,ENG,9,6
-1999,QF,25,Mark Williams,WAL,5,13,Ken Doherty,IRL,4,9
-1999,QF,25,Ronnie O'Sullivan,ENG,3,13,John Parrott,ENG,6,9
-1999,QF,25,Stephen Hendry,SCO,2,13,Matthew Stevens,WAL,u,5
-1999,SF,33,Mark Williams,WAL,5,17,John Higgins,SCO,1,10
-1999,SF,33,Stephen Hendry,SCO,2,17,Ronnie O'Sullivan,ENG,3,13
-1999,F,35,Stephen Hendry,SCO,2,18,Mark Williams,WAL,5,11
-2000,1R,19,Stuart Bingham,ENG,u,10,Stephen Hendry,SCO,1,7
-2000,1R,19,Jimmy White,ENG,16,10,Billy Snaddon,SCO,u,7
-2000,1R,19,Matthew Stevens,WAL,9,10,Tony Drago,MLT,u,2
-2000,1R,19,Alan McManus,SCO,8,10,Nigel Bond,ENG,u,7
-2000,1R,19,John Parrott,ENG,5,10,Gary Wilkinson,ENG,u,9
-2000,1R,19,Joe Swail,NIR,u,10,Paul Hunter,ENG,12,6
-2000,1R,19,Dominic Dale,WAL,u,10,Peter Ebdon,ENG,13,6
-2000,1R,19,David Gray,ENG,u,10,Ronnie O'Sullivan,ENG,4,9
-2000,1R,19,Mark Williams,WAL,3,10,John Read,ENG,u,4
-2000,1R,19,Drew Henry,SCO,u,10,Mark King,ENG,14,8
-2000,1R,19,Fergal O'Brien,IRL,11,10,Chris Small,SCO,u,8
-2000,1R,19,Stephen Lee,ENG,6,10,Kristjan Helgason,ICE,u,3
-2000,1R,19,Ken Doherty,IRL,7,10,Darren Morgan,WAL,u,3
-2000,1R,19,Anthony Hamilton,ENG,10,10,Marco Fu,HKG,u,4
-2000,1R,19,Steve Davis,ENG,15,10,Graeme Dott,SCO,u,6
-2000,1R,19,John Higgins,SCO,2,10,Dave Harold,ENG,u,8
-2000,16,25,Jimmy White,ENG,16,13,Stuart Bingham,ENG,u,9
-2000,16,25,Matthew Stevens,WAL,9,13,Alan McManus,SCO,8,4
-2000,16,25,Joe Swail,NIR,u,13,John Parrott,ENG,5,12
-2000,16,25,Dominic Dale,WAL,u,13,David Gray,ENG,u,1
-2000,16,25,Mark Williams,WAL,3,13,Drew Henry,SCO,u,9
-2000,16,25,Fergal O'Brien,IRL,11,13,Stephen Lee,ENG,6,8
-2000,16,25,Anthony Hamilton,ENG,10,13,Ken Doherty,IRL,7,12
-2000,16,25,John Higgins,SCO,2,13,Steve Davis,ENG,15,11
-2000,QF,25,Matthew Stevens,WAL,9,13,Jimmy White,ENG,16,7
-2000,QF,25,Joe Swail,NIR,u,13,Dominic Dale,WAL,u,9
-2000,QF,25,Mark Williams,WAL,3,13,Fergal O'Brien,IRL,11,5
-2000,QF,25,John Higgins,SCO,2,13,Anthony Hamilton,ENG,10,3
-2000,SF,33,Matthew Stevens,WAL,9,17,Joe Swail,NIR,u,12
-2000,SF,33,Mark Williams,WAL,3,17,John Higgins,SCO,2,15
-2000,F,35,Mark Williams,WAL,3,18,Matthew Stevens,WAL,9,16
-2001,1R,19,Mark Williams,WAL,1,10,Billy Snaddon,SCO,u,4
-2001,1R,19,Joe Swail,NIR,16,10,Sean Storey,ENG,u,9
-2001,1R,19,Mark King,ENG,u,10,Fergal O'Brien,IRL,9,8
-2001,1R,19,Patrick Wallace,NIR,u,10,Alan McManus,SCO,8,2
-2001,1R,19,Stephen Lee,ENG,5,10,Nigel Bond,ENG,u,3
-2001,1R,19,Peter Ebdon,ENG,12,10,James Wattana,THA,u,8
-2001,1R,19,Dave Harold,ENG,13,10,Quinten Hann,AUS,u,5
-2001,1R,19,Ronnie O'Sullivan,ENG,4,10,Andy Hicks,ENG,u,2
-2001,1R,19,Stephen Hendry,SCO,3,10,Mark Davis,ENG,u,5
-2001,1R,19,Paul Hunter,ENG,14,10,David Roe,ENG,u,6
-2001,1R,19,Anthony Hamilton,ENG,11,10,Marcus Campbell,SCO,u,4
-2001,1R,19,Matthew Stevens,WAL,6,10,Tony Drago,MLT,u,1
-2001,1R,19,Ken Doherty,IRL,7,10,Nick Dyson,ENG,u,7
-2001,1R,19,Michael Judge,IRL,u,10,John Parrott,ENG,10,6
-2001,1R,19,Chris Small,SCO,u,10,Marco Fu,HKG,15,8
-2001,1R,19,John Higgins,SCO,2,10,Graeme Dott,SCO,u,4
-2001,16,25,Joe Swail,NIR,16,13,Mark Williams,WAL,1,12
-2001,16,25,Patrick Wallace,NIR,u,13,Mark King,ENG,u,5
-2001,16,25,Peter Ebdon,ENG,12,13,Stephen Lee,ENG,5,12
-2001,16,25,Ronnie O'Sullivan,ENG,4,13,Dave Harold,ENG,13,6
-2001,16,25,Stephen Hendry,SCO,3,13,Paul Hunter,ENG,14,5
-2001,16,25,Matthew Stevens,WAL,6,13,Anthony Hamilton,ENG,11,5
-2001,16,25,Ken Doherty,IRL,7,13,Michael Judge,IRL,u,7
-2001,16,25,John Higgins,SCO,2,13,Chris Small,SCO,u,8
-2001,QF,25,Joe Swail,NIR,16,13,Patrick Wallace,NIR,u,11
-2001,QF,25,Ronnie O'Sullivan,ENG,4,13,Peter Ebdon,ENG,12,6
-2001,QF,25,Matthew Stevens,WAL,6,13,Stephen Hendry,SCO,3,5
-2001,QF,25,John Higgins,SCO,2,13,Ken Doherty,IRL,7,6
-2001,SF,33,Ronnie O'Sullivan,ENG,4,17,Joe Swail,NIR,16,11
-2001,SF,33,John Higgins,SCO,2,17,Matthew Stevens,WAL,6,15
-2001,F,35,Ronnie O'Sullivan,ENG,4,18,John Higgins,SCO,2,14
-2002,1R,19,Ronnie O'Sullivan,ENG,1,10,Drew Henry,SCO,u,5
-2002,1R,19,Robert Milkins,ENG,u,10,Fergal O'Brien,IRL,16,8
-2002,1R,19,Quinten Hann,AUS,u,10,Paul Hunter,ENG,9,9
-2002,1R,19,Stephen Lee,ENG,8,10,Chris Small,SCO,u,7
-2002,1R,19,Stephen Hendry,SCO,5,10,Shaun Murphy,ENG,u,4
-2002,1R,19,Anthony Davies,WAL,u,10,Alan McManus,SCO,12,7
-2002,1R,19,Mark King,ENG,13,10,David Gray,ENG,u,5
-2002,1R,19,Ken Doherty,IRL,4,10,Stuart Bingham,ENG,u,8
-2002,1R,19,John Higgins,SCO,3,10,James Wattana,THA,u,1
-2002,1R,19,Graeme Dott,SCO,14,10,Robin Hull,FIN,u,6
-2002,1R,19,Jimmy White,ENG,11,10,Dominic Dale,WAL,u,2
-2002,1R,19,Matthew Stevens,WAL,6,10,Mike Dunn,ENG,u,6
-2002,1R,19,Peter Ebdon,ENG,7,10,Michael Judge,IRL,u,4
-2002,1R,19,Joe Perry,ENG,u,10,Joe Swail,NIR,10,6
-2002,1R,19,Anthony Hamilton,ENG,u,10,Dave Harold,ENG,15,6
-2002,1R,19,Mark Williams,WAL,2,10,John Parrott,ENG,u,7
-2002,16,25,Ronnie O'Sullivan,ENG,1,13,Robert Milkins,ENG,u,2
-2002,16,25,Stephen Lee,ENG,8,13,Quinten Hann,AUS,u,3
-2002,16,25,Stephen Hendry,SCO,5,13,Anthony Davies,WAL,u,3
-2002,16,25,Ken Doherty,IRL,4,13,Mark King,ENG,13,12
-2002,16,25,John Higgins,SCO,3,13,Graeme Dott,SCO,14,2
-2002,16,25,Matthew Stevens,WAL,6,13,Jimmy White,ENG,11,3
-2002,16,25,Peter Ebdon,ENG,7,13,Joe Perry,ENG,u,7
-2002,16,25,Anthony Hamilton,ENG,u,13,Mark Williams,WAL,2,9
-2002,QF,25,Ronnie O'Sullivan,ENG,1,13,Stephen Lee,ENG,8,10
-2002,QF,25,Stephen Hendry,SCO,5,13,Ken Doherty,IRL,4,12
-2002,QF,25,Matthew Stevens,WAL,6,13,John Higgins,SCO,3,7
-2002,QF,25,Peter Ebdon,ENG,7,13,Anthony Hamilton,ENG,u,6
-2002,SF,33,Stephen Hendry,SCO,5,17,Ronnie O'Sullivan,ENG,1,13
-2002,SF,33,Peter Ebdon,ENG,7,17,Matthew Stevens,WAL,6,16
-2002,F,35,Peter Ebdon,ENG,7,18,Stephen Hendry,SCO,5,17
-2003,1R,19,Peter Ebdon,ENG,1,10,Gerard Greene,NIR,u,3
-2003,1R,19,Tony Drago,MLT,u,10,Joe Swail,NIR,16,8
-2003,1R,19,Paul Hunter,ENG,9,10,Ali Carter,ENG,u,5
-2003,1R,19,Matthew Stevens,WAL,8,10,Chris Small,SCO,u,3
-2003,1R,19,Ken Doherty,IRL,5,10,Shaun Murphy,ENG,u,9
-2003,1R,19,Graeme Dott,SCO,12,10,Robert Milkins,ENG,u,4
-2003,1R,19,Sean Storey,ENG,u,10,Joe Perry,ENG,13,4
-2003,1R,19,John Higgins,SCO,4,10,Ian McCulloch,ENG,u,7
-2003,1R,19,Mark Williams,WAL,3,10,Stuart Pettman,ENG,u,2
-2003,1R,19,Quinten Hann,AUS,14,10,John Parrott,ENG,u,5
-2003,1R,19,Drew Henry,SCO,u,10,Mark King,ENG,11,5
-2003,1R,19,Stephen Hendry,SCO,6,10,Gary Wilkinson,ENG,u,7
-2003,1R,19,Stephen Lee,ENG,7,10,Steve Davis,ENG,u,6
-2003,1R,19,Jimmy White,ENG,10,10,James Wattana,THA,u,6
-2003,1R,19,Alan McManus,SCO,15,10,Nigel Bond,ENG,u,7
-2003,1R,19,Marco Fu,HKG,u,10,Ronnie O'Sullivan,ENG,2,6
-2003,16,25,Peter Ebdon,ENG,1,13,Tony Drago,MLT,u,5
-2003,16,25,Paul Hunter,ENG,9,13,Matthew Stevens,WAL,8,6
-2003,16,25,Ken Doherty,IRL,5,13,Graeme Dott,SCO,12,12
-2003,16,25,John Higgins,SCO,4,13,Sean Storey,ENG,u,7
-2003,16,25,Mark Williams,WAL,3,13,Quinten Hann,AUS,14,2
-2003,16,25,Stephen Hendry,SCO,6,13,Drew Henry,SCO,u,10
-2003,16,25,Stephen Lee,ENG,7,13,Jimmy White,ENG,10,11
-2003,16,25,Marco Fu,HKG,u,13,Alan McManus,SCO,15,7
-2003,QF,25,Paul Hunter,ENG,9,13,Peter Ebdon,ENG,1,12
-2003,QF,25,Ken Doherty,IRL,5,13,John Higgins,SCO,4,8
-2003,QF,25,Mark Williams,WAL,3,13,Stephen Hendry,SCO,6,7
-2003,QF,25,Stephen Lee,ENG,7,13,Marco Fu,HKG,u,7
-2003,SF,33,Ken Doherty,IRL,5,17,Paul Hunter,ENG,9,16
-2003,SF,33,Mark Williams,WAL,3,17,Stephen Lee,ENG,7,8
-2003,F,35,Mark Williams,WAL,3,18,Ken Doherty,IRL,5,16
-2004,1R,19,Mark Williams,WAL,1,10,Dominic Dale,WAL,u,7
-2004,1R,19,Joe Perry,ENG,16,10,Robert Milkins,ENG,u,7
-2004,1R,19,Matthew Stevens,WAL,9,10,James Wattana,THA,u,7
-2004,1R,19,Paul Hunter,ENG,8,10,John Parrott,ENG,u,7
-2004,1R,19,Lee Walker,WAL,u,10,Stephen Lee,ENG,5,7
-2004,1R,19,David Gray,ENG,12,10,Ali Carter,ENG,u,7
-2004,1R,19,Graeme Dott,SCO,13,10,Mark King,ENG,u,9
-2004,1R,19,John Higgins,SCO,4,10,Ryan Day,WAL,u,9
-2004,1R,19,Ronnie O'Sullivan,ENG,3,10,Stephen Maguire,SCO,u,6
-2004,1R,19,Andy Hicks,ENG,u,10,Quinten Hann,AUS,14,4
-2004,1R,19,Anthony Hamilton,ENG,u,10,Steve Davis,ENG,11,7
-2004,1R,19,Joe Swail,NIR,u,10,Ken Doherty,IRL,6,5
-2004,1R,19,Ian McCulloch,ENG,u,10,Peter Ebdon,ENG,7,8
-2004,1R,19,Alan McManus,SCO,10,10,Chris Small,SCO,u,1
-2004,1R,19,Barry Pinches,ENG,u,10,Jimmy White,ENG,15,8
-2004,1R,19,Stephen Hendry,SCO,2,10,Stuart Pettman,ENG,u,2
-2004,16,25,Joe Perry,ENG,16,13,Mark Williams,WAL,1,11
-2004,16,25,Matthew Stevens,WAL,9,13,Paul Hunter,ENG,8,12
-2004,16,25,David Gray,ENG,12,13,Lee Walker,WAL,u,5
-2004,16,25,Graeme Dott,SCO,13,13,John Higgins,SCO,4,10
-2004,16,25,Ronnie O'Sullivan,ENG,3,13,Andy Hicks,ENG,u,11
-2004,16,25,Anthony Hamilton,ENG,u,13,Joe Swail,NIR,u,11
-2004,16,25,Ian McCulloch,ENG,u,13,Alan McManus,SCO,10,6
-2004,16,25,Stephen Hendry,SCO,2,13,Barry Pinches,ENG,u,12
-2004,QF,25,Matthew Stevens,WAL,9,13,Joe Perry,ENG,16,10
-2004,QF,25,Graeme Dott,SCO,13,13,David Gray,ENG,12,7
-2004,QF,25,Ronnie O'Sullivan,ENG,3,13,Anthony Hamilton,ENG,u,3
-2004,QF,25,Stephen Hendry,SCO,2,13,Ian McCulloch,ENG,u,3
-2004,SF,33,Graeme Dott,SCO,13,17,Matthew Stevens,WAL,9,15
-2004,SF,33,Ronnie O'Sullivan,ENG,3,17,Stephen Hendry,SCO,2,4
-2004,F,35,Ronnie O'Sullivan,ENG,3,18,Graeme Dott,SCO,13,8
-2005,1R,19,Ronnie O'Sullivan,ENG,1,10,Stephen Maguire,SCO,u,9
-2005,1R,19,Ali Carter,ENG,u,10,Marco Fu,HKG,16,4
-2005,1R,19,Stephen Lee,ENG,9,10,Tony Drago,MLT,u,5
-2005,1R,19,Peter Ebdon,ENG,8,10,Quinten Hann,AUS,u,2
-2005,1R,19,John Higgins,SCO,5,10,Mark Selby,ENG,u,5
-2005,1R,19,Shaun Murphy,ENG,u,10,Chris Small,SCO,12,5
-2005,1R,19,Steve Davis,ENG,13,10,Gerard Greene,NIR,u,9
-2005,1R,19,Michael Holt,ENG,u,10,Paul Hunter,ENG,4,8
-2005,1R,19,Stephen Hendry,SCO,3,10,Neil Robertson,AUS,u,7
-2005,1R,19,Anthony Hamilton,ENG,u,10,David Gray,ENG,14,8
-2005,1R,19,Jimmy White,ENG,11,10,Fergal O'Brien,IRL,u,5
-2005,1R,19,Matthew Stevens,WAL,6,10,Andy Hicks,ENG,u,5
-2005,1R,19,Ken Doherty,IRL,7,10,Barry Pinches,ENG,u,5
-2005,1R,19,Alan McManus,SCO,10,10,Drew Henry,SCO,u,9
-2005,1R,19,Ian McCulloch,ENG,u,10,Graeme Dott,SCO,15,9
-2005,1R,19,Mark Williams,WAL,2,10,Robert Milkins,ENG,u,1
-2005,16,25,Ronnie O'Sullivan,ENG,1,13,Ali Carter,ENG,u,7
-2005,16,25,Peter Ebdon,ENG,8,13,Stephen Lee,ENG,9,9
-2005,16,25,Shaun Murphy,ENG,u,13,John Higgins,SCO,5,8
-2005,16,25,Steve Davis,ENG,13,13,Michael Holt,ENG,u,10
-2005,16,25,Stephen Hendry,SCO,3,13,Anthony Hamilton,ENG,u,3
-2005,16,25,Matthew Stevens,WAL,6,13,Jimmy White,ENG,11,5
-2005,16,25,Alan McManus,SCO,10,13,Ken Doherty,IRL,7,11
-2005,16,25,Ian McCulloch,ENG,u,13,Mark Williams,WAL,2,12
-2005,QF,25,Peter Ebdon,ENG,8,13,Ronnie O'Sullivan,ENG,1,11
-2005,QF,25,Shaun Murphy,ENG,u,13,Steve Davis,ENG,13,4
-2005,QF,25,Matthew Stevens,WAL,6,13,Stephen Hendry,SCO,3,11
-2005,QF,25,Ian McCulloch,ENG,u,13,Alan McManus,SCO,10,8
-2005,SF,33,Shaun Murphy,ENG,u,17,Peter Ebdon,ENG,8,12
-2005,SF,33,Matthew Stevens,WAL,6,17,Ian McCulloch,ENG,u,14
-2005,F,35,Shaun Murphy,ENG,u,18,Matthew Stevens,WAL,6,16
-2006,1R,19,Shaun Murphy,ENG,1,10,James Wattana,THA,u,4
-2006,1R,19,Steve Davis,ENG,16,10,Andy Hicks,ENG,u,4
-2006,1R,19,David Gray,ENG,u,10,Jimmy White,ENG,9,5
-2006,1R,19,Peter Ebdon,ENG,8,10,Michael Holt,ENG,u,8
-2006,1R,19,Matthew Stevens,WAL,5,10,Joe Swail,NIR,u,5
-2006,1R,19,Ken Doherty,IRL,12,10,Barry Hawkins,ENG,u,1
-2006,1R,19,Marco Fu,HKG,u,10,Alan McManus,SCO,13,3
-2006,1R,19,Stephen Maguire,SCO,4,10,Mark King,ENG,u,6
-2006,1R,19,Nigel Bond,ENG,u,10,Stephen Hendry,SCO,3,9
-2006,1R,19,Graeme Dott,SCO,14,10,John Parrott,ENG,u,3
-2006,1R,19,Stephen Lee,ENG,11,10,Ali Carter,ENG,u,8
-2006,1R,19,Neil Robertson,AUS,u,10,Paul Hunter,ENG,6,5
-2006,1R,19,Mark Selby,ENG,u,10,John Higgins,SCO,7,4
-2006,1R,19,Mark Williams,WAL,10,10,Anthony Hamilton,ENG,u,1
-2006,1R,19,Ryan Day,WAL,u,10,Joe Perry,ENG,15,3
-2006,1R,19,Ronnie O'Sullivan,ENG,2,10,Dave Harold,ENG,u,4
-2006,16,25,Shaun Murphy,ENG,1,13,Steve Davis,ENG,16,7
-2006,16,25,Peter Ebdon,ENG,8,13,David Gray,ENG,u,2
-2006,16,25,Ken Doherty,IRL,12,13,Matthew Stevens,WAL,5,8
-2006,16,25,Marco Fu,HKG,u,13,Stephen Maguire,SCO,4,4
-2006,16,25,Graeme Dott,SCO,14,13,Nigel Bond,ENG,u,9
-2006,16,25,Neil Robertson,AUS,u,13,Stephen Lee,ENG,11,9
-2006,16,25,Mark Williams,WAL,10,13,Mark Selby,ENG,u,8
-2006,16,25,Ronnie O'Sullivan,ENG,2,13,Ryan Day,WAL,u,10
-2006,QF,25,Peter Ebdon,ENG,8,13,Shaun Murphy,ENG,1,7
-2006,QF,25,Marco Fu,HKG,u,13,Ken Doherty,IRL,12,10
-2006,QF,25,Graeme Dott,SCO,14,13,Neil Robertson,AUS,u,12
-2006,QF,25,Ronnie O'Sullivan,ENG,2,13,Mark Williams,WAL,10,11
-2006,SF,33,Peter Ebdon,ENG,8,17,Marco Fu,HKG,u,16
-2006,SF,33,Graeme Dott,SCO,14,17,Ronnie O'Sullivan,ENG,2,11
-2006,F,35,Graeme Dott,SCO,14,18,Peter Ebdon,ENG,8,14
-2007,1R,19,Ian McCulloch,ENG,u,10,Graeme Dott,SCO,1,7
-2007,1R,19,Anthony Hamilton,ENG,16,10,Marco Fu,HKG,u,3
-2007,1R,19,Stephen Maguire,SCO,9,10,Joe Perry,ENG,u,3
-2007,1R,19,Joe Swail,NIR,u,10,Mark Williams,WAL,8,9
-2007,1R,19,John Higgins,SCO,5,10,Michael Holt,ENG,u,4
-2007,1R,19,Fergal O'Brien,IRL,u,10,Barry Hawkins,ENG,12,9
-2007,1R,19,Neil Robertson,AUS,13,10,Ryan Day,WAL,u,5
-2007,1R,19,Ronnie O'Sullivan,ENG,4,10,Ding Junhui,CHN,u,2
-2007,1R,19,Mark Allen,NIR,u,10,Ken Doherty,IRL,3,7
-2007,1R,19,Matthew Stevens,WAL,14,10,Joe Delaney,IRL,u,2
-2007,1R,19,John Parrott,ENG,u,10,Steve Davis,ENG,11,9
-2007,1R,19,Shaun Murphy,ENG,6,10,Judd Trump,ENG,u,6
-2007,1R,19,Peter Ebdon,ENG,7,10,Nigel Bond,ENG,u,7
-2007,1R,19,Mark Selby,ENG,u,10,Stephen Lee,ENG,10,7
-2007,1R,19,Ali Carter,ENG,15,10,Andy Hicks,ENG,u,4
-2007,1R,19,Stephen Hendry,SCO,2,10,David Gilbert,ENG,u,7
-2007,16,25,Anthony Hamilton,ENG,16,13,Ian McCulloch,ENG,u,8
-2007,16,25,Stephen Maguire,SCO,9,13,Joe Swail,NIR,u,8
-2007,16,25,John Higgins,SCO,5,13,Fergal O'Brien,IRL,u,4
-2007,16,25,Ronnie O'Sullivan,ENG,4,13,Neil Robertson,AUS,13,10
-2007,16,25,Matthew Stevens,WAL,14,13,Mark Allen,NIR,u,9
-2007,16,25,Shaun Murphy,ENG,6,13,John Parrott,ENG,u,8
-2007,16,25,Mark Selby,ENG,u,13,Peter Ebdon,ENG,7,8
-2007,16,25,Ali Carter,ENG,15,13,Stephen Hendry,SCO,2,6
-2007,QF,25,Stephen Maguire,SCO,9,13,Anthony Hamilton,ENG,16,7
-2007,QF,25,John Higgins,SCO,5,13,Ronnie O'Sullivan,ENG,4,9
-2007,QF,25,Shaun Murphy,ENG,6,13,Matthew Stevens,WAL,14,12
-2007,QF,25,Mark Selby,ENG,u,13,Ali Carter,ENG,15,12
-2007,SF,33,John Higgins,SCO,5,17,Stephen Maguire,SCO,9,15
-2007,SF,33,Mark Selby,ENG,u,17,Shaun Murphy,ENG,6,16
-2007,F,35,John Higgins,SCO,5,18,Mark Selby,ENG,u,13
-2008,1R,19,John Higgins,SCO,1,10,Matthew Stevens,WAL,u,5
-2008,1R,19,Ryan Day,WAL,16,10,Michael Judge,IRL,u,6
-2008,1R,19,Ding Junhui,CHN,9,10,Marco Fu,HKG,u,9
-2008,1R,19,Stephen Hendry,SCO,8,10,Mark Allen,NIR,u,9
-2008,1R,19,Ronnie O'Sullivan,ENG,5,10,Liu Chang,CHN,u,5
-2008,1R,19,Mark Williams,WAL,12,10,Mark Davis,ENG,u,3
-2008,1R,19,Joe Swail,NIR,u,10,Stephen Lee,ENG,13,4
-2008,1R,19,Liang Wenbo,CHN,u,10,Ken Doherty,IRL,4,5
-2008,1R,19,Shaun Murphy,ENG,3,10,Dave Harold,ENG,u,3
-2008,1R,19,Ali Carter,ENG,14,10,Barry Hawkins,ENG,u,9
-2008,1R,19,Mark King,ENG,u,10,Mark Selby,ENG,11,8
-2008,1R,19,Peter Ebdon,ENG,6,10,Jamie Cope,ENG,u,9
-2008,1R,19,Neil Robertson,AUS,7,10,Nigel Bond,ENG,u,4
-2008,1R,19,Stephen Maguire,SCO,10,10,Anthony Hamilton,ENG,u,3
-2008,1R,19,Stuart Bingham,ENG,u,10,Steve Davis,ENG,15,8
-2008,1R,19,Joe Perry,ENG,u,10,Graeme Dott,SCO,2,7
-2008,16,25,Ryan Day,WAL,16,13,John Higgins,SCO,1,9
-2008,16,25,Stephen Hendry,SCO,8,13,Ding Junhui,CHN,9,7
-2008,16,25,Ronnie O'Sullivan,ENG,5,13,Mark Williams,WAL,12,7
-2008,16,25,Liang Wenbo,CHN,u,13,Joe Swail,NIR,u,12
-2008,16,25,Ali Carter,ENG,14,13,Shaun Murphy,ENG,3,4
-2008,16,25,Peter Ebdon,ENG,6,13,Mark King,ENG,u,9
-2008,16,25,Stephen Maguire,SCO,10,13,Neil Robertson,AUS,7,7
-2008,16,25,Joe Perry,ENG,u,13,Stuart Bingham,ENG,u,9
-2008,QF,25,Stephen Hendry,SCO,8,13,Ryan Day,WAL,16,7
-2008,QF,25,Ronnie O'Sullivan,ENG,5,13,Liang Wenbo,CHN,u,7
-2008,QF,25,Ali Carter,ENG,14,13,Peter Ebdon,ENG,6,9
-2008,QF,25,Joe Perry,ENG,u,13,Stephen Maguire,SCO,10,12
-2008,SF,33,Ronnie O'Sullivan,ENG,5,17,Stephen Hendry,SCO,8,6
-2008,SF,33,Ali Carter,ENG,14,17,Joe Perry,ENG,u,15
-2008,F,35,Ronnie O'Sullivan,ENG,5,18,Ali Carter,ENG,14,8
-2009,1R,19,Ronnie O'Sullivan,ENG,1,10,Stuart Bingham,ENG,u,5
-2009,1R,19,Mark Allen,NIR,16,10,Martin Gould,ENG,u,6
-2009,1R,19,Nigel Bond,ENG,u,10,Peter Ebdon,ENG,9,5
-2009,1R,19,Ryan Day,WAL,8,10,Stephen Lee,ENG,u,4
-2009,1R,19,John Higgins,SCO,5,10,Michael Holt,ENG,u,5
-2009,1R,19,Jamie Cope,ENG,u,10,Joe Perry,ENG,12,6
-2009,1R,19,Graeme Dott,SCO,13,10,Barry Hawkins,ENG,u,8
-2009,1R,19,Mark Selby,ENG,4,10,Ricky Walden,ENG,u,6
-2009,1R,19,Shaun Murphy,ENG,3,10,Andrew Higginson,ENG,u,8
-2009,1R,19,Marco Fu,HKG,14,10,Joe Swail,NIR,u,4
-2009,1R,19,Ding Junhui,CHN,11,10,Liang Wenbo,CHN,u,8
-2009,1R,19,Stephen Hendry,SCO,6,10,Mark Williams,WAL,u,7
-2009,1R,19,Ali Carter,ENG,7,10,Gerard Greene,NIR,u,5
-2009,1R,19,Neil Robertson,AUS,10,10,Steve Davis,ENG,u,2
-2009,1R,19,Mark King,ENG,15,10,Rory McLeod,ENG,u,6
-2009,1R,19,Stephen Maguire,SCO,2,10,Jamie Burnett,SCO,u,5
-2009,16,25,Mark Allen,NIR,16,13,Ronnie O'Sullivan,ENG,1,11
-2009,16,25,Ryan Day,WAL,8,13,Nigel Bond,ENG,u,5
-2009,16,25,John Higgins,SCO,5,13,Jamie Cope,ENG,u,12
-2009,16,25,Mark Selby,ENG,4,13,Graeme Dott,SCO,13,10
-2009,16,25,Shaun Murphy,ENG,3,13,Marco Fu,HKG,14,3
-2009,16,25,Stephen Hendry,SCO,6,13,Ding Junhui,CHN,11,10
-2009,16,25,Neil Robertson,AUS,10,13,Ali Carter,ENG,7,8
-2009,16,25,Stephen Maguire,SCO,2,13,Mark King,ENG,15,6
-2009,QF,25,Mark Allen,NIR,16,13,Ryan Day,WAL,8,11
-2009,QF,25,John Higgins,SCO,5,13,Mark Selby,ENG,4,12
-2009,QF,25,Shaun Murphy,ENG,3,13,Stephen Hendry,SCO,6,11
-2009,QF,25,Neil Robertson,AUS,10,13,Stephen Maguire,SCO,2,8
-2009,SF,33,John Higgins,SCO,5,17,Mark Allen,NIR,16,13
-2009,SF,33,Shaun Murphy,ENG,3,17,Neil Robertson,AUS,10,14
-2009,F,35,John Higgins,SCO,5,18,Shaun Murphy,ENG,3,9
-2010,1R,19,John Higgins,SCO,1,10,Barry Hawkins,ENG,u,6
-2010,1R,19,Steve Davis,ENG,u,10,Mark King,ENG,16,9
-2010,1R,19,Neil Robertson,AUS,9,10,Fergal O'Brien,IRL,u,5
-2010,1R,19,Martin Gould,ENG,u,10,Marco Fu,HKG,8,9
-2010,1R,19,Ali Carter,ENG,5,10,Jamie Cope,ENG,u,4
-2010,1R,19,Joe Perry,ENG,12,10,Michael Holt,ENG,u,4
-2010,1R,19,Ding Junhui,CHN,13,10,Stuart Pettman,ENG,u,1
-2010,1R,19,Shaun Murphy,ENG,4,10,Gerard Greene,NIR,u,7
-2010,1R,19,Stephen Maguire,SCO,3,10,Stephen Lee,ENG,u,4
-2010,1R,19,Graeme Dott,SCO,u,10,Peter Ebdon,ENG,14,5
-2010,1R,19,Mark Allen,NIR,11,10,Tom Ford,ENG,u,4
-2010,1R,19,Mark Davis,ENG,u,10,Ryan Day,WAL,6,8
-2010,1R,19,Mark Selby,ENG,7,10,Ken Doherty,IRL,u,4
-2010,1R,19,Stephen Hendry,SCO,10,10,Zhang Anda,CHN,u,9
-2010,1R,19,Mark Williams,WAL,15,10,Marcus Campbell,SCO,u,5
-2010,1R,19,Ronnie O'Sullivan,ENG,2,10,Liang Wenbo,CHN,u,7
-2010,16,25,Steve Davis,ENG,u,13,John Higgins,SCO,1,11
-2010,16,25,Neil Robertson,AUS,9,13,Martin Gould,ENG,u,12
-2010,16,25,Ali Carter,ENG,5,13,Joe Perry,ENG,12,11
-2010,16,25,Shaun Murphy,ENG,4,13,Ding Junhui,CHN,13,10
-2010,16,25,Graeme Dott,SCO,u,13,Stephen Maguire,SCO,3,6
-2010,16,25,Mark Allen,NIR,11,13,Mark Davis,ENG,u,5
-2010,16,25,Mark Selby,ENG,7,13,Stephen Hendry,SCO,10,5
-2010,16,25,Ronnie O'Sullivan,ENG,2,13,Mark Williams,WAL,15,10
-2010,QF,25,Neil Robertson,AUS,9,13,Steve Davis,ENG,u,5
-2010,QF,25,Ali Carter,ENG,5,13,Shaun Murphy,ENG,4,12
-2010,QF,25,Graeme Dott,SCO,u,13,Mark Allen,NIR,11,12
-2010,QF,25,Mark Selby,ENG,7,13,Ronnie O'Sullivan,ENG,2,11
-2010,SF,33,Neil Robertson,AUS,9,17,Ali Carter,ENG,5,12
-2010,SF,33,Graeme Dott,SCO,u,17,Mark Selby,ENG,7,14
-2010,F,35,Neil Robertson,AUS,9,18,Graeme Dott,SCO,u,13
-2011,1R,19,Judd Trump,ENG,u,10,Neil Robertson,AUS,1,8
-2011,1R,19,Martin Gould,ENG,u,10,Marco Fu,HKG,16,8
-2011,1R,19,Graeme Dott,SCO,9,10,Mark King,ENG,u,7
-2011,1R,19,Ali Carter,ENG,8,10,Dave Harold,ENG,u,3
-2011,1R,19,Ding Junhui,CHN,5,10,Jamie Burnett,SCO,u,2
-2011,1R,19,Stuart Bingham,ENG,u,10,Peter Ebdon,ENG,12,8
-2011,1R,19,Stephen Hendry,SCO,13,10,Joe Perry,ENG,u,9
-2011,1R,19,Mark Selby,ENG,4,10,Jimmy Robertson,ENG,u,1
-2011,1R,19,Mark Williams,WAL,3,10,Ryan Day,WAL,u,5
-2011,1R,19,Jamie Cope,ENG,14,10,Andrew Pagett,WAL,u,7
-2011,1R,19,Mark Allen,NIR,11,10,Matthew Stevens,WAL,u,9
-2011,1R,19,Barry Hawkins,ENG,u,10,Stephen Maguire,SCO,6,9
-2011,1R,19,Shaun Murphy,ENG,7,10,Marcus Campbell,SCO,u,1
-2011,1R,19,Ronnie O'Sullivan,ENG,10,10,Dominic Dale,WAL,u,2
-2011,1R,19,Rory McLeod,ENG,u,10,Ricky Walden,ENG,15,6
-2011,1R,19,John Higgins,SCO,2,10,Stephen Lee,ENG,u,5
-2011,16,25,Judd Trump,ENG,u,13,Martin Gould,ENG,u,6
-2011,16,25,Graeme Dott,SCO,9,13,Ali Carter,ENG,8,11
-2011,16,25,Ding Junhui,CHN,5,13,Stuart Bingham,ENG,u,12
-2011,16,25,Mark Selby,ENG,4,13,Stephen Hendry,SCO,13,4
-2011,16,25,Mark Williams,WAL,3,13,Jamie Cope,ENG,14,4
-2011,16,25,Mark Allen,NIR,11,13,Barry Hawkins,ENG,u,12
-2011,16,25,Ronnie O'Sullivan,ENG,10,13,Shaun Murphy,ENG,7,10
-2011,16,25,John Higgins,SCO,2,13,Rory McLeod,ENG,u,7
-2011,QF,25,Judd Trump,ENG,u,13,Graeme Dott,SCO,9,5
-2011,QF,25,Ding Junhui,CHN,5,13,Mark Selby,ENG,4,10
-2011,QF,25,Mark Williams,WAL,3,13,Mark Allen,NIR,11,5
-2011,QF,25,John Higgins,SCO,2,13,Ronnie O'Sullivan,ENG,10,10
-2011,SF,33,Judd Trump,ENG,u,17,Ding Junhui,CHN,5,15
-2011,SF,33,John Higgins,SCO,2,17,Mark Williams,WAL,3,14
-2011,F,35,John Higgins,SCO,2,18,Judd Trump,ENG,u,15
-2012,1R,19,John Higgins,SCO,1,10,Cao Yupeng,CHN,u,9
-2012,1R,19,Stephen Hendry,SCO,u,10,Stuart Bingham,ENG,16,4
-2012,1R,19,Joe Perry,ENG,u,10,Graeme Dott,SCO,9,1
-2012,1R,19,Stephen Maguire,SCO,8,10,Luca Brecel,BEL,u,5
-2012,1R,19,Jamie Jones,WAL,u,10,Shaun Murphy,ENG,5,8
-2012,1R,19,Andrew Higginson,ENG,u,10,Stephen Lee,ENG,12,6
-2012,1R,19,Ali Carter,ENG,13,10,Mark Davis,ENG,u,2
-2012,1R,19,Judd Trump,ENG,4,10,Dominic Dale,WAL,u,7
-2012,1R,19,Mark Williams,WAL,3,10,Liu Chang,CHN,u,6
-2012,1R,19,Ronnie O'Sullivan,ENG,14,10,Peter Ebdon,ENG,u,4
-2012,1R,19,David Gilbert,ENG,u,10,Martin Gould,ENG,11,8
-2012,1R,19,Neil Robertson,AUS,6,10,Ken Doherty,IRL,u,4
-2012,1R,19,Ryan Day,WAL,u,10,Ding Junhui,CHN,7,9
-2012,1R,19,Cao Yupeng,CHN,u,10,Mark Allen,NIR,10,6
-2012,1R,19,Matthew Stevens,WAL,15,10,Marco Fu,HKG,u,3
-2012,1R,19,Barry Hawkins,ENG,u,10,Mark Selby,ENG,2,3
-2012,16,25,Stephen Hendry,SCO,u,13,John Higgins,SCO,1,4
-2012,16,25,Stephen Maguire,SCO,8,13,Joe Perry,ENG,u,7
-2012,16,25,Jamie Jones,WAL,u,13,Andrew Higginson,ENG,u,10
-2012,16,25,Ali Carter,ENG,13,13,Judd Trump,ENG,4,12
-2012,16,25,Ronnie O'Sullivan,ENG,14,13,Mark Williams,WAL,3,6
-2012,16,25,Neil Robertson,AUS,6,13,David Gilbert,ENG,u,9
-2012,16,25,Ryan Day,WAL,u,13,Cao Yupeng,CHN,u,7
-2012,16,25,Matthew Stevens,WAL,15,13,Barry Hawkins,ENG,u,11
-2012,QF,25,Stephen Maguire,SCO,8,13,Stephen Hendry,SCO,u,2
-2012,QF,25,Ali Carter,ENG,13,13,Jamie Jones,WAL,u,11
-2012,QF,25,Ronnie O'Sullivan,ENG,14,13,Neil Robertson,AUS,6,10
-2012,QF,25,Matthew Stevens,WAL,15,13,Ryan Day,WAL,u,5
-2012,SF,33,Ali Carter,ENG,13,17,Stephen Maguire,SCO,8,12
-2012,SF,33,Ronnie O'Sullivan,ENG,14,17,Matthew Stevens,WAL,15,10
-2012,F,35,Ronnie O'Sullivan,ENG,14,18,Ali Carter,ENG,13,11
-2013,1R,19,Ronnie O'Sullivan,ENG,1,10,Marcus Campbell,SCO,u,4
-2013,1R,19,Ali Carter,ENG,16,10,Ben Woollaston,ENG,u,4
-2013,1R,19,Stuart Bingham,ENG,9,10,Sam Baird,ENG,u,2
-2013,1R,19,Mark Davis,ENG,u,10,John Higgins,SCO,8,6
-2013,1R,19,Shaun Murphy,ENG,5,10,Martin Gould,ENG,u,5
-2013,1R,19,Graeme Dott,SCO,12,10,Peter Ebdon,ENG,u,6
-2013,1R,19,Marco Fu,HKG,u,10,Matthew Stevens,WAL,13,7
-2013,1R,19,Judd Trump,ENG,4,10,Dominic Dale,WAL,u,5
-2013,1R,19,Robert Milkins,ENG,u,10,Neil Robertson,AUS,3,8
-2013,1R,19,Ricky Walden,ENG,14,10,Michael Holt,ENG,u,1
-2013,1R,19,Michael White,WAL,u,10,Mark Williams,WAL,11,6
-2013,1R,19,Dechawat Poomjaeng,THA,u,10,Stephen Maguire,SCO,6,9
-2013,1R,19,Mark King,ENG,u,10,Mark Allen,NIR,7,8
-2013,1R,19,Ding Junhui,CHN,10,10,Alan McManus,SCO,u,5
-2013,1R,19,Barry Hawkins,ENG,15,10,Jack Lisowski,ENG,u,3
-2013,1R,19,Mark Selby,ENG,2,10,Matthew Selt,ENG,u,4
-2013,16,25,Ronnie O'Sullivan,ENG,1,13,Ali Carter,ENG,16,8
-2013,16,25,Stuart Bingham,ENG,9,13,Mark Davis,ENG,u,10
-2013,16,25,Shaun Murphy,ENG,5,13,Graeme Dott,SCO,12,11
-2013,16,25,Judd Trump,ENG,4,13,Marco Fu,HKG,u,7
-2013,16,25,Ricky Walden,ENG,14,13,Robert Milkins,ENG,u,11
-2013,16,25,Michael White,WAL,u,13,Dechawat Poomjaeng,THA,u,3
-2013,16,25,Ding Junhui,CHN,10,13,Mark King,ENG,u,9
-2013,16,25,Barry Hawkins,ENG,15,13,Mark Selby,ENG,2,10
-2013,QF,25,Ronnie O'Sullivan,ENG,1,13,Stuart Bingham,ENG,9,4
-2013,QF,25,Judd Trump,ENG,4,13,Shaun Murphy,ENG,5,12
-2013,QF,25,Ricky Walden,ENG,14,13,Michael White,WAL,u,6
-2013,QF,25,Barry Hawkins,ENG,15,13,Ding Junhui,CHN,10,7
-2013,SF,33,Ronnie O'Sullivan,ENG,1,17,Judd Trump,ENG,4,11
-2013,SF,33,Barry Hawkins,ENG,15,17,Ricky Walden,ENG,14,14
-2013,F,35,Ronnie O'Sullivan,ENG,1,18,Barry Hawkins,ENG,15,12
-2014,1R,19,Ronnie O'Sullivan,ENG,1,10,Robin Hull,FIN,u,4
-2014,1R,19,Joe Perry,ENG,16,10,Jamie Burnett,SCO,u,7
-2014,1R,19,Shaun Murphy,ENG,9,10,Jamie Cope,ENG,u,9
-2014,1R,19,Marco Fu,HKG,8,10,Martin Gould,ENG,u,7
-2014,1R,19,Barry Hawkins,ENG,5,10,David Gilbert,ENG,u,4
-2014,1R,19,Ricky Walden,ENG,12,10,Kyren Wilson,ENG,u,7
-2014,1R,19,Dominic Dale,WAL,u,10,Mark Davis,ENG,13,5
-2014,1R,19,Michael Wasley,ENG,u,10,Ding Junhui,CHN,4,9
-2014,1R,19,Mark Selby,ENG,3,10,Michael White,WAL,u,9
-2014,1R,19,Ali Carter,ENG,14,10,Xiao Guodong,CHN,u,7
-2014,1R,19,Alan McManus,SCO,u,10,John Higgins,SCO,11,7
-2014,1R,19,Ken Doherty,IRL,u,10,Stuart Bingham,ENG,6,5
-2014,1R,19,Judd Trump,ENG,7,10,Tom Ford,ENG,u,8
-2014,1R,19,Ryan Day,WAL,u,10,Stephen Maguire,SCO,10,9
-2014,1R,19,Mark Allen,NIR,15,10,Michael Holt,ENG,u,4
-2014,1R,19,Neil Robertson,AUS,2,10,Robbie Williams,ENG,u,2
-2014,16,25,Ronnie O'Sullivan,ENG,1,13,Joe Perry,ENG,16,11
-2014,16,25,Shaun Murphy,ENG,9,13,Marco Fu,HKG,8,8
-2014,16,25,Barry Hawkins,ENG,5,13,Ricky Walden,ENG,12,11
-2014,16,25,Dominic Dale,WAL,u,13,Michael Wasley,ENG,u,4
-2014,16,25,Mark Selby,ENG,3,13,Ali Carter,ENG,14,9
-2014,16,25,Alan McManus,SCO,u,13,Ken Doherty,IRL,u,8
-2014,16,25,Judd Trump,ENG,7,13,Ryan Day,WAL,u,7
-2014,16,25,Neil Robertson,AUS,2,13,Mark Allen,NIR,15,7
-2014,QF,25,Ronnie O'Sullivan,ENG,1,13,Shaun Murphy,ENG,9,3
-2014,QF,25,Barry Hawkins,ENG,5,13,Dominic Dale,WAL,u,12
-2014,QF,25,Mark Selby,ENG,3,13,Alan McManus,SCO,u,5
-2014,QF,25,Neil Robertson,AUS,2,13,Judd Trump,ENG,7,11
-2014,SF,33,Ronnie O'Sullivan,ENG,1,17,Barry Hawkins,ENG,5,7
-2014,SF,33,Mark Selby,ENG,3,17,Neil Robertson,AUS,2,15
-2014,F,35,Mark Selby,ENG,3,18,Ronnie O'Sullivan,ENG,1,14
-2015,1R,19,Mark Selby,ENG,1,10,Kurt Maflin,NOR,u,9
-2015,1R,19,Anthony McGill,SCO,u,10,Stephen Maguire,SCO,16,9
-2015,1R,19,Joe Perry,ENG,9,10,Zhang Anda,CHN,u,4
-2015,1R,19,Shaun Murphy,ENG,8,10,Robin Hull,FIN,u,3
-2015,1R,19,Barry Hawkins,ENG,5,10,Matthew Selt,ENG,u,9
-2015,1R,19,Mark Allen,NIR,12,10,Ryan Day,WAL,u,3
-2015,1R,19,Ali Carter,ENG,13,10,Alan McManus,SCO,u,5
-2015,1R,19,Neil Robertson,AUS,4,10,Jamie Jones,WAL,u,2
-2015,1R,19,Ding Junhui,CHN,3,10,Mark Davis,ENG,u,7
-2015,1R,19,John Higgins,SCO,14,10,Robert Milkins,ENG,u,5
-2015,1R,19,Marco Fu,HKG,11,10,Jimmy Robertson,ENG,u,6
-2015,1R,19,Judd Trump,ENG,6,10,Stuart Carrington,ENG,u,6
-2015,1R,19,Graeme Dott,SCO,u,10,Ricky Walden,ENG,7,8
-2015,1R,19,Stuart Bingham,ENG,10,10,Robbie Williams,ENG,u,7
-2015,1R,19,Matthew Stevens,WAL,u,10,Mark Williams,WAL,15,2
-2015,1R,19,Ronnie O'Sullivan,ENG,2,10,Craig Steadman,ENG,u,3
-2015,16,25,Anthony McGill,SCO,u,13,Mark Selby,ENG,1,9
-2015,16,25,Shaun Murphy,ENG,8,13,Joe Perry,ENG,9,5
-2015,16,25,Barry Hawkins,ENG,5,13,Mark Allen,NIR,12,11
-2015,16,25,Neil Robertson,AUS,4,13,Ali Carter,ENG,13,5
-2015,16,25,Ding Junhui,CHN,3,13,John Higgins,SCO,14,9
-2015,16,25,Judd Trump,ENG,6,13,Marco Fu,HKG,11,8
-2015,16,25,Stuart Bingham,ENG,10,13,Graeme Dott,SCO,u,5
-2015,16,25,Ronnie O'Sullivan,ENG,2,13,Matthew Stevens,WAL,u,5
-2015,QF,25,Shaun Murphy,ENG,8,13,Anthony McGill,SCO,u,8
-2015,QF,25,Barry Hawkins,ENG,5,13,Neil Robertson,AUS,4,12
-2015,QF,25,Judd Trump,ENG,6,13,Ding Junhui,CHN,3,4
-2015,QF,25,Stuart Bingham,ENG,10,13,Ronnie O'Sullivan,ENG,2,9
-2015,SF,33,Shaun Murphy,ENG,8,17,Barry Hawkins,ENG,5,9
-2015,SF,33,Stuart Bingham,ENG,10,17,Judd Trump,ENG,6,16
-2015,F,35,Stuart Bingham,ENG,10,18,Shaun Murphy,ENG,8,15
-2016,1R,19,Ali Carter,ENG,u,10,Stuart Bingham,ENG,1,9
-2016,1R,19,Alan McManus,SCO,u,10,Stephen Maguire,SCO,16,7
-2016,1R,19,Ricky Walden,ENG,9,10,Robbie Williams,ENG,u,8
-2016,1R,19,John Higgins,SCO,8,10,Ryan Day,WAL,u,3
-2016,1R,19,Judd Trump,ENG,5,10,Liang Wenbo,CHN,u,8
-2016,1R,19,Ding Junhui,CHN,u,10,Martin Gould,ENG,12,8
-2016,1R,19,Mark Williams,WAL,13,10,Graeme Dott,SCO,u,4
-2016,1R,19,Michael Holt,ENG,u,10,Neil Robertson,AUS,4,6
-2016,1R,19,Anthony McGill,SCO,u,10,Shaun Murphy,ENG,3,8
-2016,1R,19,Marco Fu,HKG,14,10,Peter Ebdon,ENG,u,2
-2016,1R,19,Barry Hawkins,ENG,11,10,Zhang Anda,CHN,u,5
-2016,1R,19,Ronnie O'Sullivan,ENG,6,10,David Gilbert,ENG,u,7
-2016,1R,19,Mark Allen,NIR,7,10,Mitchell Mann,ENG,u,3
-2016,1R,19,Kyren Wilson,ENG,u,10,Joe Perry,ENG,10,9
-2016,1R,19,Sam Baird,ENG,u,10,Michael White,WAL,15,7
-2016,1R,19,Mark Selby,ENG,2,10,Robert Milkins,ENG,u,6
-2016,16,25,Alan McManus,SCO,u,13,Ali Carter,ENG,u,11
-2016,16,25,John Higgins,SCO,8,13,Ricky Walden,ENG,9,8
-2016,16,25,Ding Junhui,CHN,u,13,Judd Trump,ENG,5,10
-2016,16,25,Mark Williams,WAL,13,13,Michael Holt,ENG,u,8
-2016,16,25,Marco Fu,HKG,14,13,Anthony McGill,SCO,u,9
-2016,16,25,Barry Hawkins,ENG,11,13,Ronnie O'Sullivan,ENG,6,12
-2016,16,25,Kyren Wilson,ENG,u,13,Mark Allen,NIR,7,9
-2016,16,25,Mark Selby,ENG,2,13,Sam Baird,ENG,u,11
-2016,QF,25,Alan McManus,SCO,u,13,John Higgins,SCO,8,11
-2016,QF,25,Ding Junhui,CHN,u,13,Mark Williams,WAL,13,3
-2016,QF,25,Marco Fu,HKG,14,13,Barry Hawkins,ENG,11,11
-2016,QF,25,Mark Selby,ENG,2,13,Kyren Wilson,ENG,u,8
-2016,SF,33,Ding Junhui,CHN,u,17,Alan McManus,SCO,u,11
-2016,SF,33,Mark Selby,ENG,2,17,Marco Fu,HKG,14,15
-2016,F,35,Mark Selby,ENG,2,18,Ding Junhui,CHN,u,14
-2017,1R,19,Mark Selby,ENG,1,10,Fergal O'Brien,IRL,u,2
-2017,1R,19,Xiao Guodong,CHN,u,10,Ryan Day,WAL,16,4
-2017,1R,19,Neil Robertson,AUS,9,10,Noppon Saengkham,THA,u,4
-2017,1R,19,Marco Fu,HKG,8,10,Luca Brecel,BEL,u,9
-2017,1R,19,Shaun Murphy,ENG,5,10,Yan Bingtao,CHN,u,8
-2017,1R,19,Ronnie O'Sullivan,ENG,12,10,Gary Wilson,ENG,u,8
-2017,1R,19,Liang Wenbo,CHN,13,10,Stuart Carrington,ENG,u,7
-2017,1R,19,Ding Junhui,CHN,4,10,Zhou Yuelong,CHN,u,5
-2017,1R,19,Stuart Bingham,ENG,3,10,Peter Ebdon,ENG,u,5
-2017,1R,19,Kyren Wilson,ENG,14,10,David Grace,ENG,u,6
-2017,1R,19,Mark Allen,NIR,11,10,Jimmy Robertson,ENG,u,8
-2017,1R,19,John Higgins,SCO,6,10,Martin Gould,ENG,u,6
-2017,1R,19,Barry Hawkins,ENG,7,10,Tom Ford,ENG,u,3
-2017,1R,19,Graeme Dott,SCO,u,10,Ali Carter,ENG,10,7
-2017,1R,19,Stephen Maguire,SCO,u,10,Anthony McGill,SCO,15,2
-2017,1R,19,Rory McLeod,ENG,u,10,Judd Trump,ENG,2,8
-2017,16,25,Mark Selby,ENG,1,13,Xiao Guodong,CHN,u,6
-2017,16,25,Marco Fu,HKG,8,13,Neil Robertson,AUS,9,11
-2017,16,25,Ronnie O'Sullivan,ENG,12,13,Shaun Murphy,ENG,5,7
-2017,16,25,Ding Junhui,CHN,4,13,Liang Wenbo,CHN,13,12
-2017,16,25,Kyren Wilson,ENG,14,13,Stuart Bingham,ENG,3,10
-2017,16,25,John Higgins,SCO,6,13,Mark Allen,NIR,11,9
-2017,16,25,Barry Hawkins,ENG,7,13,Graeme Dott,SCO,u,6
-2017,16,25,Stephen Maguire,SCO,u,13,Rory McLeod,ENG,u,3
-2017,QF,25,Mark Selby,ENG,1,13,Marco Fu,HKG,8,3
-2017,QF,25,Ding Junhui,CHN,4,13,Ronnie O'Sullivan,ENG,12,10
-2017,QF,25,John Higgins,SCO,6,13,Kyren Wilson,ENG,14,6
-2017,QF,25,Barry Hawkins,ENG,7,13,Stephen Maguire,SCO,u,9
-2017,SF,33,Mark Selby,ENG,1,17,Ding Junhui,CHN,4,15
-2017,SF,33,John Higgins,SCO,6,17,Barry Hawkins,ENG,7,8
-2017,F,35,Mark Selby,ENG,1,18,John Higgins,SCO,6,15
+year,round,round_code,best of,winner,winner_nat,winner_seed,winner_score,loser,loser_nat,loser_seed,loser_score
+1977,Last 16,L16,25,Ray Reardon,WAL,1,13,Patsy Fagan,IRL,u,7
+1977,Last 16,L16,25,John Spencer,ENG,8,13,John Virgo,ENG,u,9
+1977,Last 16,L16,25,Graham Miles,ENG,5,13,Willie Thorne,ENG,u,4
+1977,Last 16,L16,25,John Pulman,ENG,u,13,Fred Davis,ENG,4,12
+1977,Last 16,L16,25,Eddie Charlton,AUS,3,13,David Taylor,ENG,u,5
+1977,Last 16,L16,25,Cliff Thorburn,CAN,u,13,Rex Williams,ENG,6,6
+1977,Last 16,L16,25,Dennis Taylor,NIR,u,13,Perrie Mans,RSA,7,11
+1977,Last 16,L16,25,Doug Mountjoy,WAL,u,13,Alex Higgins,NIR,2,12
+1977,Quarter-Finals,QF,25,John Spencer,ENG,8,13,Ray Reardon,WAL,1,6
+1977,Quarter-Finals,QF,25,John Pulman,ENG,u,13,Graham Miles,ENG,5,10
+1977,Quarter-Finals,QF,25,Cliff Thorburn,CAN,u,13,Eddie Charlton,AUS,3,12
+1977,Quarter-Finals,QF,25,Dennis Taylor,NIR,u,13,Doug Mountjoy,WAL,u,11
+1977,Semi-Finals,SF,35,John Spencer,ENG,8,18,John Pulman,ENG,u,16
+1977,Semi-Finals,SF,35,Cliff Thorburn,CAN,u,18,Dennis Taylor,NIR,u,16
+1977,The Final,FIN,49,John Spencer,ENG,8,25,Cliff Thorburn,CAN,u,21
+1978,Last 16,L16,25,Perrie Mans,RSA,u,13,John Spencer,ENG,1,8
+1978,Last 16,L16,25,Graham Miles,ENG,8,13,David Taylor,ENG,u,10
+1978,Last 16,L16,25,Patsy Fagan,IRL,u,13,Alex Higgins,NIR,5,12
+1978,Last 16,L16,25,Fred Davis,ENG,u,13,Dennis Taylor,NIR,4,9
+1978,Last 16,L16,25,Eddie Charlton,AUS,3,13,Willie Thorne,ENG,u,12
+1978,Last 16,L16,25,Cliff Thorburn,CAN,6,13,Pat Houlihan,ENG,u,8
+1978,Last 16,L16,25,Bill Werbeniuk,CAN,u,13,John Pulman,ENG,7,4
+1978,Last 16,L16,25,Ray Reardon,WAL,2,13,Doug Mountjoy,WAL,u,9
+1978,Quarter-Finals,QF,25,Perrie Mans,RSA,u,13,Graham Miles,ENG,8,7
+1978,Quarter-Finals,QF,25,Fred Davis,ENG,u,13,Patsy Fagan,IRL,u,10
+1978,Quarter-Finals,QF,25,Eddie Charlton,AUS,3,13,Cliff Thorburn,CAN,6,12
+1978,Quarter-Finals,QF,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,6
+1978,Semi-Finals,SF,35,Perrie Mans,RSA,u,18,Fred Davis,ENG,u,16
+1978,Semi-Finals,SF,35,Ray Reardon,WAL,2,18,Eddie Charlton,AUS,3,14
+1978,Third Place,3P,13,Eddie Charlton,AUS,3,7,Fred Davis,ENG,u,3
+1978,The Final,FIN,49,Ray Reardon,WAL,2,25,Perrie Mans,RSA,u,18
+1979,Last 16,L16,25,Ray Reardon,WAL,1,13,Graham Miles,ENG,u,8
+1979,Last 16,L16,25,Dennis Taylor,NIR,8,13,Steve Davis,ENG,u,11
+1979,Last 16,L16,25,John Virgo,ENG,u,13,Cliff Thorburn,CAN,5,10
+1979,Last 16,L16,25,Bill Werbeniuk,CAN,u,13,John Spencer,ENG,4,11
+1979,Last 16,L16,25,Eddie Charlton,AUS,3,13,Doug Mountjoy,WAL,u,6
+1979,Last 16,L16,25,Fred Davis,ENG,6,13,Kirk Stevens,CAN,u,8
+1979,Last 16,L16,25,Alex Higgins,NIR,7,13,David Taylor,ENG,u,5
+1979,Last 16,L16,25,Terry Griffiths,WAL,u,13,Perrie Mans,RSA,2,8
+1979,Quarter-Finals,QF,25,Dennis Taylor,NIR,8,13,Ray Reardon,WAL,1,8
+1979,Quarter-Finals,QF,25,John Virgo,ENG,u,13,Bill Werbeniuk,CAN,u,9
+1979,Quarter-Finals,QF,25,Eddie Charlton,AUS,3,13,Fred Davis,ENG,6,4
+1979,Quarter-Finals,QF,25,Terry Griffiths,WAL,u,13,Alex Higgins,NIR,7,12
+1979,Semi-Finals,SF,37,Dennis Taylor,NIR,8,19,John Virgo,ENG,u,12
+1979,Semi-Finals,SF,37,Terry Griffiths,WAL,u,19,Eddie Charlton,AUS,3,17
+1979,Third Place,3P,13,Eddie Charlton,AUS,3,7,John Virgo,ENG,u,3
+1979,The Final,FIN,47,Terry Griffiths,WAL,u,24,Dennis Taylor,NIR,8,16
+1980,First Round,1R,19,Steve Davis,ENG,u,10,Patsy Fagan,IRL,u,6
+1980,First Round,1R,19,Alex Higgins,NIR,u,10,Tony Meo,ENG,u,9
+1980,First Round,1R,19,Kirk Stevens,CAN,u,10,Graham Miles,ENG,u,3
+1980,First Round,1R,19,John Virgo,ENG,u,10,Jim Meadowcroft,ENG,u,2
+1980,First Round,1R,19,Doug Mountjoy,WAL,u,10,Cliff Wilson,WAL,u,6
+1980,First Round,1R,19,Jim Wych,CAN,u,10,John Pulman,ENG,u,5
+1980,First Round,1R,19,David Taylor,ENG,u,10,Ray Edmonds,ENG,u,3
+1980,First Round,1R,19,Bill Werbeniuk,CAN,u,10,Willie Thorne,ENG,u,9
+1980,Last 16,L16,25,Steve Davis,ENG,u,13,Terry Griffiths,WAL,1,10
+1980,Last 16,L16,25,Alex Higgins,NIR,u,13,Perrie Mans,RSA,8,6
+1980,Last 16,L16,25,Kirk Stevens,CAN,u,13,John Spencer,ENG,5,8
+1980,Last 16,L16,25,Eddie Charlton,AUS,4,13,John Virgo,ENG,u,12
+1980,Last 16,L16,25,Cliff Thorburn,CAN,3,13,Doug Mountjoy,WAL,u,10
+1980,Last 16,L16,25,Jim Wych,CAN,u,13,Dennis Taylor,NIR,6,10
+1980,Last 16,L16,25,David Taylor,ENG,u,13,Fred Davis,ENG,7,5
+1980,Last 16,L16,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,6
+1980,Quarter-Finals,QF,25,Alex Higgins,NIR,u,13,Steve Davis,ENG,u,9
+1980,Quarter-Finals,QF,25,Kirk Stevens,CAN,u,13,Eddie Charlton,AUS,4,7
+1980,Quarter-Finals,QF,25,Cliff Thorburn,CAN,3,13,Jim Wych,CAN,u,6
+1980,Quarter-Finals,QF,25,David Taylor,ENG,u,13,Ray Reardon,WAL,2,11
+1980,Semi-Finals,SF,31,Alex Higgins,NIR,u,16,Kirk Stevens,CAN,u,13
+1980,Semi-Finals,SF,31,Cliff Thorburn,CAN,3,16,David Taylor,ENG,u,7
+1980,The Final,FIN,35,Cliff Thorburn,CAN,3,18,Alex Higgins,NIR,u,16
+1981,First Round,1R,19,Graham Miles,ENG,u,10,Tony Knowles,ENG,u,8
+1981,First Round,1R,19,David Taylor,ENG,u,10,Cliff Wilson,WAL,u,6
+1981,First Round,1R,19,Tony Meo,ENG,u,10,John Virgo,ENG,u,6
+1981,First Round,1R,19,Steve Davis,ENG,u,10,Jimmy White,ENG,u,8
+1981,First Round,1R,19,Doug Mountjoy,WAL,u,10,Willie Thorne,ENG,u,6
+1981,First Round,1R,19,Kirk Stevens,CAN,u,10,John Dunning,ENG,u,4
+1981,First Round,1R,19,Bill Werbeniuk,CAN,u,10,Dave Martin,ENG,u,4
+1981,First Round,1R,19,John Spencer,ENG,u,10,Ray Edmonds,ENG,u,9
+1981,Last 16,L16,25,Cliff Thorburn,CAN,1,13,Graham Miles,ENG,u,2
+1981,Last 16,L16,25,David Taylor,ENG,u,13,Fred Davis,ENG,8,3
+1981,Last 16,L16,25,Terry Griffiths,WAL,5,13,Tony Meo,ENG,u,6
+1981,Last 16,L16,25,Steve Davis,ENG,u,13,Alex Higgins,NIR,4,8
+1981,Last 16,L16,25,Doug Mountjoy,WAL,u,13,Eddie Charlton,AUS,3,7
+1981,Last 16,L16,25,Dennis Taylor,NIR,6,13,Kirk Stevens,CAN,u,11
+1981,Last 16,L16,25,Bill Werbeniuk,CAN,u,13,Perrie Mans,RSA,7,5
+1981,Last 16,L16,25,Ray Reardon,WAL,2,13,John Spencer,ENG,u,11
+1981,Quarter-Finals,QF,25,Cliff Thorburn,CAN,1,13,David Taylor,ENG,u,6
+1981,Quarter-Finals,QF,25,Steve Davis,ENG,u,13,Terry Griffiths,WAL,5,9
+1981,Quarter-Finals,QF,25,Doug Mountjoy,WAL,u,13,Dennis Taylor,NIR,6,8
+1981,Quarter-Finals,QF,25,Ray Reardon,WAL,2,13,Bill Werbeniuk,CAN,u,10
+1981,Semi-Finals,SF,31,Steve Davis,ENG,u,16,Cliff Thorburn,CAN,1,10
+1981,Semi-Finals,SF,31,Doug Mountjoy,WAL,u,16,Ray Reardon,WAL,2,10
+1981,The Final,FIN,35,Steve Davis,ENG,u,18,Doug Mountjoy,WAL,u,12
+1982,First Round,1R,19,Tony Knowles,ENG,u,10,Steve Davis,ENG,1,1
+1982,First Round,1R,19,Graham Miles,ENG,16,10,Dave Martin,ENG,u,5
+1982,First Round,1R,19,Bill Werbeniuk,CAN,9,10,John Bear,CAN,u,7
+1982,First Round,1R,19,Eddie Charlton,AUS,8,10,Cliff Wilson,WAL,u,5
+1982,First Round,1R,19,Silvino Francisco,RSA,u,10,Dennis Taylor,NIR,5,7
+1982,First Round,1R,19,Dean Reynolds,ENG,u,10,Fred Davis,ENG,12,7
+1982,First Round,1R,19,John Virgo,ENG,13,10,Mike Hallett,ENG,u,4
+1982,First Round,1R,19,Ray Reardon,WAL,4,10,Jim Donnelly,SCO,u,5
+1982,First Round,1R,19,Willie Thorne,ENG,u,10,Terry Griffiths,WAL,3,6
+1982,First Round,1R,19,John Spencer,ENG,14,10,John Dunning,ENG,u,4
+1982,First Round,1R,19,Alex Higgins,NIR,11,10,Jim Meadowcroft,ENG,u,5
+1982,First Round,1R,19,Doug Mountjoy,WAL,6,10,Rex Williams,ENG,u,3
+1982,First Round,1R,19,Patsy Fagan,IRL,u,10,David Taylor,ENG,7,9
+1982,First Round,1R,19,Kirk Stevens,CAN,10,10,Jack Fitzmaurice,ENG,u,4
+1982,First Round,1R,19,Perrie Mans,RSA,15,10,Tony Meo,ENG,u,8
+1982,First Round,1R,19,Jimmy White,ENG,u,10,Cliff Thorburn,CAN,2,4
+1982,Last 16,L16,25,Tony Knowles,ENG,u,13,Graham Miles,ENG,16,7
+1982,Last 16,L16,25,Eddie Charlton,AUS,8,13,Bill Werbeniuk,CAN,9,5
+1982,Last 16,L16,25,Silvino Francisco,RSA,u,13,Dean Reynolds,ENG,u,8
+1982,Last 16,L16,25,Ray Reardon,WAL,4,13,John Virgo,ENG,13,8
+1982,Last 16,L16,25,Willie Thorne,ENG,u,13,John Spencer,ENG,14,5
+1982,Last 16,L16,25,Alex Higgins,NIR,11,13,Doug Mountjoy,WAL,6,12
+1982,Last 16,L16,25,Kirk Stevens,CAN,10,13,Patsy Fagan,IRL,u,7
+1982,Last 16,L16,25,Jimmy White,ENG,u,13,Perrie Mans,RSA,15,6
+1982,Quarter-Finals,QF,25,Eddie Charlton,AUS,8,13,Tony Knowles,ENG,u,11
+1982,Quarter-Finals,QF,25,Ray Reardon,WAL,4,13,Silvino Francisco,RSA,u,8
+1982,Quarter-Finals,QF,25,Alex Higgins,NIR,11,13,Willie Thorne,ENG,u,10
+1982,Quarter-Finals,QF,25,Jimmy White,ENG,u,13,Kirk Stevens,CAN,10,9
+1982,Semi-Finals,SF,31,Ray Reardon,WAL,4,16,Eddie Charlton,AUS,8,11
+1982,Semi-Finals,SF,31,Alex Higgins,NIR,11,16,Jimmy White,ENG,u,15
+1982,The Final,FIN,35,Alex Higgins,NIR,11,18,Ray Reardon,WAL,4,15
+1983,First Round,1R,19,Alex Higgins,NIR,1,10,Dean Reynolds,ENG,u,4
+1983,First Round,1R,19,Willie Thorne,ENG,16,10,John Virgo,ENG,u,3
+1983,First Round,1R,19,Bill Werbeniuk,CAN,9,10,Dave Martin,ENG,u,4
+1983,First Round,1R,19,David Taylor,ENG,8,10,Jim Meadowcroft,ENG,u,2
+1983,First Round,1R,19,Eddie Charlton,AUS,5,10,Les Dodd,ENG,u,7
+1983,First Round,1R,19,John Spencer,ENG,12,10,Mike Hallett,ENG,u,7
+1983,First Round,1R,19,Dennis Taylor,NIR,13,10,Silvino Francisco,RSA,u,9
+1983,First Round,1R,19,Steve Davis,ENG,4,10,Rex Williams,ENG,u,4
+1983,First Round,1R,19,Cliff Thorburn,CAN,3,10,John Campbell,AUS,u,5
+1983,First Round,1R,19,Terry Griffiths,WAL,14,10,Mark Wildman,ENG,u,8
+1983,First Round,1R,19,Perrie Mans,RSA,11,10,Ian Black,SCO,u,3
+1983,First Round,1R,19,Kirk Stevens,CAN,6,10,Mick Fisher,ENG,u,2
+1983,First Round,1R,19,Doug Mountjoy,WAL,7,10,Cliff Wilson,WAL,u,2
+1983,First Round,1R,19,Tony Meo,ENG,u,10,Jimmy White,ENG,10,8
+1983,First Round,1R,19,Tony Knowles,ENG,15,10,Graham Miles,ENG,u,3
+1983,First Round,1R,19,Ray Reardon,WAL,2,10,Eugene Hughes,IRL,u,7
+1983,Last 16,L16,25,Alex Higgins,NIR,1,13,Willie Thorne,ENG,16,8
+1983,Last 16,L16,25,Bill Werbeniuk,CAN,9,13,David Taylor,ENG,8,10
+1983,Last 16,L16,25,Eddie Charlton,AUS,5,13,John Spencer,ENG,12,11
+1983,Last 16,L16,25,Steve Davis,ENG,4,13,Dennis Taylor,NIR,13,11
+1983,Last 16,L16,25,Cliff Thorburn,CAN,3,13,Terry Griffiths,WAL,14,12
+1983,Last 16,L16,25,Kirk Stevens,CAN,6,13,Perrie Mans,RSA,11,3
+1983,Last 16,L16,25,Tony Meo,ENG,u,13,Doug Mountjoy,WAL,7,11
+1983,Last 16,L16,25,Tony Knowles,ENG,15,13,Ray Reardon,WAL,2,12
+1983,Quarter-Finals,QF,25,Alex Higgins,NIR,1,13,Bill Werbeniuk,CAN,9,11
+1983,Quarter-Finals,QF,25,Steve Davis,ENG,4,13,Eddie Charlton,AUS,5,5
+1983,Quarter-Finals,QF,25,Cliff Thorburn,CAN,3,13,Kirk Stevens,CAN,6,12
+1983,Quarter-Finals,QF,25,Tony Knowles,ENG,15,13,Tony Meo,ENG,u,9
+1983,Semi-Finals,SF,31,Steve Davis,ENG,4,16,Alex Higgins,NIR,1,5
+1983,Semi-Finals,SF,31,Cliff Thorburn,CAN,3,16,Tony Knowles,ENG,15,15
+1983,The Final,FIN,35,Steve Davis,ENG,4,18,Cliff Thorburn,CAN,3,6
+1984,First Round,1R,19,Steve Davis,ENG,1,10,Warren King,AUS,u,3
+1984,First Round,1R,19,John Spencer,ENG,16,10,Graham Miles,ENG,u,3
+1984,First Round,1R,19,Terry Griffiths,WAL,9,10,Paul Mifsud,MLT,u,2
+1984,First Round,1R,19,Bill Werbeniuk,CAN,8,10,Fred Davis,ENG,u,4
+1984,First Round,1R,19,Neal Foulds,ENG,u,10,Alex Higgins,NIR,5,9
+1984,First Round,1R,19,Doug Mountjoy,WAL,12,10,Mike Hallett,ENG,u,4
+1984,First Round,1R,19,Dennis Taylor,NIR,13,10,Joe Johnson,ENG,u,1
+1984,First Round,1R,19,John Parrott,ENG,u,10,Tony Knowles,ENG,4,7
+1984,First Round,1R,19,Cliff Thorburn,CAN,3,10,Mario Morra,CAN,u,3
+1984,First Round,1R,19,Willie Thorne,ENG,u,10,John Virgo,ENG,14,9
+1984,First Round,1R,19,Jimmy White,ENG,11,10,Rex Williams,ENG,u,6
+1984,First Round,1R,19,Eddie Charlton,AUS,6,10,Roy Andrewartha,ENG,u,4
+1984,First Round,1R,19,Kirk Stevens,CAN,7,10,Eddie Sinclair,SCO,u,1
+1984,First Round,1R,19,David Taylor,ENG,10,10,Marcel Gauvreau,CAN,u,5
+1984,First Round,1R,19,Silvino Francisco,RSA,u,10,Tony Meo,ENG,15,5
+1984,First Round,1R,19,Ray Reardon,WAL,2,10,Jim Wych,CAN,u,7
+1984,Last 16,L16,25,Steve Davis,ENG,1,13,John Spencer,ENG,16,5
+1984,Last 16,L16,25,Terry Griffiths,WAL,9,13,Bill Werbeniuk,CAN,8,5
+1984,Last 16,L16,25,Doug Mountjoy,WAL,12,13,Neal Foulds,ENG,u,6
+1984,Last 16,L16,25,Dennis Taylor,NIR,13,13,John Parrott,ENG,u,11
+1984,Last 16,L16,25,Cliff Thorburn,CAN,3,13,Willie Thorne,ENG,u,11
+1984,Last 16,L16,25,Jimmy White,ENG,11,13,Eddie Charlton,AUS,6,7
+1984,Last 16,L16,25,Kirk Stevens,CAN,7,13,David Taylor,ENG,10,10
+1984,Last 16,L16,25,Ray Reardon,WAL,2,13,Silvino Francisco,RSA,u,8
+1984,Quarter-Finals,QF,25,Steve Davis,ENG,1,13,Terry Griffiths,WAL,9,10
+1984,Quarter-Finals,QF,25,Dennis Taylor,NIR,13,13,Doug Mountjoy,WAL,12,8
+1984,Quarter-Finals,QF,25,Jimmy White,ENG,11,13,Cliff Thorburn,CAN,3,8
+1984,Quarter-Finals,QF,25,Kirk Stevens,CAN,7,13,Ray Reardon,WAL,2,2
+1984,Semi-Finals,SF,31,Steve Davis,ENG,1,16,Dennis Taylor,NIR,13,9
+1984,Semi-Finals,SF,31,Jimmy White,ENG,11,16,Kirk Stevens,CAN,7,14
+1984,The Final,FIN,35,Steve Davis,ENG,1,18,Jimmy White,ENG,11,16
+1985,First Round,1R,19,Steve Davis,ENG,1,10,Neal Foulds,ENG,u,8
+1985,First Round,1R,19,David Taylor,ENG,16,10,Dene O'Kane,NZL,u,4
+1985,First Round,1R,19,Alex Higgins,NIR,9,10,Dean Reynolds,ENG,u,4
+1985,First Round,1R,19,Terry Griffiths,WAL,8,10,Rex Williams,ENG,u,3
+1985,First Round,1R,19,Ray Reardon,WAL,5,10,Eugene Hughes,IRL,u,9
+1985,First Round,1R,19,Patsy Fagan,IRL,u,10,Willie Thorne,ENG,12,6
+1985,First Round,1R,19,John Parrott,ENG,u,10,John Spencer,ENG,13,3
+1985,First Round,1R,19,Kirk Stevens,CAN,4,10,Ray Edmonds,ENG,u,8
+1985,First Round,1R,19,Cliff Thorburn,CAN,3,10,Mike Hallett,ENG,u,8
+1985,First Round,1R,19,Bill Werbeniuk,CAN,14,10,Joe Johnson,ENG,u,8
+1985,First Round,1R,19,Dennis Taylor,NIR,11,10,Silvino Francisco,RSA,u,2
+1985,First Round,1R,19,Eddie Charlton,AUS,6,10,John Campbell,AUS,u,3
+1985,First Round,1R,19,Jimmy White,ENG,7,10,Wayne Jones,WAL,u,4
+1985,First Round,1R,19,Tony Meo,ENG,10,10,John Virgo,ENG,u,6
+1985,First Round,1R,19,Doug Mountjoy,WAL,15,10,Murdo MacLeod,SCO,u,5
+1985,First Round,1R,19,Tony Knowles,ENG,2,10,Tony Jones,ENG,u,8
+1985,Last 16,L16,25,Steve Davis,ENG,1,13,David Taylor,ENG,16,4
+1985,Last 16,L16,25,Terry Griffiths,WAL,8,13,Alex Higgins,NIR,9,7
+1985,Last 16,L16,25,Ray Reardon,WAL,5,13,Patsy Fagan,IRL,u,9
+1985,Last 16,L16,25,John Parrott,ENG,u,13,Kirk Stevens,CAN,4,6
+1985,Last 16,L16,25,Cliff Thorburn,CAN,3,13,Bill Werbeniuk,CAN,14,3
+1985,Last 16,L16,25,Dennis Taylor,NIR,11,13,Eddie Charlton,AUS,6,6
+1985,Last 16,L16,25,Jimmy White,ENG,7,13,Tony Meo,ENG,10,11
+1985,Last 16,L16,25,Tony Knowles,ENG,2,13,Doug Mountjoy,WAL,15,6
+1985,Quarter-Finals,QF,25,Steve Davis,ENG,1,13,Terry Griffiths,WAL,8,6
+1985,Quarter-Finals,QF,25,Ray Reardon,WAL,5,13,John Parrott,ENG,u,12
+1985,Quarter-Finals,QF,25,Dennis Taylor,NIR,11,13,Cliff Thorburn,CAN,3,5
+1985,Quarter-Finals,QF,25,Tony Knowles,ENG,2,13,Jimmy White,ENG,7,10
+1985,Semi-Finals,SF,31,Steve Davis,ENG,1,16,Ray Reardon,WAL,5,5
+1985,Semi-Finals,SF,31,Dennis Taylor,NIR,11,16,Tony Knowles,ENG,2,5
+1985,The Final,FIN,35,Dennis Taylor,NIR,11,18,Steve Davis,ENG,1,17
+1986,First Round,1R,19,Mike Hallett,ENG,u,10,Dennis Taylor,NIR,1,6
+1986,First Round,1R,19,Joe Johnson,ENG,16,10,Dave Martin,ENG,u,3
+1986,First Round,1R,19,Alex Higgins,NIR,9,10,John Spencer,ENG,u,7
+1986,First Round,1R,19,Terry Griffiths,WAL,8,10,Danny Fowler,ENG,u,2
+1986,First Round,1R,19,Kirk Stevens,CAN,5,10,Dean Reynolds,ENG,u,6
+1986,First Round,1R,19,Eddie Charlton,AUS,12,10,Cliff Wilson,WAL,u,6
+1986,First Round,1R,19,Silvino Francisco,RSA,13,10,Rex Williams,ENG,u,4
+1986,First Round,1R,19,Tony Knowles,ENG,4,10,Neal Foulds,ENG,u,9
+1986,First Round,1R,19,Cliff Thorburn,CAN,3,10,Bill Werbeniuk,CAN,u,5
+1986,First Round,1R,19,Eugene Hughes,IRL,u,10,David Taylor,ENG,14,7
+1986,First Round,1R,19,Willie Thorne,ENG,11,10,Stephen Hendry,SCO,u,8
+1986,First Round,1R,19,John Campbell,AUS,u,10,Ray Reardon,WAL,6,8
+1986,First Round,1R,19,Jimmy White,ENG,7,10,John Virgo,ENG,u,7
+1986,First Round,1R,19,John Parrott,ENG,u,10,Tony Meo,ENG,10,4
+1986,First Round,1R,19,Doug Mountjoy,WAL,15,10,Perrie Mans,RSA,u,3
+1986,First Round,1R,19,Steve Davis,ENG,2,10,Ray Edmonds,ENG,u,4
+1986,Last 16,L16,25,Joe Johnson,ENG,16,13,Mike Hallett,ENG,u,6
+1986,Last 16,L16,25,Terry Griffiths,WAL,8,13,Alex Higgins,NIR,9,12
+1986,Last 16,L16,25,Kirk Stevens,CAN,5,13,Eddie Charlton,AUS,12,12
+1986,Last 16,L16,25,Tony Knowles,ENG,4,13,Silvino Francisco,RSA,13,10
+1986,Last 16,L16,25,Cliff Thorburn,CAN,3,13,Eugene Hughes,IRL,u,6
+1986,Last 16,L16,25,Willie Thorne,ENG,11,13,John Campbell,AUS,u,9
+1986,Last 16,L16,25,Jimmy White,ENG,7,13,John Parrott,ENG,u,8
+1986,Last 16,L16,25,Steve Davis,ENG,2,13,Doug Mountjoy,WAL,15,5
+1986,Quarter-Finals,QF,25,Joe Johnson,ENG,16,13,Terry Griffiths,WAL,8,12
+1986,Quarter-Finals,QF,25,Tony Knowles,ENG,4,13,Kirk Stevens,CAN,5,9
+1986,Quarter-Finals,QF,25,Cliff Thorburn,CAN,3,13,Willie Thorne,ENG,11,6
+1986,Quarter-Finals,QF,25,Steve Davis,ENG,2,13,Jimmy White,ENG,7,5
+1986,Semi-Finals,SF,31,Joe Johnson,ENG,16,16,Tony Knowles,ENG,4,8
+1986,Semi-Finals,SF,31,Steve Davis,ENG,2,16,Cliff Thorburn,CAN,3,12
+1986,The Final,FIN,35,Joe Johnson,ENG,16,18,Steve Davis,ENG,2,12
+1987,First Round,1R,19,Joe Johnson,ENG,1,10,Eugene Hughes,IRL,u,9
+1987,First Round,1R,19,Murdo McLeod,SCO,u,10,Rex Williams,ENG,16,5
+1987,First Round,1R,19,Steve Longworth,ENG,u,10,Kirk Stevens,CAN,9,4
+1987,First Round,1R,19,Stephen Hendry,SCO,u,10,Willie Thorne,ENG,8,7
+1987,First Round,1R,19,Mike Hallett,ENG,u,10,Tony Knowles,ENG,5,6
+1987,First Round,1R,19,Silvino Francisco,RSA,12,10,John Campbell,AUS,u,3
+1987,First Round,1R,19,Neal Foulds,ENG,13,10,John Virgo,ENG,u,4
+1987,First Round,1R,19,Dennis Taylor,NIR,4,10,Mark Bennett,WAL,u,4
+1987,First Round,1R,19,Dene O'Kane,NZL,u,10,Cliff Thorburn,CAN,3,5
+1987,First Round,1R,19,Doug Mountjoy,WAL,14,10,David Taylor,ENG,u,5
+1987,First Round,1R,19,John Parrott,ENG,u,10,Tony Meo,ENG,11,8
+1987,First Round,1R,19,Jimmy White,ENG,6,10,Dean Reynolds,ENG,u,8
+1987,First Round,1R,19,Alex Higgins,NIR,7,10,Jon Wright,ENG,u,6
+1987,First Round,1R,19,Terry Griffiths,WAL,10,10,Jim Wych,CAN,u,4
+1987,First Round,1R,19,Ray Reardon,WAL,15,10,Barry West,ENG,u,5
+1987,First Round,1R,19,Steve Davis,ENG,2,10,Warren King,AUS,u,7
+1987,Last 16,L16,25,Joe Johnson,ENG,1,13,Murdo McLeod,SCO,u,7
+1987,Last 16,L16,25,Stephen Hendry,SCO,u,13,Steve Longworth,ENG,u,7
+1987,Last 16,L16,25,Mike Hallett,ENG,u,13,Silvino Francisco,RSA,12,9
+1987,Last 16,L16,25,Neal Foulds,ENG,13,13,Dennis Taylor,NIR,4,10
+1987,Last 16,L16,25,Dene O'Kane,NZL,u,13,Doug Mountjoy,WAL,14,5
+1987,Last 16,L16,25,Jimmy White,ENG,6,13,John Parrott,ENG,u,11
+1987,Last 16,L16,25,Terry Griffiths,WAL,10,13,Alex Higgins,NIR,7,10
+1987,Last 16,L16,25,Steve Davis,ENG,2,13,Ray Reardon,WAL,15,4
+1987,Quarter-Finals,QF,25,Joe Johnson,ENG,1,13,Stephen Hendry,SCO,u,12
+1987,Quarter-Finals,QF,25,Neal Foulds,ENG,13,13,Mike Hallett,ENG,u,9
+1987,Quarter-Finals,QF,25,Jimmy White,ENG,6,13,Dene O'Kane,NZL,u,6
+1987,Quarter-Finals,QF,25,Steve Davis,ENG,2,13,Terry Griffiths,WAL,10,5
+1987,Semi-Finals,SF,31,Joe Johnson,ENG,1,16,Neal Foulds,ENG,13,9
+1987,Semi-Finals,SF,31,Steve Davis,ENG,2,16,Jimmy White,ENG,6,11
+1987,The Final,FIN,35,Steve Davis,ENG,2,18,Joe Johnson,ENG,1,14
+1988,First Round,1R,19,Steve Davis,ENG,1,10,John Virgo,ENG,u,8
+1988,First Round,1R,19,Mike Hallett,ENG,16,10,Bob Chaperon,CAN,u,2
+1988,First Round,1R,19,Tony Drago,MLT,u,10,Alex Higgins,NIR,9,2
+1988,First Round,1R,19,Dennis Taylor,NIR,8,10,Bill Werbeniuk,CAN,u,8
+1988,First Round,1R,19,Joe Johnson,ENG,5,10,Cliff Wilson,WAL,u,7
+1988,First Round,1R,19,Steve James,ENG,u,10,Rex Williams,ENG,12,6
+1988,First Round,1R,19,John Parrott,ENG,13,10,Warren King,AUS,u,4
+1988,First Round,1R,19,Cliff Thorburn,CAN,4,10,Kirk Stevens,CAN,u,6
+1988,First Round,1R,19,Neal Foulds,ENG,3,10,Wayne Jones,WAL,u,7
+1988,First Round,1R,19,Doug Mountjoy,WAL,14,10,Barry West,ENG,u,6
+1988,First Round,1R,19,Willie Thorne,ENG,11,10,Peter Francisco,RSA,u,6
+1988,First Round,1R,19,Terry Griffiths,WAL,6,10,Steve Longworth,ENG,u,1
+1988,First Round,1R,19,Tony Knowles,ENG,7,10,Danny Fowler,ENG,u,8
+1988,First Round,1R,19,Eddie Charlton,AUS,u,10,Silvino Francisco,RSA,10,7
+1988,First Round,1R,19,Stephen Hendry,SCO,u,10,Dean Reynolds,ENG,15,6
+1988,First Round,1R,19,Jimmy White,ENG,2,10,John Campbell,AUS,u,3
+1988,Last 16,L16,25,Steve Davis,ENG,1,13,Mike Hallett,ENG,16,1
+1988,Last 16,L16,25,Tony Drago,MLT,u,13,Dennis Taylor,NIR,8,5
+1988,Last 16,L16,25,Steve James,ENG,u,13,Joe Johnson,ENG,5,9
+1988,Last 16,L16,25,Cliff Thorburn,CAN,4,13,John Parrott,ENG,13,10
+1988,Last 16,L16,25,Neal Foulds,ENG,3,13,Doug Mountjoy,WAL,14,1
+1988,Last 16,L16,25,Terry Griffiths,WAL,6,13,Willie Thorne,ENG,11,9
+1988,Last 16,L16,25,Tony Knowles,ENG,7,13,Eddie Charlton,AUS,u,7
+1988,Last 16,L16,25,Jimmy White,ENG,2,13,Stephen Hendry,SCO,u,12
+1988,Quarter-Finals,QF,25,Steve Davis,ENG,1,13,Tony Drago,MLT,u,4
+1988,Quarter-Finals,QF,25,Cliff Thorburn,CAN,4,13,Steve James,ENG,u,11
+1988,Quarter-Finals,QF,25,Terry Griffiths,WAL,6,13,Neal Foulds,ENG,3,9
+1988,Quarter-Finals,QF,25,Jimmy White,ENG,2,13,Tony Knowles,ENG,7,6
+1988,Semi-Finals,SF,31,Steve Davis,ENG,1,16,Cliff Thorburn,CAN,4,8
+1988,Semi-Finals,SF,31,Terry Griffiths,WAL,6,16,Jimmy White,ENG,2,11
+1988,The Final,FIN,35,Steve Davis,ENG,1,18,Terry Griffiths,WAL,6,11
+1989,First Round,1R,19,Steve Davis,ENG,1,10,Steve Newbury,WAL,u,5
+1989,First Round,1R,19,Steve Duggan,ENG,u,10,Cliff Wilson,WAL,16,1
+1989,First Round,1R,19,Mike Hallett,ENG,9,10,Doug Mountjoy,WAL,u,7
+1989,First Round,1R,19,David Roe,ENG,u,10,Tony Knowles,ENG,8,6
+1989,First Round,1R,19,Terry Griffiths,WAL,5,10,Bob Chaperon,CAN,u,6
+1989,First Round,1R,19,Silvino Francisco,RSA,12,10,Joe O'Boye,NIR,u,6
+1989,First Round,1R,19,Willie Thorne,ENG,13,10,Paddy Browne,IRL,u,5
+1989,First Round,1R,19,Stephen Hendry,SCO,4,10,Gary Wilkinson,ENG,u,9
+1989,First Round,1R,19,Wayne Jones,WAL,u,10,Neal Foulds,ENG,3,9
+1989,First Round,1R,19,Dean Reynolds,ENG,u,10,Peter Francisco,RSA,14,7
+1989,First Round,1R,19,Tony Meo,ENG,u,10,Joe Johnson,ENG,11,5
+1989,First Round,1R,19,Eddie Charlton,AUS,u,10,Cliff Thorburn,CAN,6,9
+1989,First Round,1R,19,John Parrott,ENG,7,10,Steve James,ENG,u,9
+1989,First Round,1R,19,Dennis Taylor,NIR,10,10,Eugene Hughes,IRL,u,3
+1989,First Round,1R,19,John Virgo,ENG,15,10,Darren Morgan,WAL,u,4
+1989,First Round,1R,19,Jimmy White,ENG,2,10,Dene O'Kane,NZL,u,7
+1989,Last 16,L16,25,Steve Davis,ENG,1,13,Steve Duggan,ENG,u,3
+1989,Last 16,L16,25,Mike Hallett,ENG,9,13,David Roe,ENG,u,12
+1989,Last 16,L16,25,Terry Griffiths,WAL,5,13,Silvino Francisco,RSA,12,9
+1989,Last 16,L16,25,Stephen Hendry,SCO,4,13,Willie Thorne,ENG,13,4
+1989,Last 16,L16,25,Dean Reynolds,ENG,u,13,Wayne Jones,WAL,u,3
+1989,Last 16,L16,25,Tony Meo,ENG,u,13,Eddie Charlton,AUS,u,8
+1989,Last 16,L16,25,John Parrott,ENG,7,13,Dennis Taylor,NIR,10,10
+1989,Last 16,L16,25,Jimmy White,ENG,2,13,John Virgo,ENG,15,12
+1989,Quarter-Finals,QF,25,Steve Davis,ENG,1,13,Mike Hallett,ENG,9,3
+1989,Quarter-Finals,QF,25,Stephen Hendry,SCO,4,13,Terry Griffiths,WAL,5,5
+1989,Quarter-Finals,QF,25,Tony Meo,ENG,u,13,Dean Reynolds,ENG,u,9
+1989,Quarter-Finals,QF,25,John Parrott,ENG,7,13,Jimmy White,ENG,2,7
+1989,Semi-Finals,SF,31,Steve Davis,ENG,1,16,Stephen Hendry,SCO,4,9
+1989,Semi-Finals,SF,31,John Parrott,ENG,7,16,Tony Meo,ENG,u,7
+1989,The Final,FIN,35,Steve Davis,ENG,1,18,John Parrott,ENG,7,3
+1990,First Round,1R,19,Steve Davis,ENG,1,10,Eddie Charlton,AUS,u,1
+1990,First Round,1R,19,Steve James,ENG,16,10,Alex Higgins,NIR,u,5
+1990,First Round,1R,19,Willie Thorne,ENG,9,10,Tony Drago,MLT,u,4
+1990,First Round,1R,19,Neal Foulds,ENG,u,10,Dennis Taylor,NIR,8,8
+1990,First Round,1R,19,Terry Griffiths,WAL,5,10,Nigel Gilbert,ENG,u,4
+1990,First Round,1R,19,Tony Knowles,ENG,12,10,Tony Chappel,WAL,u,4
+1990,First Round,1R,19,John Virgo,ENG,13,10,Gary Wilkinson,ENG,u,6
+1990,First Round,1R,19,Jimmy White,ENG,4,10,Danny Fowler,ENG,u,4
+1990,First Round,1R,19,Stephen Hendry,SCO,3,10,Alain Robidoux,CAN,u,7
+1990,First Round,1R,19,Tony Meo,ENG,14,10,Wayne Jones,WAL,u,8
+1990,First Round,1R,19,Darren Morgan,WAL,u,10,Joe Johnson,ENG,11,8
+1990,First Round,1R,19,Mike Hallett,ENG,6,10,Steve Newbury,WAL,u,9
+1990,First Round,1R,19,Cliff Thorburn,CAN,7,10,Cliff Wilson,WAL,u,6
+1990,First Round,1R,19,Doug Mountjoy,WAL,10,10,Brady Gollan,CAN,u,8
+1990,First Round,1R,19,Dean Reynolds,ENG,15,10,Peter Francisco,RSA,u,7
+1990,First Round,1R,19,John Parrott,ENG,2,10,Mark Bennett,WAL,u,9
+1990,Last 16,L16,25,Steve Davis,ENG,1,13,Steve James,ENG,16,7
+1990,Last 16,L16,25,Neal Foulds,ENG,u,13,Willie Thorne,ENG,9,11
+1990,Last 16,L16,25,Terry Griffiths,WAL,5,13,Tony Knowles,ENG,12,6
+1990,Last 16,L16,25,Jimmy White,ENG,4,13,John Virgo,ENG,13,6
+1990,Last 16,L16,25,Stephen Hendry,SCO,3,13,Tony Meo,ENG,14,7
+1990,Last 16,L16,25,Darren Morgan,WAL,u,13,Mike Hallett,ENG,6,8
+1990,Last 16,L16,25,Cliff Thorburn,CAN,7,13,Doug Mountjoy,WAL,10,12
+1990,Last 16,L16,25,John Parrott,ENG,2,13,Dean Reynolds,ENG,15,11
+1990,Quarter-Finals,QF,25,Steve Davis,ENG,1,13,Neal Foulds,ENG,u,8
+1990,Quarter-Finals,QF,25,Jimmy White,ENG,4,13,Terry Griffiths,WAL,5,5
+1990,Quarter-Finals,QF,25,Stephen Hendry,SCO,3,13,Darren Morgan,WAL,u,6
+1990,Quarter-Finals,QF,25,John Parrott,ENG,2,13,Cliff Thorburn,CAN,7,6
+1990,Semi-Finals,SF,31,Jimmy White,ENG,4,16,Steve Davis,ENG,1,14
+1990,Semi-Finals,SF,31,Stephen Hendry,SCO,3,16,John Parrott,ENG,2,11
+1990,The Final,FIN,35,Stephen Hendry,SCO,3,18,Jimmy White,ENG,4,12
+1991,First Round,1R,19,Stephen Hendry,SCO,1,10,Warren King,AUS,u,4
+1991,First Round,1R,19,Alain Robidoux,CAN,16,10,Steve Newbury,WAL,u,5
+1991,First Round,1R,19,Steve James,ENG,9,10,Ian Graham,ENG,u,3
+1991,First Round,1R,19,Dean Reynolds,ENG,8,10,Robert Marshall,ENG,u,8
+1991,First Round,1R,19,Gary Wilkinson,ENG,u,10,Doug Mountjoy,WAL,5,2
+1991,First Round,1R,19,Martin Clark,ENG,12,10,Mark Bennett,WAL,u,6
+1991,First Round,1R,19,Neal Foulds,ENG,13,10,Eddie Charlton,AUS,u,7
+1991,First Round,1R,19,Jimmy White,ENG,4,10,Nick Dyson,ENG,u,3
+1991,First Round,1R,19,John Parrott,ENG,3,10,Nigel Gilbert,ENG,u,6
+1991,First Round,1R,19,Tony Knowles,ENG,u,10,John Virgo,ENG,14,8
+1991,First Round,1R,19,Alan McManus,SCO,u,10,Willie Thorne,ENG,11,8
+1991,First Round,1R,19,Terry Griffiths,WAL,6,10,Barry Pinches,ENG,u,3
+1991,First Round,1R,19,Tony Jones,ENG,u,10,Mike Hallett,ENG,7,4
+1991,First Round,1R,19,Dennis Taylor,NIR,10,10,Joe Johnson,ENG,u,6
+1991,First Round,1R,19,Tony Meo,ENG,15,10,Craig Edwards,ENG,u,7
+1991,First Round,1R,19,Steve Davis,ENG,2,10,Ken Doherty,IRL,u,8
+1991,Last 16,L16,25,Stephen Hendry,SCO,1,13,Alain Robidoux,CAN,16,8
+1991,Last 16,L16,25,Steve James,ENG,9,13,Dean Reynolds,ENG,8,12
+1991,Last 16,L16,25,Gary Wilkinson,ENG,u,13,Martin Clark,ENG,12,9
+1991,Last 16,L16,25,Jimmy White,ENG,4,13,Neal Foulds,ENG,13,12
+1991,Last 16,L16,25,John Parrott,ENG,3,13,Tony Knowles,ENG,u,1
+1991,Last 16,L16,25,Terry Griffiths,WAL,6,13,Alan McManus,SCO,u,12
+1991,Last 16,L16,25,Dennis Taylor,NIR,10,13,Tony Jones,ENG,u,8
+1991,Last 16,L16,25,Steve Davis,ENG,2,13,Tony Meo,ENG,15,6
+1991,Quarter-Finals,QF,25,Steve James,ENG,9,13,Stephen Hendry,SCO,1,11
+1991,Quarter-Finals,QF,25,Jimmy White,ENG,4,13,Gary Wilkinson,ENG,u,3
+1991,Quarter-Finals,QF,25,John Parrott,ENG,3,13,Terry Griffiths,WAL,6,10
+1991,Quarter-Finals,QF,25,Steve Davis,ENG,2,13,Dennis Taylor,NIR,10,7
+1991,Semi-Finals,SF,31,Jimmy White,ENG,4,16,Steve James,ENG,9,9
+1991,Semi-Finals,SF,31,John Parrott,ENG,3,16,Steve Davis,ENG,2,10
+1991,The Final,FIN,35,John Parrott,ENG,3,18,Jimmy White,ENG,4,11
+1992,First Round,1R,19,John Parrott,ENG,1,10,Eddie Charlton,AUS,u,0
+1992,First Round,1R,19,Tony Knowles,ENG,16,10,Mark Johnston-Allen,ENG,u,4
+1992,First Round,1R,19,Mick Price,ENG,u,10,Dennis Taylor,NIR,9,6
+1992,First Round,1R,19,Alan McManus,SCO,u,10,Mike Hallett,ENG,8,8
+1992,First Round,1R,19,Willie Thorne,ENG,u,10,Gary Wilkinson,ENG,5,6
+1992,First Round,1R,19,Jim Wych,CAN,u,10,Dean Reynolds,ENG,12,7
+1992,First Round,1R,19,Alain Robidoux,CAN,13,10,Nigel Bond,ENG,u,7
+1992,First Round,1R,19,Jimmy White,ENG,4,10,Tony Drago,MLT,u,4
+1992,First Round,1R,19,Peter Ebdon,ENG,u,10,Steve Davis,ENG,3,4
+1992,First Round,1R,19,Martin Clark,ENG,14,10,Peter Francisco,RSA,u,7
+1992,First Round,1R,19,Terry Griffiths,WAL,11,10,Bob Chaperon,CAN,u,8
+1992,First Round,1R,19,Neal Foulds,ENG,6,10,Jason Ferguson,ENG,u,8
+1992,First Round,1R,19,Dene O'Kane,NZL,u,10,Steve James,ENG,7,9
+1992,First Round,1R,19,Chris Small,SCO,u,10,Doug Mountjoy,WAL,10,7
+1992,First Round,1R,19,James Wattana,THA,15,10,Tony Jones,ENG,u,5
+1992,First Round,1R,19,Stephen Hendry,SCO,2,10,Stephen Murphy,IRL,u,3
+1992,Last 16,L16,25,John Parrott,ENG,1,13,Tony Knowles,ENG,16,4
+1992,Last 16,L16,25,Alan McManus,SCO,u,13,Mick Price,ENG,u,10
+1992,Last 16,L16,25,Jim Wych,CAN,u,13,Willie Thorne,ENG,u,6
+1992,Last 16,L16,25,Jimmy White,ENG,4,13,Alain Robidoux,CAN,13,11
+1992,Last 16,L16,25,Peter Ebdon,ENG,u,13,Martin Clark,ENG,14,4
+1992,Last 16,L16,25,Terry Griffiths,WAL,11,13,Neal Foulds,ENG,6,7
+1992,Last 16,L16,25,Dene O'Kane,NZL,u,13,Chris Small,SCO,u,10
+1992,Last 16,L16,25,Stephen Hendry,SCO,2,13,James Wattana,THA,15,10
+1992,Quarter-Finals,QF,25,Alan McManus,SCO,u,13,John Parrott,ENG,1,12
+1992,Quarter-Finals,QF,25,Jimmy White,ENG,4,13,Jim Wych,CAN,u,9
+1992,Quarter-Finals,QF,25,Terry Griffiths,WAL,11,13,Peter Ebdon,ENG,u,7
+1992,Quarter-Finals,QF,25,Stephen Hendry,SCO,2,13,Dene O'Kane,NZL,u,6
+1992,Semi-Finals,SF,31,Jimmy White,ENG,4,16,Alan McManus,SCO,u,7
+1992,Semi-Finals,SF,31,Stephen Hendry,SCO,2,16,Terry Griffiths,WAL,11,4
+1992,The Final,FIN,35,Stephen Hendry,SCO,2,18,Jimmy White,ENG,4,14
+1993,First Round,1R,19,Stephen Hendry,SCO,1,10,Danny Fowler,ENG,u,1
+1993,First Round,1R,19,Darren Morgan,WAL,16,10,Les Dodd,ENG,u,5
+1993,First Round,1R,19,Nigel Bond,ENG,9,10,Spencer Dunn,ENG,u,4
+1993,First Round,1R,19,Gary Wilkinson,ENG,8,10,Dean Reynolds,ENG,u,4
+1993,First Round,1R,19,Neal Foulds,ENG,5,10,Brian Morgan,ENG,u,5
+1993,First Round,1R,19,Martin Clark,ENG,12,10,Karl Payne,ENG,u,6
+1993,First Round,1R,19,Alan McManus,SCO,13,10,Ronnie O'Sullivan,ENG,u,7
+1993,First Round,1R,19,Steve Davis,ENG,4,10,Peter Ebdon,ENG,u,3
+1993,First Round,1R,19,Jimmy White,ENG,3,10,Joe Swail,NIR,u,4
+1993,First Round,1R,19,Doug Mountjoy,WAL,u,10,Alain Robidoux,CAN,14,6
+1993,First Round,1R,19,Dennis Taylor,NIR,11,10,Tony Drago,MLT,u,9
+1993,First Round,1R,19,Terry Griffiths,WAL,6,10,David Roe,ENG,u,6
+1993,First Round,1R,19,James Wattana,THA,7,10,Tony Jones,ENG,u,7
+1993,First Round,1R,19,Steve James,ENG,10,10,John Giles,ENG,u,2
+1993,First Round,1R,19,Willie Thorne,ENG,15,10,Shaun Mellish,ENG,u,6
+1993,First Round,1R,19,John Parrott,ENG,2,10,Stephen O'Connor,IRL,u,1
+1993,Last 16,L16,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,16,4
+1993,Last 16,L16,25,Nigel Bond,ENG,9,13,Gary Wilkinson,ENG,8,7
+1993,Last 16,L16,25,Neal Foulds,ENG,5,13,Martin Clark,ENG,12,7
+1993,Last 16,L16,25,Alan McManus,SCO,13,13,Steve Davis,ENG,4,11
+1993,Last 16,L16,25,Jimmy White,ENG,3,13,Doug Mountjoy,WAL,u,6
+1993,Last 16,L16,25,Dennis Taylor,NIR,11,13,Terry Griffiths,WAL,6,11
+1993,Last 16,L16,25,James Wattana,THA,7,13,Steve James,ENG,10,7
+1993,Last 16,L16,25,John Parrott,ENG,2,13,Willie Thorne,ENG,15,9
+1993,Quarter-Finals,QF,25,Stephen Hendry,SCO,1,13,Nigel Bond,ENG,9,7
+1993,Quarter-Finals,QF,25,Alan McManus,SCO,13,13,Neal Foulds,ENG,5,11
+1993,Quarter-Finals,QF,25,Jimmy White,ENG,3,13,Dennis Taylor,NIR,11,8
+1993,Quarter-Finals,QF,25,James Wattana,THA,7,13,John Parrott,ENG,2,6
+1993,Semi-Finals,SF,31,Stephen Hendry,SCO,1,16,Alan McManus,SCO,13,8
+1993,Semi-Finals,SF,31,Jimmy White,ENG,3,16,James Wattana,THA,7,9
+1993,The Final,FIN,35,Stephen Hendry,SCO,1,18,Jimmy White,ENG,3,5
+1994,First Round,1R,19,Stephen Hendry,SCO,1,10,Surinder Gill,ENG,u,1
+1994,First Round,1R,19,Dave Harold,ENG,u,10,David Roe,ENG,16,8
+1994,First Round,1R,19,Nigel Bond,ENG,9,10,Cliff Thorburn,CAN,u,9
+1994,First Round,1R,19,Terry Griffiths,WAL,8,10,Mark Davis,ENG,u,7
+1994,First Round,1R,19,James Wattana,THA,5,10,Peter Ebdon,ENG,u,6
+1994,First Round,1R,19,Brian Morgan,ENG,u,10,Martin Clark,ENG,12,9
+1994,First Round,1R,19,Steve James,ENG,13,10,Les Dodd,ENG,u,9
+1994,First Round,1R,19,Steve Davis,ENG,4,10,Dene O'Kane,NZL,u,3
+1994,First Round,1R,19,Jimmy White,ENG,3,10,Billy Snaddon,SCO,u,6
+1994,First Round,1R,19,Neal Foulds,ENG,14,10,Anthony Davies,WAL,u,7
+1994,First Round,1R,19,Ken Doherty,IRL,11,10,Alex Higgins,NIR,u,6
+1994,First Round,1R,19,Alan McManus,SCO,6,10,Fergal O'Brien,IRL,u,7
+1994,First Round,1R,19,Willie Thorne,ENG,7,10,Gary Ponting,ENG,u,2
+1994,First Round,1R,19,Darren Morgan,WAL,10,10,Mark King,ENG,u,5
+1994,First Round,1R,19,Ronnie O'Sullivan,ENG,u,10,Dennis Taylor,NIR,15,6
+1994,First Round,1R,19,John Parrott,ENG,2,10,Drew Henry,SCO,u,9
+1994,Last 16,L16,25,Stephen Hendry,SCO,1,13,Dave Harold,ENG,u,2
+1994,Last 16,L16,25,Nigel Bond,ENG,9,13,Terry Griffiths,WAL,8,8
+1994,Last 16,L16,25,James Wattana,THA,5,13,Brian Morgan,ENG,u,9
+1994,Last 16,L16,25,Steve Davis,ENG,4,13,Steve James,ENG,13,3
+1994,Last 16,L16,25,Jimmy White,ENG,3,13,Neal Foulds,ENG,14,10
+1994,Last 16,L16,25,Ken Doherty,IRL,11,13,Alan McManus,SCO,6,11
+1994,Last 16,L16,25,Darren Morgan,WAL,10,13,Willie Thorne,ENG,7,12
+1994,Last 16,L16,25,John Parrott,ENG,2,13,Ronnie O'Sullivan,ENG,u,3
+1994,Quarter-Finals,QF,25,Stephen Hendry,SCO,1,13,Nigel Bond,ENG,9,8
+1994,Quarter-Finals,QF,25,Steve Davis,ENG,4,13,James Wattana,THA,5,9
+1994,Quarter-Finals,QF,25,Jimmy White,ENG,3,13,Ken Doherty,IRL,11,10
+1994,Quarter-Finals,QF,25,Darren Morgan,WAL,10,13,John Parrott,ENG,2,11
+1994,Semi-Finals,SF,31,Stephen Hendry,SCO,1,16,Steve Davis,ENG,4,9
+1994,Semi-Finals,SF,31,Jimmy White,ENG,3,16,Darren Morgan,WAL,10,8
+1994,The Final,FIN,35,Stephen Hendry,SCO,1,18,Jimmy White,ENG,3,17
+1995,First Round,1R,19,Stephen Hendry,SCO,1,10,Stefan Mazrocis,ENG,u,3
+1995,First Round,1R,19,Tony Drago,MLT,16,10,Paul Cavney,ENG,u,2
+1995,First Round,1R,19,Ronnie O'Sullivan,ENG,9,10,Dave Harold,ENG,u,3
+1995,First Round,1R,19,Darren Morgan,WAL,8,10,Anthony Davies,WAL,u,3
+1995,First Round,1R,19,John Parrott,ENG,5,10,Brian Morgan,ENG,u,5
+1995,First Round,1R,19,Joe Swail,NIR,12,10,Nigel Gilbert,ENG,u,8
+1995,First Round,1R,19,David Roe,ENG,13,10,Billy Snaddon,SCO,u,6
+1995,First Round,1R,19,Jimmy White,ENG,4,10,Peter Francisco,RSA,u,2
+1995,First Round,1R,19,Gary Wilkinson,ENG,u,10,James Wattana,THA,3,8
+1995,First Round,1R,19,Terry Griffiths,WAL,14,10,Alain Robidoux,CAN,u,6
+1995,First Round,1R,19,Nigel Bond,ENG,11,10,Stephen Lee,ENG,u,8
+1995,First Round,1R,19,Alan McManus,SCO,6,10,John Higgins,SCO,u,3
+1995,First Round,1R,19,Mark Davis,ENG,u,10,Ken Doherty,IRL,7,7
+1995,First Round,1R,19,Peter Ebdon,ENG,10,10,Rod Lawler,ENG,u,2
+1995,First Round,1R,19,Willie Thorne,ENG,15,10,Tai Pichit,THA,u,6
+1995,First Round,1R,19,Andy Hicks,ENG,u,10,Steve Davis,ENG,2,7
+1995,Last 16,L16,25,Stephen Hendry,SCO,1,13,Tony Drago,MLT,16,6
+1995,Last 16,L16,25,Ronnie O'Sullivan,ENG,9,13,Darren Morgan,WAL,8,8
+1995,Last 16,L16,25,John Parrott,ENG,5,13,Joe Swail,NIR,12,11
+1995,Last 16,L16,25,Jimmy White,ENG,4,13,David Roe,ENG,13,7
+1995,Last 16,L16,25,Gary Wilkinson,ENG,u,13,Terry Griffiths,WAL,14,9
+1995,Last 16,L16,25,Nigel Bond,ENG,11,13,Alan McManus,SCO,6,10
+1995,Last 16,L16,25,Peter Ebdon,ENG,10,13,Mark Davis,ENG,u,7
+1995,Last 16,L16,25,Andy Hicks,ENG,u,13,Willie Thorne,ENG,15,7
+1995,Quarter-Finals,QF,25,Stephen Hendry,SCO,1,13,Ronnie O'Sullivan,ENG,9,8
+1995,Quarter-Finals,QF,25,Jimmy White,ENG,4,13,John Parrott,ENG,5,11
+1995,Quarter-Finals,QF,25,Nigel Bond,ENG,11,13,Gary Wilkinson,ENG,u,7
+1995,Quarter-Finals,QF,25,Andy Hicks,ENG,u,13,Peter Ebdon,ENG,10,8
+1995,Semi-Finals,SF,31,Stephen Hendry,SCO,1,16,Jimmy White,ENG,4,12
+1995,Semi-Finals,SF,31,Nigel Bond,ENG,11,16,Andy Hicks,ENG,u,11
+1995,The Final,FIN,35,Stephen Hendry,SCO,1,18,Nigel Bond,ENG,11,9
+1996,First Round,1R,19,Stephen Hendry,SCO,1,10,Jason Ferguson,ENG,u,8
+1996,First Round,1R,19,Gary Wilkinson,ENG,u,10,David Roe,ENG,16,9
+1996,First Round,1R,19,Ken Doherty,IRL,9,10,Nick Terry,ENG,u,5
+1996,First Round,1R,19,Darren Morgan,WAL,8,10,Drew Henry,SCO,u,8
+1996,First Round,1R,19,James Wattana,THA,5,10,Jimmy Michie,ENG,u,8
+1996,First Round,1R,19,Nigel Bond,ENG,12,10,Anthony Hamilton,ENG,u,9
+1996,First Round,1R,19,Dave Harold,ENG,13,10,Neal Foulds,ENG,u,4
+1996,First Round,1R,19,Rod Lawler,ENG,u,10,John Parrott,ENG,4,6
+1996,First Round,1R,19,Ronnie O'Sullivan,ENG,3,10,Alain Robidoux,CAN,u,3
+1996,First Round,1R,19,Tony Drago,MLT,14,10,Steve James,ENG,u,2
+1996,First Round,1R,19,John Higgins,SCO,11,10,Martin Clark,ENG,u,5
+1996,First Round,1R,19,Alan McManus,SCO,6,10,Mick Price,ENG,u,5
+1996,First Round,1R,19,Jimmy White,ENG,7,10,Euan Henderson,SCO,u,9
+1996,First Round,1R,19,Peter Ebdon,ENG,10,10,Dene O'Kane,NZL,u,1
+1996,First Round,1R,19,Terry Griffiths,WAL,15,10,Jamie Burnett,SCO,u,9
+1996,First Round,1R,19,Steve Davis,ENG,2,10,Willie Thorne,ENG,u,8
+1996,Last 16,L16,25,Stephen Hendry,SCO,1,13,Gary Wilkinson,ENG,u,7
+1996,Last 16,L16,25,Darren Morgan,WAL,8,13,Ken Doherty,IRL,9,5
+1996,Last 16,L16,25,Nigel Bond,ENG,12,13,James Wattana,THA,5,4
+1996,Last 16,L16,25,Dave Harold,ENG,13,13,Rod Lawler,ENG,u,6
+1996,Last 16,L16,25,Ronnie O'Sullivan,ENG,3,13,Tony Drago,MLT,14,4
+1996,Last 16,L16,25,John Higgins,SCO,11,13,Alan McManus,SCO,6,5
+1996,Last 16,L16,25,Peter Ebdon,ENG,10,13,Jimmy White,ENG,7,12
+1996,Last 16,L16,25,Steve Davis,ENG,2,13,Terry Griffiths,WAL,15,8
+1996,Quarter-Finals,QF,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,8,5
+1996,Quarter-Finals,QF,25,Nigel Bond,ENG,12,13,Dave Harold,ENG,13,7
+1996,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,3,13,John Higgins,SCO,11,12
+1996,Quarter-Finals,QF,25,Peter Ebdon,ENG,10,13,Steve Davis,ENG,2,10
+1996,Semi-Finals,SF,31,Stephen Hendry,SCO,1,16,Nigel Bond,ENG,12,7
+1996,Semi-Finals,SF,31,Peter Ebdon,ENG,10,16,Ronnie O'Sullivan,ENG,3,14
+1996,The Final,FIN,35,Stephen Hendry,SCO,1,18,Peter Ebdon,ENG,10,12
+1997,First Round,1R,19,Stephen Hendry,SCO,1,10,Andy Hicks,ENG,u,6
+1997,First Round,1R,19,Mark Williams,WAL,16,10,Terry Griffiths,WAL,u,9
+1997,First Round,1R,19,Darren Morgan,WAL,9,10,Gary Wilkinson,ENG,u,5
+1997,First Round,1R,19,Ronnie O'Sullivan,ENG,8,10,Mick Price,ENG,u,6
+1997,First Round,1R,19,Stephen Lee,ENG,u,10,Nigel Bond,ENG,5,8
+1997,First Round,1R,19,James Wattana,THA,12,10,Graeme Dott,SCO,u,9
+1997,First Round,1R,19,Anthony Hamilton,ENG,u,10,Jimmy White,ENG,13,9
+1997,First Round,1R,19,John Parrott,ENG,4,10,Bradley Jones,ENG,u,9
+1997,First Round,1R,19,Stefan Mazrocis,ENG,u,10,Peter Ebdon,ENG,3,3
+1997,First Round,1R,19,Alain Robidoux,CAN,14,10,Brian Morgan,ENG,u,8
+1997,First Round,1R,19,Lee Walker,WAL,u,10,Dave Harold,ENG,11,7
+1997,First Round,1R,19,Alan McManus,SCO,6,10,Billy Snaddon,SCO,u,9
+1997,First Round,1R,19,Ken Doherty,IRL,7,10,Mark Davis,ENG,u,8
+1997,First Round,1R,19,Steve Davis,ENG,10,10,David McLellan,SCO,u,2
+1997,First Round,1R,19,Dominic Dale,WAL,u,10,Tony Drago,MLT,15,9
+1997,First Round,1R,19,John Higgins,SCO,2,10,Graham Horne,SCO,u,6
+1997,Last 16,L16,25,Stephen Hendry,SCO,1,13,Mark Williams,WAL,16,8
+1997,Last 16,L16,25,Darren Morgan,WAL,9,13,Ronnie O'Sullivan,ENG,8,12
+1997,Last 16,L16,25,James Wattana,THA,12,13,Stephen Lee,ENG,u,7
+1997,Last 16,L16,25,John Parrott,ENG,4,13,Anthony Hamilton,ENG,u,11
+1997,Last 16,L16,25,Alain Robidoux,CAN,14,13,Stefan Mazrocis,ENG,u,9
+1997,Last 16,L16,25,Lee Walker,WAL,u,13,Alan McManus,SCO,6,10
+1997,Last 16,L16,25,Ken Doherty,IRL,7,13,Steve Davis,ENG,10,3
+1997,Last 16,L16,25,John Higgins,SCO,2,13,Dominic Dale,WAL,u,5
+1997,Quarter-Finals,QF,25,Stephen Hendry,SCO,1,13,Darren Morgan,WAL,9,10
+1997,Quarter-Finals,QF,25,James Wattana,THA,12,13,John Parrott,ENG,4,10
+1997,Quarter-Finals,QF,25,Alain Robidoux,CAN,14,13,Lee Walker,WAL,u,8
+1997,Quarter-Finals,QF,25,Ken Doherty,IRL,7,13,John Higgins,SCO,2,9
+1997,Semi-Finals,SF,33,Stephen Hendry,SCO,1,17,James Wattana,THA,12,13
+1997,Semi-Finals,SF,33,Ken Doherty,IRL,7,17,Alain Robidoux,CAN,14,7
+1997,The Final,FIN,35,Ken Doherty,IRL,7,18,Stephen Hendry,SCO,1,12
+1998,First Round,1R,19,Ken Doherty,IRL,1,10,Lee Walker,WAL,u,8
+1998,First Round,1R,19,Stephen Lee,ENG,16,10,Andy Hicks,ENG,u,4
+1998,First Round,1R,19,Matthew Stevens,WAL,u,10,Alain Robidoux,CAN,9,8
+1998,First Round,1R,19,Mark King,ENG,u,10,Nigel Bond,ENG,8,5
+1998,First Round,1R,19,Peter Ebdon,ENG,5,10,Terry Murphy,NIR,u,3
+1998,First Round,1R,19,Fergal O'Brien,IRL,u,10,James Wattana,THA,12,9
+1998,First Round,1R,19,Steve Davis,ENG,13,10,Simon Bedford,ENG,u,6
+1998,First Round,1R,19,Mark Williams,WAL,4,10,Quinten Hann,AUS,u,9
+1998,First Round,1R,19,John Higgins,SCO,3,10,Jason Ferguson,ENG,u,8
+1998,First Round,1R,19,Anthony Hamilton,ENG,14,10,Dave Harold,ENG,u,8
+1998,First Round,1R,19,Tony Drago,MLT,11,10,Alfie Burden,ENG,u,8
+1998,First Round,1R,19,John Parrott,ENG,6,10,Peter Lines,ENG,u,4
+1998,First Round,1R,19,Ronnie O'Sullivan,ENG,7,10,Joe Swail,NIR,u,5
+1998,First Round,1R,19,Alan McManus,SCO,10,10,David Gray,ENG,u,8
+1998,First Round,1R,19,Darren Morgan,WAL,15,10,Jason Prince,NIR,u,8
+1998,First Round,1R,19,Jimmy White,ENG,u,10,Stephen Hendry,SCO,2,4
+1998,Last 16,L16,25,Ken Doherty,IRL,1,13,Stephen Lee,ENG,16,8
+1998,Last 16,L16,25,Matthew Stevens,WAL,u,13,Mark King,ENG,u,9
+1998,Last 16,L16,25,Peter Ebdon,ENG,5,13,Fergal O'Brien,IRL,u,5
+1998,Last 16,L16,25,Mark Williams,WAL,4,13,Steve Davis,ENG,13,6
+1998,Last 16,L16,25,John Higgins,SCO,3,13,Anthony Hamilton,ENG,14,9
+1998,Last 16,L16,25,John Parrott,ENG,6,13,Tony Drago,MLT,11,7
+1998,Last 16,L16,25,Ronnie O'Sullivan,ENG,7,13,Alan McManus,SCO,10,4
+1998,Last 16,L16,25,Jimmy White,ENG,u,13,Darren Morgan,WAL,15,3
+1998,Quarter-Finals,QF,25,Ken Doherty,IRL,1,13,Matthew Stevens,WAL,u,10
+1998,Quarter-Finals,QF,25,Mark Williams,WAL,4,13,Peter Ebdon,ENG,5,11
+1998,Quarter-Finals,QF,25,John Higgins,SCO,3,13,John Parrott,ENG,6,11
+1998,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,7,13,Jimmy White,ENG,u,7
+1998,Semi-Finals,SF,33,Ken Doherty,IRL,1,17,Mark Williams,WAL,4,14
+1998,Semi-Finals,SF,33,John Higgins,SCO,3,17,Ronnie O'Sullivan,ENG,7,9
+1998,The Final,FIN,35,John Higgins,SCO,3,18,Ken Doherty,IRL,1,12
+1999,First Round,1R,19,John Higgins,SCO,1,10,Gerard Greene,NIR,u,2
+1999,First Round,1R,19,Mark King,ENG,16,10,Darren Morgan,WAL,u,8
+1999,First Round,1R,19,Stephen Lee,ENG,9,10,John Lardner,SCO,u,7
+1999,First Round,1R,19,Alan McManus,SCO,8,10,Jimmy White,ENG,u,7
+1999,First Round,1R,19,Mark Williams,WAL,5,10,Ian McCulloch,ENG,u,4
+1999,First Round,1R,19,Nick Walker,ENG,u,10,Alain Robidoux,CAN,12,6
+1999,First Round,1R,19,Nigel Bond,ENG,13,10,Dominic Dale,WAL,u,6
+1999,First Round,1R,19,Ken Doherty,IRL,4,10,Steve James,ENG,u,3
+1999,First Round,1R,19,Ronnie O'Sullivan,ENG,3,10,Leo Fernandez,IRL,u,3
+1999,First Round,1R,19,Joe Perry,ENG,u,10,Steve Davis,ENG,14,9
+1999,First Round,1R,19,Chris Small,SCO,u,10,Anthony Hamilton,ENG,11,9
+1999,First Round,1R,19,John Parrott,ENG,6,10,Terry Murphy,NIR,u,8
+1999,First Round,1R,19,Matthew Stevens,WAL,u,10,Peter Ebdon,ENG,7,7
+1999,First Round,1R,19,Tony Drago,MLT,10,10,Fergal O'Brien,IRL,u,4
+1999,First Round,1R,19,James Wattana,THA,15,10,Marco Fu,HKG,u,8
+1999,First Round,1R,19,Stephen Hendry,SCO,2,10,Paul Hunter,ENG,u,8
+1999,Last 16,L16,25,John Higgins,SCO,1,13,Mark King,ENG,16,4
+1999,Last 16,L16,25,Stephen Lee,ENG,9,13,Alan McManus,SCO,8,7
+1999,Last 16,L16,25,Mark Williams,WAL,5,13,Nick Walker,ENG,u,7
+1999,Last 16,L16,25,Ken Doherty,IRL,4,13,Nigel Bond,ENG,13,11
+1999,Last 16,L16,25,Ronnie O'Sullivan,ENG,3,13,Joe Perry,ENG,u,8
+1999,Last 16,L16,25,John Parrott,ENG,6,13,Chris Small,SCO,u,12
+1999,Last 16,L16,25,Matthew Stevens,WAL,u,13,Tony Drago,MLT,10,8
+1999,Last 16,L16,25,Stephen Hendry,SCO,2,13,James Wattana,THA,15,7
+1999,Quarter-Finals,QF,25,John Higgins,SCO,1,13,Stephen Lee,ENG,9,6
+1999,Quarter-Finals,QF,25,Mark Williams,WAL,5,13,Ken Doherty,IRL,4,9
+1999,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,3,13,John Parrott,ENG,6,9
+1999,Quarter-Finals,QF,25,Stephen Hendry,SCO,2,13,Matthew Stevens,WAL,u,5
+1999,Semi-Finals,SF,33,Mark Williams,WAL,5,17,John Higgins,SCO,1,10
+1999,Semi-Finals,SF,33,Stephen Hendry,SCO,2,17,Ronnie O'Sullivan,ENG,3,13
+1999,The Final,FIN,35,Stephen Hendry,SCO,2,18,Mark Williams,WAL,5,11
+2000,First Round,1R,19,Stuart Bingham,ENG,u,10,Stephen Hendry,SCO,1,7
+2000,First Round,1R,19,Jimmy White,ENG,16,10,Billy Snaddon,SCO,u,7
+2000,First Round,1R,19,Matthew Stevens,WAL,9,10,Tony Drago,MLT,u,2
+2000,First Round,1R,19,Alan McManus,SCO,8,10,Nigel Bond,ENG,u,7
+2000,First Round,1R,19,John Parrott,ENG,5,10,Gary Wilkinson,ENG,u,9
+2000,First Round,1R,19,Joe Swail,NIR,u,10,Paul Hunter,ENG,12,6
+2000,First Round,1R,19,Dominic Dale,WAL,u,10,Peter Ebdon,ENG,13,6
+2000,First Round,1R,19,David Gray,ENG,u,10,Ronnie O'Sullivan,ENG,4,9
+2000,First Round,1R,19,Mark Williams,WAL,3,10,John Read,ENG,u,4
+2000,First Round,1R,19,Drew Henry,SCO,u,10,Mark King,ENG,14,8
+2000,First Round,1R,19,Fergal O'Brien,IRL,11,10,Chris Small,SCO,u,8
+2000,First Round,1R,19,Stephen Lee,ENG,6,10,Kristjan Helgason,ICE,u,3
+2000,First Round,1R,19,Ken Doherty,IRL,7,10,Darren Morgan,WAL,u,3
+2000,First Round,1R,19,Anthony Hamilton,ENG,10,10,Marco Fu,HKG,u,4
+2000,First Round,1R,19,Steve Davis,ENG,15,10,Graeme Dott,SCO,u,6
+2000,First Round,1R,19,John Higgins,SCO,2,10,Dave Harold,ENG,u,8
+2000,Last 16,L16,25,Jimmy White,ENG,16,13,Stuart Bingham,ENG,u,9
+2000,Last 16,L16,25,Matthew Stevens,WAL,9,13,Alan McManus,SCO,8,4
+2000,Last 16,L16,25,Joe Swail,NIR,u,13,John Parrott,ENG,5,12
+2000,Last 16,L16,25,Dominic Dale,WAL,u,13,David Gray,ENG,u,1
+2000,Last 16,L16,25,Mark Williams,WAL,3,13,Drew Henry,SCO,u,9
+2000,Last 16,L16,25,Fergal O'Brien,IRL,11,13,Stephen Lee,ENG,6,8
+2000,Last 16,L16,25,Anthony Hamilton,ENG,10,13,Ken Doherty,IRL,7,12
+2000,Last 16,L16,25,John Higgins,SCO,2,13,Steve Davis,ENG,15,11
+2000,Quarter-Finals,QF,25,Matthew Stevens,WAL,9,13,Jimmy White,ENG,16,7
+2000,Quarter-Finals,QF,25,Joe Swail,NIR,u,13,Dominic Dale,WAL,u,9
+2000,Quarter-Finals,QF,25,Mark Williams,WAL,3,13,Fergal O'Brien,IRL,11,5
+2000,Quarter-Finals,QF,25,John Higgins,SCO,2,13,Anthony Hamilton,ENG,10,3
+2000,Semi-Finals,SF,33,Matthew Stevens,WAL,9,17,Joe Swail,NIR,u,12
+2000,Semi-Finals,SF,33,Mark Williams,WAL,3,17,John Higgins,SCO,2,15
+2000,The Final,FIN,35,Mark Williams,WAL,3,18,Matthew Stevens,WAL,9,16
+2001,First Round,1R,19,Mark Williams,WAL,1,10,Billy Snaddon,SCO,u,4
+2001,First Round,1R,19,Joe Swail,NIR,16,10,Sean Storey,ENG,u,9
+2001,First Round,1R,19,Mark King,ENG,u,10,Fergal O'Brien,IRL,9,8
+2001,First Round,1R,19,Patrick Wallace,NIR,u,10,Alan McManus,SCO,8,2
+2001,First Round,1R,19,Stephen Lee,ENG,5,10,Nigel Bond,ENG,u,3
+2001,First Round,1R,19,Peter Ebdon,ENG,12,10,James Wattana,THA,u,8
+2001,First Round,1R,19,Dave Harold,ENG,13,10,Quinten Hann,AUS,u,5
+2001,First Round,1R,19,Ronnie O'Sullivan,ENG,4,10,Andy Hicks,ENG,u,2
+2001,First Round,1R,19,Stephen Hendry,SCO,3,10,Mark Davis,ENG,u,5
+2001,First Round,1R,19,Paul Hunter,ENG,14,10,David Roe,ENG,u,6
+2001,First Round,1R,19,Anthony Hamilton,ENG,11,10,Marcus Campbell,SCO,u,4
+2001,First Round,1R,19,Matthew Stevens,WAL,6,10,Tony Drago,MLT,u,1
+2001,First Round,1R,19,Ken Doherty,IRL,7,10,Nick Dyson,ENG,u,7
+2001,First Round,1R,19,Michael Judge,IRL,u,10,John Parrott,ENG,10,6
+2001,First Round,1R,19,Chris Small,SCO,u,10,Marco Fu,HKG,15,8
+2001,First Round,1R,19,John Higgins,SCO,2,10,Graeme Dott,SCO,u,4
+2001,Last 16,L16,25,Joe Swail,NIR,16,13,Mark Williams,WAL,1,12
+2001,Last 16,L16,25,Patrick Wallace,NIR,u,13,Mark King,ENG,u,5
+2001,Last 16,L16,25,Peter Ebdon,ENG,12,13,Stephen Lee,ENG,5,12
+2001,Last 16,L16,25,Ronnie O'Sullivan,ENG,4,13,Dave Harold,ENG,13,6
+2001,Last 16,L16,25,Stephen Hendry,SCO,3,13,Paul Hunter,ENG,14,5
+2001,Last 16,L16,25,Matthew Stevens,WAL,6,13,Anthony Hamilton,ENG,11,5
+2001,Last 16,L16,25,Ken Doherty,IRL,7,13,Michael Judge,IRL,u,7
+2001,Last 16,L16,25,John Higgins,SCO,2,13,Chris Small,SCO,u,8
+2001,Quarter-Finals,QF,25,Joe Swail,NIR,16,13,Patrick Wallace,NIR,u,11
+2001,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,4,13,Peter Ebdon,ENG,12,6
+2001,Quarter-Finals,QF,25,Matthew Stevens,WAL,6,13,Stephen Hendry,SCO,3,5
+2001,Quarter-Finals,QF,25,John Higgins,SCO,2,13,Ken Doherty,IRL,7,6
+2001,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,4,17,Joe Swail,NIR,16,11
+2001,Semi-Finals,SF,33,John Higgins,SCO,2,17,Matthew Stevens,WAL,6,15
+2001,The Final,FIN,35,Ronnie O'Sullivan,ENG,4,18,John Higgins,SCO,2,14
+2002,First Round,1R,19,Ronnie O'Sullivan,ENG,1,10,Drew Henry,SCO,u,5
+2002,First Round,1R,19,Robert Milkins,ENG,u,10,Fergal O'Brien,IRL,16,8
+2002,First Round,1R,19,Quinten Hann,AUS,u,10,Paul Hunter,ENG,9,9
+2002,First Round,1R,19,Stephen Lee,ENG,8,10,Chris Small,SCO,u,7
+2002,First Round,1R,19,Stephen Hendry,SCO,5,10,Shaun Murphy,ENG,u,4
+2002,First Round,1R,19,Anthony Davies,WAL,u,10,Alan McManus,SCO,12,7
+2002,First Round,1R,19,Mark King,ENG,13,10,David Gray,ENG,u,5
+2002,First Round,1R,19,Ken Doherty,IRL,4,10,Stuart Bingham,ENG,u,8
+2002,First Round,1R,19,John Higgins,SCO,3,10,James Wattana,THA,u,1
+2002,First Round,1R,19,Graeme Dott,SCO,14,10,Robin Hull,FIN,u,6
+2002,First Round,1R,19,Jimmy White,ENG,11,10,Dominic Dale,WAL,u,2
+2002,First Round,1R,19,Matthew Stevens,WAL,6,10,Mike Dunn,ENG,u,6
+2002,First Round,1R,19,Peter Ebdon,ENG,7,10,Michael Judge,IRL,u,4
+2002,First Round,1R,19,Joe Perry,ENG,u,10,Joe Swail,NIR,10,6
+2002,First Round,1R,19,Anthony Hamilton,ENG,u,10,Dave Harold,ENG,15,6
+2002,First Round,1R,19,Mark Williams,WAL,2,10,John Parrott,ENG,u,7
+2002,Last 16,L16,25,Ronnie O'Sullivan,ENG,1,13,Robert Milkins,ENG,u,2
+2002,Last 16,L16,25,Stephen Lee,ENG,8,13,Quinten Hann,AUS,u,3
+2002,Last 16,L16,25,Stephen Hendry,SCO,5,13,Anthony Davies,WAL,u,3
+2002,Last 16,L16,25,Ken Doherty,IRL,4,13,Mark King,ENG,13,12
+2002,Last 16,L16,25,John Higgins,SCO,3,13,Graeme Dott,SCO,14,2
+2002,Last 16,L16,25,Matthew Stevens,WAL,6,13,Jimmy White,ENG,11,3
+2002,Last 16,L16,25,Peter Ebdon,ENG,7,13,Joe Perry,ENG,u,7
+2002,Last 16,L16,25,Anthony Hamilton,ENG,u,13,Mark Williams,WAL,2,9
+2002,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,1,13,Stephen Lee,ENG,8,10
+2002,Quarter-Finals,QF,25,Stephen Hendry,SCO,5,13,Ken Doherty,IRL,4,12
+2002,Quarter-Finals,QF,25,Matthew Stevens,WAL,6,13,John Higgins,SCO,3,7
+2002,Quarter-Finals,QF,25,Peter Ebdon,ENG,7,13,Anthony Hamilton,ENG,u,6
+2002,Semi-Finals,SF,33,Stephen Hendry,SCO,5,17,Ronnie O'Sullivan,ENG,1,13
+2002,Semi-Finals,SF,33,Peter Ebdon,ENG,7,17,Matthew Stevens,WAL,6,16
+2002,The Final,FIN,35,Peter Ebdon,ENG,7,18,Stephen Hendry,SCO,5,17
+2003,First Round,1R,19,Peter Ebdon,ENG,1,10,Gerard Greene,NIR,u,3
+2003,First Round,1R,19,Tony Drago,MLT,u,10,Joe Swail,NIR,16,8
+2003,First Round,1R,19,Paul Hunter,ENG,9,10,Ali Carter,ENG,u,5
+2003,First Round,1R,19,Matthew Stevens,WAL,8,10,Chris Small,SCO,u,3
+2003,First Round,1R,19,Ken Doherty,IRL,5,10,Shaun Murphy,ENG,u,9
+2003,First Round,1R,19,Graeme Dott,SCO,12,10,Robert Milkins,ENG,u,4
+2003,First Round,1R,19,Sean Storey,ENG,u,10,Joe Perry,ENG,13,4
+2003,First Round,1R,19,John Higgins,SCO,4,10,Ian McCulloch,ENG,u,7
+2003,First Round,1R,19,Mark Williams,WAL,3,10,Stuart Pettman,ENG,u,2
+2003,First Round,1R,19,Quinten Hann,AUS,14,10,John Parrott,ENG,u,5
+2003,First Round,1R,19,Drew Henry,SCO,u,10,Mark King,ENG,11,5
+2003,First Round,1R,19,Stephen Hendry,SCO,6,10,Gary Wilkinson,ENG,u,7
+2003,First Round,1R,19,Stephen Lee,ENG,7,10,Steve Davis,ENG,u,6
+2003,First Round,1R,19,Jimmy White,ENG,10,10,James Wattana,THA,u,6
+2003,First Round,1R,19,Alan McManus,SCO,15,10,Nigel Bond,ENG,u,7
+2003,First Round,1R,19,Marco Fu,HKG,u,10,Ronnie O'Sullivan,ENG,2,6
+2003,Last 16,L16,25,Peter Ebdon,ENG,1,13,Tony Drago,MLT,u,5
+2003,Last 16,L16,25,Paul Hunter,ENG,9,13,Matthew Stevens,WAL,8,6
+2003,Last 16,L16,25,Ken Doherty,IRL,5,13,Graeme Dott,SCO,12,12
+2003,Last 16,L16,25,John Higgins,SCO,4,13,Sean Storey,ENG,u,7
+2003,Last 16,L16,25,Mark Williams,WAL,3,13,Quinten Hann,AUS,14,2
+2003,Last 16,L16,25,Stephen Hendry,SCO,6,13,Drew Henry,SCO,u,10
+2003,Last 16,L16,25,Stephen Lee,ENG,7,13,Jimmy White,ENG,10,11
+2003,Last 16,L16,25,Marco Fu,HKG,u,13,Alan McManus,SCO,15,7
+2003,Quarter-Finals,QF,25,Paul Hunter,ENG,9,13,Peter Ebdon,ENG,1,12
+2003,Quarter-Finals,QF,25,Ken Doherty,IRL,5,13,John Higgins,SCO,4,8
+2003,Quarter-Finals,QF,25,Mark Williams,WAL,3,13,Stephen Hendry,SCO,6,7
+2003,Quarter-Finals,QF,25,Stephen Lee,ENG,7,13,Marco Fu,HKG,u,7
+2003,Semi-Finals,SF,33,Ken Doherty,IRL,5,17,Paul Hunter,ENG,9,16
+2003,Semi-Finals,SF,33,Mark Williams,WAL,3,17,Stephen Lee,ENG,7,8
+2003,The Final,FIN,35,Mark Williams,WAL,3,18,Ken Doherty,IRL,5,16
+2004,First Round,1R,19,Mark Williams,WAL,1,10,Dominic Dale,WAL,u,7
+2004,First Round,1R,19,Joe Perry,ENG,16,10,Robert Milkins,ENG,u,7
+2004,First Round,1R,19,Matthew Stevens,WAL,9,10,James Wattana,THA,u,7
+2004,First Round,1R,19,Paul Hunter,ENG,8,10,John Parrott,ENG,u,7
+2004,First Round,1R,19,Lee Walker,WAL,u,10,Stephen Lee,ENG,5,7
+2004,First Round,1R,19,David Gray,ENG,12,10,Ali Carter,ENG,u,7
+2004,First Round,1R,19,Graeme Dott,SCO,13,10,Mark King,ENG,u,9
+2004,First Round,1R,19,John Higgins,SCO,4,10,Ryan Day,WAL,u,9
+2004,First Round,1R,19,Ronnie O'Sullivan,ENG,3,10,Stephen Maguire,SCO,u,6
+2004,First Round,1R,19,Andy Hicks,ENG,u,10,Quinten Hann,AUS,14,4
+2004,First Round,1R,19,Anthony Hamilton,ENG,u,10,Steve Davis,ENG,11,7
+2004,First Round,1R,19,Joe Swail,NIR,u,10,Ken Doherty,IRL,6,5
+2004,First Round,1R,19,Ian McCulloch,ENG,u,10,Peter Ebdon,ENG,7,8
+2004,First Round,1R,19,Alan McManus,SCO,10,10,Chris Small,SCO,u,1
+2004,First Round,1R,19,Barry Pinches,ENG,u,10,Jimmy White,ENG,15,8
+2004,First Round,1R,19,Stephen Hendry,SCO,2,10,Stuart Pettman,ENG,u,2
+2004,Last 16,L16,25,Joe Perry,ENG,16,13,Mark Williams,WAL,1,11
+2004,Last 16,L16,25,Matthew Stevens,WAL,9,13,Paul Hunter,ENG,8,12
+2004,Last 16,L16,25,David Gray,ENG,12,13,Lee Walker,WAL,u,5
+2004,Last 16,L16,25,Graeme Dott,SCO,13,13,John Higgins,SCO,4,10
+2004,Last 16,L16,25,Ronnie O'Sullivan,ENG,3,13,Andy Hicks,ENG,u,11
+2004,Last 16,L16,25,Anthony Hamilton,ENG,u,13,Joe Swail,NIR,u,11
+2004,Last 16,L16,25,Ian McCulloch,ENG,u,13,Alan McManus,SCO,10,6
+2004,Last 16,L16,25,Stephen Hendry,SCO,2,13,Barry Pinches,ENG,u,12
+2004,Quarter-Finals,QF,25,Matthew Stevens,WAL,9,13,Joe Perry,ENG,16,10
+2004,Quarter-Finals,QF,25,Graeme Dott,SCO,13,13,David Gray,ENG,12,7
+2004,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,3,13,Anthony Hamilton,ENG,u,3
+2004,Quarter-Finals,QF,25,Stephen Hendry,SCO,2,13,Ian McCulloch,ENG,u,3
+2004,Semi-Finals,SF,33,Graeme Dott,SCO,13,17,Matthew Stevens,WAL,9,15
+2004,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,3,17,Stephen Hendry,SCO,2,4
+2004,The Final,FIN,35,Ronnie O'Sullivan,ENG,3,18,Graeme Dott,SCO,13,8
+2005,First Round,1R,19,Ronnie O'Sullivan,ENG,1,10,Stephen Maguire,SCO,u,9
+2005,First Round,1R,19,Ali Carter,ENG,u,10,Marco Fu,HKG,16,4
+2005,First Round,1R,19,Stephen Lee,ENG,9,10,Tony Drago,MLT,u,5
+2005,First Round,1R,19,Peter Ebdon,ENG,8,10,Quinten Hann,AUS,u,2
+2005,First Round,1R,19,John Higgins,SCO,5,10,Mark Selby,ENG,u,5
+2005,First Round,1R,19,Shaun Murphy,ENG,u,10,Chris Small,SCO,12,5
+2005,First Round,1R,19,Steve Davis,ENG,13,10,Gerard Greene,NIR,u,9
+2005,First Round,1R,19,Michael Holt,ENG,u,10,Paul Hunter,ENG,4,8
+2005,First Round,1R,19,Stephen Hendry,SCO,3,10,Neil Robertson,AUS,u,7
+2005,First Round,1R,19,Anthony Hamilton,ENG,u,10,David Gray,ENG,14,8
+2005,First Round,1R,19,Jimmy White,ENG,11,10,Fergal O'Brien,IRL,u,5
+2005,First Round,1R,19,Matthew Stevens,WAL,6,10,Andy Hicks,ENG,u,5
+2005,First Round,1R,19,Ken Doherty,IRL,7,10,Barry Pinches,ENG,u,5
+2005,First Round,1R,19,Alan McManus,SCO,10,10,Drew Henry,SCO,u,9
+2005,First Round,1R,19,Ian McCulloch,ENG,u,10,Graeme Dott,SCO,15,9
+2005,First Round,1R,19,Mark Williams,WAL,2,10,Robert Milkins,ENG,u,1
+2005,Last 16,L16,25,Ronnie O'Sullivan,ENG,1,13,Ali Carter,ENG,u,7
+2005,Last 16,L16,25,Peter Ebdon,ENG,8,13,Stephen Lee,ENG,9,9
+2005,Last 16,L16,25,Shaun Murphy,ENG,u,13,John Higgins,SCO,5,8
+2005,Last 16,L16,25,Steve Davis,ENG,13,13,Michael Holt,ENG,u,10
+2005,Last 16,L16,25,Stephen Hendry,SCO,3,13,Anthony Hamilton,ENG,u,3
+2005,Last 16,L16,25,Matthew Stevens,WAL,6,13,Jimmy White,ENG,11,5
+2005,Last 16,L16,25,Alan McManus,SCO,10,13,Ken Doherty,IRL,7,11
+2005,Last 16,L16,25,Ian McCulloch,ENG,u,13,Mark Williams,WAL,2,12
+2005,Quarter-Finals,QF,25,Peter Ebdon,ENG,8,13,Ronnie O'Sullivan,ENG,1,11
+2005,Quarter-Finals,QF,25,Shaun Murphy,ENG,u,13,Steve Davis,ENG,13,4
+2005,Quarter-Finals,QF,25,Matthew Stevens,WAL,6,13,Stephen Hendry,SCO,3,11
+2005,Quarter-Finals,QF,25,Ian McCulloch,ENG,u,13,Alan McManus,SCO,10,8
+2005,Semi-Finals,SF,33,Shaun Murphy,ENG,u,17,Peter Ebdon,ENG,8,12
+2005,Semi-Finals,SF,33,Matthew Stevens,WAL,6,17,Ian McCulloch,ENG,u,14
+2005,The Final,FIN,35,Shaun Murphy,ENG,u,18,Matthew Stevens,WAL,6,16
+2006,First Round,1R,19,Shaun Murphy,ENG,1,10,James Wattana,THA,u,4
+2006,First Round,1R,19,Steve Davis,ENG,16,10,Andy Hicks,ENG,u,4
+2006,First Round,1R,19,David Gray,ENG,u,10,Jimmy White,ENG,9,5
+2006,First Round,1R,19,Peter Ebdon,ENG,8,10,Michael Holt,ENG,u,8
+2006,First Round,1R,19,Matthew Stevens,WAL,5,10,Joe Swail,NIR,u,5
+2006,First Round,1R,19,Ken Doherty,IRL,12,10,Barry Hawkins,ENG,u,1
+2006,First Round,1R,19,Marco Fu,HKG,u,10,Alan McManus,SCO,13,3
+2006,First Round,1R,19,Stephen Maguire,SCO,4,10,Mark King,ENG,u,6
+2006,First Round,1R,19,Nigel Bond,ENG,u,10,Stephen Hendry,SCO,3,9
+2006,First Round,1R,19,Graeme Dott,SCO,14,10,John Parrott,ENG,u,3
+2006,First Round,1R,19,Stephen Lee,ENG,11,10,Ali Carter,ENG,u,8
+2006,First Round,1R,19,Neil Robertson,AUS,u,10,Paul Hunter,ENG,6,5
+2006,First Round,1R,19,Mark Selby,ENG,u,10,John Higgins,SCO,7,4
+2006,First Round,1R,19,Mark Williams,WAL,10,10,Anthony Hamilton,ENG,u,1
+2006,First Round,1R,19,Ryan Day,WAL,u,10,Joe Perry,ENG,15,3
+2006,First Round,1R,19,Ronnie O'Sullivan,ENG,2,10,Dave Harold,ENG,u,4
+2006,Last 16,L16,25,Shaun Murphy,ENG,1,13,Steve Davis,ENG,16,7
+2006,Last 16,L16,25,Peter Ebdon,ENG,8,13,David Gray,ENG,u,2
+2006,Last 16,L16,25,Ken Doherty,IRL,12,13,Matthew Stevens,WAL,5,8
+2006,Last 16,L16,25,Marco Fu,HKG,u,13,Stephen Maguire,SCO,4,4
+2006,Last 16,L16,25,Graeme Dott,SCO,14,13,Nigel Bond,ENG,u,9
+2006,Last 16,L16,25,Neil Robertson,AUS,u,13,Stephen Lee,ENG,11,9
+2006,Last 16,L16,25,Mark Williams,WAL,10,13,Mark Selby,ENG,u,8
+2006,Last 16,L16,25,Ronnie O'Sullivan,ENG,2,13,Ryan Day,WAL,u,10
+2006,Quarter-Finals,QF,25,Peter Ebdon,ENG,8,13,Shaun Murphy,ENG,1,7
+2006,Quarter-Finals,QF,25,Marco Fu,HKG,u,13,Ken Doherty,IRL,12,10
+2006,Quarter-Finals,QF,25,Graeme Dott,SCO,14,13,Neil Robertson,AUS,u,12
+2006,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,2,13,Mark Williams,WAL,10,11
+2006,Semi-Finals,SF,33,Peter Ebdon,ENG,8,17,Marco Fu,HKG,u,16
+2006,Semi-Finals,SF,33,Graeme Dott,SCO,14,17,Ronnie O'Sullivan,ENG,2,11
+2006,The Final,FIN,35,Graeme Dott,SCO,14,18,Peter Ebdon,ENG,8,14
+2007,First Round,1R,19,Ian McCulloch,ENG,u,10,Graeme Dott,SCO,1,7
+2007,First Round,1R,19,Anthony Hamilton,ENG,16,10,Marco Fu,HKG,u,3
+2007,First Round,1R,19,Stephen Maguire,SCO,9,10,Joe Perry,ENG,u,3
+2007,First Round,1R,19,Joe Swail,NIR,u,10,Mark Williams,WAL,8,9
+2007,First Round,1R,19,John Higgins,SCO,5,10,Michael Holt,ENG,u,4
+2007,First Round,1R,19,Fergal O'Brien,IRL,u,10,Barry Hawkins,ENG,12,9
+2007,First Round,1R,19,Neil Robertson,AUS,13,10,Ryan Day,WAL,u,5
+2007,First Round,1R,19,Ronnie O'Sullivan,ENG,4,10,Ding Junhui,CHN,u,2
+2007,First Round,1R,19,Mark Allen,NIR,u,10,Ken Doherty,IRL,3,7
+2007,First Round,1R,19,Matthew Stevens,WAL,14,10,Joe Delaney,IRL,u,2
+2007,First Round,1R,19,John Parrott,ENG,u,10,Steve Davis,ENG,11,9
+2007,First Round,1R,19,Shaun Murphy,ENG,6,10,Judd Trump,ENG,u,6
+2007,First Round,1R,19,Peter Ebdon,ENG,7,10,Nigel Bond,ENG,u,7
+2007,First Round,1R,19,Mark Selby,ENG,u,10,Stephen Lee,ENG,10,7
+2007,First Round,1R,19,Ali Carter,ENG,15,10,Andy Hicks,ENG,u,4
+2007,First Round,1R,19,Stephen Hendry,SCO,2,10,David Gilbert,ENG,u,7
+2007,Last 16,L16,25,Anthony Hamilton,ENG,16,13,Ian McCulloch,ENG,u,8
+2007,Last 16,L16,25,Stephen Maguire,SCO,9,13,Joe Swail,NIR,u,8
+2007,Last 16,L16,25,John Higgins,SCO,5,13,Fergal O'Brien,IRL,u,4
+2007,Last 16,L16,25,Ronnie O'Sullivan,ENG,4,13,Neil Robertson,AUS,13,10
+2007,Last 16,L16,25,Matthew Stevens,WAL,14,13,Mark Allen,NIR,u,9
+2007,Last 16,L16,25,Shaun Murphy,ENG,6,13,John Parrott,ENG,u,8
+2007,Last 16,L16,25,Mark Selby,ENG,u,13,Peter Ebdon,ENG,7,8
+2007,Last 16,L16,25,Ali Carter,ENG,15,13,Stephen Hendry,SCO,2,6
+2007,Quarter-Finals,QF,25,Stephen Maguire,SCO,9,13,Anthony Hamilton,ENG,16,7
+2007,Quarter-Finals,QF,25,John Higgins,SCO,5,13,Ronnie O'Sullivan,ENG,4,9
+2007,Quarter-Finals,QF,25,Shaun Murphy,ENG,6,13,Matthew Stevens,WAL,14,12
+2007,Quarter-Finals,QF,25,Mark Selby,ENG,u,13,Ali Carter,ENG,15,12
+2007,Semi-Finals,SF,33,John Higgins,SCO,5,17,Stephen Maguire,SCO,9,15
+2007,Semi-Finals,SF,33,Mark Selby,ENG,u,17,Shaun Murphy,ENG,6,16
+2007,The Final,FIN,35,John Higgins,SCO,5,18,Mark Selby,ENG,u,13
+2008,First Round,1R,19,John Higgins,SCO,1,10,Matthew Stevens,WAL,u,5
+2008,First Round,1R,19,Ryan Day,WAL,16,10,Michael Judge,IRL,u,6
+2008,First Round,1R,19,Ding Junhui,CHN,9,10,Marco Fu,HKG,u,9
+2008,First Round,1R,19,Stephen Hendry,SCO,8,10,Mark Allen,NIR,u,9
+2008,First Round,1R,19,Ronnie O'Sullivan,ENG,5,10,Liu Chang,CHN,u,5
+2008,First Round,1R,19,Mark Williams,WAL,12,10,Mark Davis,ENG,u,3
+2008,First Round,1R,19,Joe Swail,NIR,u,10,Stephen Lee,ENG,13,4
+2008,First Round,1R,19,Liang Wenbo,CHN,u,10,Ken Doherty,IRL,4,5
+2008,First Round,1R,19,Shaun Murphy,ENG,3,10,Dave Harold,ENG,u,3
+2008,First Round,1R,19,Ali Carter,ENG,14,10,Barry Hawkins,ENG,u,9
+2008,First Round,1R,19,Mark King,ENG,u,10,Mark Selby,ENG,11,8
+2008,First Round,1R,19,Peter Ebdon,ENG,6,10,Jamie Cope,ENG,u,9
+2008,First Round,1R,19,Neil Robertson,AUS,7,10,Nigel Bond,ENG,u,4
+2008,First Round,1R,19,Stephen Maguire,SCO,10,10,Anthony Hamilton,ENG,u,3
+2008,First Round,1R,19,Stuart Bingham,ENG,u,10,Steve Davis,ENG,15,8
+2008,First Round,1R,19,Joe Perry,ENG,u,10,Graeme Dott,SCO,2,7
+2008,Last 16,L16,25,Ryan Day,WAL,16,13,John Higgins,SCO,1,9
+2008,Last 16,L16,25,Stephen Hendry,SCO,8,13,Ding Junhui,CHN,9,7
+2008,Last 16,L16,25,Ronnie O'Sullivan,ENG,5,13,Mark Williams,WAL,12,7
+2008,Last 16,L16,25,Liang Wenbo,CHN,u,13,Joe Swail,NIR,u,12
+2008,Last 16,L16,25,Ali Carter,ENG,14,13,Shaun Murphy,ENG,3,4
+2008,Last 16,L16,25,Peter Ebdon,ENG,6,13,Mark King,ENG,u,9
+2008,Last 16,L16,25,Stephen Maguire,SCO,10,13,Neil Robertson,AUS,7,7
+2008,Last 16,L16,25,Joe Perry,ENG,u,13,Stuart Bingham,ENG,u,9
+2008,Quarter-Finals,QF,25,Stephen Hendry,SCO,8,13,Ryan Day,WAL,16,7
+2008,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,5,13,Liang Wenbo,CHN,u,7
+2008,Quarter-Finals,QF,25,Ali Carter,ENG,14,13,Peter Ebdon,ENG,6,9
+2008,Quarter-Finals,QF,25,Joe Perry,ENG,u,13,Stephen Maguire,SCO,10,12
+2008,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,5,17,Stephen Hendry,SCO,8,6
+2008,Semi-Finals,SF,33,Ali Carter,ENG,14,17,Joe Perry,ENG,u,15
+2008,The Final,FIN,35,Ronnie O'Sullivan,ENG,5,18,Ali Carter,ENG,14,8
+2009,First Round,1R,19,Ronnie O'Sullivan,ENG,1,10,Stuart Bingham,ENG,u,5
+2009,First Round,1R,19,Mark Allen,NIR,16,10,Martin Gould,ENG,u,6
+2009,First Round,1R,19,Nigel Bond,ENG,u,10,Peter Ebdon,ENG,9,5
+2009,First Round,1R,19,Ryan Day,WAL,8,10,Stephen Lee,ENG,u,4
+2009,First Round,1R,19,John Higgins,SCO,5,10,Michael Holt,ENG,u,5
+2009,First Round,1R,19,Jamie Cope,ENG,u,10,Joe Perry,ENG,12,6
+2009,First Round,1R,19,Graeme Dott,SCO,13,10,Barry Hawkins,ENG,u,8
+2009,First Round,1R,19,Mark Selby,ENG,4,10,Ricky Walden,ENG,u,6
+2009,First Round,1R,19,Shaun Murphy,ENG,3,10,Andrew Higginson,ENG,u,8
+2009,First Round,1R,19,Marco Fu,HKG,14,10,Joe Swail,NIR,u,4
+2009,First Round,1R,19,Ding Junhui,CHN,11,10,Liang Wenbo,CHN,u,8
+2009,First Round,1R,19,Stephen Hendry,SCO,6,10,Mark Williams,WAL,u,7
+2009,First Round,1R,19,Ali Carter,ENG,7,10,Gerard Greene,NIR,u,5
+2009,First Round,1R,19,Neil Robertson,AUS,10,10,Steve Davis,ENG,u,2
+2009,First Round,1R,19,Mark King,ENG,15,10,Rory McLeod,ENG,u,6
+2009,First Round,1R,19,Stephen Maguire,SCO,2,10,Jamie Burnett,SCO,u,5
+2009,Last 16,L16,25,Mark Allen,NIR,16,13,Ronnie O'Sullivan,ENG,1,11
+2009,Last 16,L16,25,Ryan Day,WAL,8,13,Nigel Bond,ENG,u,5
+2009,Last 16,L16,25,John Higgins,SCO,5,13,Jamie Cope,ENG,u,12
+2009,Last 16,L16,25,Mark Selby,ENG,4,13,Graeme Dott,SCO,13,10
+2009,Last 16,L16,25,Shaun Murphy,ENG,3,13,Marco Fu,HKG,14,3
+2009,Last 16,L16,25,Stephen Hendry,SCO,6,13,Ding Junhui,CHN,11,10
+2009,Last 16,L16,25,Neil Robertson,AUS,10,13,Ali Carter,ENG,7,8
+2009,Last 16,L16,25,Stephen Maguire,SCO,2,13,Mark King,ENG,15,6
+2009,Quarter-Finals,QF,25,Mark Allen,NIR,16,13,Ryan Day,WAL,8,11
+2009,Quarter-Finals,QF,25,John Higgins,SCO,5,13,Mark Selby,ENG,4,12
+2009,Quarter-Finals,QF,25,Shaun Murphy,ENG,3,13,Stephen Hendry,SCO,6,11
+2009,Quarter-Finals,QF,25,Neil Robertson,AUS,10,13,Stephen Maguire,SCO,2,8
+2009,Semi-Finals,SF,33,John Higgins,SCO,5,17,Mark Allen,NIR,16,13
+2009,Semi-Finals,SF,33,Shaun Murphy,ENG,3,17,Neil Robertson,AUS,10,14
+2009,The Final,FIN,35,John Higgins,SCO,5,18,Shaun Murphy,ENG,3,9
+2010,First Round,1R,19,John Higgins,SCO,1,10,Barry Hawkins,ENG,u,6
+2010,First Round,1R,19,Steve Davis,ENG,u,10,Mark King,ENG,16,9
+2010,First Round,1R,19,Neil Robertson,AUS,9,10,Fergal O'Brien,IRL,u,5
+2010,First Round,1R,19,Martin Gould,ENG,u,10,Marco Fu,HKG,8,9
+2010,First Round,1R,19,Ali Carter,ENG,5,10,Jamie Cope,ENG,u,4
+2010,First Round,1R,19,Joe Perry,ENG,12,10,Michael Holt,ENG,u,4
+2010,First Round,1R,19,Ding Junhui,CHN,13,10,Stuart Pettman,ENG,u,1
+2010,First Round,1R,19,Shaun Murphy,ENG,4,10,Gerard Greene,NIR,u,7
+2010,First Round,1R,19,Stephen Maguire,SCO,3,10,Stephen Lee,ENG,u,4
+2010,First Round,1R,19,Graeme Dott,SCO,u,10,Peter Ebdon,ENG,14,5
+2010,First Round,1R,19,Mark Allen,NIR,11,10,Tom Ford,ENG,u,4
+2010,First Round,1R,19,Mark Davis,ENG,u,10,Ryan Day,WAL,6,8
+2010,First Round,1R,19,Mark Selby,ENG,7,10,Ken Doherty,IRL,u,4
+2010,First Round,1R,19,Stephen Hendry,SCO,10,10,Zhang Anda,CHN,u,9
+2010,First Round,1R,19,Mark Williams,WAL,15,10,Marcus Campbell,SCO,u,5
+2010,First Round,1R,19,Ronnie O'Sullivan,ENG,2,10,Liang Wenbo,CHN,u,7
+2010,Last 16,L16,25,Steve Davis,ENG,u,13,John Higgins,SCO,1,11
+2010,Last 16,L16,25,Neil Robertson,AUS,9,13,Martin Gould,ENG,u,12
+2010,Last 16,L16,25,Ali Carter,ENG,5,13,Joe Perry,ENG,12,11
+2010,Last 16,L16,25,Shaun Murphy,ENG,4,13,Ding Junhui,CHN,13,10
+2010,Last 16,L16,25,Graeme Dott,SCO,u,13,Stephen Maguire,SCO,3,6
+2010,Last 16,L16,25,Mark Allen,NIR,11,13,Mark Davis,ENG,u,5
+2010,Last 16,L16,25,Mark Selby,ENG,7,13,Stephen Hendry,SCO,10,5
+2010,Last 16,L16,25,Ronnie O'Sullivan,ENG,2,13,Mark Williams,WAL,15,10
+2010,Quarter-Finals,QF,25,Neil Robertson,AUS,9,13,Steve Davis,ENG,u,5
+2010,Quarter-Finals,QF,25,Ali Carter,ENG,5,13,Shaun Murphy,ENG,4,12
+2010,Quarter-Finals,QF,25,Graeme Dott,SCO,u,13,Mark Allen,NIR,11,12
+2010,Quarter-Finals,QF,25,Mark Selby,ENG,7,13,Ronnie O'Sullivan,ENG,2,11
+2010,Semi-Finals,SF,33,Neil Robertson,AUS,9,17,Ali Carter,ENG,5,12
+2010,Semi-Finals,SF,33,Graeme Dott,SCO,u,17,Mark Selby,ENG,7,14
+2010,The Final,FIN,35,Neil Robertson,AUS,9,18,Graeme Dott,SCO,u,13
+2011,First Round,1R,19,Judd Trump,ENG,u,10,Neil Robertson,AUS,1,8
+2011,First Round,1R,19,Martin Gould,ENG,u,10,Marco Fu,HKG,16,8
+2011,First Round,1R,19,Graeme Dott,SCO,9,10,Mark King,ENG,u,7
+2011,First Round,1R,19,Ali Carter,ENG,8,10,Dave Harold,ENG,u,3
+2011,First Round,1R,19,Ding Junhui,CHN,5,10,Jamie Burnett,SCO,u,2
+2011,First Round,1R,19,Stuart Bingham,ENG,u,10,Peter Ebdon,ENG,12,8
+2011,First Round,1R,19,Stephen Hendry,SCO,13,10,Joe Perry,ENG,u,9
+2011,First Round,1R,19,Mark Selby,ENG,4,10,Jimmy Robertson,ENG,u,1
+2011,First Round,1R,19,Mark Williams,WAL,3,10,Ryan Day,WAL,u,5
+2011,First Round,1R,19,Jamie Cope,ENG,14,10,Andrew Pagett,WAL,u,7
+2011,First Round,1R,19,Mark Allen,NIR,11,10,Matthew Stevens,WAL,u,9
+2011,First Round,1R,19,Barry Hawkins,ENG,u,10,Stephen Maguire,SCO,6,9
+2011,First Round,1R,19,Shaun Murphy,ENG,7,10,Marcus Campbell,SCO,u,1
+2011,First Round,1R,19,Ronnie O'Sullivan,ENG,10,10,Dominic Dale,WAL,u,2
+2011,First Round,1R,19,Rory McLeod,ENG,u,10,Ricky Walden,ENG,15,6
+2011,First Round,1R,19,John Higgins,SCO,2,10,Stephen Lee,ENG,u,5
+2011,Last 16,L16,25,Judd Trump,ENG,u,13,Martin Gould,ENG,u,6
+2011,Last 16,L16,25,Graeme Dott,SCO,9,13,Ali Carter,ENG,8,11
+2011,Last 16,L16,25,Ding Junhui,CHN,5,13,Stuart Bingham,ENG,u,12
+2011,Last 16,L16,25,Mark Selby,ENG,4,13,Stephen Hendry,SCO,13,4
+2011,Last 16,L16,25,Mark Williams,WAL,3,13,Jamie Cope,ENG,14,4
+2011,Last 16,L16,25,Mark Allen,NIR,11,13,Barry Hawkins,ENG,u,12
+2011,Last 16,L16,25,Ronnie O'Sullivan,ENG,10,13,Shaun Murphy,ENG,7,10
+2011,Last 16,L16,25,John Higgins,SCO,2,13,Rory McLeod,ENG,u,7
+2011,Quarter-Finals,QF,25,Judd Trump,ENG,u,13,Graeme Dott,SCO,9,5
+2011,Quarter-Finals,QF,25,Ding Junhui,CHN,5,13,Mark Selby,ENG,4,10
+2011,Quarter-Finals,QF,25,Mark Williams,WAL,3,13,Mark Allen,NIR,11,5
+2011,Quarter-Finals,QF,25,John Higgins,SCO,2,13,Ronnie O'Sullivan,ENG,10,10
+2011,Semi-Finals,SF,33,Judd Trump,ENG,u,17,Ding Junhui,CHN,5,15
+2011,Semi-Finals,SF,33,John Higgins,SCO,2,17,Mark Williams,WAL,3,14
+2011,The Final,FIN,35,John Higgins,SCO,2,18,Judd Trump,ENG,u,15
+2012,First Round,1R,19,John Higgins,SCO,1,10,Cao Yupeng,CHN,u,9
+2012,First Round,1R,19,Stephen Hendry,SCO,u,10,Stuart Bingham,ENG,16,4
+2012,First Round,1R,19,Joe Perry,ENG,u,10,Graeme Dott,SCO,9,1
+2012,First Round,1R,19,Stephen Maguire,SCO,8,10,Luca Brecel,BEL,u,5
+2012,First Round,1R,19,Jamie Jones,WAL,u,10,Shaun Murphy,ENG,5,8
+2012,First Round,1R,19,Andrew Higginson,ENG,u,10,Stephen Lee,ENG,12,6
+2012,First Round,1R,19,Ali Carter,ENG,13,10,Mark Davis,ENG,u,2
+2012,First Round,1R,19,Judd Trump,ENG,4,10,Dominic Dale,WAL,u,7
+2012,First Round,1R,19,Mark Williams,WAL,3,10,Liu Chang,CHN,u,6
+2012,First Round,1R,19,Ronnie O'Sullivan,ENG,14,10,Peter Ebdon,ENG,u,4
+2012,First Round,1R,19,David Gilbert,ENG,u,10,Martin Gould,ENG,11,8
+2012,First Round,1R,19,Neil Robertson,AUS,6,10,Ken Doherty,IRL,u,4
+2012,First Round,1R,19,Ryan Day,WAL,u,10,Ding Junhui,CHN,7,9
+2012,First Round,1R,19,Cao Yupeng,CHN,u,10,Mark Allen,NIR,10,6
+2012,First Round,1R,19,Matthew Stevens,WAL,15,10,Marco Fu,HKG,u,3
+2012,First Round,1R,19,Barry Hawkins,ENG,u,10,Mark Selby,ENG,2,3
+2012,Last 16,L16,25,Stephen Hendry,SCO,u,13,John Higgins,SCO,1,4
+2012,Last 16,L16,25,Stephen Maguire,SCO,8,13,Joe Perry,ENG,u,7
+2012,Last 16,L16,25,Jamie Jones,WAL,u,13,Andrew Higginson,ENG,u,10
+2012,Last 16,L16,25,Ali Carter,ENG,13,13,Judd Trump,ENG,4,12
+2012,Last 16,L16,25,Ronnie O'Sullivan,ENG,14,13,Mark Williams,WAL,3,6
+2012,Last 16,L16,25,Neil Robertson,AUS,6,13,David Gilbert,ENG,u,9
+2012,Last 16,L16,25,Ryan Day,WAL,u,13,Cao Yupeng,CHN,u,7
+2012,Last 16,L16,25,Matthew Stevens,WAL,15,13,Barry Hawkins,ENG,u,11
+2012,Quarter-Finals,QF,25,Stephen Maguire,SCO,8,13,Stephen Hendry,SCO,u,2
+2012,Quarter-Finals,QF,25,Ali Carter,ENG,13,13,Jamie Jones,WAL,u,11
+2012,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,14,13,Neil Robertson,AUS,6,10
+2012,Quarter-Finals,QF,25,Matthew Stevens,WAL,15,13,Ryan Day,WAL,u,5
+2012,Semi-Finals,SF,33,Ali Carter,ENG,13,17,Stephen Maguire,SCO,8,12
+2012,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,14,17,Matthew Stevens,WAL,15,10
+2012,The Final,FIN,35,Ronnie O'Sullivan,ENG,14,18,Ali Carter,ENG,13,11
+2013,First Round,1R,19,Ronnie O'Sullivan,ENG,1,10,Marcus Campbell,SCO,u,4
+2013,First Round,1R,19,Ali Carter,ENG,16,10,Ben Woollaston,ENG,u,4
+2013,First Round,1R,19,Stuart Bingham,ENG,9,10,Sam Baird,ENG,u,2
+2013,First Round,1R,19,Mark Davis,ENG,u,10,John Higgins,SCO,8,6
+2013,First Round,1R,19,Shaun Murphy,ENG,5,10,Martin Gould,ENG,u,5
+2013,First Round,1R,19,Graeme Dott,SCO,12,10,Peter Ebdon,ENG,u,6
+2013,First Round,1R,19,Marco Fu,HKG,u,10,Matthew Stevens,WAL,13,7
+2013,First Round,1R,19,Judd Trump,ENG,4,10,Dominic Dale,WAL,u,5
+2013,First Round,1R,19,Robert Milkins,ENG,u,10,Neil Robertson,AUS,3,8
+2013,First Round,1R,19,Ricky Walden,ENG,14,10,Michael Holt,ENG,u,1
+2013,First Round,1R,19,Michael White,WAL,u,10,Mark Williams,WAL,11,6
+2013,First Round,1R,19,Dechawat Poomjaeng,THA,u,10,Stephen Maguire,SCO,6,9
+2013,First Round,1R,19,Mark King,ENG,u,10,Mark Allen,NIR,7,8
+2013,First Round,1R,19,Ding Junhui,CHN,10,10,Alan McManus,SCO,u,5
+2013,First Round,1R,19,Barry Hawkins,ENG,15,10,Jack Lisowski,ENG,u,3
+2013,First Round,1R,19,Mark Selby,ENG,2,10,Matthew Selt,ENG,u,4
+2013,Last 16,L16,25,Ronnie O'Sullivan,ENG,1,13,Ali Carter,ENG,16,8
+2013,Last 16,L16,25,Stuart Bingham,ENG,9,13,Mark Davis,ENG,u,10
+2013,Last 16,L16,25,Shaun Murphy,ENG,5,13,Graeme Dott,SCO,12,11
+2013,Last 16,L16,25,Judd Trump,ENG,4,13,Marco Fu,HKG,u,7
+2013,Last 16,L16,25,Ricky Walden,ENG,14,13,Robert Milkins,ENG,u,11
+2013,Last 16,L16,25,Michael White,WAL,u,13,Dechawat Poomjaeng,THA,u,3
+2013,Last 16,L16,25,Ding Junhui,CHN,10,13,Mark King,ENG,u,9
+2013,Last 16,L16,25,Barry Hawkins,ENG,15,13,Mark Selby,ENG,2,10
+2013,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,1,13,Stuart Bingham,ENG,9,4
+2013,Quarter-Finals,QF,25,Judd Trump,ENG,4,13,Shaun Murphy,ENG,5,12
+2013,Quarter-Finals,QF,25,Ricky Walden,ENG,14,13,Michael White,WAL,u,6
+2013,Quarter-Finals,QF,25,Barry Hawkins,ENG,15,13,Ding Junhui,CHN,10,7
+2013,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,1,17,Judd Trump,ENG,4,11
+2013,Semi-Finals,SF,33,Barry Hawkins,ENG,15,17,Ricky Walden,ENG,14,14
+2013,The Final,FIN,35,Ronnie O'Sullivan,ENG,1,18,Barry Hawkins,ENG,15,12
+2014,First Round,1R,19,Ronnie O'Sullivan,ENG,1,10,Robin Hull,FIN,u,4
+2014,First Round,1R,19,Joe Perry,ENG,16,10,Jamie Burnett,SCO,u,7
+2014,First Round,1R,19,Shaun Murphy,ENG,9,10,Jamie Cope,ENG,u,9
+2014,First Round,1R,19,Marco Fu,HKG,8,10,Martin Gould,ENG,u,7
+2014,First Round,1R,19,Barry Hawkins,ENG,5,10,David Gilbert,ENG,u,4
+2014,First Round,1R,19,Ricky Walden,ENG,12,10,Kyren Wilson,ENG,u,7
+2014,First Round,1R,19,Dominic Dale,WAL,u,10,Mark Davis,ENG,13,5
+2014,First Round,1R,19,Michael Wasley,ENG,u,10,Ding Junhui,CHN,4,9
+2014,First Round,1R,19,Mark Selby,ENG,3,10,Michael White,WAL,u,9
+2014,First Round,1R,19,Ali Carter,ENG,14,10,Xiao Guodong,CHN,u,7
+2014,First Round,1R,19,Alan McManus,SCO,u,10,John Higgins,SCO,11,7
+2014,First Round,1R,19,Ken Doherty,IRL,u,10,Stuart Bingham,ENG,6,5
+2014,First Round,1R,19,Judd Trump,ENG,7,10,Tom Ford,ENG,u,8
+2014,First Round,1R,19,Ryan Day,WAL,u,10,Stephen Maguire,SCO,10,9
+2014,First Round,1R,19,Mark Allen,NIR,15,10,Michael Holt,ENG,u,4
+2014,First Round,1R,19,Neil Robertson,AUS,2,10,Robbie Williams,ENG,u,2
+2014,Last 16,L16,25,Ronnie O'Sullivan,ENG,1,13,Joe Perry,ENG,16,11
+2014,Last 16,L16,25,Shaun Murphy,ENG,9,13,Marco Fu,HKG,8,8
+2014,Last 16,L16,25,Barry Hawkins,ENG,5,13,Ricky Walden,ENG,12,11
+2014,Last 16,L16,25,Dominic Dale,WAL,u,13,Michael Wasley,ENG,u,4
+2014,Last 16,L16,25,Mark Selby,ENG,3,13,Ali Carter,ENG,14,9
+2014,Last 16,L16,25,Alan McManus,SCO,u,13,Ken Doherty,IRL,u,8
+2014,Last 16,L16,25,Judd Trump,ENG,7,13,Ryan Day,WAL,u,7
+2014,Last 16,L16,25,Neil Robertson,AUS,2,13,Mark Allen,NIR,15,7
+2014,Quarter-Finals,QF,25,Ronnie O'Sullivan,ENG,1,13,Shaun Murphy,ENG,9,3
+2014,Quarter-Finals,QF,25,Barry Hawkins,ENG,5,13,Dominic Dale,WAL,u,12
+2014,Quarter-Finals,QF,25,Mark Selby,ENG,3,13,Alan McManus,SCO,u,5
+2014,Quarter-Finals,QF,25,Neil Robertson,AUS,2,13,Judd Trump,ENG,7,11
+2014,Semi-Finals,SF,33,Ronnie O'Sullivan,ENG,1,17,Barry Hawkins,ENG,5,7
+2014,Semi-Finals,SF,33,Mark Selby,ENG,3,17,Neil Robertson,AUS,2,15
+2014,The Final,FIN,35,Mark Selby,ENG,3,18,Ronnie O'Sullivan,ENG,1,14
+2015,First Round,1R,19,Mark Selby,ENG,1,10,Kurt Maflin,NOR,u,9
+2015,First Round,1R,19,Anthony McGill,SCO,u,10,Stephen Maguire,SCO,16,9
+2015,First Round,1R,19,Joe Perry,ENG,9,10,Zhang Anda,CHN,u,4
+2015,First Round,1R,19,Shaun Murphy,ENG,8,10,Robin Hull,FIN,u,3
+2015,First Round,1R,19,Barry Hawkins,ENG,5,10,Matthew Selt,ENG,u,9
+2015,First Round,1R,19,Mark Allen,NIR,12,10,Ryan Day,WAL,u,3
+2015,First Round,1R,19,Ali Carter,ENG,13,10,Alan McManus,SCO,u,5
+2015,First Round,1R,19,Neil Robertson,AUS,4,10,Jamie Jones,WAL,u,2
+2015,First Round,1R,19,Ding Junhui,CHN,3,10,Mark Davis,ENG,u,7
+2015,First Round,1R,19,John Higgins,SCO,14,10,Robert Milkins,ENG,u,5
+2015,First Round,1R,19,Marco Fu,HKG,11,10,Jimmy Robertson,ENG,u,6
+2015,First Round,1R,19,Judd Trump,ENG,6,10,Stuart Carrington,ENG,u,6
+2015,First Round,1R,19,Graeme Dott,SCO,u,10,Ricky Walden,ENG,7,8
+2015,First Round,1R,19,Stuart Bingham,ENG,10,10,Robbie Williams,ENG,u,7
+2015,First Round,1R,19,Matthew Stevens,WAL,u,10,Mark Williams,WAL,15,2
+2015,First Round,1R,19,Ronnie O'Sullivan,ENG,2,10,Craig Steadman,ENG,u,3
+2015,Last 16,L16,25,Anthony McGill,SCO,u,13,Mark Selby,ENG,1,9
+2015,Last 16,L16,25,Shaun Murphy,ENG,8,13,Joe Perry,ENG,9,5
+2015,Last 16,L16,25,Barry Hawkins,ENG,5,13,Mark Allen,NIR,12,11
+2015,Last 16,L16,25,Neil Robertson,AUS,4,13,Ali Carter,ENG,13,5
+2015,Last 16,L16,25,Ding Junhui,CHN,3,13,John Higgins,SCO,14,9
+2015,Last 16,L16,25,Judd Trump,ENG,6,13,Marco Fu,HKG,11,8
+2015,Last 16,L16,25,Stuart Bingham,ENG,10,13,Graeme Dott,SCO,u,5
+2015,Last 16,L16,25,Ronnie O'Sullivan,ENG,2,13,Matthew Stevens,WAL,u,5
+2015,Quarter-Finals,QF,25,Shaun Murphy,ENG,8,13,Anthony McGill,SCO,u,8
+2015,Quarter-Finals,QF,25,Barry Hawkins,ENG,5,13,Neil Robertson,AUS,4,12
+2015,Quarter-Finals,QF,25,Judd Trump,ENG,6,13,Ding Junhui,CHN,3,4
+2015,Quarter-Finals,QF,25,Stuart Bingham,ENG,10,13,Ronnie O'Sullivan,ENG,2,9
+2015,Semi-Finals,SF,33,Shaun Murphy,ENG,8,17,Barry Hawkins,ENG,5,9
+2015,Semi-Finals,SF,33,Stuart Bingham,ENG,10,17,Judd Trump,ENG,6,16
+2015,The Final,FIN,35,Stuart Bingham,ENG,10,18,Shaun Murphy,ENG,8,15
+2016,First Round,1R,19,Ali Carter,ENG,u,10,Stuart Bingham,ENG,1,9
+2016,First Round,1R,19,Alan McManus,SCO,u,10,Stephen Maguire,SCO,16,7
+2016,First Round,1R,19,Ricky Walden,ENG,9,10,Robbie Williams,ENG,u,8
+2016,First Round,1R,19,John Higgins,SCO,8,10,Ryan Day,WAL,u,3
+2016,First Round,1R,19,Judd Trump,ENG,5,10,Liang Wenbo,CHN,u,8
+2016,First Round,1R,19,Ding Junhui,CHN,u,10,Martin Gould,ENG,12,8
+2016,First Round,1R,19,Mark Williams,WAL,13,10,Graeme Dott,SCO,u,4
+2016,First Round,1R,19,Michael Holt,ENG,u,10,Neil Robertson,AUS,4,6
+2016,First Round,1R,19,Anthony McGill,SCO,u,10,Shaun Murphy,ENG,3,8
+2016,First Round,1R,19,Marco Fu,HKG,14,10,Peter Ebdon,ENG,u,2
+2016,First Round,1R,19,Barry Hawkins,ENG,11,10,Zhang Anda,CHN,u,5
+2016,First Round,1R,19,Ronnie O'Sullivan,ENG,6,10,David Gilbert,ENG,u,7
+2016,First Round,1R,19,Mark Allen,NIR,7,10,Mitchell Mann,ENG,u,3
+2016,First Round,1R,19,Kyren Wilson,ENG,u,10,Joe Perry,ENG,10,9
+2016,First Round,1R,19,Sam Baird,ENG,u,10,Michael White,WAL,15,7
+2016,First Round,1R,19,Mark Selby,ENG,2,10,Robert Milkins,ENG,u,6
+2016,Last 16,L16,25,Alan McManus,SCO,u,13,Ali Carter,ENG,u,11
+2016,Last 16,L16,25,John Higgins,SCO,8,13,Ricky Walden,ENG,9,8
+2016,Last 16,L16,25,Ding Junhui,CHN,u,13,Judd Trump,ENG,5,10
+2016,Last 16,L16,25,Mark Williams,WAL,13,13,Michael Holt,ENG,u,8
+2016,Last 16,L16,25,Marco Fu,HKG,14,13,Anthony McGill,SCO,u,9
+2016,Last 16,L16,25,Barry Hawkins,ENG,11,13,Ronnie O'Sullivan,ENG,6,12
+2016,Last 16,L16,25,Kyren Wilson,ENG,u,13,Mark Allen,NIR,7,9
+2016,Last 16,L16,25,Mark Selby,ENG,2,13,Sam Baird,ENG,u,11
+2016,Quarter-Finals,QF,25,Alan McManus,SCO,u,13,John Higgins,SCO,8,11
+2016,Quarter-Finals,QF,25,Ding Junhui,CHN,u,13,Mark Williams,WAL,13,3
+2016,Quarter-Finals,QF,25,Marco Fu,HKG,14,13,Barry Hawkins,ENG,11,11
+2016,Quarter-Finals,QF,25,Mark Selby,ENG,2,13,Kyren Wilson,ENG,u,8
+2016,Semi-Finals,SF,33,Ding Junhui,CHN,u,17,Alan McManus,SCO,u,11
+2016,Semi-Finals,SF,33,Mark Selby,ENG,2,17,Marco Fu,HKG,14,15
+2016,The Final,FIN,35,Mark Selby,ENG,2,18,Ding Junhui,CHN,u,14
+2017,First Round,1R,19,Mark Selby,ENG,1,10,Fergal O'Brien,IRL,u,2
+2017,First Round,1R,19,Xiao Guodong,CHN,u,10,Ryan Day,WAL,16,4
+2017,First Round,1R,19,Neil Robertson,AUS,9,10,Noppon Saengkham,THA,u,4
+2017,First Round,1R,19,Marco Fu,HKG,8,10,Luca Brecel,BEL,u,9
+2017,First Round,1R,19,Shaun Murphy,ENG,5,10,Yan Bingtao,CHN,u,8
+2017,First Round,1R,19,Ronnie O'Sullivan,ENG,12,10,Gary Wilson,ENG,u,8
+2017,First Round,1R,19,Liang Wenbo,CHN,13,10,Stuart Carrington,ENG,u,7
+2017,First Round,1R,19,Ding Junhui,CHN,4,10,Zhou Yuelong,CHN,u,5
+2017,First Round,1R,19,Stuart Bingham,ENG,3,10,Peter Ebdon,ENG,u,5
+2017,First Round,1R,19,Kyren Wilson,ENG,14,10,David Grace,ENG,u,6
+2017,First Round,1R,19,Mark Allen,NIR,11,10,Jimmy Robertson,ENG,u,8
+2017,First Round,1R,19,John Higgins,SCO,6,10,Martin Gould,ENG,u,6
+2017,First Round,1R,19,Barry Hawkins,ENG,7,10,Tom Ford,ENG,u,3
+2017,First Round,1R,19,Graeme Dott,SCO,u,10,Ali Carter,ENG,10,7
+2017,First Round,1R,19,Stephen Maguire,SCO,u,10,Anthony McGill,SCO,15,2
+2017,First Round,1R,19,Rory McLeod,ENG,u,10,Judd Trump,ENG,2,8
+2017,Last 16,L16,25,Mark Selby,ENG,1,13,Xiao Guodong,CHN,u,6
+2017,Last 16,L16,25,Marco Fu,HKG,8,13,Neil Robertson,AUS,9,11
+2017,Last 16,L16,25,Ronnie O'Sullivan,ENG,12,13,Shaun Murphy,ENG,5,7
+2017,Last 16,L16,25,Ding Junhui,CHN,4,13,Liang Wenbo,CHN,13,12
+2017,Last 16,L16,25,Kyren Wilson,ENG,14,13,Stuart Bingham,ENG,3,10
+2017,Last 16,L16,25,John Higgins,SCO,6,13,Mark Allen,NIR,11,9
+2017,Last 16,L16,25,Barry Hawkins,ENG,7,13,Graeme Dott,SCO,u,6
+2017,Last 16,L16,25,Stephen Maguire,SCO,u,13,Rory McLeod,ENG,u,3
+2017,Quarter-Finals,QF,25,Mark Selby,ENG,1,13,Marco Fu,HKG,8,3
+2017,Quarter-Finals,QF,25,Ding Junhui,CHN,4,13,Ronnie O'Sullivan,ENG,12,10
+2017,Quarter-Finals,QF,25,John Higgins,SCO,6,13,Kyren Wilson,ENG,14,6
+2017,Quarter-Finals,QF,25,Barry Hawkins,ENG,7,13,Stephen Maguire,SCO,u,9
+2017,Semi-Finals,SF,33,Mark Selby,ENG,1,17,Ding Junhui,CHN,4,15
+2017,Semi-Finals,SF,33,John Higgins,SCO,6,17,Barry Hawkins,ENG,7,8
+2017,The Final,FIN,35,Mark Selby,ENG,1,18,John Higgins,SCO,6,15

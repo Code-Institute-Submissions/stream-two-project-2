@@ -171,10 +171,32 @@ h2 {
 	overflow: auto;
 	margin: 10px auto 0 auto;
 	text-align: center;
+	font-size: 1.5em;
 }
 
 div.dc-chart {
 	float: none;
+}
+
+.counterTitle {
+	background-color: #996600;
+	font-size: 2em;
+	color: white;
+	font-weight: normal;
+	margin: auto;
+	border: 1px solid #663300;
+	border-radius: 10px 10px 0 0;
+}
+
+.tableTitle, .chartTitle {
+	background-color: #996600;
+	color: white;
+	border: 1px solid #663300;
+	border-radius: 10px 10px 0 0;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.5em;
+	box-sizing: border-box;
 }
 
 .countWrapper {
@@ -191,16 +213,6 @@ div.dc-chart {
 	flex: 1;
 	min-width: 150px;
 	max-width: 200px;
-}
-
-.counterTitle {
-	background-color: #996600;
-	font-size: 2em;
-	color: white;
-	font-weight: normal;
-	margin: auto;
-	border: 1px solid #663300;
-	border-radius: 10px 10px 0 0;
 }
 
 .numberCounter {
@@ -244,17 +256,6 @@ div.dc-chart {
 .flagIcon {
 	height: 15px;
 	width: 15px;
-}
-
-.tableTitle, .chartTitle {
-	background-color: #996600;
-	color: white;
-	border: 1px solid #663300;
-	border-radius: 10px 10px 0 0;
-	padding: 0px;
-	text-align: center;
-	font-size: 1.5em;
-	box-sizing: border-box;
 }
 
 .resultsTable .headerRow {
