@@ -58,7 +58,6 @@ h1 {
 }
 
 h2 {
-	color: white;
 	font-size: 1.5em;
 	text-align: center;
 	padding: 10px;
@@ -164,10 +163,34 @@ h2 {
 	box-sizing: border-box;
 }
 
+.flexWrap {
+	display: flex;
+}
+
+.selectWrapper {
+	overflow: auto;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+
+div.dc-chart {
+	float: none;
+}
+
 .countWrapper {
 	margin: 10px auto 0 auto;
 	text-align: center;
+}
+
+.single {
+	min-width: 150px;
 	max-width: 250px;
+}
+
+.double {
+	flex: 1;
+	min-width: 150px;
+	max-width: 200px;
 }
 
 .counterTitle {
@@ -187,9 +210,9 @@ h2 {
 	border-top: none;
 }
 
-#totalTournaments {
+#totalTournaments, #matchesPlayed, #framesPlayed {
 	margin: auto;
-	font-size: 5em;
+	font-size: 3em;
 	background-color: #339933;
 	color: white;
 	width: 100%;
