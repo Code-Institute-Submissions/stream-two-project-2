@@ -165,6 +165,7 @@ h2 {
 
 .flexWrap {
 	display: flex;
+	flex-flow: row wrap;
 }
 
 .selectWrapper {
@@ -199,17 +200,16 @@ div.dc-chart {
 	box-sizing: border-box;
 }
 
-.countWrapper {
+.countSingle {
 	margin: 10px auto 0 auto;
 	text-align: center;
-}
-
-.single {
 	min-width: 150px;
 	max-width: 250px;
 }
 
-.double {
+.countDouble {
+	margin: 10px auto 0 auto;
+	text-align: center;
 	flex: 1;
 	min-width: 150px;
 	max-width: 200px;
@@ -244,9 +244,20 @@ div.dc-chart {
 	color: white;
 }
 
-.resultsTable, .chartWrapper {
+.resultsTable {
 	max-width: 600px;
 	margin: 10px auto 0 auto;
+}
+
+.chartSingle {
+	max-width: 600px;
+	margin: 10px auto 0 auto;
+}
+
+.chartDouble {
+	flex: 1;
+	width: 300px;
+	margin: 10px 10px 0 10px;
 }
 
 #winnersTable .dc-table-group {
