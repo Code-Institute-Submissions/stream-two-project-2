@@ -88,7 +88,7 @@ h2 {
 	font-size: 1.2em;
 }
 
-.toggle {
+.toggle, .hidden {
 	display: none;
 }
 
@@ -237,7 +237,7 @@ div.dc-chart {
 	border-top: 0;
 }
 
-#winnersTable {
+#winnersTable, #tournamentResults {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
@@ -249,8 +249,15 @@ div.dc-chart {
 	margin: 10px auto 0 auto;
 }
 
-.resultsTable .dc-table-group {
+#winnersTable .dc-table-group {
 	display: none;
+}
+
+.resultsTable .dc-table-group {
+	background-color: #006600;
+	font-weight: bold;
+	border: 1px solid #003300;
+	border-top: 0;
 }
 
 .flagIcon {
@@ -279,12 +286,24 @@ div.dc-chart {
 	margin: 0 5px;
 }
 
-.resultsTable ._1 {
+#winnersTable ._1, #tournamentResults ._0 {
 	text-align: right;
 }
 
-.resultsTable ._7 {
+#winnersTable ._7, #tournamentResults ._6 {
 	text-align: left;
+}
+
+#makeSelection {
+	margin: auto;
+	font-size: 1.5em;
+	background-color: #339933;
+	color: white;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #006600;
+	border-top: 0;
+	box-sizing: border-box;
 }
 
 footer {

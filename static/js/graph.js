@@ -53,17 +53,14 @@ function makeGraphs(error, crucible_results) {
     		}
     	);
 
-    // //Defining min and max values
-    // var minDate = finalWinner.bottom(1)[0]["winner"];
-    // var maxDate = finalWinner.top(1)[0]["winner"];
-
     // Charts
     var tournaments = dc.numberDisplay("#totalTournaments");
-    var topPlayers = dc.rowChart("#winnersRow")
-    var honourRoll = dc.dataTable("#winnersTable");
+    var topPlayers = dc.rowChart("#winnersRow");
+    var finalResults = dc.dataTable("#winnersTable");
     var yearSelection = dc.selectMenu('#yearSelect');
     var yearMatches = dc.numberDisplay("#matchesPlayed");
     var yearFrames = dc.numberDisplay("#framesPlayed");
+    var yearResults = dc.dataTable("#tournamentResults");
 
     tournaments
     	.formatNumber(d3.format("d"))
@@ -82,7 +79,7 @@ function makeGraphs(error, crucible_results) {
     	.ordering(function(d) { return -d.value; })
     	.xAxis().ticks(7);
 
-    honourRoll
+    finalResults
     	.dimension(finalYear)
     	.group(function (d) {
        		return d.year;
@@ -132,6 +129,39 @@ function makeGraphs(error, crucible_results) {
             return d;
         })
         .group(allFrames);
+
+    yearResults
+    	.dimension(allRounds)
+    	.group(function (d) {
+       		return d.round;
+   		})
+   		.sortBy(function (d) {
+       		return d.winner;
+   		})
+   		.size(Infinity)
+   		.columns([
+   			function (d) {
+       			return d.winner;
+   			},
+   			function (d) {
+       			return "<img class='flagIcon' src='static/img/" + d.winner_nat.toLowerCase() + ".png' alt=" + d.winner_nat + " />";
+   			},
+   			function (d) {
+       			return d.winner_score;
+   			},
+   			function (d) {
+       			return "-";
+   			},
+   			function (d) {
+       			return d.loser_score;
+   			},
+   			function (d) {
+       			return "<img class='flagIcon' src='static/img/" + d.loser_nat.toLowerCase() + ".png' alt=" + d.loser_nat + " />";
+   			},
+   			function (d) {
+       			return d.loser;
+   			}
+   		])
 
     dc.renderAll();
 }
