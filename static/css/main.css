@@ -104,6 +104,7 @@ h2 {
 	display: block;
 	color: white;
 	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .menuLink:last-of-type {
@@ -177,6 +178,11 @@ h2 {
 
 div.dc-chart {
 	float: none;
+	margin-top: 10px;
+}
+
+svg {
+	max-width: 260px;
 }
 
 .counterTitle {
@@ -258,7 +264,10 @@ div.dc-chart {
 	flex: 1;
 	width: 300px;
 	margin: 10px 10px 0 10px;
+	flex-grow: 1;
 }
+
+
 
 #winnersTable .dc-table-group {
 	display: none;
@@ -328,10 +337,13 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-	#winnersTable {
+	#winnersTable, #tournamentResults {
 		font-size: 0.9em;
 	}
-	.resultsTable td._2, td._6, th._2, th._6 {
+	#winnersTable td._2, #winnersTable td._6, #winnersTable th._2, #winnersTable th._6 {
+		display: none;
+	}
+	#tournamentResults td._1, #tournamentResults td._5, #tournamentResults th._1, #tournamentResults th._5 {
 		display: none;
 	}
 }
