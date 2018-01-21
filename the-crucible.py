@@ -54,8 +54,11 @@ def results():
         'winner': True, 'winner_nat': True,
         'winner_score': True, 'loser': True,
         'loser_nat': True, 'loser_score': True,
-        'player_1_result': True, 'tournament_stage': True,
-        'match_number': True
+        'player_1': True, 'player_2': True,
+        'player_1_result': True, 'round_code': True,
+        'tournament_stage': True, 'match_number': True,
+       	'player_1_nat': True, 'player_2_nat': True,
+       	'player_1_score': True, 'player_2_score': True
     }
 
     with MongoClient(MONGO_URI) as conn:

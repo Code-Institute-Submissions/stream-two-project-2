@@ -19,7 +19,7 @@ function makeGraphs(error, crucible_results) {
     var allResults = crossfilter(crucible_results);
     var playerResults = crossfilter(crucible_results);
 
-    // Defining dimensions
+    // Defining dimensions - finals only
     var finalRound = finals.dimension(function (d) {
         return d["round"];
     });
@@ -41,6 +41,8 @@ function makeGraphs(error, crucible_results) {
     var finalYear = finals.dimension(function (d) {
     	return d["year"];
     });
+
+    // Defining dimensions - results based
     var allRounds = allResults.dimension(function (d) {
         return d["round"];
     });
@@ -57,6 +59,11 @@ function makeGraphs(error, crucible_results) {
     	return d["year"];
     });
 
+    // Defining dimensions - player based
+    var playerList = playerResults.dimension(function (d) {
+    	return d["player_1"];
+    });
+
     // Filtering the data for finals only
     var finalFilter = finalRound.filter("The Final");
     var duplicateFinalFilter = finalOutcome.filter("W");
@@ -66,7 +73,7 @@ function makeGraphs(error, crucible_results) {
     var blockSlices = d3.scale.ordinal().range(["#000000", "#ff6666", "#0000ff", "#663300", "#006600", "#ffff00", "#ee0000", "#ffffff"]);
     var shadeSlices = d3.scale.ordinal().range(["rgb(100,50,0)", "rgb(105,56,7)", "rgb(110,62,14)", "rgb(115,68,21)", "rgb(120,74,28)", "rgb(125,80,35)", "rgb(130,86,42)", "rgb(135,92,49)", "rgb(140,98,56)", "rgb(145,104,63)", "rgb(150,110,70)", "rgb(155,116,77)", "rgb(160,122,84)", "rgb(165,128,91)", "rgb(170,134,98)", "rgb(175,140,105)", "rgb(180,146,112)", "rgb(185,152,119)", "rgb(190,158,126)", "rgb(195,164,133)", "rgb(200,170,140"]);
 
-    // Grouping the data
+    // Grouping the data - count
     var allFinals = finals.groupAll();
     var champions = finalWinner.group();
     var winningCountry = winnerNat.group();
@@ -77,6 +84,9 @@ function makeGraphs(error, crucible_results) {
     var allMatches = allResults.groupAll();
     var matchWinners = allWinners.group();
     var matchLosers = allLosers.group();
+    var selectedPlayer = playerList.group();
+
+    // Grouping the data - sum
     var allFrames = allResults.groupAll().reduceSum(
     		function (d) {
     			return (d["winner_score"] + d["loser_score"]);
@@ -97,6 +107,8 @@ function makeGraphs(error, crucible_results) {
     var roundSelection = dc.selectMenu('#roundSelect');
     var winningPlayers = dc.rowChart("#mostWins");
     var losingPlayers = dc.rowChart("#mostDefeats");
+    var playerSelection = dc.selectMenu('#playerSelect');
+    var playerResults = dc.dataTable("#playerResults");
 
     tournaments
     	.formatNumber(d3.format("d"))
@@ -251,6 +263,46 @@ function makeGraphs(error, crucible_results) {
     	.rowsCap(10)
     	.ordering(function(d) { return -d.value; })
     	.elasticX(true);
+
+   	playerSelection
+   		.dimension(playerList)
+   		.group(selectedPlayer)
+
+    playerResults
+    	.dimension(playerList)
+    	.group(function (d) {
+       		return d.year;
+   		})
+   		.sortBy(function (d) {
+       		return d.tournament_stage;
+   		})
+   		.size(Infinity)
+   		.columns([
+   			function (d) {
+       			return d.round_code;
+   			},
+   			function (d) {
+       			return "v";
+   			},
+   			function (d) {
+       			return "<img class='flagIcon' src='static/img/" + d.player_2_nat.toLowerCase() + ".png' alt=" + d.player_2_nat + " />";
+   			},
+   			function (d) {
+       			return d.player_2;
+   			},
+   			function (d) {
+       			return d.player_1_result;
+   			},
+   			function (d) {
+       			return d.player_1_score;
+   			},
+   			function (d) {
+       			return "-";
+   			},
+   			function (d) {
+       			return d.player_2_score;
+   			}
+   		])
 
     dc.renderAll();
 }
