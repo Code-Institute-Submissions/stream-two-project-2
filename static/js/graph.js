@@ -17,10 +17,14 @@ function makeGraphs(error, crucible_results) {
     //Crossfilter instances
     var finals = crossfilter(crucible_results);
     var allResults = crossfilter(crucible_results);
+    var playerResults = crossfilter(crucible_results);
 
     // Defining dimensions
     var finalRound = finals.dimension(function (d) {
         return d["round"];
+    });
+    var finalOutcome = finals.dimension(function (d) {
+        return d["player_1_result"];
     });
     var finalWinner = finals.dimension(function (d) {
     	return d["winner"];
@@ -40,6 +44,9 @@ function makeGraphs(error, crucible_results) {
     var allRounds = allResults.dimension(function (d) {
         return d["round"];
     });
+    var allOutcomes = allResults.dimension(function (d) {
+        return d["player_1_result"];
+    });
     var allWinners = allResults.dimension(function (d) {
     	return d["winner"];
     });
@@ -52,6 +59,8 @@ function makeGraphs(error, crucible_results) {
 
     // Filtering the data for finals only
     var finalFilter = finalRound.filter("The Final");
+    var duplicateFinalFilter = finalOutcome.filter("W");
+    var duplicateFilter = allOutcomes.filter("W");
 
     // Setting color scales for pie charts
     var blockSlices = d3.scale.ordinal().range(["#000000", "#ff6666", "#0000ff", "#663300", "#006600", "#ffff00", "#ee0000", "#ffffff"]);
@@ -190,7 +199,7 @@ function makeGraphs(error, crucible_results) {
        		return d.round;
    		})
    		.sortBy(function (d) {
-       		return d.winner;
+       		return d.match_number;
    		})
    		.size(Infinity)
    		.columns([

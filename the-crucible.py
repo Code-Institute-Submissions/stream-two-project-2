@@ -8,7 +8,7 @@ app = Flask(__name__)
 MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'snooker')
 
-COLLECTION_NAME = 'results'
+COLLECTION_NAME = 'extended'
 
 
 @app.route('/')
@@ -53,7 +53,9 @@ def results():
         '_id': False, 'year': True, 'round': True,
         'winner': True, 'winner_nat': True,
         'winner_score': True, 'loser': True,
-        'loser_nat': True, 'loser_score': True
+        'loser_nat': True, 'loser_score': True,
+        'player_1_result': True, 'tournament_stage': True,
+        'match_number': True
     }
 
     with MongoClient(MONGO_URI) as conn:
