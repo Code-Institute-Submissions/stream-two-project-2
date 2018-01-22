@@ -69,6 +69,12 @@ function makeGraphs(error, crucible_results) {
     var playerOutcomes = playerResults.dimension(function (d) {
         return d["player_1_result"];
     });
+    var victoryMargin = playerResults.dimension(function (d) {
+        return d["margin"];
+    });
+    var tournamentStage = playerResults.dimension(function (d) {
+        return d["round"];
+    });
 
     // Filtering the data for finals only
     var finalFilter = finalRound.filter("The Final");
@@ -94,6 +100,8 @@ function makeGraphs(error, crucible_results) {
     var selectedPlayer = playerList.group();
     var playerWinLoss = playerOutcomes.group();
     var playerOpponent = opponentsList.group();
+    var playerMargin = victoryMargin.group();
+    var playerStage = tournamentStage.group();
 
     // Grouping the data - sum
     var allFrames = allResults.groupAll().reduceSum(
@@ -132,6 +140,8 @@ function makeGraphs(error, crucible_results) {
     var playerOpponents = dc.rowChart("#playerOpponents");
     var framesWon = dc.numberDisplay("#framesWon");
     var framesLost = dc.numberDisplay("#framesLost");
+    var playerMargins = dc.pieChart("#playerMargins");
+    var playerRounds = dc.rowChart("#playerRounds");
 
     tournaments
     	.formatNumber(d3.format("d"))
@@ -340,7 +350,7 @@ function makeGraphs(error, crucible_results) {
     	.dimension(opponentsList)
     	.group(playerOpponent)
     	.width(250)
-    	.height(300)
+    	.height(283)
     	.rowsCap(10)
     	.othersGrouper(false)
     	.ordering(function(d) { return -d.value; })
@@ -359,6 +369,23 @@ function makeGraphs(error, crucible_results) {
             return d;
         })
         .group(playerFramesLost);
+
+
+    playerMargins
+    	.dimension(victoryMargin)
+    	.group(playerMargin)
+    	.height(200)
+    	.radius(100)
+    	.innerRadius(20)
+    	.colors(shadeSlices);
+
+    playerRounds
+    	.ordinalColors(["#996600"])
+    	.dimension(tournamentStage)
+    	.group(playerStage)
+    	.width(250)
+    	.height(200)
+    	.elasticX(true);
 
     dc.renderAll();
 }
