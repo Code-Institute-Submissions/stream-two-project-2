@@ -101,6 +101,16 @@ function makeGraphs(error, crucible_results) {
     			return (d["winner_score"] + d["loser_score"]);
     		}
     	);
+    var playerFramesWon = playerResults.groupAll().reduceSum(
+    		function (d) {
+    			return d["player_1_score"];
+    		}
+    	);
+    var playerFramesLost = playerResults.groupAll().reduceSum(
+    		function (d) {
+    			return d["player_2_score"];
+    		}
+    	);
 
     // Charts
     var tournaments = dc.numberDisplay("#totalTournaments");
@@ -120,6 +130,8 @@ function makeGraphs(error, crucible_results) {
     var playerResults = dc.dataTable("#playerResults");
     var winLossRecord = dc.pieChart("#winLoss");
     var playerOpponents = dc.rowChart("#playerOpponents");
+    var framesWon = dc.numberDisplay("#framesWon");
+    var framesLost = dc.numberDisplay("#framesLost");
 
     tournaments
     	.formatNumber(d3.format("d"))
@@ -333,6 +345,20 @@ function makeGraphs(error, crucible_results) {
     	.othersGrouper(false)
     	.ordering(function(d) { return -d.value; })
     	.elasticX(true);
+
+    framesWon
+    	.formatNumber(d3.format("d"))
+    	.valueAccessor(function (d) {
+            return d;
+        })
+        .group(playerFramesWon);
+
+    framesLost
+    	.formatNumber(d3.format("d"))
+    	.valueAccessor(function (d) {
+            return d;
+        })
+        .group(playerFramesLost);
 
     dc.renderAll();
 }
