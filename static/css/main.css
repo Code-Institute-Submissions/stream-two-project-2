@@ -74,6 +74,27 @@ h2 {
 	font-weight: normal;
 }
 
+.introButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: radial-gradient(circle at 7px 7px, #ffffff 80%, #000000);
+	font-size: 1.5em;
+	z-index: 999;
+}
+
+.buttonText {
+	margin: auto;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
 #pageTitle {
 	border-radius: 0 0 20px 20px;
 	box-shadow: 0px 2px 3px 3px #cccccc;
