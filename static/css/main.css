@@ -6,6 +6,10 @@ body {
 	font-family: "Garamond", "Times New Roman", serif;
 }
 
+.pageWrapper {
+	min-height: 80vh;
+}
+
 header {
 	background-color: #009900;
 }
@@ -78,18 +82,17 @@ h2 {
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	border-radius: 50%;
 	background: radial-gradient(circle at 7px 7px, #ffffff 80%, #000000);
-	font-size: 1.5em;
 	z-index: 999;
 }
 
 .buttonText {
 	margin: auto;
-	height: 30px;
-	line-height: 30px;
+	height: 20px;
+	line-height: 20px;
 	text-align: center;
 	font-weight: bold;
 	cursor: pointer;
@@ -177,7 +180,6 @@ h2 {
 .dashboard {
 	display: flex;
 	flex-flow: column;
-	min-height: 70vh;
 }
 
 .dashColumn {
@@ -193,7 +195,7 @@ h2 {
 
 .selectWrapper {
 	overflow: auto;
-	margin: 10px auto 0 auto;
+	margin: 10px auto;
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -293,14 +295,17 @@ svg {
 	margin: 10px auto 0 auto;
 }
 
+.chartSingleSmall {
+	width: 300px;
+	margin: 10px auto 0 auto;
+}
+
 .chartDouble {
 	flex: 1;
 	width: 300px;
 	margin: 10px 10px 0 10px;
 	flex-grow: 1;
 }
-
-
 
 #winnersTable .dc-table-group {
 	display: none;

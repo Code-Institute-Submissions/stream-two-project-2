@@ -58,6 +58,9 @@ function makeGraphs(error, crucible_results) {
     var allYears = allResults.dimension(function (d) {
     	return d["year"];
     });
+    var allGaps = allResults.dimension(function (d) {
+      return d["margin"];
+    });
 
     // Defining dimensions - player based
     var playerList = playerResults.dimension(function (d) {
@@ -94,6 +97,7 @@ function makeGraphs(error, crucible_results) {
     var runnersUp = finalLoser.group();
     var yearGroup = allYears.group();
     var roundGroup = allRounds.group();
+    var tournamentGaps = allGaps.group();
     var allMatches = allResults.groupAll();
     var matchWinners = allWinners.group();
     var matchLosers = allLosers.group();
@@ -131,6 +135,7 @@ function makeGraphs(error, crucible_results) {
     var yearMatches = dc.numberDisplay("#matchesPlayed");
     var yearFrames = dc.numberDisplay("#framesPlayed");
     var yearResults = dc.dataTable("#tournamentResults");
+    var tournamentMargin = dc.pieChart("#tournamentMargin");
     var roundSelection = dc.selectMenu('#roundSelect');
     var winningPlayers = dc.rowChart("#mostWins");
     var losingPlayers = dc.rowChart("#mostDefeats");
@@ -237,6 +242,14 @@ function makeGraphs(error, crucible_results) {
             return d;
         })
         .group(allFrames);
+
+    tournamentMargin
+      .height(200)
+      .radius(100)
+      .innerRadius(20)
+      .dimension(allGaps)
+      .group(tournamentGaps)
+      .colors(shadeSlices);
 
     yearResults
     	.dimension(allRounds)

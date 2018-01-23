@@ -33,3 +33,14 @@
 .dashboard {
 	flex-flow: row;
 }
+
+.introButton {
+	height: 30px;
+	width: 30px;
+	font-size: 1.5em;
+}
+
+.buttonText {
+	height: 30px;
+	line-height: 30px;
+}
