@@ -1,5 +1,5 @@
 queue()
-    .defer(d3.json, "/results")
+    .defer(d3.json, "/data")
     .await(makeGraphs);
  
 function makeGraphs(error, crucible_results) {
@@ -33,7 +33,7 @@ function makeGraphs(error, crucible_results) {
     	return d["winner_nat"];
     });
     var winnerGap = finals.dimension(function (d) {
-    	return (d["winner_score"] - d["loser_score"]);
+    	return d["margin"];
     });
     var finalLoser = finals.dimension(function (d) {
     	return d["loser"];

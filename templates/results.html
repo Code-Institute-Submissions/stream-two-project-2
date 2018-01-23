@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	<div id="pageTitle" class="yellow">
+		<h2>Match Results</h2>
+	</div>
+
+<div class="selectWrapper">
+	Select a Year:
+	<div id="yearSelect"></div>
+</div>
+
+	<section class="dashboard">
+
+		<section class="dashColumn">
+
+			<div class="flexWrap">
+				<div class="countDouble">
+					<div class="counterTitle">
+						Matches
+					</div>
+					<div class="numberCounter">
+						<div id="matchesPlayed"></div>
+					</div>
+				</div>
+
+				<div class="countDouble">
+					<div class="counterTitle">
+						Frames
+					</div>
+					<div class="numberCounter">
+						<div id="framesPlayed"></div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="dashColumn">
+
+		    <div id="resultsTable" class="hidden">
+    			<div class="tableTitle">
+    				Tournament Results
+    			</div>
+    			<table id="tournamentResults">
+    			</table>
+    		</div>
+
+		</section>
+
+	</section>
+
+	<script src="{{ url_for ('static', filename='js/hiddencontent.js')}}"></script>
+
+{% endblock %}

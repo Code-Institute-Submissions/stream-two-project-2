@@ -177,6 +177,7 @@ h2 {
 .dashboard {
 	display: flex;
 	flex-flow: column;
+	min-height: 70vh;
 }
 
 .dashColumn {

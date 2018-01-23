@@ -16,24 +16,24 @@ def champions():
     return render_template('champions.html')
 
 
-@app.route('/tournaments')
-def tournaments():
-    return render_template('tournaments.html')
-
-
-@app.route('/matches')
-def matches():
-    return render_template('matches.html')
-
-
-@app.route('/frames')
-def frames():
-    return render_template('frames.html')
+@app.route('/results')
+def results():
+    return render_template('results.html')
 
 
 @app.route('/players')
 def players():
     return render_template('players.html')
+
+
+@app.route('/tournaments')
+def tournaments():
+    return render_template('tournaments.html')
+
+
+@app.route('/careers')
+def careers():
+    return render_template('careers.html')
 
 
 @app.route('/countries')
@@ -46,8 +46,8 @@ def head_to_head():
     return render_template('rivalries.html')
 
 
-@app.route('/results')
-def results():
+@app.route('/data')
+def data():
 
     FIELDS = {
         '_id': False, 'year': True, 'round': True,
