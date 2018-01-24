@@ -5,6 +5,18 @@
 		<h2>Tournament Records</h2>
 	</div>
 
+	<section class="doubleSelector">
+		<div class="selectDouble">
+			Filter by Year:
+			<div id="tournamentYear" data-step="3" data-intro="Filter to see the best performances in a given year." style="font-weight: normal" data-position="top"></div>
+		</div>
+
+		<div class="selectDouble">
+			Filter by Player:
+			<div id="tournamentPlayer" data-step="4" data-intro="Filter to see the best performances for an individual player." style="font-weight: normal" data-position="top"></div>
+		</div>
+	</section>
+
 	<section class="dashboard">
 
 		<section class="dashColumn">
@@ -15,7 +27,7 @@
 						Players by Country
 					</div>
 					<div class="chartStyle">
-						<div id="recordsCountry"></div>
+						<div id="recordsCountry" data-step="5" data-intro="The records for players from each individual country." style="font-weight: normal" data-position="top"></div>
 					</div>
 				</div>
 
@@ -24,7 +36,7 @@
 						Tournament Result
 					</div>
 					<div class="chartStyle">
-						<div id="tournamentResult"></div>
+						<div id="tournamentResult" data-step="6" data-intro="The records for players who reached a particular stage of the tournament." style="font-weight: normal" data-position="top"></div>
 					</div>
 				</div>
 			</div>
@@ -37,7 +49,7 @@
 				<div class="tableTitle">
 					Most Frames Played
 				</div>
-				<table id="mostFrames">
+				<table id="mostFrames" data-step="1" data-intro="The players who played the most frames in a single tournament." style="font-weight: normal" data-position="top">
 					<thead>
 						<tr class="headerRow">
 							<th class="_0"></th>
@@ -59,7 +71,7 @@
 				</div>
 				<table id="winningPercentage">
 					<thead>
-						<tr class="headerRow">
+						<tr class="headerRow" data-step="2" data-intro="The players with the best frame winning percentage in a tournament." style="font-weight: normal" data-position="top">
 							<th class="_0"></th>
 							<th class="_1">Player</th>
 							<th class="_2">Year</th>

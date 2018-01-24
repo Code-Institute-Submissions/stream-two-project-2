@@ -200,6 +200,19 @@ h2 {
 	font-size: 1.5em;
 }
 
+.doubleSelector {
+	display: flex;
+	margin: 10px auto;
+}
+
+.selectDouble {
+	overflow: auto;
+	text-align: center;
+	font-size: 1.5em;
+	display: inline-block;
+	flex: 1;
+}
+
 div.dc-chart {
 	float: none;
 }
@@ -424,5 +437,8 @@ footer {
 	}
 	#tournamentResults td._1, #tournamentResults td._5, #tournamentResults th._1, #tournamentResults th._5 {
 		display: none;
+	}
+	.doubleSelector {
+		flex-flow: column;
 	}
 }

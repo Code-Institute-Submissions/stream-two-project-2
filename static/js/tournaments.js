@@ -27,6 +27,12 @@ function makeGraphs(error, crucible_results) {
     var playerResult = ndx.dimension(function (d) {
         return d["result"];
     });
+    var yearRecords = ndx.dimension(function (d) {
+        return d["year"];
+    });
+    var playerRecords = ndx.dimension(function (d) {
+        return d["player"];
+    });
 
     // Formatting numbers for data tables
     var twoDec = d3.format(".2f");
@@ -37,14 +43,26 @@ function makeGraphs(error, crucible_results) {
     // Grouping the data - count
     var countryAppearances = playerCountry.group();
     var roundResults = playerResult.group();
+    var selectTournament = yearRecords.group();
+    var selectPlayer = playerRecords.group();
 
     // Grouping the data - sum
 
     // Charts
+    var tournamentYear = dc.selectMenu("#tournamentYear");
+    var tournamentPlayer = dc.selectMenu("#tournamentPlayer");
     var recordsCountry = dc.rowChart("#recordsCountry");
     var tournamentResult = dc.rowChart("#tournamentResult");
     var mostFrames = dc.dataTable("#mostFrames");
     var winningPercentage = dc.dataTable("#winningPercentage");
+
+    tournamentYear
+      .dimension(yearRecords)
+      .group(selectTournament)
+
+    tournamentPlayer
+      .dimension(playerRecords)
+      .group(selectPlayer)
 
     recordsCountry
       .ordinalColors(["#996600"])
