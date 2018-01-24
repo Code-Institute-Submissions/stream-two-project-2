@@ -76,7 +76,11 @@ def match_data():
 def year_data():
 
     FIELDS = {
-        '_id': False, 'year': True
+        '_id': False, 'year': True, 'result': True,
+        'result_code': True, 'player': True, 'country': True,
+        'frames_played': True, 'frames_won': True,
+        'frames_lost': True, 'frame_win_pct': True,
+        'record_type': True
     }
 
     with MongoClient(MONGO_URI) as conn:

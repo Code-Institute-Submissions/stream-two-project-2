@@ -279,7 +279,7 @@ svg {
 	border-top: 0;
 }
 
-#winnersTable, #tournamentResults, #playerResults {
+#winnersTable, #tournamentResults, #playerResults, #mostFrames, #winningPercentage {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
@@ -308,7 +308,7 @@ svg {
 	flex-grow: 1;
 }
 
-#winnersTable .dc-table-group {
+#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group {
 	display: none;
 }
 
@@ -349,8 +349,19 @@ svg {
 	text-align: right;
 }
 
-#winnersTable ._7, #tournamentResults ._6, #playerResults ._3 {
+#winnersTable ._7, #tournamentResults ._6, 
+#playerResults ._3, #mostFrames ._1, 
+#winningPercentage ._1 {
 	text-align: left;
+}
+
+#mostFrames tbody ._4, #winningPercentage tbody ._7 {
+	background-color: #006600;
+	border-bottom: 1px solid #003300;
+}
+
+#mostFrames tbody tr:nth-child(n+12), #winningPercentage tbody tr:nth-child(n+12) {
+	display: none;
 }
 
 #makeSelection {

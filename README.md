@@ -18,7 +18,7 @@ This is a project website for Code Institute Full Stack Development course Strea
 
 Planning for the site involved devising a list of potential questions which a user to the site might wish to answer by viewing or filtering the available. I considered those who may be reporting on a championship or simply viewing as a spectator, thinking about the kind of things that they may want to know in order to aid their enjoyment and understanding.
 
-During the development process, a number of wireframes were created using the 'Pencil' software as I considered the best way to lay out the charts and tables that I wanted to include. Having decided that I would like to incorporate a considerable number of these, I decided that the site should be divided into a number of different pages, each presenting elements of the data from a particular angle.
+During the development process a number of wireframes were created both using the 'Pencil' software and a simple pen and paper method, as I considered the best way to lay out the charts and tables that I wanted to include. Having decided that I would like to incorporate a considerable number of these, I decided that the site should be divided into a number of different pages, each presenting elements of the data from a particular angle.
 
 The site development began with the creation of an appropriate file structure for a Flask-based project. This was then deployed to GitHub along with the README.md file and a skeleton HTML template.
 
@@ -35,6 +35,8 @@ Design elements were chosen reflecting the snooker theme. A green background was
 ### Use of JavaScript
 
 A very simple JavaScript file was included on all pages of the site to enable the user to toggle the navigation menu on and off when viewing the site on a device below 800 pixels in width.
+
+Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being displayed until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once. It is therefore important to filter the data before viewing the charts.
 
 ## Back End Development
 
