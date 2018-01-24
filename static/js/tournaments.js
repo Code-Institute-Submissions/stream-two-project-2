@@ -21,19 +21,49 @@ function makeGraphs(error, crucible_results) {
     var playerTournament = ndx.dimension(function (d) {
         return d["record_type"];
     });
+    var playerCountry = ndx.dimension(function (d) {
+        return d["country"];
+    });
+    var playerResult = ndx.dimension(function (d) {
+        return d["result"];
+    });
 
     // Formatting numbers for data tables
     var twoDec = d3.format(".2f");
 
     // Setting color scales for pie charts
+    var blockSlices = d3.scale.ordinal().range(["#000000", "#ff6666", "#0000ff", "#663300", "#006600", "#ffff00", "#ee0000", "#ffffff"]);
 
     // Grouping the data - count
+    var countryAppearances = playerCountry.group();
+    var roundResults = playerResult.group();
 
     // Grouping the data - sum
 
     // Charts
+    var recordsCountry = dc.rowChart("#recordsCountry");
+    var tournamentResult = dc.rowChart("#tournamentResult");
     var mostFrames = dc.dataTable("#mostFrames");
     var winningPercentage = dc.dataTable("#winningPercentage");
+
+    recordsCountry
+      .ordinalColors(["#996600"])
+      .width(250)
+      .height(220)
+      .dimension(playerCountry)
+      .group(countryAppearances)
+      .rowsCap(8)
+      .ordering(function(d) { return -d.value; })
+      .elasticX(true);
+
+    tournamentResult
+      .ordinalColors(["#996600"])
+      .width(250)
+      .height(220)
+      .dimension(playerResult)
+      .group(roundResults)
+      .ordering(function(d) { return -d.value; })
+      .elasticX(true);
 
     mostFrames
       .dimension(playerTournament)
@@ -56,7 +86,7 @@ function makeGraphs(error, crucible_results) {
             return d.year;
         },
         function (d) {
-            return d.result;
+            return d.result_code;
         },
         function (d) {
             return d.frames_played;
@@ -93,7 +123,7 @@ function makeGraphs(error, crucible_results) {
             return d.year;
         },
         function (d) {
-            return d.result;
+            return d.result_code;
         },
         function (d) {
             return d.frames_played;

@@ -10,13 +10,13 @@ tournament,8,1977,8,Semi-Finals,SF,4,John Pulman,ENG,1,3,2,1,82,42,40,66.6666666
 tournament,9,1977,9,Quarter-Finals,QF,3,Eddie Charlton,AUS,1,2,1,1,43,25,18,50,58.13953488
 tournament,10,1977,10,Last 16,L16,2,David Taylor,ENG,1,1,0,1,18,5,13,0,27.77777778
 tournament,11,1977,11,Last 16,L16,2,Rex Williams,ENG,1,1,0,1,19,6,13,0,31.57894737
-tournament,12,1977,12,Runner-Up,TF,5,Cliff Thorburn,CAN,1,4,3,1,124,65,59,75,52.41935484
+tournament,12,1977,12,Runner-Up,RU,5,Cliff Thorburn,CAN,1,4,3,1,124,65,59,75,52.41935484
 tournament,13,1977,13,Last 16,L16,2,Perrie Mans,RSA,1,1,0,1,24,11,13,0,45.83333333
 tournament,14,1977,14,Semi-Finals,SF,4,Dennis Taylor,NIR,1,3,2,1,82,42,40,66.66666667,51.2195122
 tournament,15,1977,15,Last 16,L16,2,Alex Higgins,NIR,1,1,0,1,25,12,13,0,48
 tournament,16,1977,16,Quarter-Finals,QF,3,Doug Mountjoy,WAL,1,2,1,1,49,24,25,50,48.97959184
 tournament,17,1978,1,Last 16,L16,2,John Spencer,ENG,2,1,0,1,21,8,13,0,38.0952381
-tournament,18,1978,2,Runner-Up,TF,5,Perrie Mans,RSA,2,4,3,1,118,62,56,75,52.54237288
+tournament,18,1978,2,Runner-Up,RU,5,Perrie Mans,RSA,2,4,3,1,118,62,56,75,52.54237288
 tournament,19,1978,3,Quarter-Finals,QF,3,Graham Miles,ENG,2,2,1,1,43,20,23,50,46.51162791
 tournament,20,1978,4,Last 16,L16,2,David Taylor,ENG,2,1,0,1,23,10,13,0,43.47826087
 tournament,21,1978,5,Last 16,L16,2,Alex Higgins,NIR,2,1,0,1,25,12,13,0,48
@@ -33,7 +33,7 @@ tournament,31,1978,15,Winner,W,6,Ray Reardon,WAL,2,4,4,0,116,69,47,100,59.482758
 tournament,32,1978,16,Last 16,L16,2,Doug Mountjoy,WAL,2,1,0,1,22,9,13,0,40.90909091
 tournament,33,1979,1,Quarter-Finals,QF,3,Ray Reardon,WAL,3,2,1,1,42,21,21,50,50
 tournament,34,1979,2,Last 16,L16,2,Graham Miles,ENG,3,1,0,1,21,8,13,0,38.0952381
-tournament,35,1979,3,Runner-Up,TF,5,Dennis Taylor,NIR,3,4,3,1,116,61,55,75,52.5862069
+tournament,35,1979,3,Runner-Up,RU,5,Dennis Taylor,NIR,3,4,3,1,116,61,55,75,52.5862069
 tournament,36,1979,4,Last 16,L16,2,Steve Davis,ENG,1,1,0,1,24,11,13,0,45.83333333
 tournament,37,1979,5,Last 16,L16,2,Cliff Thorburn,CAN,3,1,0,1,23,10,13,0,43.47826087
 tournament,38,1979,6,Semi-Finals,SF,4,John Virgo,ENG,2,4,2,2,86,41,45,50,47.6744186
@@ -51,7 +51,7 @@ tournament,49,1980,1,Last 16,L16,2,Terry Griffiths,WAL,2,1,0,1,23,10,13,0,43.478
 tournament,50,1980,2,Quarter-Finals,QF,3,Steve Davis,ENG,2,3,2,1,61,32,29,66.66666667,52.45901639
 tournament,51,1980,3,First Round,1R,1,Patsy Fagan,IRL,3,1,0,1,16,6,10,0,37.5
 tournament,52,1980,4,Last 16,L16,2,Perrie Mans,RSA,4,1,0,1,19,6,13,0,31.57894737
-tournament,53,1980,5,Runner-Up,TF,5,Alex Higgins,NIR,4,5,4,1,123,68,55,80,55.28455285
+tournament,53,1980,5,Runner-Up,RU,5,Alex Higgins,NIR,4,5,4,1,123,68,55,80,55.28455285
 tournament,54,1980,6,First Round,1R,1,Tony Meo,ENG,1,1,0,1,19,9,10,0,47.36842105
 tournament,55,1980,7,Last 16,L16,2,John Spencer,ENG,4,1,0,1,21,8,13,0,38.0952381
 tournament,56,1980,8,Semi-Finals,SF,4,Kirk Stevens,CAN,2,4,3,1,83,49,34,75,59.03614458
@@ -84,7 +84,7 @@ tournament,82,1981,10,Last 16,L16,2,Alex Higgins,NIR,5,1,0,1,21,8,13,0,38.095238
 tournament,83,1981,11,Winner,W,6,Steve Davis,ENG,3,5,5,0,117,70,47,100,59.82905983
 tournament,84,1981,12,First Round,1R,1,Jimmy White,ENG,1,1,0,1,18,8,10,0,44.44444444
 tournament,85,1981,13,Last 16,L16,2,Eddie Charlton,AUS,5,1,0,1,20,7,13,0,35
-tournament,86,1981,14,Runner-Up,TF,5,Doug Mountjoy,WAL,5,5,4,1,113,64,49,80,56.63716814
+tournament,86,1981,14,Runner-Up,RU,5,Doug Mountjoy,WAL,5,5,4,1,113,64,49,80,56.63716814
 tournament,87,1981,15,First Round,1R,1,Willie Thorne,ENG,4,1,0,1,16,6,10,0,37.5
 tournament,88,1981,16,Quarter-Finals,QF,3,Dennis Taylor,NIR,5,2,1,1,45,21,24,50,46.66666667
 tournament,89,1981,17,Last 16,L16,2,Kirk Stevens,CAN,3,2,1,1,38,21,17,50,55.26315789
@@ -109,7 +109,7 @@ tournament,107,1982,11,First Round,1R,1,Fred Davis,ENG,6,1,0,1,17,7,10,0,41.1764
 tournament,108,1982,12,Last 16,L16,2,Dean Reynolds,ENG,1,2,1,1,38,18,20,50,47.36842105
 tournament,109,1982,13,Last 16,L16,2,John Virgo,ENG,5,2,1,1,35,18,17,50,51.42857143
 tournament,110,1982,14,First Round,1R,1,Mike Hallett,ENG,1,1,0,1,14,4,10,0,28.57142857
-tournament,111,1982,15,Runner-Up,TF,5,Ray Reardon,WAL,6,5,4,1,117,67,50,80,57.26495726
+tournament,111,1982,15,Runner-Up,RU,5,Ray Reardon,WAL,6,5,4,1,117,67,50,80,57.26495726
 tournament,112,1982,16,First Round,1R,1,Jim Donnelly,SCO,1,1,0,1,15,5,10,0,33.33333333
 tournament,113,1982,17,First Round,1R,1,Terry Griffiths,WAL,4,1,0,1,16,6,10,0,37.5
 tournament,114,1982,18,Quarter-Finals,QF,3,Willie Thorne,ENG,5,3,2,1,57,33,24,66.66666667,57.89473684
@@ -143,7 +143,7 @@ tournament,141,1983,13,Last 16,L16,2,Dennis Taylor,NIR,7,2,1,1,43,21,22,50,48.83
 tournament,142,1983,14,First Round,1R,1,Silvino Francisco,RSA,2,1,0,1,19,9,10,0,47.36842105
 tournament,143,1983,15,Winner,W,6,Steve Davis,ENG,5,5,5,0,101,70,31,100,69.30693069
 tournament,144,1983,16,First Round,1R,1,Rex Williams,ENG,3,1,0,1,14,4,10,0,28.57142857
-tournament,145,1983,17,Runner-Up,TF,5,Cliff Thorburn,CAN,7,5,4,1,120,58,62,80,48.33333333
+tournament,145,1983,17,Runner-Up,RU,5,Cliff Thorburn,CAN,7,5,4,1,120,58,62,80,48.33333333
 tournament,146,1983,18,First Round,1R,1,John Campbell,AUS,1,1,0,1,15,5,10,0,33.33333333
 tournament,147,1983,19,Last 16,L16,2,Terry Griffiths,WAL,5,2,1,1,43,22,21,50,51.1627907
 tournament,148,1983,20,First Round,1R,1,Mark Wildman,ENG,1,1,0,1,18,8,10,0,44.44444444
@@ -179,7 +179,7 @@ tournament,177,1984,17,Quarter-Finals,QF,3,Cliff Thorburn,CAN,8,3,2,1,58,31,27,6
 tournament,178,1984,18,First Round,1R,1,Mario Morra,CAN,1,1,0,1,13,3,10,0,23.07692308
 tournament,179,1984,19,First Round,1R,1,John Virgo,ENG,7,1,0,1,19,9,10,0,47.36842105
 tournament,180,1984,20,Last 16,L16,2,Willie Thorne,ENG,7,2,1,1,43,21,22,50,48.8372093
-tournament,181,1984,21,Runner-Up,TF,5,Jimmy White,ENG,4,5,4,1,121,68,53,80,56.19834711
+tournament,181,1984,21,Runner-Up,RU,5,Jimmy White,ENG,4,5,4,1,121,68,53,80,56.19834711
 tournament,182,1984,22,First Round,1R,1,Rex Williams,ENG,4,1,0,1,16,6,10,0,37.5
 tournament,183,1984,23,Last 16,L16,2,Eddie Charlton,AUS,8,2,1,1,34,17,17,50,50
 tournament,184,1984,24,First Round,1R,1,Roy Andrewartha,WAL,1,1,0,1,14,4,10,0,28.57142857
@@ -191,7 +191,7 @@ tournament,189,1984,29,First Round,1R,1,Tony Meo,ENG,5,1,0,1,15,5,10,0,33.333333
 tournament,190,1984,30,Last 16,L16,2,Silvino Francisco,RSA,3,2,1,1,36,18,18,50,50
 tournament,191,1984,31,Quarter-Finals,QF,3,Ray Reardon,WAL,8,3,2,1,53,25,28,66.66666667,47.16981132
 tournament,192,1984,32,First Round,1R,1,Jim Wych,CAN,2,1,0,1,17,7,10,0,41.17647059
-tournament,193,1985,1,Runner-Up,TF,5,Steve Davis,ENG,7,5,4,1,110,69,41,80,62.72727273
+tournament,193,1985,1,Runner-Up,RU,5,Steve Davis,ENG,7,5,4,1,110,69,41,80,62.72727273
 tournament,194,1985,2,First Round,1R,1,Neal Foulds,ENG,2,1,0,1,18,8,10,0,44.44444444
 tournament,195,1985,3,Last 16,L16,2,David Taylor,ENG,9,2,1,1,31,14,17,50,45.16129032
 tournament,196,1985,4,First Round,1R,1,Dene O'Kane,NZL,1,1,0,1,14,4,10,0,28.57142857
@@ -253,9 +253,9 @@ tournament,251,1986,27,First Round,1R,1,Tony Meo,ENG,7,1,0,1,14,4,10,0,28.571428
 tournament,252,1986,28,Last 16,L16,2,John Parrott,ENG,3,2,1,1,35,18,17,50,51.42857143
 tournament,253,1986,29,Last 16,L16,2,Doug Mountjoy,WAL,10,2,1,1,31,15,16,50,48.38709677
 tournament,254,1986,30,First Round,1R,1,Perrie Mans,RSA,8,1,0,1,13,3,10,0,23.07692308
-tournament,255,1986,31,Runner-Up,TF,5,Steve Davis,ENG,8,5,4,1,108,64,44,80,59.25925926
+tournament,255,1986,31,Runner-Up,RU,5,Steve Davis,ENG,8,5,4,1,108,64,44,80,59.25925926
 tournament,256,1986,32,First Round,1R,1,Ray Edmonds,ENG,4,1,0,1,14,4,10,0,28.57142857
-tournament,257,1987,1,Runner-Up,TF,5,Joe Johnson,ENG,4,5,4,1,121,66,55,80,54.54545455
+tournament,257,1987,1,Runner-Up,RU,5,Joe Johnson,ENG,4,5,4,1,121,66,55,80,54.54545455
 tournament,258,1987,2,First Round,1R,1,Eugene Hughes,IRL,4,1,0,1,19,9,10,0,47.36842105
 tournament,259,1987,3,First Round,1R,1,Rex Williams,ENG,7,1,0,1,15,5,10,0,33.33333333
 tournament,260,1987,4,Last 16,L16,2,Murdo MacLeod,SCO,2,2,1,1,35,17,18,50,48.57142857
@@ -309,7 +309,7 @@ tournament,307,1988,19,Last 16,L16,2,Doug Mountjoy,WAL,12,2,1,1,30,11,19,50,36.6
 tournament,308,1988,20,First Round,1R,1,Barry West,ENG,2,1,0,1,16,6,10,0,37.5
 tournament,309,1988,21,Last 16,L16,2,Willie Thorne,ENG,11,2,1,1,38,19,19,50,50
 tournament,310,1988,22,First Round,1R,1,Peter Francisco,RSA,1,1,0,1,16,6,10,0,37.5
-tournament,311,1988,23,Runner-Up,TF,5,Terry Griffiths,WAL,10,5,4,1,111,63,48,80,56.75675676
+tournament,311,1988,23,Runner-Up,RU,5,Terry Griffiths,WAL,10,5,4,1,111,63,48,80,56.75675676
 tournament,312,1988,24,First Round,1R,1,Steve Longworth,ENG,2,1,0,1,11,1,10,0,9.090909091
 tournament,313,1988,25,Quarter-Finals,QF,3,Tony Knowles,ENG,8,3,2,1,57,29,28,66.66666667,50.87719298
 tournament,314,1988,26,First Round,1R,1,Danny Fowler,ENG,2,1,0,1,18,8,10,0,44.44444444
@@ -343,7 +343,7 @@ tournament,341,1989,21,First Round,1R,1,Joe Johnson,ENG,6,1,0,1,15,5,10,0,33.333
 tournament,342,1989,22,Semi-Finals,SF,4,Tony Meo,ENG,9,4,3,1,81,43,38,75,53.08641975
 tournament,343,1989,23,First Round,1R,1,Cliff Thorburn,CAN,13,1,0,1,19,9,10,0,47.36842105
 tournament,344,1989,24,Last 16,L16,2,Eddie Charlton,AUS,12,2,1,1,40,18,22,50,45
-tournament,345,1989,25,Runner-Up,TF,5,John Parrott,ENG,6,5,4,1,106,55,51,80,51.88679245
+tournament,345,1989,25,Runner-Up,RU,5,John Parrott,ENG,6,5,4,1,106,55,51,80,51.88679245
 tournament,346,1989,26,First Round,1R,1,Steve James,ENG,2,1,0,1,19,9,10,0,47.36842105
 tournament,347,1989,27,Last 16,L16,2,Dennis Taylor,NIR,13,2,1,1,36,20,16,50,55.55555556
 tournament,348,1989,28,First Round,1R,1,Eugene Hughes,IRL,5,1,0,1,13,3,10,0,23.07692308
@@ -365,7 +365,7 @@ tournament,363,1990,11,Last 16,L16,2,Tony Knowles,ENG,10,2,1,1,33,16,17,50,48.48
 tournament,364,1990,12,First Round,1R,1,Tony Chappel,WAL,1,1,0,1,14,4,10,0,28.57142857
 tournament,365,1990,13,Last 16,L16,2,John Virgo,ENG,13,2,1,1,35,16,19,50,45.71428571
 tournament,366,1990,14,First Round,1R,1,Gary Wilkinson,ENG,2,1,0,1,16,6,10,0,37.5
-tournament,367,1990,15,Runner-Up,TF,5,Jimmy White,ENG,10,5,4,1,111,64,47,80,57.65765766
+tournament,367,1990,15,Runner-Up,RU,5,Jimmy White,ENG,10,5,4,1,111,64,47,80,57.65765766
 tournament,368,1990,16,First Round,1R,1,Danny Fowler,ENG,3,1,0,1,14,4,10,0,28.57142857
 tournament,369,1990,17,Winner,W,6,Stephen Hendry,SCO,5,5,5,0,113,70,43,100,61.94690265
 tournament,370,1990,18,First Round,1R,1,Alain Robidoux,CAN,1,1,0,1,17,7,10,0,41.17647059
@@ -397,7 +397,7 @@ tournament,395,1991,11,Last 16,L16,2,Martin Clark,ENG,1,2,1,1,38,19,19,50,50
 tournament,396,1991,12,First Round,1R,1,Mark Bennett,WAL,3,1,0,1,16,6,10,0,37.5
 tournament,397,1991,13,Last 16,L16,2,Neal Foulds,ENG,8,2,1,1,42,22,20,50,52.38095238
 tournament,398,1991,14,First Round,1R,1,Eddie Charlton,AUS,14,1,0,1,17,7,10,0,41.17647059
-tournament,399,1991,15,Runner-Up,TF,5,Jimmy White,ENG,11,5,4,1,108,63,45,80,58.33333333
+tournament,399,1991,15,Runner-Up,RU,5,Jimmy White,ENG,11,5,4,1,108,63,45,80,58.33333333
 tournament,400,1991,16,First Round,1R,1,Nick Dyson,ENG,1,1,0,1,13,3,10,0,23.07692308
 tournament,401,1991,17,Winner,W,6,John Parrott,ENG,8,5,5,0,108,70,38,100,64.81481481
 tournament,402,1991,18,First Round,1R,1,Nigel Gilbert,ENG,2,1,0,1,16,6,10,0,37.5
@@ -429,7 +429,7 @@ tournament,427,1992,11,First Round,1R,1,Dean Reynolds,ENG,10,1,0,1,17,7,10,0,41.
 tournament,428,1992,12,Quarter-Finals,QF,3,Jim Wych,CAN,4,3,2,1,58,32,26,66.66666667,55.17241379
 tournament,429,1992,13,Last 16,L16,2,Alain Robidoux,CAN,3,2,1,1,41,21,20,50,51.2195122
 tournament,430,1992,14,First Round,1R,1,Nigel Bond,ENG,1,1,0,1,17,7,10,0,41.17647059
-tournament,431,1992,15,Runner-Up,TF,5,Jimmy White,ENG,12,5,4,1,115,66,49,80,57.39130435
+tournament,431,1992,15,Runner-Up,RU,5,Jimmy White,ENG,12,5,4,1,115,66,49,80,57.39130435
 tournament,432,1992,16,First Round,1R,1,Tony Drago,MLT,3,1,0,1,14,4,10,0,28.57142857
 tournament,433,1992,17,First Round,1R,1,Steve Davis,ENG,14,1,0,1,14,4,10,0,28.57142857
 tournament,434,1992,18,Quarter-Finals,QF,3,Peter Ebdon,ENG,1,3,2,1,51,30,21,66.66666667,58.82352941
@@ -463,7 +463,7 @@ tournament,461,1993,13,Semi-Finals,SF,4,Alan McManus,SCO,3,4,3,1,89,44,45,75,49.
 tournament,462,1993,14,First Round,1R,1,Ronnie O'Sullivan,ENG,1,1,0,1,17,7,10,0,41.17647059
 tournament,463,1993,15,Last 16,L16,2,Steve Davis,ENG,15,2,1,1,37,21,16,50,56.75675676
 tournament,464,1993,16,First Round,1R,1,Peter Ebdon,ENG,2,1,0,1,13,3,10,0,23.07692308
-tournament,465,1993,17,Runner-Up,TF,5,Jimmy White,ENG,13,5,4,1,102,57,45,80,55.88235294
+tournament,465,1993,17,Runner-Up,RU,5,Jimmy White,ENG,13,5,4,1,102,57,45,80,55.88235294
 tournament,466,1993,18,First Round,1R,1,Joe Swail,NIR,1,1,0,1,14,4,10,0,28.57142857
 tournament,467,1993,19,First Round,1R,1,Alain Robidoux,CAN,4,1,0,1,16,6,10,0,37.5
 tournament,468,1993,20,Last 16,L16,2,Doug Mountjoy,WAL,17,2,1,1,35,16,19,50,45.71428571
@@ -495,7 +495,7 @@ tournament,493,1994,13,Last 16,L16,2,Steve James,ENG,7,2,1,1,35,13,22,50,37.1428
 tournament,494,1994,14,First Round,1R,1,Les Dodd,ENG,3,1,0,1,19,9,10,0,47.36842105
 tournament,495,1994,15,Semi-Finals,SF,4,Steve Davis,ENG,16,4,3,1,76,45,31,75,59.21052632
 tournament,496,1994,16,First Round,1R,1,Dene O'Kane,NZL,5,1,0,1,13,3,10,0,23.07692308
-tournament,497,1994,17,Runner-Up,TF,5,Jimmy White,ENG,14,5,4,1,121,69,52,80,57.02479339
+tournament,497,1994,17,Runner-Up,RU,5,Jimmy White,ENG,14,5,4,1,121,69,52,80,57.02479339
 tournament,498,1994,18,First Round,1R,1,Billy Snaddon,SCO,1,1,0,1,16,6,10,0,37.5
 tournament,499,1994,19,Last 16,L16,2,Neal Foulds,ENG,11,2,1,1,40,20,20,50,50
 tournament,500,1994,20,First Round,1R,1,Anthony Davies,WAL,1,1,0,1,17,7,10,0,41.17647059
@@ -531,7 +531,7 @@ tournament,529,1995,17,First Round,1R,1,James Wattana,THA,4,1,0,1,18,8,10,0,44.4
 tournament,530,1995,18,Quarter-Finals,QF,3,Gary Wilkinson,ENG,6,3,2,1,60,30,30,66.66666667,50
 tournament,531,1995,19,Last 16,L16,2,Terry Griffiths,WAL,17,2,1,1,38,19,19,50,50
 tournament,532,1995,20,First Round,1R,1,Alain Robidoux,CAN,5,1,0,1,16,6,10,0,37.5
-tournament,533,1995,21,Runner-Up,TF,5,Nigel Bond,ENG,4,5,4,1,115,61,54,80,53.04347826
+tournament,533,1995,21,Runner-Up,RU,5,Nigel Bond,ENG,4,5,4,1,115,61,54,80,53.04347826
 tournament,534,1995,22,First Round,1R,1,Stephen Lee,ENG,1,1,0,1,18,8,10,0,44.44444444
 tournament,535,1995,23,Last 16,L16,2,Alan McManus,SCO,5,2,1,1,36,20,16,50,55.55555556
 tournament,536,1995,24,First Round,1R,1,John Higgins,SCO,1,1,0,1,13,3,10,0,23.07692308
@@ -569,13 +569,13 @@ tournament,567,1996,23,Last 16,L16,2,Alan McManus,SCO,6,2,1,1,33,15,18,50,45.454
 tournament,568,1996,24,First Round,1R,1,Mick Price,ENG,2,1,0,1,15,5,10,0,33.33333333
 tournament,569,1996,25,Last 16,L16,2,Jimmy White,ENG,16,2,1,1,44,22,22,50,50
 tournament,570,1996,26,First Round,1R,1,Euan Henderson,SCO,1,1,0,1,19,9,10,0,47.36842105
-tournament,571,1996,27,Runner-Up,TF,5,Peter Ebdon,ENG,5,5,4,1,119,64,55,80,53.78151261
+tournament,571,1996,27,Runner-Up,RU,5,Peter Ebdon,ENG,5,5,4,1,119,64,55,80,53.78151261
 tournament,572,1996,28,First Round,1R,1,Dene O'Kane,NZL,6,1,0,1,11,1,10,0,9.090909091
 tournament,573,1996,29,Last 16,L16,2,Terry Griffiths,WAL,18,2,1,1,40,18,22,50,45
 tournament,574,1996,30,First Round,1R,1,Jamie Burnett,SCO,1,1,0,1,19,9,10,0,47.36842105
 tournament,575,1996,31,Quarter-Finals,QF,3,Steve Davis,ENG,18,3,2,1,62,33,29,66.66666667,53.22580645
 tournament,576,1996,32,First Round,1R,1,Willie Thorne,ENG,19,1,0,1,18,8,10,0,44.44444444
-tournament,577,1997,1,Runner-Up,TF,5,Stephen Hendry,SCO,12,5,4,1,120,65,55,80,54.16666667
+tournament,577,1997,1,Runner-Up,RU,5,Stephen Hendry,SCO,12,5,4,1,120,65,55,80,54.16666667
 tournament,578,1997,2,First Round,1R,1,Andy Hicks,ENG,2,1,0,1,16,6,10,0,37.5
 tournament,579,1997,3,Last 16,L16,2,Mark Williams,WAL,1,2,1,1,40,18,22,50,45
 tournament,580,1997,4,First Round,1R,1,Terry Griffiths,WAL,19,1,0,1,19,9,10,0,47.36842105
@@ -607,7 +607,7 @@ tournament,605,1997,29,First Round,1R,1,Tony Drago,MLT,7,1,0,1,19,9,10,0,47.3684
 tournament,606,1997,30,Last 16,L16,2,Dominic Dale,WAL,1,2,1,1,37,15,22,50,40.54054054
 tournament,607,1997,31,Quarter-Finals,QF,3,John Higgins,SCO,3,3,2,1,56,32,24,66.66666667,57.14285714
 tournament,608,1997,32,First Round,1R,1,Graham Horne,SCO,1,1,0,1,16,6,10,0,37.5
-tournament,609,1998,1,Runner-Up,TF,5,Ken Doherty,IRL,6,5,4,1,123,65,58,80,52.84552846
+tournament,609,1998,1,Runner-Up,RU,5,Ken Doherty,IRL,6,5,4,1,123,65,58,80,52.84552846
 tournament,610,1998,2,First Round,1R,1,Lee Walker,WAL,2,1,0,1,18,8,10,0,44.44444444
 tournament,611,1998,3,Last 16,L16,2,Stephen Lee,ENG,3,2,1,1,35,18,17,50,51.42857143
 tournament,612,1998,4,First Round,1R,1,Andy Hicks,ENG,3,1,0,1,14,4,10,0,28.57142857
@@ -647,7 +647,7 @@ tournament,645,1999,5,Quarter-Finals,QF,3,Stephen Lee,ENG,4,3,2,1,56,29,27,66.66
 tournament,646,1999,6,First Round,1R,1,John Lardner,SCO,1,1,0,1,17,7,10,0,41.17647059
 tournament,647,1999,7,Last 16,L16,2,Alan McManus,SCO,9,2,1,1,37,17,20,50,45.94594595
 tournament,648,1999,8,First Round,1R,1,Jimmy White,ENG,19,1,0,1,17,7,10,0,41.17647059
-tournament,649,1999,9,Runner-Up,TF,5,Mark Williams,WAL,3,5,4,1,112,64,48,80,57.14285714
+tournament,649,1999,9,Runner-Up,RU,5,Mark Williams,WAL,3,5,4,1,112,64,48,80,57.14285714
 tournament,650,1999,10,First Round,1R,1,Ian McCulloch,ENG,1,1,0,1,14,4,10,0,28.57142857
 tournament,651,1999,11,First Round,1R,1,Alain Robidoux,CAN,9,1,0,1,16,6,10,0,37.5
 tournament,652,1999,12,Last 16,L16,2,Nick Walker,ENG,1,2,1,1,36,17,19,50,47.22222222
@@ -675,7 +675,7 @@ tournament,673,2000,1,First Round,1R,1,Stephen Hendry,SCO,15,1,0,1,17,7,10,0,41.
 tournament,674,2000,2,Last 16,L16,2,Stuart Bingham,ENG,1,2,1,1,39,19,20,50,48.71794872
 tournament,675,2000,3,Quarter-Finals,QF,3,Jimmy White,ENG,20,3,2,1,59,30,29,66.66666667,50.84745763
 tournament,676,2000,4,First Round,1R,1,Billy Snaddon,SCO,4,1,0,1,17,7,10,0,41.17647059
-tournament,677,2000,5,Runner-Up,TF,5,Matthew Stevens,WAL,3,5,4,1,112,69,43,80,61.60714286
+tournament,677,2000,5,Runner-Up,RU,5,Matthew Stevens,WAL,3,5,4,1,112,69,43,80,61.60714286
 tournament,678,2000,6,First Round,1R,1,Tony Drago,MLT,10,1,0,1,12,2,10,0,16.66666667
 tournament,679,2000,7,Last 16,L16,2,Alan McManus,SCO,10,2,1,1,34,14,20,50,41.17647059
 tournament,680,2000,8,First Round,1R,1,Nigel Bond,ENG,9,1,0,1,17,7,10,0,41.17647059
@@ -733,7 +733,7 @@ tournament,731,2001,27,First Round,1R,1,John Parrott,ENG,18,1,0,1,16,6,10,0,37.5
 tournament,732,2001,28,Last 16,L16,2,Michael Judge,IRL,1,2,1,1,36,17,19,50,47.22222222
 tournament,733,2001,29,First Round,1R,1,Marco Fu,HKG,3,1,0,1,18,8,10,0,44.44444444
 tournament,734,2001,30,Last 16,L16,2,Chris Small,SCO,4,2,1,1,39,18,21,50,46.15384615
-tournament,735,2001,31,Runner-Up,TF,5,John Higgins,SCO,7,5,4,1,118,67,51,80,56.77966102
+tournament,735,2001,31,Runner-Up,RU,5,John Higgins,SCO,7,5,4,1,118,67,51,80,56.77966102
 tournament,736,2001,32,First Round,1R,1,Graeme Dott,SCO,3,1,0,1,14,4,10,0,28.57142857
 tournament,737,2002,1,Semi-Finals,SF,4,Ronnie O'Sullivan,ENG,10,4,3,1,83,49,34,75,59.03614458
 tournament,738,2002,2,First Round,1R,1,Drew Henry,SCO,4,1,0,1,15,5,10,0,33.33333333
@@ -743,7 +743,7 @@ tournament,741,2002,5,First Round,1R,1,Paul Hunter,ENG,4,1,0,1,19,9,10,0,47.3684
 tournament,742,2002,6,Last 16,L16,2,Quinten Hann,AUS,3,2,1,1,35,13,22,50,37.14285714
 tournament,743,2002,7,Quarter-Finals,QF,3,Stephen Lee,ENG,7,3,2,1,56,33,23,66.66666667,58.92857143
 tournament,744,2002,8,First Round,1R,1,Chris Small,SCO,5,1,0,1,17,7,10,0,41.17647059
-tournament,745,2002,9,Runner-Up,TF,5,Stephen Hendry,SCO,17,5,4,1,120,70,50,80,58.33333333
+tournament,745,2002,9,Runner-Up,RU,5,Stephen Hendry,SCO,17,5,4,1,120,70,50,80,58.33333333
 tournament,746,2002,10,First Round,1R,1,Shaun Murphy,ENG,1,1,0,1,14,4,10,0,28.57142857
 tournament,747,2002,11,First Round,1R,1,Alan McManus,SCO,12,1,0,1,17,7,10,0,41.17647059
 tournament,748,2002,12,Last 16,L16,2,Anthony Davies,WAL,3,2,1,1,33,13,20,50,39.39393939
@@ -775,7 +775,7 @@ tournament,773,2003,5,Semi-Finals,SF,4,Paul Hunter,ENG,5,4,3,1,92,52,40,75,56.52
 tournament,774,2003,6,First Round,1R,1,Ali Carter,ENG,1,1,0,1,15,5,10,0,33.33333333
 tournament,775,2003,7,Last 16,L16,2,Matthew Stevens,WAL,6,2,1,1,32,16,16,50,50
 tournament,776,2003,8,First Round,1R,1,Chris Small,SCO,6,1,0,1,13,3,10,0,23.07692308
-tournament,777,2003,9,Runner-Up,TF,5,Ken Doherty,IRL,11,5,4,1,132,69,63,80,52.27272727
+tournament,777,2003,9,Runner-Up,RU,5,Ken Doherty,IRL,11,5,4,1,132,69,63,80,52.27272727
 tournament,778,2003,10,First Round,1R,1,Shaun Murphy,ENG,2,1,0,1,19,9,10,0,47.36842105
 tournament,779,2003,11,Last 16,L16,2,Graeme Dott,SCO,5,2,1,1,39,22,17,50,56.41025641
 tournament,780,2003,12,First Round,1R,1,Robert Milkins,ENG,2,1,0,1,14,4,10,0,28.57142857
@@ -811,7 +811,7 @@ tournament,809,2004,9,First Round,1R,1,Stephen Lee,ENG,9,1,0,1,17,7,10,0,41.1764
 tournament,810,2004,10,Last 16,L16,2,Lee Walker,WAL,3,2,1,1,35,15,20,50,42.85714286
 tournament,811,2004,11,Quarter-Finals,QF,3,David Gray,ENG,4,3,2,1,55,30,25,66.66666667,54.54545455
 tournament,812,2004,12,First Round,1R,1,Ali Carter,ENG,2,1,0,1,17,7,10,0,41.17647059
-tournament,813,2004,13,Runner-Up,TF,5,Graeme Dott,SCO,6,5,4,1,120,61,59,80,50.83333333
+tournament,813,2004,13,Runner-Up,RU,5,Graeme Dott,SCO,6,5,4,1,120,61,59,80,50.83333333
 tournament,814,2004,14,First Round,1R,1,Mark King,ENG,8,1,0,1,19,9,10,0,47.36842105
 tournament,815,2004,15,Last 16,L16,2,John Higgins,SCO,10,2,1,1,42,20,22,50,47.61904762
 tournament,816,2004,16,First Round,1R,1,Ryan Day,WAL,1,1,0,1,19,9,10,0,47.36842105
@@ -853,7 +853,7 @@ tournament,851,2005,19,First Round,1R,1,David Gray,ENG,5,1,0,1,18,8,10,0,44.4444
 tournament,852,2005,20,Last 16,L16,2,Anthony Hamilton,ENG,9,2,1,1,34,13,21,50,38.23529412
 tournament,853,2005,21,Last 16,L16,2,Jimmy White,ENG,24,2,1,1,33,15,18,50,45.45454545
 tournament,854,2005,22,First Round,1R,1,Fergal O'Brien,IRL,7,1,0,1,15,5,10,0,33.33333333
-tournament,855,2005,23,Runner-Up,TF,5,Matthew Stevens,WAL,8,5,4,1,122,69,53,80,56.55737705
+tournament,855,2005,23,Runner-Up,RU,5,Matthew Stevens,WAL,8,5,4,1,122,69,53,80,56.55737705
 tournament,856,2005,24,First Round,1R,1,Andy Hicks,ENG,6,1,0,1,15,5,10,0,33.33333333
 tournament,857,2005,25,Last 16,L16,2,Ken Doherty,IRL,13,2,1,1,39,21,18,50,53.84615385
 tournament,858,2005,26,First Round,1R,1,Barry Pinches,ENG,3,1,0,1,15,5,10,0,33.33333333
@@ -869,7 +869,7 @@ tournament,867,2006,3,Last 16,L16,2,Steve Davis,ENG,26,2,1,1,34,17,17,50,50
 tournament,868,2006,4,First Round,1R,1,Andy Hicks,ENG,7,1,0,1,14,4,10,0,28.57142857
 tournament,869,2006,5,First Round,1R,1,Jimmy White,ENG,25,1,0,1,15,5,10,0,33.33333333
 tournament,870,2006,6,Last 16,L16,2,David Gray,ENG,6,2,1,1,30,12,18,50,40
-tournament,871,2006,7,Runner-Up,TF,5,Peter Ebdon,ENG,15,5,4,1,118,67,51,80,56.77966102
+tournament,871,2006,7,Runner-Up,RU,5,Peter Ebdon,ENG,15,5,4,1,118,67,51,80,56.77966102
 tournament,872,2006,8,First Round,1R,1,Michael Holt,ENG,2,1,0,1,18,8,10,0,44.44444444
 tournament,873,2006,9,Last 16,L16,2,Matthew Stevens,WAL,9,2,1,1,36,18,18,50,50
 tournament,874,2006,10,First Round,1R,1,Joe Swail,NIR,9,1,0,1,15,5,10,0,33.33333333
@@ -922,7 +922,7 @@ tournament,920,2007,24,First Round,1R,1,Judd Trump,ENG,1,1,0,1,16,6,10,0,37.5
 tournament,921,2007,25,Last 16,L16,2,Peter Ebdon,ENG,16,2,1,1,38,18,20,50,47.36842105
 tournament,922,2007,26,First Round,1R,1,Nigel Bond,ENG,13,1,0,1,17,7,10,0,41.17647059
 tournament,923,2007,27,First Round,1R,1,Stephen Lee,ENG,12,1,0,1,17,7,10,0,41.17647059
-tournament,924,2007,28,Runner-Up,TF,5,Mark Selby,ENG,3,5,4,1,127,66,61,80,51.96850394
+tournament,924,2007,28,Runner-Up,RU,5,Mark Selby,ENG,3,5,4,1,127,66,61,80,51.96850394
 tournament,925,2007,29,Quarter-Finals,QF,3,Ali Carter,ENG,5,3,2,1,58,35,23,66.66666667,60.34482759
 tournament,926,2007,30,First Round,1R,1,Andy Hicks,ENG,8,1,0,1,14,4,10,0,28.57142857
 tournament,927,2007,31,Last 16,L16,2,Stephen Hendry,SCO,22,2,1,1,36,16,20,50,44.44444444
@@ -945,7 +945,7 @@ tournament,943,2008,15,First Round,1R,1,Ken Doherty,IRL,16,1,0,1,15,5,10,0,33.33
 tournament,944,2008,16,Quarter-Finals,QF,3,Liang Wenbo,CHN,1,3,2,1,60,30,30,66.66666667,50
 tournament,945,2008,17,Last 16,L16,2,Shaun Murphy,ENG,6,2,1,1,30,14,16,50,46.66666667
 tournament,946,2008,18,First Round,1R,1,Dave Harold,ENG,10,1,0,1,13,3,10,0,23.07692308
-tournament,947,2008,19,Runner-Up,TF,5,Ali Carter,ENG,6,5,4,1,116,61,55,80,52.5862069
+tournament,947,2008,19,Runner-Up,RU,5,Ali Carter,ENG,6,5,4,1,116,61,55,80,52.5862069
 tournament,948,2008,20,First Round,1R,1,Barry Hawkins,ENG,3,1,0,1,19,9,10,0,47.36842105
 tournament,949,2008,21,First Round,1R,1,Mark Selby,ENG,4,1,0,1,18,8,10,0,44.44444444
 tournament,950,2008,22,Last 16,L16,2,Mark King,ENG,10,2,1,1,40,19,21,50,47.5
@@ -975,7 +975,7 @@ tournament,973,2009,13,Last 16,L16,2,Graeme Dott,SCO,11,2,1,1,41,20,21,50,48.780
 tournament,974,2009,14,First Round,1R,1,Barry Hawkins,ENG,4,1,0,1,18,8,10,0,44.44444444
 tournament,975,2009,15,Quarter-Finals,QF,3,Mark Selby,ENG,5,3,2,1,64,35,29,66.66666667,54.6875
 tournament,976,2009,16,First Round,1R,1,Ricky Walden,ENG,1,1,0,1,16,6,10,0,37.5
-tournament,977,2009,17,Runner-Up,TF,5,Shaun Murphy,ENG,7,5,4,1,116,62,54,80,53.44827586
+tournament,977,2009,17,Runner-Up,RU,5,Shaun Murphy,ENG,7,5,4,1,116,62,54,80,53.44827586
 tournament,978,2009,18,First Round,1R,1,Andrew Higginson,ENG,1,1,0,1,18,8,10,0,44.44444444
 tournament,979,2009,19,Last 16,L16,2,Marco Fu,HKG,9,2,1,1,30,13,17,50,43.33333333
 tournament,980,2009,20,First Round,1R,1,Joe Swail,NIR,12,1,0,1,14,4,10,0,28.57142857
@@ -1010,7 +1010,7 @@ tournament,1008,2010,16,First Round,1R,1,Gerard Greene,NIR,5,1,0,1,17,7,10,0,41.
 tournament,1009,2010,17,Last 16,L16,2,Stephen Maguire,SCO,7,2,1,1,33,16,17,50,48.48484848
 tournament,1010,2010,18,First Round,1R,1,Stephen Lee,ENG,15,1,0,1,14,4,10,0,28.57142857
 tournament,1011,2010,19,First Round,1R,1,Peter Ebdon,ENG,19,1,0,1,15,5,10,0,33.33333333
-tournament,1012,2010,20,Runner-Up,TF,5,Graeme Dott,SCO,12,5,4,1,121,66,55,80,54.54545455
+tournament,1012,2010,20,Runner-Up,RU,5,Graeme Dott,SCO,12,5,4,1,121,66,55,80,54.54545455
 tournament,1013,2010,21,Quarter-Finals,QF,3,Mark Allen,NIR,4,3,2,1,57,35,22,66.66666667,61.40350877
 tournament,1014,2010,22,First Round,1R,1,Tom Ford,ENG,1,1,0,1,14,4,10,0,28.57142857
 tournament,1015,2010,23,First Round,1R,1,Ryan Day,WAL,6,1,0,1,18,8,10,0,44.44444444
@@ -1024,7 +1024,7 @@ tournament,1022,2010,30,First Round,1R,1,Marcus Campbell,SCO,2,1,0,1,15,5,10,0,3
 tournament,1023,2010,31,Quarter-Finals,QF,3,Ronnie O'Sullivan,ENG,18,3,2,1,64,34,30,66.66666667,53.125
 tournament,1024,2010,32,First Round,1R,1,Liang Wenbo,CHN,3,1,0,1,17,7,10,0,41.17647059
 tournament,1025,2011,1,First Round,1R,1,Neil Robertson,AUS,7,1,0,1,18,8,10,0,44.44444444
-tournament,1026,2011,2,Runner-Up,TF,5,Judd Trump,ENG,2,5,4,1,120,68,52,80,56.66666667
+tournament,1026,2011,2,Runner-Up,RU,5,Judd Trump,ENG,2,5,4,1,120,68,52,80,56.66666667
 tournament,1027,2011,3,First Round,1R,1,Marco Fu,HKG,11,1,0,1,18,8,10,0,44.44444444
 tournament,1028,2011,4,Last 16,L16,2,Martin Gould,ENG,3,2,1,1,37,16,21,50,43.24324324
 tournament,1029,2011,5,Quarter-Finals,QF,3,Graeme Dott,SCO,13,3,2,1,59,28,31,66.66666667,47.45762712
@@ -1067,7 +1067,7 @@ tournament,1065,2012,9,First Round,1R,1,Shaun Murphy,ENG,10,1,0,1,18,8,10,0,44.4
 tournament,1066,2012,10,Quarter-Finals,QF,3,Jamie Jones,WAL,1,3,2,1,65,34,31,66.66666667,52.30769231
 tournament,1067,2012,11,First Round,1R,1,Stephen Lee,ENG,17,1,0,1,16,6,10,0,37.5
 tournament,1068,2012,12,Last 16,L16,2,Andrew Higginson,ENG,2,2,1,1,39,20,19,50,51.28205128
-tournament,1069,2012,13,Runner-Up,TF,5,Ali Carter,ENG,10,5,4,1,119,64,55,80,53.78151261
+tournament,1069,2012,13,Runner-Up,RU,5,Ali Carter,ENG,10,5,4,1,119,64,55,80,53.78151261
 tournament,1070,2012,14,First Round,1R,1,Mark Davis,ENG,7,1,0,1,12,2,10,0,16.66666667
 tournament,1071,2012,15,Last 16,L16,2,Judd Trump,ENG,3,2,1,1,42,22,20,50,52.38095238
 tournament,1072,2012,16,First Round,1R,1,Dominic Dale,WAL,7,1,0,1,17,7,10,0,41.17647059
@@ -1115,11 +1115,11 @@ tournament,1113,2013,25,First Round,1R,1,Mark Allen,NIR,7,1,0,1,18,8,10,0,44.444
 tournament,1114,2013,26,Last 16,L16,2,Mark King,ENG,14,2,1,1,40,19,21,50,47.5
 tournament,1115,2013,27,Quarter-Finals,QF,3,Ding Junhui,CHN,7,3,2,1,57,30,27,66.66666667,52.63157895
 tournament,1116,2013,28,First Round,1R,1,Alan McManus,SCO,17,1,0,1,15,5,10,0,33.33333333
-tournament,1117,2013,29,Runner-Up,TF,5,Barry Hawkins,ENG,8,5,4,1,117,65,52,80,55.55555556
+tournament,1117,2013,29,Runner-Up,RU,5,Barry Hawkins,ENG,8,5,4,1,117,65,52,80,55.55555556
 tournament,1118,2013,30,First Round,1R,1,Jack Lisowski,ENG,1,1,0,1,13,3,10,0,23.07692308
 tournament,1119,2013,31,Last 16,L16,2,Mark Selby,ENG,9,2,1,1,37,20,17,50,54.05405405
 tournament,1120,2013,32,First Round,1R,1,Matthew Selt,ENG,1,1,0,1,14,4,10,0,28.57142857
-tournament,1121,2014,1,Runner-Up,TF,5,Ronnie O'Sullivan,ENG,22,5,4,1,110,67,43,80,60.90909091
+tournament,1121,2014,1,Runner-Up,RU,5,Ronnie O'Sullivan,ENG,22,5,4,1,110,67,43,80,60.90909091
 tournament,1122,2014,2,First Round,1R,1,Robin Hull,FIN,2,1,0,1,14,4,10,0,28.57142857
 tournament,1123,2014,3,Last 16,L16,2,Joe Perry,ENG,12,2,1,1,41,21,20,50,51.2195122
 tournament,1124,2014,4,First Round,1R,1,Jamie Burnett,SCO,4,1,0,1,17,7,10,0,41.17647059
@@ -1157,7 +1157,7 @@ tournament,1155,2015,3,First Round,1R,1,Stephen Maguire,SCO,12,1,0,1,19,9,10,0,4
 tournament,1156,2015,4,Quarter-Finals,QF,3,Anthony McGill,SCO,1,3,2,1,62,31,31,66.66666667,50
 tournament,1157,2015,5,Last 16,L16,2,Joe Perry,ENG,13,2,1,1,32,15,17,50,46.875
 tournament,1158,2015,6,First Round,1R,1,Zhang Anda,CHN,2,1,0,1,14,4,10,0,28.57142857
-tournament,1159,2015,7,Runner-Up,TF,5,Shaun Murphy,ENG,13,5,4,1,111,68,43,80,61.26126126
+tournament,1159,2015,7,Runner-Up,RU,5,Shaun Murphy,ENG,13,5,4,1,111,68,43,80,61.26126126
 tournament,1160,2015,8,First Round,1R,1,Robin Hull,FIN,3,1,0,1,13,3,10,0,23.07692308
 tournament,1161,2015,9,Semi-Finals,SF,4,Barry Hawkins,ENG,10,4,3,1,94,45,49,75,47.87234043
 tournament,1162,2015,10,First Round,1R,1,Matthew Selt,ENG,2,1,0,1,19,9,10,0,47.36842105
@@ -1194,7 +1194,7 @@ tournament,1192,2016,8,First Round,1R,1,Ryan Day,WAL,11,1,0,1,13,3,10,0,23.07692
 tournament,1193,2016,9,Last 16,L16,2,Judd Trump,ENG,7,2,1,1,41,20,21,50,48.7804878
 tournament,1194,2016,10,First Round,1R,1,Liang Wenbo,CHN,5,1,0,1,18,8,10,0,44.44444444
 tournament,1195,2016,11,First Round,1R,1,Martin Gould,ENG,7,1,0,1,18,8,10,0,44.44444444
-tournament,1196,2016,12,Runner-Up,TF,5,Ding Junhui,CHN,10,5,4,1,117,67,50,80,57.26495726
+tournament,1196,2016,12,Runner-Up,RU,5,Ding Junhui,CHN,10,5,4,1,117,67,50,80,57.26495726
 tournament,1197,2016,13,Quarter-Finals,QF,3,Mark Williams,WAL,19,3,2,1,51,26,25,66.66666667,50.98039216
 tournament,1198,2016,14,First Round,1R,1,Graeme Dott,SCO,17,1,0,1,14,4,10,0,28.57142857
 tournament,1199,2016,15,First Round,1R,1,Neil Robertson,AUS,12,1,0,1,16,6,10,0,37.5
@@ -1237,7 +1237,7 @@ tournament,1235,2017,19,Quarter-Finals,QF,3,Kyren Wilson,ENG,3,3,2,1,58,29,29,66
 tournament,1236,2017,20,First Round,1R,1,David Grace,ENG,1,1,0,1,16,6,10,0,37.5
 tournament,1237,2017,21,Last 16,L16,2,Mark Allen,NIR,11,2,1,1,40,19,21,50,47.5
 tournament,1238,2017,22,First Round,1R,1,Jimmy Robertson,ENG,3,1,0,1,18,8,10,0,44.44444444
-tournament,1239,2017,23,Runner-Up,TF,5,John Higgins,SCO,23,5,4,1,115,68,47,80,59.13043478
+tournament,1239,2017,23,Runner-Up,RU,5,John Higgins,SCO,23,5,4,1,115,68,47,80,59.13043478
 tournament,1240,2017,24,First Round,1R,1,Martin Gould,ENG,8,1,0,1,16,6,10,0,37.5
 tournament,1241,2017,25,Semi-Finals,SF,4,Barry Hawkins,ENG,12,4,3,1,79,44,35,75,55.69620253
 tournament,1242,2017,26,First Round,1R,1,Tom Ford,ENG,3,1,0,1,13,3,10,0,23.07692308
