@@ -8,7 +8,9 @@ app = Flask(__name__)
 MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'snooker')
 
-COLLECTION_NAME = 'extended'
+MATCH_COLLECTION = 'extended'
+TOURNAMENT_COLLECTION = 'records'
+CAREER_COLLECTION = 'careers'
 
 
 @app.route('/')
@@ -46,8 +48,8 @@ def head_to_head():
     return render_template('rivalries.html')
 
 
-@app.route('/data')
-def data():
+@app.route('/match_data')
+def match_data():
 
     FIELDS = {
         '_id': False, 'year': True, 'round': True,
@@ -64,10 +66,40 @@ def data():
 
     with MongoClient(MONGO_URI) as conn:
 
-        collection = conn[DBS_NAME][COLLECTION_NAME]
-        results = collection.find(projection=FIELDS)
+        collection = conn[DBS_NAME][MATCH_COLLECTION]
+        match_data = collection.find(projection=FIELDS)
 
-        return json.dumps(list(results))
+        return json.dumps(list(match_data))
+
+
+@app.route('/year_data')
+def year_data():
+
+    FIELDS = {
+        '_id': False, 'year': True
+    }
+
+    with MongoClient(MONGO_URI) as conn:
+
+        collection = conn[DBS_NAME][TOURNAMENT_COLLECTION]
+        year_data = collection.find(projection=FIELDS)
+
+        return json.dumps(list(year_data))
+
+
+@app.route('/career_data')
+def career_data():
+
+    FIELDS = {
+        '_id': False, 'year': True
+    }
+
+    with MongoClient(MONGO_URI) as conn:
+
+        collection = conn[DBS_NAME][CAREER_COLLECTION]
+        career_data = collection.find(projection=FIELDS)
+
+        return json.dumps(list(career_data))
 
 
 if __name__ == '__main__':

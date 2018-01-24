@@ -202,11 +202,12 @@ h2 {
 
 div.dc-chart {
 	float: none;
-	margin-top: 10px;
 }
 
 svg {
 	max-width: 260px;
+	display: block;
+	margin: 10px auto;
 }
 
 .counterTitle {
