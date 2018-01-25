@@ -47,6 +47,7 @@ function makeGraphs(error, crucible_results) {
 
     // Charts
     var careerRecords = dc.dataTable("#careerRecords");
+    var roundRecords = dc.dataTable("#roundRecords");
     // var debutYear = dc.rowChart("#debutYear");
     var countryCareer = dc.pieChart("#countryCareer");
     var stageReached = dc.pieChart("#stageReached");
@@ -69,9 +70,6 @@ function makeGraphs(error, crucible_results) {
             return d.player;
         },
         function (d) {
-            return d.tournaments;
-        },
-        function (d) {
             return d.matches_played;
         },
         function (d) {
@@ -88,6 +86,46 @@ function makeGraphs(error, crucible_results) {
         },
         function (d) {
             return d.frames_lost;
+        }
+      ])
+
+    roundRecords
+      .dimension(playerCareer)
+      .group(function (d) {
+          return d.record_type;
+      })
+      .size(Infinity)
+      .sortBy(function (d) {
+          return ((((d.winner * 100 + d.runner_up) * 100 + d.semi_finals) * 100 + d.quarter_finals) * 100 + d.last_16) * 100 + d.first_round;
+      })
+      .order(d3.descending)
+      .columns([
+        function (d) {
+            return "<img class='flagIcon' src='static/img/" + d.country.toLowerCase() + ".png' alt=" + d.country + " />";
+        },
+        function (d) {
+            return d.player;
+        },
+        function (d) {
+            return d.tournaments;
+        },
+        function (d) {
+            return d.first_round;
+        },
+        function (d) {
+            return d.last_16;
+        },
+        function (d) {
+            return d.quarter_finals;
+        },
+        function (d) {
+            return d.semi_finals;
+        },
+        function (d) {
+            return d.runner_up;
+        },
+        function (d) {
+            return d.winner;
         }
       ])
 

@@ -293,7 +293,8 @@ svg {
 }
 
 #winnersTable, #tournamentResults, #playerResults,
-#mostFrames, #winningPercentage, #careerRecords {
+#mostFrames, #winningPercentage, #careerRecords,
+#roundRecords {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
@@ -322,7 +323,7 @@ svg {
 	flex-grow: 1;
 }
 
-#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group, #careerRecords .dc-table-group {
+#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group, #careerRecords .dc-table-group, #roundRecords .dc-table-group {
 	display: none;
 }
 
@@ -365,11 +366,12 @@ svg {
 
 #winnersTable ._7, #tournamentResults ._6, 
 #playerResults ._3, #mostFrames ._1, 
-#winningPercentage ._1, #careerRecords ._1 {
+#winningPercentage ._1, #careerRecords ._1,
+#roundRecords ._1 {
 	text-align: left;
 }
 
-#careerRecords ._1 {
+#careerRecords ._1, #roundRecords ._1 {
 	padding-left: 5px;
 }
 
@@ -378,12 +380,20 @@ svg {
 	border-bottom: 1px solid #003300;
 }
 
-#careerRecords tbody ._3 {
+#careerRecords tbody ._2 {
 	border-left: 1px solid #006600;
 }
 
-#careerRecords tbody ._5 {
+#careerRecords tbody ._4 {
 	border-right: 1px solid #006600;
+}
+
+#careerRecords thead ._2 {
+	border-left: 1px solid #003300;
+}
+
+#careerRecords thead ._4 {
+	border-right: 1px solid #003300;
 }
 
 #mostFrames tbody tr:nth-child(n+12), #winningPercentage tbody tr:nth-child(n+12) {
@@ -431,6 +441,76 @@ svg {
 	width: 100%;
 }
 
+#roundRecords th._3 {
+	background-color: #ffff00;
+	color: black;
+	width: 30px;
+	border-left: 1px solid #000000;
+}
+
+#roundRecords th._4 {
+	background-color: #006600;
+	width: 30px;
+}
+
+#roundRecords th._5 {
+	background-color: #663300;
+	width: 30px;
+}
+
+#roundRecords th._6 {
+	background-color: #0000ff;
+	width: 30px;
+}
+
+#roundRecords th._7 {
+	background-color: #ff6666;
+	width: 30px;
+	color: black;
+}
+
+#roundRecords th._8 {
+	background-color: #000000;
+	width: 30px;
+}
+
+#roundRecords td._3 {
+	background-color: #ffffcc;
+	color: black;
+	width: 30px;
+	border-left: 1px solid #999999;
+}
+
+#roundRecords td._4 {
+	background-color: #ccffcc;
+	color: black;
+	width: 30px;
+}
+
+#roundRecords td._5 {
+	background-color: #ffcc99;
+	width: 30px;
+	color: black;
+}
+
+#roundRecords td._6 {
+	background-color: #ccccff;
+	color: black;
+	width: 30px;
+}
+
+#roundRecords td._7 {
+	background-color: #ffcccc;
+	color: black;
+	width: 30px;
+}
+
+#roundRecords td._8 {
+	background-color: #cccccc;
+	color: black;
+	width: 30px;
+}
+
 #debutYear .x.axis text {
 	transform: rotate(270deg) translate(-20px,-12px);
 }
@@ -459,5 +539,8 @@ footer {
 	}
 	.doubleSelector {
 		flex-flow: column;
+	}
+	#careerRecords ._1 {
+		padding-left: none;
 	}
 }
