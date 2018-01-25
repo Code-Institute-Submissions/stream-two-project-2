@@ -218,7 +218,7 @@ div.dc-chart {
 }
 
 svg {
-	max-width: 260px;
+/*	max-width: 260px;*/
 	display: block;
 	margin: 10px auto;
 }
@@ -292,7 +292,8 @@ svg {
 	border-top: 0;
 }
 
-#winnersTable, #tournamentResults, #playerResults, #mostFrames, #winningPercentage {
+#winnersTable, #tournamentResults, #playerResults,
+#mostFrames, #winningPercentage, #careerRecords {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
@@ -321,7 +322,7 @@ svg {
 	flex-grow: 1;
 }
 
-#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group {
+#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group, #careerRecords .dc-table-group {
 	display: none;
 }
 
@@ -364,13 +365,25 @@ svg {
 
 #winnersTable ._7, #tournamentResults ._6, 
 #playerResults ._3, #mostFrames ._1, 
-#winningPercentage ._1 {
+#winningPercentage ._1, #careerRecords ._1 {
 	text-align: left;
+}
+
+#careerRecords ._1 {
+	padding-left: 5px;
 }
 
 #mostFrames tbody ._4, #winningPercentage tbody ._7 {
 	background-color: #006600;
 	border-bottom: 1px solid #003300;
+}
+
+#careerRecords tbody ._3 {
+	border-left: 1px solid #006600;
+}
+
+#careerRecords tbody ._5 {
+	border-right: 1px solid #006600;
 }
 
 #mostFrames tbody tr:nth-child(n+12), #winningPercentage tbody tr:nth-child(n+12) {

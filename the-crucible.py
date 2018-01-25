@@ -95,7 +95,14 @@ def year_data():
 def career_data():
 
     FIELDS = {
-        '_id': False, 'year': True
+        '_id': False, 'player': True, 'country': True,
+        'first': True, 'last': True, 'tournaments': True,
+        'best_performance': True, 'first_round': True, 'last_16': True,
+        'quarter_finals': True, 'semi_finals': True, 'runner_up': True,
+        'winner': True, 'matches_played': True, 'matches_won': True,
+        'matches_lost': True, 'match_win_pct': True, 'frames_played': True,
+        'frames_won': True, 'frames_lost': True, 'frame_win_pct': True,
+        'record_type': True
     }
 
     with MongoClient(MONGO_URI) as conn:
