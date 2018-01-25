@@ -431,6 +431,10 @@ svg {
 	width: 100%;
 }
 
+#debutYear .x.axis text {
+	transform: rotate(270deg) translate(-20px,-12px);
+}
+
 footer {
 	background-color: #009900;
 }
@@ -442,13 +446,15 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-	#winnersTable, #tournamentResults {
+	#winnersTable, #tournamentResults, #mostFrames,
+	#winningPercentage, #careerRecords {
 		font-size: 0.9em;
 	}
-	#winnersTable td._2, #winnersTable td._6, #winnersTable th._2, #winnersTable th._6 {
-		display: none;
-	}
-	#tournamentResults td._1, #tournamentResults td._5, #tournamentResults th._1, #tournamentResults th._5 {
+	#winnersTable td._2, #winnersTable td._6, #winnersTable th._2,
+	#winnersTable th._6, #mostFrames td._0, #winningPercentage td._0,
+	#careerRecords td._0, #tournamentResults td._1, #tournamentResults td._5,
+	#tournamentResults th._1, #tournamentResults th._5, #mostFrames th._0,
+	#winningPercentage th._0, #careerRecords th._0 {
 		display: none;
 	}
 	.doubleSelector {
