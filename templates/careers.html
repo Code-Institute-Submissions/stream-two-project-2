@@ -33,17 +33,12 @@
 
 		<section class="dashColumn">
 
-		</section>
-
-	</section>
-
-	<section class="dashboard">
-
-		<section class="dashColumn">
-
-			<div id="resultsTable">
+			<div class="resultsTable">
 				<div class="tableTitle">
-					Match and Frame Records
+					All Career Records
+					<div class="tableSubTitle" onclick="tableToggle()">
+						Change Stats View
+					</div>
 				</div>
 				<table id="careerRecords" data-step="1" data-intro="All-time career records for every player who has ever played at the Crucible." style="font-weight: normal" data-position="top">
 					<thead>
@@ -61,13 +56,12 @@
 				</table>
 			</div>
 
-		</section>
-
-		<section class="dashColumn">
-
-			<div id="resultsTable">
+			<div class="resultsTable hidden">
 				<div class="tableTitle">
-					Tournament Finishes
+					All Career Records
+					<div class="tableSubTitle" onclick="tableToggle()">
+						Change Stats View
+					</div>
 				</div>
 				<table id="roundRecords" data-step="2" data-intro="The number of times a player has reached each stage of the tournament." style="font-weight: normal" data-position="top">
 					<thead>
@@ -89,5 +83,7 @@
 		</section>
 
 	</section>
+
+	<script src="{{ url_for ('static', filename='js/tabletoggle.js')}}"></script>
 
 {% endblock %}

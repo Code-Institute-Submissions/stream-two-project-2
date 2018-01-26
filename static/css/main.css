@@ -301,7 +301,7 @@ svg {
 	color: white;
 }
 
-#resultsTable {
+.resultsTable {
 	max-width: 600px;
 	margin: 10px auto 0 auto;
 }
@@ -327,7 +327,7 @@ svg {
 	display: none;
 }
 
-#resultsTable .dc-table-group {
+.resultsTable .dc-table-group {
 	background-color: #006600;
 	font-weight: bold;
 	border: 1px solid #003300;
@@ -339,24 +339,24 @@ svg {
 	width: 15px;
 }
 
-#resultsTable .headerRow {
+.resultsTable .headerRow {
 	background-color: #006600;
 	color: white;
 	border: 1px solid #003300;
 	border-top: 0;
 }
 
-#resultsTable .dc-table-row {
+.resultsTable .dc-table-row {
 	background-color: #339933;
 	border: 1px solid #006600;
 }
 
-#resultsTable .dc-table-row:hover {
+.resultsTable .dc-table-row:hover {
 	background-color: #336633;
 	transition: 0.2s;
 }
 
-#resultsTable .dc-table-column {
+.resultsTable .dc-table-column {
 	margin: 0 5px;
 }
 
@@ -398,6 +398,23 @@ svg {
 
 #mostFrames tbody tr:nth-child(n+12), #winningPercentage tbody tr:nth-child(n+12) {
 	display: none;
+}
+
+.tableSubTitle {
+	font-size: 0.5em;
+	background-color: #ffeedd;
+	color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin: 5px auto;
+	padding: 5px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.tableSubTitle:hover {
+	background-color: #ccbbaa;
+	text-decoration: underline;
 }
 
 #makeSelection {
