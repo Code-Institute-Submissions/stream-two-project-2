@@ -61,7 +61,8 @@ def match_data():
         'tournament_stage': True, 'match_number': True,
        	'player_1_nat': True, 'player_2_nat': True,
        	'player_1_score': True, 'player_2_score': True,
-       	'margin': True, 'match_up': True
+       	'margin': True, 'match_up': True, 'player_1_win': True,
+        'player_2_win': True
     }
 
     with MongoClient(MONGO_URI) as conn:

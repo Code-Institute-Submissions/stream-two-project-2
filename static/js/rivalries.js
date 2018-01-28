@@ -17,15 +17,34 @@ function makeGraphs(error, crucible_results) {
 
     //Crossfilter instances
     var ndx = crossfilter(crucible_results);
+    var dupl = crossfilter(crucible_results);
 
     // Defining dimensions
-    var match_up_result = ndx.dimension(function (d) {
+    var player1List = ndx.dimension(function (d) {
+      return d["player_1"];
+    });
+    var player2List = ndx.dimension(function (d) {
+      return d["player_2"];
+    });
+    var winningPlayer1 = ndx.dimension(function (d) {
+        return d["player_1_win"];
+    });
+    var winningPlayer2 = ndx.dimension(function (d) {
+        return d["player_2_win"];
+    });
+    var scorePlayer1 = ndx.dimension(function (d) {
+        return d["player_1_score"];
+    });
+    var scorePlayer2 = ndx.dimension(function (d) {
+        return d["player_2_score"];
+    });
+    var match_up_result = dupl.dimension(function (d) {
         return d["player_1_result"];
     });
-    var allMatchups = ndx.dimension(function (d) {
+    var allMatchups = dupl.dimension(function (d) {
       return d["match_up"];
     });
-    var matchRound = ndx.dimension(function (d) {
+    var matchRound = dupl.dimension(function (d) {
       return d["round"];
     });
 
@@ -33,14 +52,81 @@ function makeGraphs(error, crucible_results) {
     var duplicateMatchFilter = match_up_result.filter("W");
 
     // Setting color scales for pie charts
+    var h2hSlices = d3.scale.ordinal().range(["#ee0000", "#000000"]);
 
     // Grouping the data - count
+    var selectedPlayer1 = player1List.group();
+    var selectedPlayer2 = player2List.group();
     var frequentMatchups = allMatchups.group();
     var frequentRound = matchRound.group();
 
+    // Grouping the data - sum
+    var player1MatchesWon = ndx.groupAll().reduceSum(
+        function (d) {
+          return d["player_1_win"];
+        }
+      );
+    var player2MatchesWon = ndx.groupAll().reduceSum(
+        function (d) {
+          return d["player_2_win"];
+        }
+      );
+    var player1FramesWon = ndx.groupAll().reduceSum(
+        function (d) {
+          return d["player_1_score"];
+        }
+      );
+    var player2FramesWon = ndx.groupAll().reduceSum(
+        function (d) {
+          return d["player_2_score"];
+        }
+      );
+
     // Charts
+    var player1Select = dc.selectMenu("#player1Select");
+    var player2Select = dc.selectMenu("#player2Select");
+    var player1Wins = dc.numberDisplay("#player1Wins");
+    var player2Wins = dc.numberDisplay("#player2Wins");
+    var player1Frames = dc.numberDisplay("#player1Frames");
+    var player2Frames = dc.numberDisplay("#player2Frames");
     var mostFrequent = dc.rowChart("#mostFrequent");
     var matchUpRound = dc.selectMenu("#matchUpRound");
+
+    player1Select
+      .dimension(player1List)
+      .group(selectedPlayer1)
+
+    player2Select
+      .dimension(player2List)
+      .group(selectedPlayer2)
+
+    player1Wins
+      .formatNumber(d3.format("d"))
+      .valueAccessor(function (d) {
+            return d;
+        })
+        .group(player1MatchesWon);
+
+    player2Wins
+      .formatNumber(d3.format("d"))
+      .valueAccessor(function (d) {
+            return d;
+        })
+        .group(player2MatchesWon);
+
+    player1Frames
+      .formatNumber(d3.format("d"))
+      .valueAccessor(function (d) {
+            return d;
+        })
+        .group(player1FramesWon);
+
+    player2Frames
+      .formatNumber(d3.format("d"))
+      .valueAccessor(function (d) {
+            return d;
+        })
+        .group(player2FramesWon);
 
     matchUpRound
       .dimension(matchRound)

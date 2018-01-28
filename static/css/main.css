@@ -429,20 +429,20 @@ svg {
 	box-sizing: border-box;
 }
 
-.frameCountWrapper {
+.frameCountWrapper, .matchCountWrapper {
 	display: flex;
 	border: 1px solid #006600;
 	border-top: none;
 	text-align: center;
 }
 
-.frameCounter {
+.frameCounter, .matchCounter {
 	flex: 1;
 	display: block;
 	overflow: auto;
 }
 
-#framesWon {
+#framesWon, #player1Wins, #player1Frames {
 	margin: auto;
 	font-size: 3em;
 	background-color: #000000;
@@ -450,7 +450,7 @@ svg {
 	width: 100%;
 }
 
-#framesLost {
+#framesLost, #player2Wins, #player2Frames {
 	margin: auto;
 	font-size: 3em;
 	background-color: #ee0000;
@@ -530,6 +530,14 @@ svg {
 
 #debutYear .x.axis text {
 	transform: rotate(270deg) translate(-20px,-12px);
+}
+
+#winLossH2H text {
+	display: none;
+}
+
+#winLossH2H svg g title {
+	display: none;
 }
 
 footer {
