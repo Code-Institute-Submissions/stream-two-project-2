@@ -294,7 +294,7 @@ svg {
 
 #winnersTable, #tournamentResults, #playerResults,
 #mostFrames, #winningPercentage, #careerRecords,
-#roundRecords {
+#roundRecords, #h2hPlayerResults {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
@@ -323,7 +323,9 @@ svg {
 	flex-grow: 1;
 }
 
-#winnersTable .dc-table-group, #winningPercentage .dc-table-group, #mostFrames .dc-table-group, #careerRecords .dc-table-group, #roundRecords .dc-table-group {
+#winnersTable .dc-table-group, #winningPercentage .dc-table-group,
+#mostFrames .dc-table-group, #careerRecords .dc-table-group,
+#roundRecords .dc-table-group, #h2hPlayerResults .dc-table-group {
 	display: none;
 }
 

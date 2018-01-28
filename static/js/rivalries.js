@@ -20,6 +20,12 @@ function makeGraphs(error, crucible_results) {
     var dupl = crossfilter(crucible_results);
 
     // Defining dimensions
+    var h2hMatches = ndx.dimension(function (d) {
+      return d["match_number"];
+    });
+    var player1List = ndx.dimension(function (d) {
+      return d["player_1"];
+    });
     var player1List = ndx.dimension(function (d) {
       return d["player_1"];
     });
@@ -91,6 +97,7 @@ function makeGraphs(error, crucible_results) {
     var player2Frames = dc.numberDisplay("#player2Frames");
     var mostFrequent = dc.rowChart("#mostFrequent");
     var matchUpRound = dc.selectMenu("#matchUpRound");
+    var h2hPlayerResults = dc.dataTable("#h2hPlayerResults");
 
     player1Select
       .dimension(player1List)
@@ -142,6 +149,45 @@ function makeGraphs(error, crucible_results) {
       .rowsCap(20)
       .ordering(function(d) { return -d.value; })
       .elasticX(true);
+
+    h2hPlayerResults
+      .dimension(h2hMatches)
+      .group(function (d) {
+          return d.year;
+      })
+      .sortBy(function (d) {
+          return d.match_number;
+      })
+      .size(Infinity)
+      .columns([
+        function (d) {
+            return d.year;
+        },
+        function (d) {
+            return d.round_code;
+        },
+        function (d) {
+            return d.winner;
+        },
+        function (d) {
+            return "<img class='flagIcon' src='static/img/" + d.winner_nat.toLowerCase() + ".png' alt=" + d.winner_nat + " />";
+        },
+        function (d) {
+            return d.winner_score;
+        },
+        function (d) {
+            return "-";
+        },
+        function (d) {
+            return d.loser_score;
+        },
+        function (d) {
+            return "<img class='flagIcon' src='static/img/" + d.loser_nat.toLowerCase() + ".png' alt=" + d.loser_nat + " />";
+        },
+        function (d) {
+            return d.loser;
+        }
+      ])
 
     dc.renderAll();
 }
