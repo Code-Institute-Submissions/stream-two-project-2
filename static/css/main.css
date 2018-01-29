@@ -402,21 +402,22 @@ svg {
 	display: none;
 }
 
-.tableSubTitle {
-	font-size: 0.5em;
-	background-color: #ffeedd;
+.changeButton {
+	font-size: 0.8em;
+	background-color: #ffddaa;
 	color: black;
 	border: 1px solid black;
-	border-radius: 50%;
+	border-radius: 10px;
 	margin: 5px auto;
 	padding: 5px;
 	width: 100px;
 	cursor: pointer;
+	text-align: center;
 }
 
-.tableSubTitle:hover {
-	background-color: #ccbbaa;
-	text-decoration: underline;
+.changeButton:hover {
+	background-color: #eebb88;
+	box-shadow: 0px 0px 5px 5px #eeddbb;
 }
 
 #makeSelection {
