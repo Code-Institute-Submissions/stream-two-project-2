@@ -12,49 +12,53 @@
 			<section class="doubleSelector">
 				<div class="selectDouble">
 					Select Player 1:
-					<div id="player1Select" data-step="3" data-intro="Choose the first player in the head-to-head." style="font-weight: normal" data-position="top"></div>
+					<div id="player1Select" onchange="p2Chosen()" data-step="3" data-intro="Choose the first player in the head-to-head." style="font-weight: normal" data-position="top"></div>
 				</div>
 
 				<div class="selectDouble">
 					Select Player 2:
-					<div id="player2Select" data-step="4" data-intro="Choose the second player in the head-to-head." style="font-weight: normal" data-position="top"></div>
+					<div id="player2Select" onchange="p2Chosen()" data-step="4" data-intro="Choose the second player in the head-to-head." style="font-weight: normal" data-position="top"></div>
 				</div>
 			</section>
 
-			<div class="flexWrap">
-				<div class="chartDouble">
-					<div class="chartTitle">
-						Matches
-  					</div>
-   					<div class="matchCountWrapper">
-						<div class="matchCounter">
-							<div id="player1Wins" data-step="3" data-intro="The number of matches that the first player has won." style="font-weight: normal" data-position="top"></div>
-						</div>
-						<div class="matchCounter">
-							<div id="player2Wins" data-step="4" data-intro="The number of matches that the second player has lost." style="font-weight: normal" data-position="top"></div>
-						</div>
-					</div>
-					<div class="subTitle">
-  							Frames
-   					</div>
-   					<div class="frameCountWrapper">
-						<div class="frameCounter">
-							<div id="player1Frames" data-step="5" data-intro="The number of frames that the first player has won." style="font-weight: normal" data-position="top"></div>
-						</div>
-						<div class="frameCounter">
-							<div id="player2Frames" data-step="6" data-intro="The number of frames that the second player has lost." style="font-weight: normal" data-position="top"></div>
-						</div>
-					</div>
-	    		</div>
-	    	</div>
+			<section id="h2hWrapper" class="hidden">
 
-		    <div class="resultsTable">
-   				<div class="tableTitle">
-   					Head-to-Head Results
-   				</div>
-	 			<table id="h2hPlayerResults" data-step="7" data-intro="The results of the matches between the selected players." style="font-weight: normal" data-position="top">
-    			</table>
-			</div>
+				<div class="flexWrap">
+					<div class="chartDouble">
+						<div class="chartTitle">
+							Matches
+  						</div>
+   						<div class="matchCountWrapper">
+							<div class="matchCounter">
+								<div id="player1Wins" data-step="3" data-intro="The number of matches that the first player has won." style="font-weight: normal" data-position="top"></div>
+							</div>
+							<div class="matchCounter">
+								<div id="player2Wins" data-step="4" data-intro="The number of matches that the second player has lost." style="font-weight: normal" data-position="top"></div>
+							</div>
+						</div>
+						<div class="subTitle">
+  							Frames
+   						</div>
+ 	  					<div class="frameCountWrapper">
+							<div class="frameCounter">
+								<div id="player1Frames" data-step="5" data-intro="The number of frames that the first player has won." style="font-weight: normal" data-position="top"></div>
+							</div>
+							<div class="frameCounter">
+								<div id="player2Frames" data-step="6" data-intro="The number of frames that the second player has lost." style="font-weight: normal" data-position="top"></div>
+							</div>
+						</div>
+	    			</div>
+	    		</div>
+
+			    <div class="resultsTable">
+   					<div class="tableTitle">
+   						Head-to-Head Results
+   					</div>
+	 				<table id="h2hPlayerResults" data-step="7" data-intro="The results of the matches between the selected players." style="font-weight: normal" data-position="top">
+    				</table>
+				</div>
+
+			</section>
 
 		</section>
 
@@ -77,5 +81,7 @@
 		</section>
 
 	</section>
+
+	<script src="{{ url_for ('static', filename='js/headtohead.js')}}"></script>
 
 {% endblock %}
