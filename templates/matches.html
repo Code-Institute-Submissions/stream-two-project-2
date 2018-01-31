@@ -5,30 +5,57 @@
 		<h2>Match Data</h2>
 	</div>
 
+	<section class="doubleSelector">
+		<div class="selectDouble">
+			Filter by Year:
+			<div id="matchYear" data-step="4" data-intro="Filter the data by year." style="font-weight: normal" data-position="top"></div>
+		</div>
 
-			<div class="selectWrapper">
-				Select a Round:
-				<div id="roundSelect"></div>
-			</div>
+		<div class="selectDouble">
+			Filter by Round:
+			<div id="matchRound" data-step="5" data-intro="Filter the data by round." style="font-weight: normal" data-position="top"></div>
+		</div>
+	</section>
+
+	<section class="dashboard">
+
+		<section class="dashColumn">
 
 			<div class="flexWrap">
 				<div class="chartDouble">
 					<div class="chartTitle">
-    					Most Wins
-	    			</div>
+						Matches Won
+					</div>
 					<div class="chartStyle">
-						<div id="mostWins"></div>
-		    		</div>
-		    	</div>
+						<div id="matchesWon" data-step="2" data-intro="The most matches won by individual players." style="font-weight: normal" data-position="top"></div>
+					</div>
+				</div>
 
 				<div class="chartDouble">
 					<div class="chartTitle">
-    					Most Defeats
-	    			</div>
+						Matches Lost
+					</div>
 					<div class="chartStyle">
-						<div id="mostDefeats"></div>
-	    			</div>
-	    		</div>
-	    	</div>
+						<div id="matchesLost" data-step="3" data-intro="The most matches lost by individual players." style="font-weight: normal" data-position="top"></div>
+					</div>
+				</div>
+			</div>
+
+		</section>
 	    	
+		<section class="dashColumn">
+
+			<div class="chartSingle">
+				<div class="chartTitle">
+					Frequent Scorelines
+				</div>
+				<div class="chartStyle">
+					<div id="commonScores" data-step="1" data-intro="The scorelines which have occurred most frequently." style="font-weight: normal" data-position="top"></div>
+				</div>
+			</div>
+
+		</section>
+
+	</section>
+
 {% endblock %}

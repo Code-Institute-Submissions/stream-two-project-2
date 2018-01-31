@@ -54,7 +54,7 @@ function makeGraphs(error, crucible_results) {
       return d["round"];
     });
 
-    // Filtering the data for finals only
+    // Filtering the data to avoid duplicates
     var duplicateMatchFilter = match_up_result.filter("W");
 
     // Setting color scales for pie charts
