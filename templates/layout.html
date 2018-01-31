@@ -25,13 +25,13 @@
 
 	<header>
 		<div class="colours">
-			<div class="red bar"></div>
-			<div class="yellow bar"></div>
-			<div class="green bar"></div>
-			<div class="brown bar"></div>
-			<div class="blue bar"></div>
-			<div class="pink bar"></div>
-			<div class="black bar"></div>
+			<div class="red colourBar"></div>
+			<div class="yellow colourBar"></div>
+			<div class="green colourBar"></div>
+			<div class="brown colourBar"></div>
+			<div class="blue colourBar"></div>
+			<div class="pink colourBar"></div>
+			<div class="black colourBar"></div>
 		</div>
 
 		<div class="introButton" type="button" title="Take a tour of the elements on this page." autofocus onclick="javascript:introJs().start();">
@@ -90,28 +90,27 @@
 	</nav>
 
 	<div class="colours">
-		<div class="red bar"></div>
-		<div class="yellow bar"></div>
-		<div class="green bar"></div>
-		<div class="brown bar"></div>
-		<div class="blue bar"></div>
-		<div class="pink bar"></div>
-		<div class="black bar"></div>
+		<div class="red colourBar"></div>
+		<div class="yellow colourBar"></div>
+		<div class="green colourBar"></div>
+		<div class="brown colourBar"></div>
+		<div class="blue colourBar"></div>
+		<div class="pink colourBar"></div>
+		<div class="black colourBar"></div>
 	</div>
 
     {% block content %}
     {% endblock %}
 
-
     <footer>
 		<div class="colours">
-			<div class="red bar"></div>
-			<div class="yellow bar"></div>
-			<div class="green bar"></div>
-			<div class="brown bar"></div>
-			<div class="blue bar"></div>
-			<div class="pink bar"></div>
-			<div class="black bar"></div>
+			<div class="red colourBar"></div>
+			<div class="yellow colourBar"></div>
+			<div class="green colourBar"></div>
+			<div class="brown colourBar"></div>
+			<div class="blue colourBar"></div>
+			<div class="pink colourBar"></div>
+			<div class="black colourBar"></div>
 		</div>
 
 		<div id="footerText">&copy; 2018 Andrew Stead</div>
@@ -126,14 +125,10 @@
 	<script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
 	<script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
 	<script src="{{ url_for ('static', filename='lib/js/intro.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/champions.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/results.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/matches.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/players.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/rivalries.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/records.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/careers.js')}}"></script>
 	<script src="{{ url_for ('static', filename='js/menutoggle.js')}}"></script>
+
+    {% block pagejs %}
+    {% endblock %}
 
 </body>
 

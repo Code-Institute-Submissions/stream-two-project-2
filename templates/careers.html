@@ -29,6 +29,15 @@
 				</div>
 			</div>
 
+<!-- 			<div class="chartSingle">
+				<div class="chartTitle">
+					Best Performance
+				</div>
+				<div class="chartStyle">
+					<div id="debutYear" data-step="3" data-intro="Compare players who reached the same stage of the tournament." style="font-weight: normal" data-position="top"></div>
+				</div>
+			</div> -->
+
 		</section>
 
 		<section class="dashColumn">
@@ -84,4 +93,10 @@
 
 	<script src="{{ url_for ('static', filename='js/tabletoggle.js')}}"></script>
 
+{% endblock %}
+
+{% block pagejs %}
+
+	<script src="{{ url_for ('static', filename='js/careers.js')}}"></script>
+	
 {% endblock %}
