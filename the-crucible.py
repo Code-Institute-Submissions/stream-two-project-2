@@ -23,29 +23,29 @@ def results():
     return render_template('results.html')
 
 
+@app.route('/matches')
+def matches():
+    return render_template('matches.html')
+
+
 @app.route('/players')
 def players():
     return render_template('players.html')
 
 
-@app.route('/tournaments')
-def tournaments():
-    return render_template('tournaments.html')
+@app.route('/rivalries')
+def rivalries():
+    return render_template('rivalries.html')
+
+
+@app.route('/records')
+def records():
+    return render_template('records.html')
 
 
 @app.route('/careers')
 def careers():
     return render_template('careers.html')
-
-
-@app.route('/countries')
-def countries():
-    return render_template('countries.html')
-
-
-@app.route('/rivalries')
-def head_to_head():
-    return render_template('rivalries.html')
 
 
 @app.route('/match_data')
