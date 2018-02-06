@@ -48,23 +48,16 @@ function makeGraphs(error, crucible_results) {
     // Charts
     var careerRecords = dc.dataTable("#careerRecords");
     var roundRecords = dc.dataTable("#roundRecords");
-    // var debutYear = dc.barChart("#debutYear");
+    var debutYear = dc.rowChart("#debutYear");
     var countryCareer = dc.pieChart("#countryCareer");
     var stageReached = dc.pieChart("#stageReached");
 
-     // debutYear
-     //  .ordinalColors(["#996600"])
-     //  .width(500)
-     //  .height(250)
-     //  .dimension(firstAppearance) 
-     //  .group(crucibleDebut)
-     //  .x(d3.scale.ordinal())
-     //  .xUnits(dc.units.ordinal);
-
-// $( window ).resize(function() {
-//   debutYear.width(window.innerWidth * 0.2);
-//   debutYear.render();
-// });
+     debutYear
+      .ordinalColors(["#996600"])
+      .width(250)
+      .height(750)
+      .dimension(firstAppearance) 
+      .group(crucibleDebut);
 
     careerRecords
       .dimension(playerCareer)
@@ -150,6 +143,7 @@ function makeGraphs(error, crucible_results) {
       .dimension(careerNationality) 
       .group(countryGroup)
       .colors(blockSlices)
+      .slicesCap(6)
       .ordering(function(d) { return -d.value; });
 
      stageReached

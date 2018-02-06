@@ -21,7 +21,7 @@
 
 				<div class="chartDouble">
 					<div class="chartTitle">
-						Best Performance
+						Best Result
 					</div>
 					<div class="chartStyle">
 						<div id="stageReached" data-step="3" data-intro="Compare players who reached the same stage of the tournament." style="font-weight: normal" data-position="top"></div>
@@ -29,26 +29,26 @@
 				</div>
 			</div>
 
-<!-- 			<div class="chartSingle">
+			<div class="chartSingle">
 				<div class="chartTitle">
-					Best Performance
+					Debut Year
 				</div>
 				<div class="chartStyle">
-					<div id="debutYear" data-step="3" data-intro="Compare players who reached the same stage of the tournament." style="font-weight: normal" data-position="top"></div>
+					<div id="debutYear" data-step="4" data-intro="Compare players who made their Crucible debut at the same time. Note that all sixteen players in the first tournament were making their debut!" style="font-weight: normal" data-position="top"></div>
 				</div>
-			</div> -->
+			</div>
 
 		</section>
 
 		<section class="dashColumn">
 
-			<div class="changeButton" onclick="tableToggle()">
-				Change Stats View
-			</div>
 
 			<div class="resultsTable">
 				<div class="tableTitle">
-					All Career Records
+					Career Records
+					<div class="changeButton" onclick="tableToggle()">
+						Change View
+					</div>
 				</div>
 				<table id="careerRecords" data-step="1" data-intro="All-time career records for every player who has ever played at the Crucible." style="font-weight: normal" data-position="top">
 					<thead>
@@ -68,7 +68,10 @@
 
 			<div class="resultsTable hidden">
 				<div class="tableTitle">
-					All Career Records
+					Career Records
+					<div class="changeButton" onclick="tableToggle()">
+						Change View
+					</div>
 				</div>
 				<table id="roundRecords" data-step="2" data-intro="The number of times a player has reached each stage of the tournament." style="font-weight: normal" data-position="top">
 					<thead>
