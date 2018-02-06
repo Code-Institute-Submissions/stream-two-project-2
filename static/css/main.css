@@ -340,6 +340,8 @@ svg {
 .flagIcon {
 	height: 15px;
 	width: 15px;
+	display: block;
+	margin: auto;
 }
 
 .resultsTable .headerRow {
