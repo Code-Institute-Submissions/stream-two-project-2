@@ -72,7 +72,8 @@ function makeGraphs(error, crucible_results) {
       .group(countryAppearances)
       .rowsCap(8)
       .ordering(function(d) { return -d.value; })
-      .elasticX(true);
+      .elasticX(true)
+      .xAxis().ticks(6);
 
     tournamentResult
       .ordinalColors(["#996600"])
@@ -81,7 +82,8 @@ function makeGraphs(error, crucible_results) {
       .dimension(playerResult)
       .group(roundResults)
       .ordering(function(d) { return -d.value; })
-      .elasticX(true);
+      .elasticX(true)
+      .xAxis().ticks(6);
 
     mostFrames
       .dimension(playerTournament)

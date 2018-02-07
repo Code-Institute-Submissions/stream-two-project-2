@@ -77,7 +77,8 @@ function makeGraphs(error, crucible_results) {
       .rowsCap(10)
       .othersGrouper(false)
       .ordering(function(d) { return -d.value; })
-      .elasticX(true);
+      .elasticX(true)
+      .xAxis().ticks(5);
 
     matchesLost
       .ordinalColors(["#996600"])
@@ -88,7 +89,8 @@ function makeGraphs(error, crucible_results) {
       .rowsCap(10)
       .othersGrouper(false)
       .ordering(function(d) { return -d.value; })
-      .elasticX(true);
+      .elasticX(true)
+      .xAxis().ticks(5);
 
     commonScores
       .ordinalColors(["#996600"])
@@ -99,7 +101,8 @@ function makeGraphs(error, crucible_results) {
       .rowsCap(10)
       .othersGrouper(false)
       .ordering(function(d) { return -d.value; })
-      .elasticX(true);
+      .elasticX(true)
+      .xAxis().ticks(5);
 
     dc.renderAll();
 

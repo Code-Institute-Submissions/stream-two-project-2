@@ -57,7 +57,8 @@ function makeGraphs(error, crucible_results) {
       .width(250)
       .height(750)
       .dimension(firstAppearance) 
-      .group(crucibleDebut);
+      .group(crucibleDebut)
+      .xAxis().ticks(5);
 
     careerRecords
       .dimension(playerCareer)
