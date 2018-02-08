@@ -9,7 +9,7 @@
 		
 		<div class="selectWrapper">
 			Select a Year:
-			<div id="yearSelect" data-step="1" data-intro="Choose a year to see the results from that tournament. Warning - choosing 'Select All' will load a long list of unfiltered results!" style="font-weight: normal" data-position="top"></div>
+			<div id="contentSelection" data-step="1" data-intro="Choose a year to see the results from that tournament. Warning - choosing 'Select All' will load a long list of unfiltered results!" style="font-weight: normal" data-position="top"></div>
 		</div>
 
 		<div id="dataWrapper" class="hidden">
@@ -66,12 +66,12 @@
 
 	</div>
 
-	<script src="{{ url_for ('static', filename='js/hiddencontent.js')}}"></script>
 
 {% endblock %}
 
 {% block pagejs %}
 
 	<script src="{{ url_for ('static', filename='js/results.js')}}"></script>
-	
+	<script src="{{ url_for ('static', filename='js/hiddencontent.js')}}"></script>
+
 {% endblock %}

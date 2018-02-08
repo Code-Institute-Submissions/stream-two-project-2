@@ -9,7 +9,7 @@
 
 		<div class="selectWrapper">
 			Select a Player:
-			<div id="playerSelect"></div>
+			<div id="contentSelection"></div>
 		</div>
 
 		<div id="dataWrapper" class="hidden">
@@ -86,12 +86,11 @@
 
 	</div>
 
-	<script src="{{ url_for ('static', filename='js/hiddenrecords.js')}}"></script>
-
 {% endblock %}
 
 {% block pagejs %}
 
 	<script src="{{ url_for ('static', filename='js/players.js')}}"></script>
+	<script src="{{ url_for ('static', filename='js/hiddencontent.js')}}"></script>
 	
 {% endblock %}

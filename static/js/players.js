@@ -58,7 +58,7 @@ function makeGraphs(error, crucible_results) {
     	);
 
     // Charts
-    var playerSelection = dc.selectMenu('#playerSelect');
+    var playerSelection = dc.selectMenu('#contentSelection');
     var playerResults = dc.dataTable("#playerResults");
     var winLossRecord = dc.pieChart("#winLoss");
     var playerOpponents = dc.rowChart("#playerOpponents");

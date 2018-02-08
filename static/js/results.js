@@ -56,7 +56,7 @@ function makeGraphs(error, crucible_results) {
     	);
 
     // Charts
-    var yearSelection = dc.selectMenu('#yearSelect');
+    var yearSelection = dc.selectMenu('#contentSelection');
     var yearMatches = dc.numberDisplay("#matchesPlayed");
     var yearFrames = dc.numberDisplay("#framesPlayed");
     var yearResults = dc.dataTable("#tournamentResults");
