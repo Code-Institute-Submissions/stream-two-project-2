@@ -320,7 +320,7 @@ svg {
 .chartDouble {
 	flex: 1;
 	width: 300px;
-	margin: 10px 0 0 0;
+	margin: 10px 10px 0 10px;
 	flex-grow: 1;
 }
 
@@ -374,6 +374,18 @@ svg {
 #winningPercentage ._1, #careerRecords ._1,
 #roundRecords ._1 {
 	text-align: left;
+}
+
+#tournamentResults ._0, #tournamentResults ._6 {
+	width: 40%;
+}
+
+#tournamentResults ._1, #tournamentResults ._2, #tournamentResults ._4, #tournamentResults ._5 {
+	width: 30px;
+}
+
+#tournamentResults ._3 {
+	width: 15px;
 }
 
 #careerRecords ._1, #roundRecords ._1 {
