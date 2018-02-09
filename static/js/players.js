@@ -58,12 +58,12 @@ function makeGraphs(error, crucible_results) {
     	);
 
     // Charts
-    var playerSelection = dc.selectMenu('#contentSelection');
-    var playerResults = dc.dataTable("#playerResults");
+    var playerSelection = dc.selectMenu("#contentSelection");
+    var playerResults = dc.dataTable("#playerResults", "group");
     var winLossRecord = dc.pieChart("#winLoss", "group");
     var playerOpponents = dc.rowChart("#playerOpponents", "group");
-    var framesWon = dc.numberDisplay("#framesWon");
-    var framesLost = dc.numberDisplay("#framesLost");
+    var framesWon = dc.numberDisplay("#framesWon", "group");
+    var framesLost = dc.numberDisplay("#framesLost", "group");
     var playerMargins = dc.pieChart("#playerMargins", "group");
     var playerRounds = dc.rowChart("#playerRounds", "group");
 

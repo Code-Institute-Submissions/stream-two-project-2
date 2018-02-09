@@ -354,6 +354,7 @@ svg {
 .resultsTable .dc-table-row {
 	background-color: #339933;
 	border: 1px solid #006600;
+	border-top: 0;
 }
 
 .resultsTable .dc-table-row:hover {
@@ -566,15 +567,21 @@ footer {
 
 @media screen and (max-width: 400px) {
 	#winnersTable, #tournamentResults, #mostFrames,
-	#winningPercentage, #careerRecords {
+	#winningPercentage, #careerRecords, #roundRecords {
 		font-size: 0.9em;
 	}
-	#winnersTable td._2, #winnersTable td._6, #winnersTable th._2,
-	#winnersTable th._6, #mostFrames td._0, #winningPercentage td._0,
-	#careerRecords td._0, #tournamentResults td._1, #tournamentResults td._5,
-	#tournamentResults th._1, #tournamentResults th._5, #mostFrames th._0,
-	#winningPercentage th._0, #careerRecords th._0 {
+	.flagIcon {
 		display: none;
+	}
+	#careerRecords th._3, #careerRecords th._4, #careerRecords th._5,
+	#careerRecords th._6, #careerRecords th._7, #careerRecords th._8,
+	#roundRecords th._3, #roundRecords th._4, #roundRecords th._5,
+	#roundRecords th._6, #roundRecords th._7, #roundRecords th._8,
+	#careerRecords td._3, #careerRecords td._4, #careerRecords td._5,
+	#careerRecords td._6, #careerRecords td._7, #careerRecords td._8,
+	#roundRecords td._3, #roundRecords td._4, #roundRecords td._5,
+	#roundRecords td._6, #roundRecords td._7, #roundRecords td._8 {
+		width: 20px;
 	}
 	.doubleSelector {
 		flex-flow: column;

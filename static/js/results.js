@@ -56,10 +56,10 @@ function makeGraphs(error, crucible_results) {
     	);
 
     // Charts
-    var yearSelection = dc.selectMenu('#contentSelection');
-    var yearMatches = dc.numberDisplay("#matchesPlayed");
-    var yearFrames = dc.numberDisplay("#framesPlayed");
-    var yearResults = dc.dataTable("#tournamentResults");
+    var yearSelection = dc.selectMenu("#contentSelection");
+    var yearMatches = dc.numberDisplay("#matchesPlayed", "group");
+    var yearFrames = dc.numberDisplay("#framesPlayed", "group");
+    var yearResults = dc.dataTable("#tournamentResults", "group");
     var tournamentMargin = dc.pieChart("#tournamentMargin", "group");
 
    	yearSelection
