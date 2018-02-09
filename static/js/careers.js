@@ -159,3 +159,8 @@ function makeGraphs(error, crucible_results) {
     dc.renderAll();
 
 }
+
+// Function to switch between different data tables in order to change statistics. 
+function tableToggle() {
+  $('.resultsTable').toggle();
+}

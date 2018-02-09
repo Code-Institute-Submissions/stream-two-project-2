@@ -380,14 +380,6 @@ svg {
 	width: 40%;
 }
 
-#tournamentResults ._1, #tournamentResults ._2, #tournamentResults ._4, #tournamentResults ._5 {
-	width: 30px;
-}
-
-#tournamentResults ._3 {
-	width: 15px;
-}
-
 #careerRecords ._1, #roundRecords ._1 {
 	padding-left: 5px;
 }

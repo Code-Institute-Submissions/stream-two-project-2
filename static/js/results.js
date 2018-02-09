@@ -60,11 +60,13 @@ function makeGraphs(error, crucible_results) {
     var yearMatches = dc.numberDisplay("#matchesPlayed");
     var yearFrames = dc.numberDisplay("#framesPlayed");
     var yearResults = dc.dataTable("#tournamentResults");
-    var tournamentMargin = dc.pieChart("#tournamentMargin");
+    var tournamentMargin = dc.pieChart("#tournamentMargin", "group");
 
    	yearSelection
    		.dimension(allYears)
    		.group(yearGroup)
+      .promptText('Tournaments')
+      .render();
 
    	yearMatches
     	.formatNumber(d3.format("d"))
@@ -119,7 +121,6 @@ function makeGraphs(error, crucible_results) {
    			function (d) {
        			return d.loser;
    			}
-   		])
+   		]);
 
-    dc.renderAll();
 }

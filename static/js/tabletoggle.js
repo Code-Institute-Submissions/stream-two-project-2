@@ -1,3 +1,0 @@
-function tableToggle() {
-	$('.resultsTable').toggle();
-}

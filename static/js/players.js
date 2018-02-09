@@ -60,16 +60,18 @@ function makeGraphs(error, crucible_results) {
     // Charts
     var playerSelection = dc.selectMenu('#contentSelection');
     var playerResults = dc.dataTable("#playerResults");
-    var winLossRecord = dc.pieChart("#winLoss");
-    var playerOpponents = dc.rowChart("#playerOpponents");
+    var winLossRecord = dc.pieChart("#winLoss", "group");
+    var playerOpponents = dc.rowChart("#playerOpponents", "group");
     var framesWon = dc.numberDisplay("#framesWon");
     var framesLost = dc.numberDisplay("#framesLost");
-    var playerMargins = dc.pieChart("#playerMargins");
-    var playerRounds = dc.rowChart("#playerRounds");
+    var playerMargins = dc.pieChart("#playerMargins", "group");
+    var playerRounds = dc.rowChart("#playerRounds", "group");
 
    	playerSelection
    		.dimension(playerList)
    		.group(selectedPlayer)
+      .promptText('Player List')
+      .render();
 
     playerResults
     	.dimension(playerList)
@@ -158,5 +160,4 @@ function makeGraphs(error, crucible_results) {
     	.elasticX(true)
       .xAxis().ticks(5);
 
-    dc.renderAll();
 }
