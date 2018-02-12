@@ -182,7 +182,7 @@ h2 {
 	flex-flow: column;
 }
 
-.dashColumn {
+.dashboardSection {
 	flex: 1;
 	padding: 10px;
 	box-sizing: border-box;
@@ -200,7 +200,7 @@ h2 {
 	font-size: 1.5em;
 }
 
-.doubleSelector {
+.selectors {
 	display: flex;
 	margin: 10px auto;
 }

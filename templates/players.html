@@ -9,13 +9,14 @@
 
 		<div class="selectWrapper">
 			Select a Player:
-			<div id="contentSelection"></div>
+			<div id="contentSelection" data-step="1" data-intro="Choose a player who has appeared at the Crucible to see their record in the tournament. The charts are hidden until you make a selection." style="font-weight: normal" data-position="top"></div>
 		</div>
 
 		<div id="dataWrapper" class="hidden">
 
 			<section class="dashboard">
-				<section class="dashColumn">
+				
+				<section class="dashboardSection">
 
 					<div class="flexWrap">
 						<div class="chartDouble">
@@ -23,17 +24,17 @@
     							Matches Won/Lost
 	    					</div>
 							<div class="chartStyle">
-								<div id="winLoss" data-step="1" data-intro="The player's win/loss record." style="font-weight: normal" data-position="top"></div>
+								<div id="winLoss" data-step="2" data-intro="The chosen player's win/loss record in matches." style="font-weight: normal" data-position="top"></div>
 				    		</div>
 							<div class="subTitle">
     							Frames Won/Lost
 	    					</div>
 	    					<div class="frameCountWrapper">
 								<div class="frameCounter">
-									<div id="framesWon" data-step="2" data-intro="The number of frames that the player has won." style="font-weight: normal" data-position="top"></div>
+									<div id="framesWon" data-step="3" data-intro="The total number of frames that the player has won." style="font-weight: normal" data-position="top"></div>
 								</div>
 								<div class="frameCounter">
-									<div id="framesLost" data-step="3" data-intro="The number of frames that the player has lost." style="font-weight: normal" data-position="top"></div>
+									<div id="framesLost" data-step="4" data-intro="The total number of frames that the player has lost." style="font-weight: normal" data-position="top"></div>
 								</div>
 							</div>
 			    		</div>
@@ -43,7 +44,7 @@
     							Frequent Opponents
 	    					</div>
 							<div class="chartStyle">
-								<div id="playerOpponents" data-step="4" data-intro="The opponents that the player has face most often." style="font-weight: normal" data-position="top"></div>
+								<div id="playerOpponents" data-step="5" data-intro="The opponents that the chosen player has faced most often." style="font-weight: normal" data-position="top"></div>
 				    		</div>
 				    	</div>
 	    			</div>
@@ -54,7 +55,7 @@
     							Win/Loss Margin
 	    					</div>
 							<div class="chartStyle">
-								<div id="playerMargins" data-step="5" data-intro="The margin between the players at the end of the match." style="font-weight: normal" data-position="top"></div>
+								<div id="playerMargins" data-step="6" data-intro="The margin between the players at the end of the match. Choose '1' here to see the player's record in deciding frames." style="font-weight: normal" data-position="top"></div>
 				    		</div>
 				    	</div>
 
@@ -63,19 +64,19 @@
     							Matches by Round
 	    					</div>
 							<div class="chartStyle">
-								<div id="playerRounds" data-step="6" data-intro="The number time the player has appeared in each round of the tournament." style="font-weight: normal" data-position="top"></div>
+								<div id="playerRounds" data-step="7" data-intro="The number time the player has appeared in each round of the tournament." style="font-weight: normal" data-position="top"></div>
 				    		</div>
 				    	</div>
 	    			</div>
 
 				</section>
-				<section class="dashColumn">
+				<section class="dashboardSection">
 
 				    <div class="resultsTable">
     					<div class="tableTitle">
     						Career Results
     					</div>
-   		 				<table id="playerResults" data-step="7" data-intro="The results of the selected player's Crucible matches." style="font-weight: normal" data-position="top">
+   		 				<table id="playerResults" data-step="8" data-intro="The results of all the selected player's Crucible matches - or just those which match the chosen filters." style="font-weight: normal" data-position="top">
 	    				</table>
    			 		</div>
 

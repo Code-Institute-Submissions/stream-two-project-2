@@ -7,17 +7,17 @@
 
 	<section class="dashboard">
 
-		<section class="dashColumn">
+		<section class="dashboardSection">
 
 			<section class="doubleSelector">
 				<div class="selectDouble">
 					Select Player 1:
-					<div id="player1Select" onchange="p2Chosen()" data-step="3" data-intro="Choose the first player in the head-to-head." style="font-weight: normal" data-position="top"></div>
+					<div id="player1Select" onchange="p2Chosen()" data-step="1" data-intro="Choose the first player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
 				</div>
 
 				<div class="selectDouble">
 					Select Player 2:
-					<div id="player2Select" onchange="p2Chosen()" data-step="4" data-intro="Choose the second player in the head-to-head." style="font-weight: normal" data-position="top"></div>
+					<div id="player2Select" onchange="p2Chosen()" data-step="2" data-intro="Choose the second player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
 				</div>
 			</section>
 
@@ -62,11 +62,11 @@
 
 		</section>
 
-		<section class="dashColumn">
+		<section class="dashboardSection">
 
 			<div class="selectWrapper">
 				Select a Round:
-				<div id="matchUpRound" data-step="2" data-intro="Filter the most frequent match-ups by round." style="font-weight: normal" data-position="top"></div>
+				<div id="matchUpRound" data-step="8" data-intro="Filter the most frequent match-ups by stage of the tournament." style="font-weight: normal" data-position="top"></div>
 			</div>
 
 			<div class="chartSingle">
@@ -74,7 +74,7 @@
 					Most Played Match-Ups
 				</div>
 				<div class="chartStyle">
-					<div id="mostFrequent" data-step="1" data-intro="The match-ups which have taken place most often at the Crucible." style="font-weight: normal" data-position="top"></div>
+					<div id="mostFrequent" data-step="9" data-intro="The match-ups which have taken place most often at the Crucible - note that this section operates separately from the head-to-heads." style="font-weight: normal" data-position="top"></div>
 				</div>
 			</div>
 
