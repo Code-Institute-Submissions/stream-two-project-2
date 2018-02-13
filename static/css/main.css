@@ -561,6 +561,14 @@ footer {
 	text-align: center;
 }
 
+/*#stageReached svg {
+	width: 200px;
+}
+
+#stageReached g {
+	transform: translate(100,100);
+}*/
+
 @media screen and (max-width: 400px) {
 	#winnersTable, #tournamentResults, #mostFrames,
 	#winningPercentage, #careerRecords, #roundRecords {
