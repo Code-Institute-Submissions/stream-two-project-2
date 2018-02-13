@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #ffffff;
-	font-family: "Garamond", "Times New Roman", serif;
+	font-family: "Spectral", "Times New Roman", serif;
 }
 
 .pageWrapper {
@@ -411,20 +411,16 @@ svg {
 }
 
 .changeButton {
-	font-size: 0.5em;
+	font-size: 0.8em;
 	background-color: #ffddaa;
 	color: black;
 	border: 1px solid black;
 	border-radius: 10px;
-	margin: 2px;
+	margin: 2px auto;
 	padding: 2px;
 	cursor: pointer;
 	text-align: center;
-	display: inline-block;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	z-index: 999;
+	width: 100px;
 }
 
 .changeButton:hover {
@@ -583,7 +579,7 @@ footer {
 	#roundRecords td._6, #roundRecords td._7, #roundRecords td._8 {
 		width: 20px;
 	}
-	.doubleSelector {
+	.selectors {
 		flex-flow: column;
 	}
 	#careerRecords ._1 {

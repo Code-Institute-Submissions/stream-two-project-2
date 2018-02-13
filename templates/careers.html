@@ -42,12 +42,13 @@
 
 		<section class="dashboardSection">
 
+			<div class="changeButton" onclick="tableToggle()">
+				Change View
+			</div>
+
 			<div class="resultsTable">
 				<div class="tableTitle">
 					Career Records
-					<div class="changeButton" onclick="tableToggle()">
-						Change View
-					</div>
 				</div>
 				<table id="careerRecords" data-step="1" data-intro="All-time career records for every player who has ever played at the Crucible." style="font-weight: normal" data-position="top">
 					<thead>
@@ -67,10 +68,7 @@
 
 			<div class="resultsTable hidden">
 				<div class="tableTitle">
-					Career Stats
-					<div class="changeButton" onclick="tableToggle()">
-						Change View
-					</div>
+					Career Statisticss
 				</div>
 				<table id="roundRecords" data-step="2" data-intro="Another table of all-time records showing the number of times a player has reached each stage of the tournament." style="font-weight: normal" data-position="top">
 					<thead>
