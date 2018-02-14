@@ -26,24 +26,40 @@ The site development began with the creation of an appropriate file structure fo
 
 ### Responsive Design
 
-The site was designed responsively using 'mobile first' principles. A break point was set for devices with a viewport wider than 800 pixels. The CSS for the default view, i.e. device width below 801 pixels, was places in the main CSS file, with rules for wider devices stored separately.
+The site was designed responsively using 'mobile first' principles. A break point was set for devices with a viewport wider than 800 pixels. The CSS for the default view, i.e. device width below 801 pixels, was placed in the main CSS file, with differing rules for wider devices stored separately. Within the default CSS, a number of small alterations were required for very narrow devices. These were mainly slight alterations to the font size and the hiding of flag icons, and such rules were placed in a media query withing the main CSS file.
 
 ### Page Styling
 
-Design elements were chosen reflecting the snooker theme. A green background was used for the page header to represent a snooker table, while coloured elements reflecting the colours of snooker balls were also included. The navigation menu items were decorated with CSS elements styled to look like snooker balls of different colours.
+Design elements were chosen reflecting the snooker theme. A green background was used for the page header to represent a snooker table, while coloured elements reflecting the colours of snooker balls were also included and each page given a difference coloured header along this theme. The navigation menu items were decorated with CSS elements styled to look like snooker balls of different colours.
 
 ### Use of JavaScript
 
 A very simple JavaScript file was included on all pages of the site to enable the user to toggle the navigation menu on and off when viewing the site on a device below 800 pixels in width.
 
-Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being displayed until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once. It is therefore important to filter the data before viewing the charts.
+Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being rendered until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once and therefore only the selection menus are rendered on page load. The rest of the charts are rendered from a separate script when the first selection is made from the menu. The JavaScript also hides the page content below the select menu in order to prevent the chart headings from being displayed when the charts are not rendered.
 
 ## Back End Development
 
+The back end of the site runs using a Flask application and a Mongo database. The application uses the render_template module from Flask to construct each page, with a default layout HTML page from which two content blocks are called. The first of these renders the main HTML for each page above the site footer, while the second ensures that the JavaScript file specific to a given page is included above the closing body tag.
+
+The Mongo database includes three collections of data, one relating to the results of individual matches, one to the records of each player in a given year and one to the complete career statistics of each player. For each one, a separate route is create within the Flask application and the required fields are listed. This enables the relevant collection to be called when the charts for a given page are being constructed.
+
 ## External Libraries
+
+The charts in the site are built using DC, D3 and Crossfilter and so the JavaScript files for each of these have to be included in the page template. Queue is used to ensure that the data is available before any of the charts are rendered, while Intro is included to enable to inclusion of an explanatory 'Site Tour' on each page.
+
+Additionally, JQuery has been included and used in creating a simple script for the Career Data page whereby the user can toggle between two different data tables, each displaying different statistics for a player.
 
 ## Use of Data
 
+The data relating to individual matches was used to create an overview of the tournament history, with focus on the results of tournament finals and data about the tournament winners. Match data was also used to create summaries of each year's championship and also charts relating to matches played by a selected player.
+
+The data relating to tournament and career records was used to create charts which gave a wider overview of a player's performance, in a context which looked beyond individual matches.
+
 ## Deployment
 
+Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were deployed to Heroku in order to begin testing on other devices.
+
 ## Testing
+
+Much of the site development was done on a Windows PC using the Chrome browser, and making use of the developer tools to view at different screen sizes and troubleshoot any problems which may occur. The site was then further tested in the Firefox browser and on Android devices of different sizes.

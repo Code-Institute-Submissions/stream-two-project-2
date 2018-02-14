@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	background-color: #ffffff;
 	font-family: "Spectral", "Times New Roman", serif;
+	font-size: 0.9em;
 }
 
 .pageWrapper {
@@ -571,7 +572,8 @@ footer {
 
 @media screen and (max-width: 400px) {
 	#winnersTable, #tournamentResults, #mostFrames,
-	#winningPercentage, #careerRecords, #roundRecords {
+	#winningPercentage, #careerRecords, #roundRecords,
+	#h2hPlayerResults {
 		font-size: 0.9em;
 	}
 	.flagIcon {
