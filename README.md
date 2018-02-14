@@ -7,12 +7,13 @@ This is a project website for Code Institute Full Stack Development course Strea
 2. [Front End Development](#front-end-development)
     * [Responsive Design](#responsive-design)
     * [Page Styling](#page-styling)
-    * [Use of JavaScript](#use-of-javascript)
+    * [Use of Custom JavaScript](#use-of-custom-javascript)
 3. [Back End Development](#back-end-development)
-4. [External Libraries](#external-libraries)
+4. [External JavaScript Libraries](#external-javascript-libraries)
 5. [Use of Data](#use-of-data)
 6. [Deployment](#deployment)
 7. [Testing](#testing)
+8. [Issues](#issues)
 
 ## Preparation
 
@@ -32,7 +33,7 @@ The site was designed responsively using 'mobile first' principles. A break poin
 
 Design elements were chosen reflecting the snooker theme. A green background was used for the page header to represent a snooker table, while coloured elements reflecting the colours of snooker balls were also included and each page given a difference coloured header along this theme. The navigation menu items were decorated with CSS elements styled to look like snooker balls of different colours.
 
-### Use of JavaScript
+### Use of Custom JavaScript
 
 A very simple JavaScript file was included on all pages of the site to enable the user to toggle the navigation menu on and off when viewing the site on a device below 800 pixels in width.
 
@@ -44,7 +45,7 @@ The back end of the site runs using a Flask application and a Mongo database. Th
 
 The Mongo database includes three collections of data, one relating to the results of individual matches, one to the records of each player in a given year and one to the complete career statistics of each player. For each one, a separate route is create within the Flask application and the required fields are listed. This enables the relevant collection to be called when the charts for a given page are being constructed.
 
-## External Libraries
+## External JavaScript Libraries
 
 The charts in the site are built using DC, D3 and Crossfilter and so the JavaScript files for each of these have to be included in the page template. Queue is used to ensure that the data is available before any of the charts are rendered, while Intro is included to enable to inclusion of an explanatory 'Site Tour' on each page.
 
@@ -63,3 +64,9 @@ Once the basic outline of the Flask application and one individual HTML page had
 ## Testing
 
 Much of the site development was done on a Windows PC using the Chrome browser, and making use of the developer tools to view at different screen sizes and troubleshoot any problems which may occur. The site was then further tested in the Firefox browser and on Android devices of different sizes.
+
+## Issues
+
+One notable problem that I came across during the development of the site related to the vertical lines which reach up from the tick marks on the x-axis of a row chart. By default from the DC style sheet, these display with an opacity of 0.5, however when the row charts were rendered on Chrome some of these lines would disappear after rendering, especially after filtering when an elastic x-axis was present.
+
+Attempted debugging using the Chrome developer tools indicated that if the opacity were set to 1, all lines would remain on the chart as expected but any opacity lower than 1 caused the problem to occur. The issue presented in exactly the same was on Chrome on a Windows PC and on Android, but was not replicated on Firefox. As yet I have been unable to find any explanation for this, but it may be that it is a bug relating the Chrome browser.
