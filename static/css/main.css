@@ -204,12 +204,12 @@ h2 {
 .selectors {
 	display: flex;
 	margin: 10px auto;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .selectDouble {
 	overflow: auto;
-	text-align: center;
-	font-size: 1.5em;
 	display: inline-block;
 	flex: 1;
 }
@@ -561,14 +561,6 @@ footer {
 	color: white;
 	text-align: center;
 }
-
-/*#stageReached svg {
-	width: 200px;
-}
-
-#stageReached g {
-	transform: translate(100,100);
-}*/
 
 @media screen and (max-width: 400px) {
 	#winnersTable, #tournamentResults, #mostFrames,

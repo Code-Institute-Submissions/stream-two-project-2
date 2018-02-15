@@ -102,10 +102,12 @@ function makeGraphs(error, crucible_results) {
     player1Select
       .dimension(player1List)
       .group(selectedPlayer1)
+      .promptText('Player 1:');
 
     player2Select
       .dimension(player2List)
       .group(selectedPlayer2)
+      .promptText('Player 2:');
 
     player1Wins
       .formatNumber(d3.format("d"))
@@ -138,6 +140,7 @@ function makeGraphs(error, crucible_results) {
     matchUpRound
       .dimension(matchRound)
       .group(frequentRound)
+      .promptText('Select a Round:');
 
     mostFrequent
       .ordinalColors(["#996600"])

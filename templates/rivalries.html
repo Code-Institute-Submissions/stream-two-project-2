@@ -9,17 +9,18 @@
 
 		<section class="dashboardSection">
 
-			<section class="selectors">
-				<div class="selectDouble">
-					Select Player 1:
-					<div id="player1Select" data-step="1" data-intro="Choose the first player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
-				</div>
+			<div class="selectWrapper">
+				Individual Match-Up
+				<section class="selectors">
+					<div class="selectDouble">
+						<div id="player1Select" data-step="1" data-intro="Choose the first player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
+					</div>
 
-				<div class="selectDouble">
-					Select Player 2:
-					<div id="player2Select" data-step="2" data-intro="Choose the second player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
-				</div>
-			</section>
+					<div class="selectDouble">
+						<div id="player2Select" data-step="2" data-intro="Choose the second player to compare head-to-head." style="font-weight: normal" data-position="top"></div>
+					</div>
+				</section>
+			</div>
 
 			<section id="h2hWrapper" class="hidden">
 
@@ -65,13 +66,13 @@
 		<section class="dashboardSection">
 
 			<div class="selectWrapper">
-				Select a Round:
+				Overall Records
 				<div id="matchUpRound" data-step="8" data-intro="Filter the most frequent match-ups by stage of the tournament." style="font-weight: normal" data-position="top"></div>
 			</div>
 
 			<div class="chartSingle">
 				<div class="chartTitle">
-					Most Played Match-Ups
+					Most Matches Played
 				</div>
 				<div class="chartStyle">
 					<div id="mostFrequent" data-step="9" data-intro="The match-ups which have taken place most often at the Crucible - note that this section operates separately from the head-to-heads." style="font-weight: normal" data-position="top"></div>
