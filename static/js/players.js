@@ -71,10 +71,10 @@ function makeGraphs(error, crucible_results) {
    		.dimension(playerList)
    		.group(selectedPlayer)
       .promptText('Player List')
-      // .on('renderlet', function() {
-      //   console.log('hi');
-      // })
-      .render();
+      .render()
+      .on("renderlet", function() {
+        document.getElementById("chosenValue").innerHTML = $("#contentSelection select").val();
+      });
 
     playerResults
     	.dimension(playerList)

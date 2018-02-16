@@ -38,9 +38,9 @@ def rivalries():
     return render_template('rivalries.html')
 
 
-@app.route('/records')
-def records():
-    return render_template('records.html')
+@app.route('/yearstats')
+def yearstats():
+    return render_template('yearstats.html')
 
 
 @app.route('/careers')

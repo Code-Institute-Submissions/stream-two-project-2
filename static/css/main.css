@@ -4,7 +4,6 @@ body {
 	padding: 0;
 	background-color: #ffffff;
 	font-family: "Spectral", "Times New Roman", serif;
-	font-size: 0.9em;
 }
 
 .pageWrapper {
@@ -552,6 +551,11 @@ svg {
 	display: none;
 }
 
+#chosenValue {
+	text-align: center;
+	font-size: 3em;
+}
+
 footer {
 	background-color: #009900;
 }
@@ -567,7 +571,7 @@ footer {
 	#winnersTable, #tournamentResults, #mostFrames,
 	#winningPercentage, #careerRecords, #roundRecords,
 	#h2hPlayerResults {
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 	.flagIcon {
 		display: none;

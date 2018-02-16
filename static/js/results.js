@@ -65,8 +65,11 @@ function makeGraphs(error, crucible_results) {
    	yearSelection
    		.dimension(allYears)
    		.group(yearGroup)
-      .promptText('Tournaments')
-      .render();
+      .promptText("Tournaments")
+      .render()
+      .on("renderlet", function() {
+        document.getElementById("chosenValue").innerHTML = $("#contentSelection select").val();
+      });
 
    	yearMatches
     	.formatNumber(d3.format("d"))
