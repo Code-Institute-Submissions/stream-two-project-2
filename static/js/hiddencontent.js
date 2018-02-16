@@ -1,6 +1,6 @@
 
 function displayResults() {
-    dc.renderAll("group");
+	dc.renderAll("group");
 	document.getElementById("dataWrapper").classList.remove("hidden");
 }
 

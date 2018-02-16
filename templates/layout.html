@@ -8,12 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>
-        The Crucible: A statistical guide to the World Snooker Championship since 1977.
+		The Crucible: A statistical guide to the World Snooker Championship since 1977.
     </title>
 	
 	<link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
 	<link rel="stylesheet" href="{{url_for ('static', filename='lib/css/introjs.css')}}" />
-    <link rel="stylesheet" href="{{ url_for ('static', filename='css/main.css')}}">
+	<link rel="stylesheet" href="{{ url_for ('static', filename='css/main.css')}}">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral">
 
 </head>
@@ -96,10 +96,10 @@
 		<div class="black colourBar"></div>
 	</div>
 
-    {% block content %}
-    {% endblock %}
+	{% block content %}
+	{% endblock %}
 
-    <footer>
+	<footer>
 		<div class="colours">
 			<div class="red colourBar"></div>
 			<div class="yellow colourBar"></div>
@@ -122,8 +122,8 @@
 	<script src="{{ url_for ('static', filename='lib/js/intro.js')}}"></script>
 	<script src="{{ url_for ('static', filename='js/sitewide.js')}}"></script>
 
-    {% block pagejs %}
-    {% endblock %}
+	{% block pagejs %}
+	{% endblock %}
 
 </body>
 

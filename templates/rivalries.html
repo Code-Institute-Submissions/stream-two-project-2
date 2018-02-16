@@ -12,11 +12,13 @@
 			<div class="selectWrapper">
 				Individual Match-Up
 				<section class="selectors">
-					<div class="selectDouble">
+					<div class="selectH2H">
+						Player 1
 						<div id="player1Select" data-step="1" data-intro="Choose the first player to compare head-to-head." data-position="top"></div>
 					</div>
 
-					<div class="selectDouble">
+					<div class="selectH2H">
+						Player 2
 						<div id="player2Select" data-step="2" data-intro="Choose the second player to compare head-to-head." data-position="top"></div>
 					</div>
 				</section>
@@ -28,8 +30,8 @@
 					<div class="chartDouble">
 						<div class="chartTitle">
 							Matches
-  						</div>
-   						<div class="matchCountWrapper">
+						</div>
+						<div class="matchCountWrapper">
 							<div class="matchCounter">
 								<div id="player1Wins" data-step="3" data-intro="The number of matches that the first player has won." data-position="top"></div>
 							</div>
@@ -38,9 +40,9 @@
 							</div>
 						</div>
 						<div class="subTitle">
-  							Frames
-   						</div>
- 	  					<div class="frameCountWrapper">
+							Frames
+						</div>
+						<div class="frameCountWrapper">
 							<div class="frameCounter">
 								<div id="player1Frames" data-step="5" data-intro="The number of frames that the first player has won." data-position="top"></div>
 							</div>
@@ -48,15 +50,15 @@
 								<div id="player2Frames" data-step="6" data-intro="The number of frames that the second player has lost." data-position="top"></div>
 							</div>
 						</div>
-	    			</div>
-	    		</div>
+					</div>
+				</div>
 
-			    <div class="resultsTable">
-   					<div class="tableTitle">
-   						Head-to-Head Results
-   					</div>
-	 				<table id="h2hPlayerResults" data-step="7" data-intro="The results of the matches between the selected players." data-position="top">
-    				</table>
+				<div class="resultsTable">
+					<div class="tableTitle">
+						Head-to-Head Results
+					</div>
+					<table id="h2hPlayerResults" data-step="7" data-intro="The results of the matches between the selected players." data-position="top">
+					</table>
 				</div>
 
 			</section>
@@ -88,6 +90,5 @@
 {% block pagejs %}
 
 	<script src="{{ url_for ('static', filename='js/rivalries.js')}}"></script>
-	<script src="{{ url_for ('static', filename='js/headtohead.js')}}"></script>
-	
+
 {% endblock %}
