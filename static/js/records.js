@@ -1,7 +1,7 @@
 queue()
     .defer(d3.json, "/year_data")
     .await(makeGraphs);
- 
+
 function makeGraphs(error, crucible_results) {
     if (error) {
         console.error("Error on receiving dataset:", error.statusText);
@@ -97,7 +97,7 @@ function makeGraphs(error, crucible_results) {
       .order(d3.descending)
       .columns([
         function (d) {
-            return "<img class='flagIcon' src='static/img/" + d.country.toLowerCase() + ".png' alt=" + d.country + " />";
+            return createFlag(d.country);
         },
         function (d) {
             return d.player;
@@ -134,7 +134,7 @@ function makeGraphs(error, crucible_results) {
       .order(d3.descending)
       .columns([
         function (d) {
-            return "<img class='flagIcon' src='static/img/" + d.country.toLowerCase() + ".png' alt=" + d.country + " />";
+            return createFlag(d.country);
         },
         function (d) {
             return d.player;

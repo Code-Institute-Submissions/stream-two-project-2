@@ -173,7 +173,7 @@ function makeGraphs(error, crucible_results) {
             return d.winner;
         },
         function (d) {
-            return "<img class='flagIcon' src='static/img/" + d.winner_nat.toLowerCase() + ".png' alt=" + d.winner_nat + " />";
+            return createFlag(d.winner_nat);
         },
         function (d) {
             return d.winner_score;
@@ -185,7 +185,7 @@ function makeGraphs(error, crucible_results) {
             return d.loser_score;
         },
         function (d) {
-            return "<img class='flagIcon' src='static/img/" + d.loser_nat.toLowerCase() + ".png' alt=" + d.loser_nat + " />";
+            return createFlag(d.loser_nat);
         },
         function (d) {
             return d.loser;

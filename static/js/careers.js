@@ -109,7 +109,7 @@ function makeGraphs(error, crucible_results) {
       .order(d3.descending)
       .columns([
         function (d) {
-            return "<img class='flagIcon' src='static/img/" + d.country.toLowerCase() + ".png' alt=" + d.country + " />";
+            return createFlag(d.country);
         },
         function (d) {
             return d.player;
@@ -139,6 +139,7 @@ function makeGraphs(error, crucible_results) {
 
      countryCareer
       .height(200)
+      .width(200)
       .radius(100)
       .innerRadius(20)
       .dimension(careerNationality) 
@@ -149,6 +150,7 @@ function makeGraphs(error, crucible_results) {
 
      stageReached
       .height(200)
+      .width(200)
       .radius(100)
       .innerRadius(20)
       .dimension(bestRecord) 

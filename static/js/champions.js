@@ -93,6 +93,7 @@ function makeGraphs(error, crucible_results) {
 
     winnersByCountry
     	.height(200)
+      .width(200)
     	.radius(100)
     	.innerRadius(20)
     	.dimension(winnerNat)
@@ -102,6 +103,7 @@ function makeGraphs(error, crucible_results) {
 
     winnersByMargin
     	.height(200)
+      .width(200)
     	.radius(100)
     	.innerRadius(20)
     	.dimension(winnerGap)
@@ -122,7 +124,7 @@ function makeGraphs(error, crucible_results) {
        			return d.winner;
    			},
    			function (d) {
-       			return "<img class='flagIcon' src='static/img/" + d.winner_nat.toLowerCase() + ".png' alt=" + d.winner_nat + " />";
+            return createFlag(d.winner_nat);
    			},
    			function (d) {
        			return d.winner_score;
@@ -134,7 +136,7 @@ function makeGraphs(error, crucible_results) {
        			return d.loser_score;
    			},
    			function (d) {
-       			return "<img class='flagIcon' src='static/img/" + d.loser_nat.toLowerCase() + ".png' alt=" + d.loser_nat + " />";
+            return createFlag(d.loser_nat);
    			},
    			function (d) {
        			return d.loser;

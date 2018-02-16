@@ -47,15 +47,15 @@ function makeGraphs(error, crucible_results) {
 
     // Grouping the data - sum
     var playerFramesWon = ndx.groupAll().reduceSum(
-    		function (d) {
-    			return d["player_1_score"];
-    		}
-    	);
+    	function (d) {
+    		return d["player_1_score"];
+    	}
+    );
     var playerFramesLost = ndx.groupAll().reduceSum(
-    		function (d) {
-    			return d["player_2_score"];
-    		}
-    	);
+    	function (d) {
+    		return d["player_2_score"];
+    	}
+    );
 
     // Charts
     var playerSelection = dc.selectMenu("#contentSelection");
@@ -71,6 +71,9 @@ function makeGraphs(error, crucible_results) {
    		.dimension(playerList)
    		.group(selectedPlayer)
       .promptText('Player List')
+      // .on('renderlet', function() {
+      //   console.log('hi');
+      // })
       .render();
 
     playerResults
@@ -84,35 +87,36 @@ function makeGraphs(error, crucible_results) {
    		.size(Infinity)
    		.columns([
    			function (d) {
-       			return d.round_code;
+       		return d.round_code;
    			},
    			function (d) {
-       			return "v";
+       		return "v";
    			},
    			function (d) {
-       			return "<img class='flagIcon' src='static/img/" + d.player_2_nat.toLowerCase() + ".png' alt=" + d.player_2_nat + " />";
+            return createFlag(d.player_2_nat);
    			},
    			function (d) {
-       			return d.player_2;
+       		return d.player_2;
    			},
    			function (d) {
-       			return d.player_1_result;
+       		return d.player_1_result;
    			},
    			function (d) {
-       			return d.player_1_score;
+       		return d.player_1_score;
    			},
    			function (d) {
-       			return "-";
+       		return "-";
    			},
    			function (d) {
-       			return d.player_2_score;
+       		return d.player_2_score;
    			}
-   		])
+   		]);
 
     winLossRecord
     	.dimension(playerOutcomes)
     	.group(playerWinLoss)
     	.height(200)
+      .width(200)
     	.radius(100)
     	.innerRadius(20)
     	.colors(booleanSlices);
@@ -132,21 +136,22 @@ function makeGraphs(error, crucible_results) {
     framesWon
     	.formatNumber(d3.format("d"))
     	.valueAccessor(function (d) {
-            return d;
-        })
-        .group(playerFramesWon);
+        return d;
+      })
+      .group(playerFramesWon);
 
     framesLost
     	.formatNumber(d3.format("d"))
     	.valueAccessor(function (d) {
-            return d;
-        })
-        .group(playerFramesLost);
+        return d;
+      })
+      .group(playerFramesLost);
 
     playerMargins
     	.dimension(victoryMargin)
     	.group(playerMargin)
     	.height(200)
+      .width(200)
     	.radius(100)
     	.innerRadius(20)
     	.colors(shadeSlices);
