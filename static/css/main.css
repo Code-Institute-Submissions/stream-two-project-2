@@ -1,28 +1,25 @@
-
+ /* General style rules for the page. */
 body {
 	margin: 0;
 	padding: 0;
 	background-color: #ffffff;
 	font-family: "Spectral", "Times New Roman", serif;
 }
-
 .pageWrapper {
 	min-height: 80vh;
 }
 
+/* Rules for the page header and coloured bars. */
 header {
 	background-color: #009900;
 }
-
 .colours {
 	display: flex;
 }
-
 .colourBar {
 	height: 5px;
 	flex: 1;
 }
-
 .red {
 	background-color: #ee0000;
 	color: white;
@@ -52,32 +49,7 @@ header {
 	color: white;
 }
 
-h1 {
-	color: white;
-	font-size: 3em;
-	text-align: center;
-	margin: 0;
-	padding-top: 10px;
-	font-weight: normal;
-}
-
-h2 {
-	font-size: 1.5em;
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-	font-weight: normal;
-}
-
-.subHeader {
-	color: white;
-	font-size: 1.2em;
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-	font-weight: normal;
-}
-
+/* Site tour button and question mark. */
 .introButton {
 	position: absolute;
 	top: 10px;
@@ -88,7 +60,6 @@ h2 {
 	background: radial-gradient(circle at 7px 7px, #ffffff 80%, #000000);
 	z-index: 999;
 }
-
 .buttonText {
 	margin: auto;
 	height: 20px;
@@ -98,11 +69,36 @@ h2 {
 	cursor: pointer;
 }
 
+/* Headings */
+h1 {
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+}
+.subHeader {
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+}
 #pageTitle {
 	border-radius: 0 0 20px 20px;
 	box-shadow: 0px 2px 3px 3px #cccccc;
 }
 
+/* Styling the navigation menu and allowing the user to toggle it on and off. */
 #menuHeader {
 	background-color: #996600;
 	padding: 5px;
@@ -111,15 +107,12 @@ h2 {
 	border-bottom: 1px solid #663300;
 	font-size: 1.2em;
 }
-
 .toggle, .hidden {
 	display: none;
 }
-
 .activate {
 	display: block;
 }
-
 .menuLink {
 	height: 24px;
 	background-color: #339933;
@@ -130,17 +123,19 @@ h2 {
 	text-decoration: none;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
 .menuLink:last-of-type {
 	border-bottom: none;
 }
-
 .menuLink:hover {
 	background-color: #336633;
 	transition: 0.2s;
 	text-decoration: underline;
 }
+#menuTop {
+	display: none;
+}
 
+/* Snooker ball icons alongside menu items. */
 .ball {
 	height: 20px;
 	width: 20px;
@@ -148,45 +143,40 @@ h2 {
 	border-radius: 50%;
 	float: left;
 }
-
 .redGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff0000 5%, #000000)
 }
-
 .yellowGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ffff00 5%, #000000)
 }
-
 .greenGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #006600 5%, #000000)
 }
-
 .brownGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #663300 5%, #000000)
 }
-
 .blueGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #0000ff 5%, #000000)
 }
-
 .pinkGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #ff6666 5%, #000000)
 }
-
 .blackGrad {
 	background: radial-gradient(circle at 7px 7px, #ffffff 2%, #333333 5%, #000000)
 }
 
+/* Set up the data dashboard to divide into two sections. */
 .dashboard {
 	display: flex;
 	flex-flow: column;
 }
-
 .dashboardSection {
 	flex: 1;
 	padding: 10px;
 	box-sizing: border-box;
 }
+
+
 
 .flexWrap {
 	display: flex;
@@ -229,6 +219,7 @@ svg {
 	margin: 10px auto;
 }
 
+/* Styles for large number display headings. */
 .counterTitle {
 	background-color: #996600;
 	font-size: 2em;
@@ -239,7 +230,8 @@ svg {
 	border-radius: 10px 10px 0 0;
 }
 
-.tableTitle, .chartTitle {
+/* Styles for individual chart titles. */
+.chartTitle {
 	background-color: #996600;
 	color: white;
 	border: 1px solid #663300;
@@ -330,19 +322,18 @@ svg {
 	flex-grow: 1;
 }
 
-#winnersTable .dc-table-group, #winningPercentage .dc-table-group,
-#mostFrames .dc-table-group, #careerRecords .dc-table-group,
-#roundRecords .dc-table-group, #h2hPlayerResults .dc-table-group {
-	display: none;
-}
-
+/* Style group header rows in data tables, or hide them if the data should be ungrouped. */
 .resultsTable .dc-table-group {
 	background-color: #006600;
 	font-weight: bold;
 	border: 1px solid #003300;
 	border-top: 0;
 }
+.ungrouped .dc-table-group {
+	display: none;
+}
 
+/*Style flag icons in data tables. */
 .flagIcon {
 	height: 15px;
 	width: 15px;
@@ -372,10 +363,11 @@ svg {
 	margin: 0 5px;
 }
 
+/* Align player names to the left in data tables, with the exception of the second player in results lists which should be aligned to the right. */
+
 #winnersTable ._1, #tournamentResults ._0 {
 	text-align: right;
 }
-
 #winnersTable ._7, #tournamentResults ._6, 
 #playerResults ._3, #mostFrames ._1, 
 #winningPercentage ._1, #careerRecords ._1,
@@ -383,6 +375,7 @@ svg {
 	text-align: left;
 }
 
+/* Ensure that both player name columns are the same width in tournament result lists, thus centering the score in each row. */
 #tournamentResults ._0, #tournamentResults ._6 {
 	width: 40%;
 }
@@ -412,7 +405,7 @@ svg {
 	border-right: 1px solid #003300;
 }
 
-#mostFrames tbody tr:nth-child(n+12), #winningPercentage tbody tr:nth-child(n+12) {
+.record tbody tr:nth-child(n+12) {
 	display: none;
 }
 
@@ -446,34 +439,31 @@ svg {
 	box-sizing: border-box;
 }
 
-.frameCountWrapper, .matchCountWrapper {
+/* Styling for match and frame counts in player head-to-heads. */
+.countWrapper {
 	display: flex;
 	border: 1px solid #006600;
 	border-top: none;
 	text-align: center;
 }
-
-.frameCounter, .matchCounter {
+.counter {
 	flex: 1;
 	display: block;
 	overflow: auto;
-}
-
-#framesWon, #player1Wins, #player1Frames {
 	margin: auto;
 	font-size: 3em;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+.player1 {
 	background-color: #000000;
-	color: white;
-	width: 100%;
+}
+.player2 {
+	background-color: #ee0000;
 }
 
-#framesLost, #player2Wins, #player2Frames {
-	margin: auto;
-	font-size: 3em;
-	background-color: #ee0000;
-	color: white;
-	width: 100%;
-}
+
 
 #roundRecords th._3 {
 	background-color: #ffff00;
@@ -567,6 +557,8 @@ svg {
 	font-size: 2em;
 }
 
+/* Styling the site footer. */
+
 footer {
 	background-color: #009900;
 }
@@ -577,44 +569,50 @@ footer {
 	text-align: center;
 }
 
+/* Specific style rules for devices with a width of 400 pixels or smaller. */
+
 @media screen and (max-width: 400px) {
-	/* Reduce font size on narrow devices in order to prevent longer names running onto two lines in data tables. */
-	#winnersTable, #tournamentResults, #mostFrames,
-	#winningPercentage, #careerRecords, #roundRecords,
-	#h2hPlayerResults {
+
+	/* Reduce font size, hide flag icons and restrict column width in order to prevent longer names running onto two lines in data tables. */
+	.statistics {
 		font-size: 0.8em;
 	}
 	.flagIcon {
 		display: none;
 	}
-	#careerRecords th._3, #careerRecords th._4, #careerRecords th._5,
-	#careerRecords th._6, #careerRecords th._7, #careerRecords th._8,
-	#roundRecords th._3, #roundRecords th._4, #roundRecords th._5,
-	#roundRecords th._6, #roundRecords th._7, #roundRecords th._8,
-	#careerRecords td._3, #careerRecords td._4, #careerRecords td._5,
-	#careerRecords td._6, #careerRecords td._7, #careerRecords td._8,
-	#roundRecords td._3, #roundRecords td._4, #roundRecords td._5,
-	#roundRecords td._6, #roundRecords td._7, #roundRecords td._8 {
+	.career th._3, .career th._4, .career th._5,
+	.career th._6, .career th._7, .career th._8,
+	.career td._3, .career td._4, .career td._5,
+	.career td._6, .career td._7, .career td._8, {
 		width: 20px;
 	}
+
+	/* Ensure that where there are two select menus, they display one above the other. */
 	.selectors {
 		flex-flow: column;
 	}
+
+	/* Push flag icons to left of table row. */
 	#careerRecords ._1 {
 		padding-left: none;
 	}
 }
 
+/* Specific style rules for devices with a width greater than 800 pixels. */
+
 @media screen and (min-width: 801px) {
+
+	/* 'MENU' toggle not required. */
 	#menuHeader {
 		display: none;
 	}
-
 	.toggle {
 		display: block;
 	}
 
-	#emptyHeader {
+	/* Element to separate menu from page header. */
+	#menuTop {
+		display: block;
 		width: 100%;
 		height: 2px;
 		background-color: #996600;
@@ -622,31 +620,31 @@ footer {
 		border-bottom: 1px solid #663300;
 	} 
 
+	/* Ensure that menu items are of equal width and snooker ball icons are closer to left margin. */
 	#mainMenu {
 		display: flex;
 	}
-
 	.menuLink {
 		display: inline-block;
 		border-bottom: none;
 		flex: 1;
 	}
-
 	.ball {
 		margin: 2px;
 		margin-right: 3px;
 	}
 
+	/* Display the dashboard sections side-by-side on larger devices. */
 	.dashboard {
 		flex-flow: row;
 	}
 
+	/* Site tour button and question mark display larger. */
 	.introButton {
 		height: 30px;
 		width: 30px;
 		font-size: 1.5em;
 	}
-
 	.buttonText {
 		height: 30px;
 		line-height: 30px;

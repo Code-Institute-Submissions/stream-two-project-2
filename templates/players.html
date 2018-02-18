@@ -31,13 +31,9 @@
 							<div class="subTitle">
 								Frames Won/Lost
 							</div>
-							<div class="frameCountWrapper">
-								<div class="frameCounter">
-									<div id="framesWon" data-step="3" data-intro="The total number of frames that the player has won." data-position="top"></div>
-								</div>
-								<div class="frameCounter">
-									<div id="framesLost" data-step="4" data-intro="The total number of frames that the player has lost." data-position="top"></div>
-								</div>
+							<div class="countWrapper">
+								<div id="framesWon" class="counter player1" data-step="3" data-intro="The total number of frames that the player has won." data-position="top"></div>
+								<div id="framesLost" class="counter player2" data-step="4" data-intro="The total number of frames that the player has lost." data-position="top"></div>
 							</div>
 						</div>
 
@@ -75,7 +71,7 @@
 				<section class="dashboardSection">
 
 					<div class="resultsTable">
-						<div class="tableTitle">
+						<div class="chartTitle">
 							Career Results
 						</div>
 						<table id="playerResults" data-step="8" data-intro="The results of all the selected player's Crucible matches - or just those which match the chosen filters." data-position="top">
