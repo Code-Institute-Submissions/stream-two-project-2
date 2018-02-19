@@ -8,17 +8,18 @@ function makeGraphs(error, crucible_results) {
 		throw error;
 	}
 
+	// Ensuring columns are in number format.
 	crucible_results.forEach(function (d) {
 		d["year"] = +d["year"];
 		d["winner_score"] = +d["winner_score"];
 		d["loser_score"] = +d["loser_score"];
 	});
 
-	//Crossfilter instances
+	//Creating the crossfilter instances - 'dupl' is required to prevent double counting of results.
 	var ndx = crossfilter(crucible_results);
 	var dupl = crossfilter(crucible_results);
 
-	// Defining dimensions
+	// Defining dimensions for the charts.
 	var h2hMatches = ndx.dimension(function (d) {
 		return d["match_number"];
 	});
@@ -53,19 +54,19 @@ function makeGraphs(error, crucible_results) {
 		return d["round"];
 	});
 
-	// Filtering the data to avoid duplicates
+	// Filtering the data to avoid duplication.
 	var duplicateMatchFilter = match_up_result.filter("W");
 
-	// Setting color scales for pie charts
+	// Setting color scales for pie charts.
 	var h2hSlices = d3.scale.ordinal().range(["#ee0000", "#000000"]);
 
-	// Grouping the data - count
+	// Grouping the data - counting the number of records.
 	var selectedPlayer1 = player1List.group();
 	var selectedPlayer2 = player2List.group();
 	var frequentMatchups = allMatchups.group();
 	var frequentRound = matchRound.group();
 
-	// Grouping the data - sum
+	// Grouping the data - sum totals from records.
 	var player1MatchesWon = ndx.groupAll().reduceSum(
 		function (d) {
 			return d["player_1_win"];
@@ -92,26 +93,28 @@ function makeGraphs(error, crucible_results) {
 		}
 	);
 
-	// Charts
+	// Variables to define the charts on the page.
 	var player1Select = dc.selectMenu("#player1Select");
 	var player2Select = dc.selectMenu("#player2Select");
-	var player1Wins = dc.numberDisplay("#player1Wins");
-	var player2Wins = dc.numberDisplay("#player2Wins");
-	var player1Frames = dc.numberDisplay("#player1Frames");
-	var player2Frames = dc.numberDisplay("#player2Frames");
-	var h2hPlayerResults = dc.dataTable("#h2hPlayerResults");
+	var player1Wins = dc.numberDisplay("#player1Wins", "matchUp");
+	var player2Wins = dc.numberDisplay("#player2Wins", "matchUp");
+	var player1Frames = dc.numberDisplay("#player1Frames", "matchUp");
+	var player2Frames = dc.numberDisplay("#player2Frames", "matchUp");
+	var h2hPlayerResults = dc.dataTable("#h2hPlayerResults", "matchUp");
 	var matchUpRound = dc.selectMenu("#matchUpRound");
 	var mostFrequent = dc.rowChart("#mostFrequent");
 
 	player1Select
 		.dimension(player1List)
 		.group(selectedPlayer1)
-		.promptText('Select:');
+		.promptText('Select:')
+		.render();
 
 	player2Select
 		.dimension(player2List)
 		.group(selectedPlayer2)
-		.promptText('Select:');
+		.promptText('Select:')
+		.render();
 
 	player1Wins
 		.formatNumber(d3.format("d"))
@@ -144,7 +147,8 @@ function makeGraphs(error, crucible_results) {
 	matchUpRound
 		.dimension(matchRound)
 		.group(frequentRound)
-		.promptText('Select a Round:');
+		.promptText('Select a Round:')
+		.render();
 
 	mostFrequent
 		.ordinalColors(["#996600"])
@@ -155,7 +159,8 @@ function makeGraphs(error, crucible_results) {
 		.height(500)
 		.rowsCap(20)
 		.ordering(function(d) { return -d.value; })
-		.elasticX(true);
+		.elasticX(true)
+		.render();
 
 	h2hPlayerResults
 		.dimension(h2hMatches)
@@ -196,7 +201,6 @@ function makeGraphs(error, crucible_results) {
 			}
 		]);
 
-	dc.renderAll();
 }
 
 // Display the head-to-head details only when both players have been selected.
@@ -208,6 +212,7 @@ var h2hSelectors = {player1: false, player2: false};
 function displayResults() {
 	if (h2hSelectors.player1 && h2hSelectors.player2) {
 		document.getElementById("h2hWrapper").classList.remove("hidden");
+		dc.renderAll("matchUp");
 	}
 }
 

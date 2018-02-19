@@ -15,7 +15,7 @@ This is a project website for Code Institute Full Stack Development course Strea
     * [Results](#results)
     * [Match Data](#match-data)
     * [Player Data](#player-data)
-    * [Rivialries](#rivalries)
+    * [Rivalries](#rivalries)
     * [Year Stats](#year-stats)
     * [Career Data](#career-data)
 6. [Deployment](#deployment)
@@ -46,7 +46,9 @@ A very simple JavaScript file was included on all pages of the site to enable th
 
 Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being rendered until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once and therefore only the selection menus are rendered on page load. The rest of the charts are rendered from a separate script when the first selection is made from the menu. The JavaScript also hides the page content below the select menu in order to prevent the chart headings from being displayed when the charts are not rendered.
 
-A similar use of JavaScript is made on the Rivalries page, where the details for the head-to-head between two players remains hidden until such time as the user chooses both 'Player 1' and 'Player 2'. This is achieved by setting both to 'false' in a JavaScript object and then using functions to change each to 'true' when a selection is made. Another function is then run to check whether both and true and if they are the CSS class which hides the charts is removed.
+Similar use of JavaScript is made on the Match Data page where there is a data table which can either hold all match results or only those which match the user's selections from the charts. The user has the option to show the data table by clicking a button, at which time the table will be rendered for the first time. Another button gives the option to subsequently hide the data table.
+
+Further use is made on the Rivalries page, where the details for the head-to-head between two players remains hidden until such time as the user chooses both 'Player 1' and 'Player 2'. This is achieved by setting both to 'false' in a JavaScript object and then using functions to change each to 'true' when a selection is made. Another function is then run to check whether both and true and if they are the CSS class which hides the charts is removed.
 
 ## Back End Development
 
@@ -86,9 +88,11 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Match Data
 
-The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament, while a pie chart shows the most common victory margins. The data can further be filtered by year or by round using select menus.
+The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament, while a pie chart shows the most common victory margins. The data can further be filtered by year or by round using select menus. Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions.
 
-Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions.
+In addition to the charts, the user has the option to display results should they wish. This section is hidden and the data table which holds the results is not rendered until such time as the user clicks a 'Show Results' button. Alongside is another button marked 'Hide Results', which allows the user to hide the data table should they wish. These buttons are controlled through JavaScript similar to that which removes the hidden content on the Results page.
+
+The data table is included so that having filtered the charts, the user can see a list of those results which match their selections. The user is provided with a note to inform them that showing the results without filtering will display the entire data set and may take time to render.
 
 ### Player Data
 
@@ -100,7 +104,9 @@ All of these charts can be used to filter the data table which appears in the se
 
 ### Rivalries
 
-The Rivalries page is the only one which uses two separate crossfilter instances to display data differently. One half of the page allows the user to select two different players from select menus ('Player 1' and 'Player 2') and then display the head-to-head record between them, both in terms of matches won and frames won. A list of all the matches between the player is displayed underneath in a data table. Using JavaScript, these charts are hidden until both players have been selected.
+The Rivalries page is the only one which uses two separate crossfilter instances to display data differently. One half of the page allows the user to select two different players from select menus ('Player 1' and 'Player 2') and then display the head-to-head record between them, both in terms of matches won and frames won. A list of all the matches between the player is displayed underneath in a data table.
+
+Similarly to the Results and Player Data pages, the charts relating to the individual match-up are not rendered when the page loads, neither are the chart heading displayed. JavaScript is used to hide the headings until such time as a selection is made for both 'Player 1' and 'Player 2', with the CSS hiding the charts then being removed and the charts and data table being rendered. Again, this is done to prevent the entire data set being loaded into the data table thus slowing down the page loading time.
 
 On the other half of the page, there is a row chart showing the match-ups which have occurred most frequently in the tournament. The top 20 are displayed and the chart can be filtered by the stage of the tournament using a select menu.
 
@@ -122,7 +128,7 @@ A number of charts are available to filter the data. The records can be filtered
 
 ## Deployment
 
-Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](the-crucible.herokuapp.com) in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
+Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](http://the-crucible.herokuapp.com) in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
 
 ## Testing
 

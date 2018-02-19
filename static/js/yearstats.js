@@ -8,6 +8,7 @@ function makeGraphs(error, crucible_results) {
 		throw error;
 	}
 
+	// Ensuring columns are in number format.
 	crucible_results.forEach(function (d) {
 		d["year"] = +d["year"];
 		d["winner_score"] = +d["winner_score"];
@@ -15,10 +16,10 @@ function makeGraphs(error, crucible_results) {
 		d["loser_score"] = +d["loser_score"];
 	});
 
-	//Crossfilter instances
+	// Creating the Crossfilter instance.
 	var ndx = crossfilter(crucible_results);
 
-	// Defining dimensions
+	// Defining dimensions for the charts.
 	var playerTournament = ndx.dimension(function (d) {
 		return d["record_type"];
 	});
@@ -38,18 +39,16 @@ function makeGraphs(error, crucible_results) {
 	// Formatting numbers for data tables to ensure percentages display to two decimal places.
 	var twoDec = d3.format(".2f");
 
-	// Setting color scales for pie charts
+	// Setting color scales for pie charts.
 	var blockSlices = d3.scale.ordinal().range(["#000000", "#ff6666", "#0000ff", "#663300", "#006600", "#ffff00", "#ee0000", "#ffffff"]);
 
-	// Grouping the data - count
+	// Grouping the data - counting the number of records.
 	var countryAppearances = playerCountry.group();
 	var roundResults = playerResult.group();
 	var selectTournament = yearRecords.group();
 	var selectPlayer = playerRecords.group();
 
-	// Grouping the data - sum
-
-	// Charts
+	// Variables to define the charts on the page.
 	var tournamentYear = dc.selectMenu("#tournamentYear");
 	var tournamentPlayer = dc.selectMenu("#tournamentPlayer");
 	var recordsCountry = dc.rowChart("#recordsCountry");
@@ -160,6 +159,7 @@ function makeGraphs(error, crucible_results) {
 			}
 		]);
 
+	// Render all the charts on the page.
 	dc.renderAll();
 
 }

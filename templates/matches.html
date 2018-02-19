@@ -8,12 +8,12 @@
 	<section class="selectors">
 		<div class="selectDouble">
 			Filter by Year:
-			<div id="matchYear" data-step="4" data-intro="Use this filter to see the data for a particular year." data-position="top"></div>
+			<div id="matchYear" data-step="5" data-intro="Use this filter to see the data for a particular year." data-position="top"></div>
 		</div>
 
 		<div class="selectDouble">
 			Filter by Round:
-			<div id="matchRound" data-step="5" data-intro="Use this filter to see the data for a specific stage of the tournament." data-position="top"></div>
+			<div id="matchRound" data-step="6" data-intro="Use this filter to see the data for a specific stage of the tournament." data-position="top"></div>
 		</div>
 	</section>
 
@@ -45,23 +45,34 @@
 	    	
 		<section class="dashboardSection">
 
-			<div class="flexWrap">
-				<div class="chartDouble">
-					<div class="chartTitle">
-						Victory Margin
-					</div>
-					<div class="chartStyle">
-						<div id="commonMargins" data-step="4" data-intro="Filter the matches by victory margin to see who has won or lost the most close matches." data-position="top"></div>
-					</div>
+			<div class="chartSingle">
+				<div class="chartTitle">
+					Victory Margin
 				</div>
+				<div class="chartStyle">
+					<div id="commonMargins" data-step="3" data-intro="Filter the matches by victory margin to see who has won or lost the most close matches." data-position="top"></div>
+				</div>
+			</div>
 
-				<div class="chartDouble">
+			<div id="displayButtons">
+				<div id="showFiltered" class="filterButton">
+					Show Results
+				</div>
+				<div id="hideFiltered" class="filterButton">
+					Hide Results
+				</div>
+				<div class="filterNote">NB: Only results which match the selected filters will be shown.<br/ >
+				Unfiltered results may take some time to load.</div>
+			</div>
+
+			<div id="resultsWrapper" class="hidden">
+				<div class="resultsTable">
 					<div class="chartTitle">
-						Frequent Scorelines
+						Results
 					</div>
-					<div class="chartStyle">
-						<div id="commonScores" data-step="3" data-intro="The scorelines which have occurred most frequently at the Crucible Theatre." data-position="top"></div>
-					</div>
+					<table id="chosenResults" class="statistics" data-step="4" data-intro="The list of results which match the chosen filters, shown only if the user requests them." data-position="top">
+					</table>
+					<a href="#resultsWrapper" class="topLink">Back to Top</a>
 				</div>
 			</div>
 

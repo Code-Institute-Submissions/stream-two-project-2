@@ -8,16 +8,17 @@ function makeGraphs(error, crucible_results) {
 		throw error;
 	}
 
+	// Ensuring columns are in number format.
 	crucible_results.forEach(function (d) {
 		d["year"] = +d["year"];
 		d["winner_score"] = +d["winner_score"];
 		d["loser_score"] = +d["loser_score"];
 	});
 
-	//Crossfilter instances
+	// Creating the Crossfilter instance.
 	var ndx = crossfilter(crucible_results);
 
-	// Defining dimensions - player based
+	// Defining dimensions for the charts.
 	var playerList = ndx.dimension(function (d) {
 		return d["player_1"];
 	});
@@ -34,18 +35,18 @@ function makeGraphs(error, crucible_results) {
 		return d["round"];
 	});
 
-	// Setting color scales for pie charts
+	// Setting color scales for pie charts.
 	var booleanSlices = d3.scale.ordinal().range(["#ee0000", "#000000"]);
 	var shadeSlices = d3.scale.ordinal().range(["rgb(100,50,0)", "rgb(105,56,7)", "rgb(110,62,14)", "rgb(115,68,21)", "rgb(120,74,28)", "rgb(125,80,35)", "rgb(130,86,42)", "rgb(135,92,49)", "rgb(140,98,56)", "rgb(145,104,63)", "rgb(150,110,70)", "rgb(155,116,77)", "rgb(160,122,84)", "rgb(165,128,91)", "rgb(170,134,98)", "rgb(175,140,105)", "rgb(180,146,112)", "rgb(185,152,119)", "rgb(190,158,126)", "rgb(195,164,133)", "rgb(200,170,140"]);
 
-	// Grouping the data - count
+	// Grouping the data - counting the number of records.
 	var selectedPlayer = playerList.group();
 	var playerWinLoss = playerOutcomes.group();
 	var playerOpponent = opponentsList.group();
 	var playerMargin = victoryMargin.group();
 	var playerStage = tournamentStage.group();
 
-	// Grouping the data - sum
+	// Grouping the data - sum totals from records.
 	var playerFramesWon = ndx.groupAll().reduceSum(
 		function (d) {
 		return d["player_1_score"];
@@ -57,7 +58,7 @@ function makeGraphs(error, crucible_results) {
 		}
 	);
 
-	// Charts
+	// Variables to define the charts on the page.
 	var playerSelection = dc.selectMenu("#contentSelection");
 	var playerResults = dc.dataTable("#playerResults", "group");
 	var winLossRecord = dc.pieChart("#winLoss", "group");

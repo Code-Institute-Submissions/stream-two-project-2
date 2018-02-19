@@ -5,6 +5,8 @@ import os
 
 app = Flask(__name__)
 
+# Connection details for the Mongo database, including localhost to allow local editing.
+
 MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'snooker')
 
@@ -12,6 +14,7 @@ MATCH_COLLECTION = 'extended'
 TOURNAMENT_COLLECTION = 'records'
 CAREER_COLLECTION = 'careers'
 
+# Define the routes for each page on the site.
 
 @app.route('/')
 def champions():
@@ -46,6 +49,7 @@ def yearstats():
 def careers():
 	return render_template('careers.html')
 
+# Define the routes for each data set, declaring the required fields.
 
 @app.route('/match_data')
 def match_data():
