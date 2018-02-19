@@ -42,7 +42,7 @@ Design elements were chosen reflecting the snooker theme. A green background was
 
 ### Use of Custom JavaScript
 
-A very simple JavaScript file was included on all pages of the site to enable the user to toggle the navigation menu on and off when viewing the site on a device below 800 pixels in width.
+A very simple JavaScript file was included on all pages of the site to enable the user to toggle the navigation menu on and off when viewing the site on a device below 800 pixels in width. In the same file, a JavaScript function is defined to create the flag icons which appear in data tables to denote a player's nationality.
 
 Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being rendered until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once and therefore only the selection menus are rendered on page load. The rest of the charts are rendered from a separate script when the first selection is made from the menu. The JavaScript also hides the page content below the select menu in order to prevent the chart headings from being displayed when the charts are not rendered.
 
@@ -78,7 +78,7 @@ The second half of the page is simply a data table list of all the final results
 
 ### Results
 
-The Results page also uses the match results data, filtered to prevent double counting. This page was designed to show the user data about a particular tournament, based on a choice made from a select menu listing each year which is included in the data set. Because this filtering by year is required, only that select menu is rendered when the page loads. The other charts on the page are rendered only when a year is chosen. This is done by calling a simple JavaScript function when the selection is changed, rendering the charts and removing the CSS class which initially hides the chart headings.
+The Results page also uses the match results data, filtered to prevent double counting. This page was designed to show the user data about a particular year's tournament, based on a choice made from a select menu listing each year which is included in the data set. Because this filtering by year is required, only that select menu is rendered when the page loads. The other charts on the page are rendered only when a year is chosen. This is done by calling a simple JavaScript function when the selection is changed, rendering the charts and removing the CSS class which initially hides the chart headings.
 
 The page shows the chosen year, extracted from the select menu choice using a renderlet and placed in pre-positioned div element. Below this are two number displays showing the total number of matches and frames played in the chosen year. A pie chart is also included which shows the victory margin for each game. This can be used in a similar way to the 'margin' chart on the Champions page - if a user wishes to see at a glance how many matches went to a deciding frame that year, they can do so by selecting the value '1'. As the margins are ordered by value not by frequency, the user can also select the last segment on the pie chart to see the most one-sided game that year.
 
