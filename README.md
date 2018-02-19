@@ -24,7 +24,7 @@ This is a project website for Code Institute Full Stack Development course Strea
 
 ## Planning
 
-Planning for the site involved devising a list of potential questions which a user to the site might wish to answer by viewing or filtering the available. I considered those who may be reporting on a championship or simply viewing as a spectator, thinking about the kind of things that they may want to know in order to aid their enjoyment and understanding.
+Planning for the site involved devising a list of potential questions which a user to the site might wish to answer by viewing or filtering the available data. I considered those who may be reporting on a championship or simply viewing as a spectator, thinking about the kind of things that they may want to know in order to aid their enjoyment and understanding.
 
 During the development process a number of wireframes were created both using the 'Pencil' software and a simple pen and paper method, as I considered the best way to lay out the charts and tables that I wanted to include. Having decided that I would like to incorporate a considerable number of these, I decided that the site should be divided into a number of different pages, each presenting elements of the data from a particular angle.
 
@@ -86,9 +86,13 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Player Data
 
+The Player Data page is, like the Results page, designed to show the charts only when a selection is made from the available options. Again a select menu is rendered on page load but the other charts are rendered only when the name of a player is chosen, using the same JavaScript function. Also like the results page, a renderlet is used to display clearly the chosen player's name above all the data.
 
+The charts which are rendered on the selection of a player begin with a pie chart showing the number of match wins and losses that player has had, as well as number displays which give a count of frames won and lost. There is a row chart of the most frequent opponents faced by the chosen player, while another pie chart shows the margin of victory or defeat. Finally, a second row chart shows the number of matches the player has played in each different round of the tournament.
 
-### Rivialries
+All of these charts can be used to filter the data table which appears in the second half of the data dashboard, which shows a complete list of the player's tournament results. These are grouped by year and ordered by round. The filters can be used to show a variety of statistics about the player's tournament history, such as listing just their defeats or their record in deciding frames, or their results in a specific round of the tournament. The latter filter may be of particular use for a player who reached, for example, the semi-finals of a future tournament and a site user wished to see their record in past semi-finals.
+
+### Rivalries
 
 
 
@@ -98,15 +102,21 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Career Data
 
+The Career Data page uses the data collection which gives the cumulative statistics for a player's entire career in the championship. The main focus of the page is a large data table which shows the overall statistics for each player. This table is actually two data tables which return different statistics, one of which is displayed by default on page load. The other table is hidden and the user is able to toggle between the two using a button which calls a simple JavaScript function. Multiple tables were used for two reasons. Firstly, the number of columns which needed to be included would have presented layout difficulties. Secondly, the data on each table is more logically presented using different sorting criteria, making separate tables a good way of presenting the data clearly.
 
+The default table, visible when the page loads, shows the number of matches and frames played by each player in the tournament, as well as the win-loss record for each of these. The records are sorted firstly by the number of matches won and secondly by the number played (i.e. for all players who have never won a match in the tournament, those who have made more appearances will be sorted above those who have qualified only once). The second table shows the number of times each player has reached each stage of the tournament. It is sorted first by the number of tournament wins, then by the number of final defeats, then by semi-final defeats and so on back through the tournament.
+
+A number of charts are available to filter the data. The records can be filtered by player nationality using a pie chart, with the number of slices limited to show the most commonly represented nations. Another pie chart allows filtering by the player's best tournament performance. This is intended to allow a user to compare easily the records of all players who, for example, have reached the semi-finals but no further. There is also a row chart which shows the number of players who made their tournament debut in each year. This enables comparison of players who began their careers at a similar time.
 
 ## Deployment
 
-Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were deployed to Heroku in order to begin testing on other devices.
+Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were deployed to Heroku in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
 
 ## Testing
 
-Much of the site development was done on a Windows PC using the Chrome browser, and making use of the developer tools to view at different screen sizes and troubleshoot any problems which may occur. The site was then further tested in the Firefox browser and on Android devices of different sizes.
+Much of the site development was done on a Windows PC using the Chrome browser, and making use of the developer tools to view at different screen sizes and troubleshoot any problems which may occur. The site was further tested in the Firefox browser and on Android devices of different sizes, making sure that the responsive layout worked as intended across a variety of screen resolutions.
+
+The testing of the site functionality involved considering the user questions which had been considered in the planning stage. Thinking back to these questions meant that it could be ensured that the charts which had been included allowed the user to find out the required information easily, as well as presenting it in a clear and understandable way.
 
 ## Issues
 
