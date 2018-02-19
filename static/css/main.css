@@ -176,8 +176,7 @@ h2 {
 	box-sizing: border-box;
 }
 
-
-
+/* Allow charts in each half of the data dashboard to display side-by-side if the screen size is large enough. */
 .flexWrap {
 	display: flex;
 	flex-flow: row wrap;
@@ -242,7 +241,6 @@ svg {
 	box-sizing: border-box;
 	position: relative;
 }
-
 .subTitle {
 	background-color: #996600;
 	color: white;
@@ -254,13 +252,13 @@ svg {
 	border-top: 0;
 }
 
+/* Styling for small number displays. */
 .countSingle {
 	margin: 10px auto 0 auto;
 	text-align: center;
 	min-width: 150px;
 	max-width: 250px;
 }
-
 .countDouble {
 	margin: 10px auto 0 auto;
 	text-align: center;
@@ -269,21 +267,19 @@ svg {
 	max-width: 200px;
 }
 
+/* Styling for large number displays. */
 .numberCounter {
+	margin: auto;
+	font-size: 3em;
+	background-color: #339933;
+	color: white;
 	display: block;
 	overflow: auto;
 	border: 1px solid #006600;
 	border-top: none;
 }
 
-#totalTournaments, #matchesPlayed, #framesPlayed {
-	margin: auto;
-	font-size: 3em;
-	background-color: #339933;
-	color: white;
-	width: 100%;
-}
-
+/* Styling the background div for holding charts. */
 .chartStyle {
 	background-color: #339933;
 	overflow: auto;
@@ -291,30 +287,27 @@ svg {
 	border-top: 0;
 }
 
-#winnersTable, #tournamentResults, #playerResults,
-#mostFrames, #winningPercentage, #careerRecords,
-#roundRecords, #h2hPlayerResults {
+/* Styles for data tables. */
+.resultsTable {
+	max-width: 600px;
+	margin: 10px auto 0 auto;
+}
+.statistics {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
 	color: white;
 }
 
-.resultsTable {
-	max-width: 600px;
-	margin: 10px auto 0 auto;
-}
-
+/* Styles for individual charts. */
 .chartSingle {
 	max-width: 600px;
 	margin: 10px auto 0 auto;
 }
-
 .chartSingleSmall {
 	width: 300px;
 	margin: 10px auto 0 auto;
 }
-
 .chartDouble {
 	flex: 1;
 	width: 300px;
@@ -341,38 +334,35 @@ svg {
 	margin: auto;
 }
 
+/* Styling for data table rows. */
 .resultsTable .headerRow {
 	background-color: #006600;
 	color: white;
 	border: 1px solid #003300;
 	border-top: 0;
 }
-
 .resultsTable .dc-table-row {
 	background-color: #339933;
 	border: 1px solid #006600;
 	border-top: 0;
 }
-
 .resultsTable .dc-table-row:hover {
 	background-color: #336633;
 	transition: 0.2s;
 }
-
 .resultsTable .dc-table-column {
 	margin: 0 5px;
 }
 
 /* Align player names to the left in data tables, with the exception of the second player in results lists which should be aligned to the right. */
-
-#winnersTable ._1, #tournamentResults ._0 {
-	text-align: right;
-}
 #winnersTable ._7, #tournamentResults ._6, 
 #playerResults ._3, #mostFrames ._1, 
 #winningPercentage ._1, #careerRecords ._1,
 #roundRecords ._1 {
 	text-align: left;
+}
+#winnersTable ._1, #tournamentResults ._0 {
+	text-align: right;
 }
 
 /* Ensure that both player name columns are the same width in tournament result lists, thus centering the score in each row. */
@@ -405,10 +395,12 @@ svg {
 	border-right: 1px solid #003300;
 }
 
-.record tbody tr:nth-child(n+12) {
+/* Limit the number of rows shown in data tables on the Year Stats page. */
+.record .dc-table-row:nth-child(n+12) {
 	display: none;
 }
 
+/* Styling for the button to switch between data tables on the Careers page. */
 .changeButton {
 	font-size: 0.8em;
 	background-color: #ffddaa;
@@ -421,7 +413,6 @@ svg {
 	text-align: center;
 	width: 100px;
 }
-
 .changeButton:hover {
 	background-color: #eebb88;
 	box-shadow: 0px 0px 2px 2px #eeddbb;
@@ -562,7 +553,6 @@ svg {
 footer {
 	background-color: #009900;
 }
-
 #footerText {
 	padding: 5px;
 	color: white;

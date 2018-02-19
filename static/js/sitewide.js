@@ -3,7 +3,7 @@ function menuToggle() {
 	document.getElementById("mainMenu").classList.toggle("activate");
 }
 
-//Function to generate flag icons in DC.js datatables.
+// Function to generate flag icons in DC.js datatables.
 function createFlag(nationality) {
 	return "<img class='flagIcon' src='static/img/" + nationality.toLowerCase() + ".png' alt=" + nationality + " />";
 }

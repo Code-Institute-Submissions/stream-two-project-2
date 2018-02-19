@@ -46,6 +46,8 @@ A very simple JavaScript file was included on all pages of the site to enable th
 
 Additionally, JavaScript was used on the Results and Players pages in order to prevent charts from being rendered until such time as the user made a selection from a drop-down menu. This was done because on these pages, it is not intended that the entire data set should be viewed at once and therefore only the selection menus are rendered on page load. The rest of the charts are rendered from a separate script when the first selection is made from the menu. The JavaScript also hides the page content below the select menu in order to prevent the chart headings from being displayed when the charts are not rendered.
 
+A similar use of JavaScript is made on the Rivalries page, where the details for the head-to-head between two players remains hidden until such time as the user chooses both 'Player 1' and 'Player 2'. This is achieved by setting both to 'false' in a JavaScript object and then using functions to change each to 'true' when a selection is made. Another function is then run to check whether both and true and if they are the CSS class which hides the charts is removed.
+
 ## Back End Development
 
 The back end of the site runs using a Flask application and a Mongo database. The application uses the render_template module from Flask to construct each page, with a default layout HTML page from which two content blocks are called. The first of these renders the main HTML for each page above the site footer, while the second ensures that the JavaScript file specific to a given page is included above the closing body tag.
@@ -54,13 +56,15 @@ The Mongo database includes three collections of data, one relating to the resul
 
 ## External JavaScript Libraries
 
-The charts in the site are built using DC, D3 and Crossfilter and so the JavaScript files for each of these have to be included in the page template. Queue is used to ensure that the data is available before any of the charts are rendered, while Intro is included to enable to inclusion of an explanatory 'Site Tour' on each page.
+The charts in the site are built using DC, D3 and Crossfilter and so the JavaScript files for each of these have to be included. Queue.js is used to ensure that the data is available before any of the charts are rendered, while Intro.js is included to enable to inclusion of an explanatory 'Site Tour' on each page. Both DC and Intro.js also have their own specific style sheets which are included.
 
 Additionally, JQuery has been included and used in two different ways on the site. Firstly it is used in creating a simple script for the Career Data page whereby the user can toggle between two different data tables, each displaying different statistics for a player. JQuery is also used in two renderlets on DC.js select menus, whereby the chosen value is extracted and then displayed in an empty div at the beginning of the data dashboard.
 
+All of these external files are stored together within the 'lib' directory.
+
 ## Use of Data
 
-Each individual page on the site makes different use of the available data. Five of the pages use the data collection which consists of match results. The Year Stats page uses the collection of players' performances across an individual tournament, while the Career Data page uses the collection of players' full career statistics.
+Each individual page on the site makes different use of the available data. Five of the pages use the data collection which consists of match results. The Year Stats page uses the collection of players' performances across an individual tournament, while the Career Data page uses the collection of players' full career statistics. By filtering in a combination of different charts, it is possible that the same data could be extracted in more than one way but having been approached from a different angle, or subsequently leading the user to further filtering in a different way.
 
 For the collection of match results, each result is entered into the database twice, with each player designated as 'Player 1' in one entry and 'Player 2' in the other. This was done to allow the data to be used to collate the statistics for an individual player, by ensuring that all of that player's results could be found by using the same key. For charts which were not relating to an individual player, this required that the collection be filtered to include only entries where 'Player 1' was the winner of the match, in order to prevent double counting.
 
@@ -82,7 +86,9 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Match Data
 
+The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament, while a pie chart shows the most common victory margins. The data can further be filtered by year or by round using select menus.
 
+Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions.
 
 ### Player Data
 
@@ -94,11 +100,17 @@ All of these charts can be used to filter the data table which appears in the se
 
 ### Rivalries
 
+The Rivalries page is the only one which uses two separate crossfilter instances to display data differently. One half of the page allows the user to select two different players from select menus ('Player 1' and 'Player 2') and then display the head-to-head record between them, both in terms of matches won and frames won. A list of all the matches between the player is displayed underneath in a data table. Using JavaScript, these charts are hidden until both players have been selected.
 
+On the other half of the page, there is a row chart showing the match-ups which have occurred most frequently in the tournament. The top 20 are displayed and the chart can be filtered by the stage of the tournament using a select menu.
 
 ### Year Stats
 
+The Year Stats page is included primarily to enable the site user to answer questions relating to the number of frames played in a particular year or the highest percentage of frames won. In the case of the latter in particular, it enables comparison of tournament winners and allows conclusions to be drawn about the most dominant tournament performances, as well as which players who were eliminated earlier in the tournament were arguably unlucky not to progress further.
 
+The records themselves are shown in two data tables in the second half of the data dashboard, with the top ten records listed for both frames played and percentage won. The column that they are sorted by is highlighted, while CSS is used to limit the number of rows shown. In order to accomplish this, the records are grouped by 'record-type', which is the same for all of them. This ensures that all records are in one single group and allows for easy control of the number of rows which appear.
+
+The records can be filtered based on either nationality or the stage of the tournament that the player reached, through two row charts in the first half of the dashboard. Additionally, select menus enable filtering by year or by player. The filters enable the site user to compare champions or see the best performances from a given country, as well as being able to see the best performances for a particular player.
 
 ### Career Data
 
@@ -110,7 +122,7 @@ A number of charts are available to filter the data. The records can be filtered
 
 ## Deployment
 
-Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were deployed to Heroku in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
+Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](the-crucible.herokuapp.com) in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
 
 ## Testing
 

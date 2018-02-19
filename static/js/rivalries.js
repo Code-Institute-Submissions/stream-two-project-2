@@ -86,6 +86,11 @@ function makeGraphs(error, crucible_results) {
 			return d["player_2_score"];
 		}
 	);
+	var totalFrames = dupl.groupAll().reduceSum(
+		function (d) {
+			return d["frames_played"];
+		}
+	);
 
 	// Charts
 	var player1Select = dc.selectMenu("#player1Select");
@@ -94,9 +99,9 @@ function makeGraphs(error, crucible_results) {
 	var player2Wins = dc.numberDisplay("#player2Wins");
 	var player1Frames = dc.numberDisplay("#player1Frames");
 	var player2Frames = dc.numberDisplay("#player2Frames");
-	var mostFrequent = dc.rowChart("#mostFrequent");
-	var matchUpRound = dc.selectMenu("#matchUpRound");
 	var h2hPlayerResults = dc.dataTable("#h2hPlayerResults");
+	var matchUpRound = dc.selectMenu("#matchUpRound");
+	var mostFrequent = dc.rowChart("#mostFrequent");
 
 	player1Select
 		.dimension(player1List)
@@ -194,9 +199,30 @@ function makeGraphs(error, crucible_results) {
 	dc.renderAll();
 }
 
-function displayH2H() {
-	document.getElementById("h2hWrapper").classList.remove("hidden");
+// Display the head-to-head details only when both players have been selected.
+
+// Both players set to false on page load.
+var h2hSelectors = {player1: false, player2: false};
+
+// Charts hidden by default - remove class 'hidden' only when both players set to true.
+function displayResults() {
+	if (h2hSelectors.player1 && h2hSelectors.player2) {
+		document.getElementById("h2hWrapper").classList.remove("hidden");
+	}
 }
 
-// document.getElementById("player1Select").onchange = displayH2H;
-document.getElementById("player2Select").onchange = displayH2H;
+// When player 1 selected, function sets player to true and calls display function again.
+document.getElementById("player1Select").onchange = setPlayer1;
+
+function setPlayer1() {
+	h2hSelectors.player1 = true;
+	displayResults();
+}
+
+// When player 2 selected, function sets player to true and calls display function again.
+document.getElementById("player2Select").onchange = setPlayer2;
+
+function setPlayer2() {
+	h2hSelectors.player2 = true;
+	displayResults();
+}

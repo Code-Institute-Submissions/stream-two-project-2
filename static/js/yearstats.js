@@ -11,6 +11,7 @@ function makeGraphs(error, crucible_results) {
 	crucible_results.forEach(function (d) {
 		d["year"] = +d["year"];
 		d["winner_score"] = +d["winner_score"];
+		d["frames_played"] = +d["frames_played"];
 		d["loser_score"] = +d["loser_score"];
 	});
 
