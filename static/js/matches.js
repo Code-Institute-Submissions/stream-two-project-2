@@ -56,25 +56,23 @@ function makeGraphs(error, crucible_results) {
 	var shadeSlices = d3.scale.ordinal().range(["rgb(100,50,0)", "rgb(105,56,7)", "rgb(110,62,14)", "rgb(115,68,21)", "rgb(120,74,28)", "rgb(125,80,35)", "rgb(130,86,42)", "rgb(135,92,49)", "rgb(140,98,56)", "rgb(145,104,63)", "rgb(150,110,70)", "rgb(155,116,77)", "rgb(160,122,84)", "rgb(165,128,91)", "rgb(170,134,98)", "rgb(175,140,105)", "rgb(180,146,112)", "rgb(185,152,119)", "rgb(190,158,126)", "rgb(195,164,133)", "rgb(200,170,140"]);
 
 	// Variables to define the charts on the page.
-	var matchYear = dc.selectMenu("#matchYear");
-	var matchRound = dc.selectMenu("#matchRound");
-	var matchesWon = dc.rowChart("#matchesWon");
-	var matchesLost = dc.rowChart("#matchesLost");
-	var commonMargins = dc.pieChart("#commonMargins");
-    var commonScores = dc.rowChart("#commonScores");
+	var matchYear = dc.selectMenu("#matchYear", "onLoad");
+	var matchRound = dc.selectMenu("#matchRound", "onLoad");
+	var matchesWon = dc.rowChart("#matchesWon", "onLoad");
+	var matchesLost = dc.rowChart("#matchesLost", "onLoad");
+	var commonMargins = dc.pieChart("#commonMargins", "onLoad");
+    var commonScores = dc.rowChart("#commonScores", "onLoad");
 	var chosenResults = dc.dataTable("#chosenResults");
 
 	// Filter the data by the year the matches took place.
 	matchYear
 		.dimension(resultYear)
-		.group(countByYear)
-		.render();
+		.group(countByYear);
 
 	// Filter the data by the round in which the match was played.
 	matchRound
 		.dimension(resultRound)
-		.group(countByRound)
-		.render();
+		.group(countByRound);
 
 	// Row chart showing the ten players with the most match wins.
 	matchesWon
@@ -87,7 +85,7 @@ function makeGraphs(error, crucible_results) {
 		.othersGrouper(false)
 		.ordering(function(d) { return -d.value; })
 		.elasticX(true)
-		.render();
+		.xAxis().ticks(5);
 
 	// Row chart showing the ten players with the most match losses.
 	matchesLost
@@ -100,7 +98,7 @@ function makeGraphs(error, crucible_results) {
 		.othersGrouper(false)
 		.ordering(function(d) { return -d.value; })
 		.elasticX(true)
-		.render();
+		.xAxis().ticks(5);
 
 	// Pie chart showing the most frequent of different margins of victory.
 	commonMargins
@@ -110,8 +108,7 @@ function makeGraphs(error, crucible_results) {
 		.innerRadius(20)
 		.dimension(margin)
 		.group(frequentMargins)
-		.colors(shadeSlices)
-		.render();
+		.colors(shadeSlices);
 
 	// Row chart showing the most frequent scorelines.
     commonScores
@@ -124,7 +121,7 @@ function makeGraphs(error, crucible_results) {
     	.othersGrouper(false)
     	.ordering(function(d) { return -d.value; })
     	.elasticX(true)
-		.render();
+		.xAxis().ticks(5);
 
 	// Data table showing the results which match the filters, rendered and displayed only on request.
 	chosenResults
@@ -162,6 +159,8 @@ function makeGraphs(error, crucible_results) {
 				return d.loser;
 			}
 		]);
+
+	dc.renderAll("onLoad");
 
 }
 

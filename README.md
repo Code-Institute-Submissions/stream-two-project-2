@@ -5,19 +5,19 @@ This is a project website for Code Institute Full Stack Development course Strea
 ## Contents
 1. [Planning](#planning)
 2. [Front End Development](#front-end-development)
-    * [Responsive Design](#responsive-design)
-    * [Page Styling](#page-styling)
-    * [Use of Custom JavaScript](#use-of-custom-javascript)
+	* [Responsive Design](#responsive-design)
+	* [Page Styling](#page-styling)
+	* [Use of Custom JavaScript](#use-of-custom-javascript)
 3. [Back End Development](#back-end-development)
 4. [External JavaScript Libraries](#external-javascript-libraries)
 5. [Use of Data](#use-of-data)
-    * [Champions](#champions)
-    * [Results](#results)
-    * [Match Data](#match-data)
-    * [Player Data](#player-data)
-    * [Rivalries](#rivalries)
-    * [Year Stats](#year-stats)
-    * [Career Data](#career-data)
+	* [Champions](#champions)
+	* [Results](#results)
+	* [Match Data](#match-data)
+	* [Player Data](#player-data)
+	* [Rivalries](#rivalries)
+	* [Year Stats](#year-stats)
+	* [Career Data](#career-data)
 6. [Deployment](#deployment)
 7. [Testing](#testing)
 8. [Issues](#issues)
@@ -26,9 +26,20 @@ This is a project website for Code Institute Full Stack Development course Strea
 
 Planning for the site involved devising a list of potential questions which a user to the site might wish to answer by viewing or filtering the available data. I considered those who may be reporting on a championship or simply viewing as a spectator, thinking about the kind of things that they may want to know in order to aid their enjoyment and understanding.
 
-During the development process a number of wireframes were created both using the 'Pencil' software and a simple pen and paper method, as I considered the best way to lay out the charts and tables that I wanted to include. Having decided that I would like to incorporate a considerable number of these, I decided that the site should be divided into a number of different pages, each presenting elements of the data from a particular angle.
+These questions included:
 
-The site development began with the creation of an appropriate file structure for a Flask-based project. This was then deployed to GitHub along with the README.md file and a skeleton HTML template.
+* Who has won the most championships?
+* What were the results for a particular year?
+* Who has won or lost the most matches?
+* Who has won or lost the most deciding frames?
+* What is a given player's record in the tournament?
+* What is the head-to-head record between two given players?
+* Which players have met each other most often?
+* Who played the most frames in a tournament?
+* Who had the best frame winning percentage?
+* Which players from a given country have reached each stage of the tournament?
+
+During the development process a number of wireframes were created both using the 'Pencil' software and a simple pen and paper method, as I considered the best way to lay out the charts and tables that I wanted to include. Having decided that I would like to incorporate a considerable number of these, I decided that the site should be divided into a number of different pages, each presenting elements of the data from a particular angle.
 
 ## Front End Development
 
@@ -88,11 +99,11 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Match Data
 
-The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament. In the second half of the dashboard a pie chart shows the most common victory margins, while another row chart shows the most common scorelines. The data can further be filtered by year or by round using select menus.
+The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament. In the second half of the dashboard a pie chart shows the most common victory margins, while another row chart shows the most common scorelines. The data can further be filtered by year or by round using select menus. A group is used to render the charts as the page loads as there is a data table which is not rendered until requested by the user.
 
 Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions. Victory margins and scorelines were included separately because margins may be compared in matches of different lengths, whereas a scoreline will be specific to a particular length of match.
 
-In addition to the charts, the user has the option to display results should they wish. This section is hidden and the data table which holds the results is not rendered until such time as the user clicks a 'Show Results' button. Alongside is another button marked 'Hide Results', which allows the user to hide the data table should they wish. These buttons are controlled through JavaScript similar to that which removes the hidden content on the Results page.
+The data table gives the user the option to display results should they wish. This section is hidden and the data table which holds the results is not rendered until such time as the user clicks a 'Show Results' button. Alongside is another button marked 'Hide Results', which allows the user to hide the data table should they wish. These buttons are controlled through JavaScript similar to that which removes the hidden content on the Results page.
 
 The data table is included so that having filtered the charts, the user can see a list of those results which match their selections. The user is provided with a note to inform them that showing the results without filtering will display the entire data set and may take time to render.
 
@@ -130,13 +141,17 @@ A number of charts are available to filter the data. The records can be filtered
 
 ## Deployment
 
-Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](http://the-crucible.herokuapp.com) in order to begin testing on other devices. Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
+The site development began with the creation of an appropriate file structure for a Flask-based project. Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](http://the-crucible.herokuapp.com) in order to begin testing on other devices.
+
+Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
 
 ## Testing
 
 Much of the site development was done on a Windows PC using the Chrome browser, and making use of the developer tools to view at different screen sizes and troubleshoot any problems which may occur. The site was further tested in the Firefox browser and on Android devices of different sizes, making sure that the responsive layout worked as intended across a variety of screen resolutions.
 
 The testing of the site functionality involved considering the user questions which had been considered in the planning stage. Thinking back to these questions meant that it could be ensured that the charts which had been included allowed the user to find out the required information easily, as well as presenting it in a clear and understandable way.
+
+Each page was tested using a variety of different combinations of filters to ensure that the information could be extracted as intended. Further explanation could be given to the user by means of the Site Tour functionality provided by Intro.js.
 
 ## Issues
 

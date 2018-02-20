@@ -58,7 +58,7 @@ header {
 	width: 20px;
 	border-radius: 50%;
 	background: radial-gradient(circle at 7px 7px, #ffffff 80%, #000000);
-	z-index: 999;
+	z-index: 2;
 }
 .buttonText {
 	margin: auto;
