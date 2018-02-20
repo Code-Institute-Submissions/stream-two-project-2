@@ -68,6 +68,7 @@ function makeGraphs(error, crucible_results) {
 	var playerMargins = dc.pieChart("#playerMargins", "group");
 	var playerRounds = dc.rowChart("#playerRounds", "group");
 
+	// Select menu to choose a player and render the remaining charts.
 	playerSelection
 		.dimension(playerList)
 		.group(selectedPlayer)
@@ -77,6 +78,66 @@ function makeGraphs(error, crucible_results) {
 			document.getElementById("chosenValue").innerHTML = $("#contentSelection select").val();
 		});
 
+	// Pie chart showing the player's win-loss record in the tournament.
+	winLossRecord
+		.dimension(playerOutcomes)
+		.group(playerWinLoss)
+		.height(200)
+		.width(200)
+		.radius(100)
+		.innerRadius(20)
+		.colors(booleanSlices);
+
+	// Row chart of the ten most frequent opponents.
+	playerOpponents
+		.ordinalColors(["#996600"])
+		.dimension(opponentsList)
+		.group(playerOpponent)
+		.width(250)
+		.height(283)
+		.rowsCap(10)
+		.othersGrouper(false)
+		.ordering(function(d) { return -d.value; })
+		.elasticX(true)
+		.xAxis().ticks(5);
+
+	// Number display of the total frames won by the player.
+	framesWon
+		.formatNumber(d3.format("d"))
+		.valueAccessor(function (d) {
+			return d;
+		})
+		.group(playerFramesWon);
+
+	// Number display of the total frames lost by the player.
+	framesLost
+		.formatNumber(d3.format("d"))
+		.valueAccessor(function (d) {
+			return d;
+		})
+		.group(playerFramesLost);
+
+	// Pie chart showing the margin of victory or defeat.
+	playerMargins
+		.dimension(victoryMargin)
+		.group(playerMargin)
+		.height(200)
+		.width(200)
+		.radius(100)
+		.innerRadius(20)
+		.colors(shadeSlices);
+
+	// Row chart showing the number of times the player has appeared in each round of the tournament.
+	playerRounds
+		.ordinalColors(["#996600"])
+		.dimension(tournamentStage)
+		.group(playerStage)
+		.width(250)
+		.height(200)
+		.elasticX(true)
+		.xAxis().ticks(5);
+
+	// Data table listing all of the chosen player's results.
 	playerResults
 		.dimension(playerList)
 		.group(function (d) {
@@ -112,58 +173,5 @@ function makeGraphs(error, crucible_results) {
 				return d.player_2_score;
 			}
 		]);
-
-	winLossRecord
-		.dimension(playerOutcomes)
-		.group(playerWinLoss)
-		.height(200)
-		.width(200)
-		.radius(100)
-		.innerRadius(20)
-		.colors(booleanSlices);
-
-	playerOpponents
-		.ordinalColors(["#996600"])
-		.dimension(opponentsList)
-		.group(playerOpponent)
-		.width(250)
-		.height(283)
-		.rowsCap(10)
-		.othersGrouper(false)
-		.ordering(function(d) { return -d.value; })
-		.elasticX(true)
-		.xAxis().ticks(5);
-
-	framesWon
-		.formatNumber(d3.format("d"))
-		.valueAccessor(function (d) {
-			return d;
-		})
-		.group(playerFramesWon);
-
-	framesLost
-		.formatNumber(d3.format("d"))
-		.valueAccessor(function (d) {
-			return d;
-		})
-		.group(playerFramesLost);
-
-	playerMargins
-		.dimension(victoryMargin)
-		.group(playerMargin)
-		.height(200)
-		.width(200)
-		.radius(100)
-		.innerRadius(20)
-		.colors(shadeSlices);
-
-	playerRounds
-		.ordinalColors(["#996600"])
-		.dimension(tournamentStage)
-		.group(playerStage)
-		.width(250)
-		.height(200)
-		.elasticX(true)
-		.xAxis().ticks(5);
 
 }

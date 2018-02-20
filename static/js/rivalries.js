@@ -104,18 +104,21 @@ function makeGraphs(error, crucible_results) {
 	var matchUpRound = dc.selectMenu("#matchUpRound");
 	var mostFrequent = dc.rowChart("#mostFrequent");
 
+	// Select menu to choose the first player in the head-to-head.
 	player1Select
 		.dimension(player1List)
 		.group(selectedPlayer1)
 		.promptText('Select:')
 		.render();
 
+	// Select menu to choose the second player in the head-to-head.
 	player2Select
 		.dimension(player2List)
 		.group(selectedPlayer2)
 		.promptText('Select:')
 		.render();
 
+	// Number display showing the match wins for Player 1.
 	player1Wins
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -123,6 +126,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(player1MatchesWon);
 
+	// Number display showing the match wins for Player 2.
 	player2Wins
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -130,6 +134,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(player2MatchesWon);
 
+	// Number display showing the frame wins for Player 1.
 	player1Frames
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -137,6 +142,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(player1FramesWon);
 
+	// Number display showing the frame wins for Player 2.
 	player2Frames
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -144,24 +150,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(player2FramesWon);
 
-	matchUpRound
-		.dimension(matchRound)
-		.group(frequentRound)
-		.promptText('Select a Round:')
-		.render();
-
-	mostFrequent
-		.ordinalColors(["#996600"])
-		.dimension(allMatchups)
-		.group(frequentMatchups)
-		.othersGrouper(false)
-		.width(250)
-		.height(500)
-		.rowsCap(20)
-		.ordering(function(d) { return -d.value; })
-		.elasticX(true)
-		.render();
-
+	// Data table showing the results of matches between the two selected players.
 	h2hPlayerResults
 		.dimension(h2hMatches)
 		.group(function (d) {
@@ -200,6 +189,26 @@ function makeGraphs(error, crucible_results) {
 				return d.loser;
 			}
 		]);
+		
+	// Select menu to filter to most frequent match-ups by tournament round.
+	matchUpRound
+		.dimension(matchRound)
+		.group(frequentRound)
+		.promptText('Select a Round:')
+		.render();
+
+	// Row chart showing the 20 match-ups which have occurred most frequently.
+	mostFrequent
+		.ordinalColors(["#996600"])
+		.dimension(allMatchups)
+		.group(frequentMatchups)
+		.othersGrouper(false)
+		.width(250)
+		.height(500)
+		.rowsCap(20)
+		.ordering(function(d) { return -d.value; })
+		.elasticX(true)
+		.render();
 
 }
 

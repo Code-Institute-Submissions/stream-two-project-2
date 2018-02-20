@@ -63,6 +63,7 @@ function makeGraphs(error, crucible_results) {
 	var yearResults = dc.dataTable("#tournamentResults", "group");
 	var tournamentMargin = dc.pieChart("#tournamentMargin", "group");
 
+	// Select menu to choose a year and render the remaining charts.
 	yearSelection
 		.dimension(allYears)
 		.group(yearGroup)
@@ -72,6 +73,7 @@ function makeGraphs(error, crucible_results) {
 			document.getElementById("chosenValue").innerHTML = $("#contentSelection select").val();
 	});
 
+	// Number display showing the number of matches played in the chosen year.
 	yearMatches
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -79,6 +81,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(allMatches);
 
+	// Number display showing the number of frames played in the chosen year.
 	yearFrames
 		.formatNumber(d3.format("d"))
 		.valueAccessor(function (d) {
@@ -86,6 +89,7 @@ function makeGraphs(error, crucible_results) {
 		})
 		.group(allFrames);
 
+	// Pie chart of the number of matches won by a particular margin.
 	tournamentMargin
 		.height(200)
 		.width(200)
@@ -95,6 +99,7 @@ function makeGraphs(error, crucible_results) {
 		.group(tournamentGaps)
 		.colors(shadeSlices);
 
+	// Data table listing all the results from the chosen year.
 	yearResults
 		.dimension(allRounds)
 		.group(function (d) {

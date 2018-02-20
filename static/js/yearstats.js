@@ -56,14 +56,17 @@ function makeGraphs(error, crucible_results) {
 	var mostFrames = dc.dataTable("#mostFrames");
 	var winningPercentage = dc.dataTable("#winningPercentage");
 
+	// Select menu to filter the records by year.
 	tournamentYear
 		.dimension(yearRecords)
 		.group(selectTournament);
 
+	// Select menu to filter the records by player.
 	tournamentPlayer
 		.dimension(playerRecords)
 		.group(selectPlayer);
 
+	// Row chart to filter the records by country.
 	recordsCountry
 		.ordinalColors(["#996600"])
 		.width(250)
@@ -75,6 +78,7 @@ function makeGraphs(error, crucible_results) {
 		.elasticX(true)
 		.xAxis().ticks(6);
 
+	// Row chart to filter the records by the stage of the tournament that the player reached.
 	tournamentResult
 		.ordinalColors(["#996600"])
 		.width(250)
@@ -85,6 +89,7 @@ function makeGraphs(error, crucible_results) {
 		.elasticX(true)
 		.xAxis().ticks(6);
 
+	// Data table showing the players who played the most frames in a tournament.
 	mostFrames
 		.dimension(playerTournament)
 		.group(function (d) {
@@ -122,6 +127,7 @@ function makeGraphs(error, crucible_results) {
 			}
 		]);
 
+	// Data table showing the players who won the highest percentage of frames in a tournament.
 	winningPercentage
 		.dimension(playerTournament)
 		.group(function (d) {
