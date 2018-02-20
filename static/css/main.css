@@ -538,9 +538,17 @@ a.topLink {
 	display: block;
 	text-align: center;
 	font-size: 0.8em;
+	color: #0000ff;
 }
 a.topLink:hover {
 	color: #6666ff;
+}
+a.topLink:visited {
+	color: #0000ff;
+}
+#matchResults {
+	margin-bottom: 10px;
+	padding: 10px;
 }
 
 /* Specific style rules for devices with a width of 400 pixels or smaller. */

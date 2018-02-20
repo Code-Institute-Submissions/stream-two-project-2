@@ -88,7 +88,9 @@ The results themselves are listed in a data table in the second half of the page
 
 ### Match Data
 
-The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament, while a pie chart shows the most common victory margins. The data can further be filtered by year or by round using select menus. Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions.
+The Match Data page also uses the results data but uses it to display statistics which give an overview of tournament history. Two row charts in the first half of the data dashboard show the players with the most match wins and the most match defeats in the tournament. In the second half of the dashboard a pie chart shows the most common victory margins, while another row chart shows the most common scorelines. The data can further be filtered by year or by round using select menus.
+
+Using these charts in conjunction with one another, site users can extract information such as the players have won the most deciding frames, or the players who have been knocked out in the quarter-finals on the most occasions. Victory margins and scorelines were included separately because margins may be compared in matches of different lengths, whereas a scoreline will be specific to a particular length of match.
 
 In addition to the charts, the user has the option to display results should they wish. This section is hidden and the data table which holds the results is not rendered until such time as the user clicks a 'Show Results' button. Alongside is another button marked 'Hide Results', which allows the user to hide the data table should they wish. These buttons are controlled through JavaScript similar to that which removes the hidden content on the Results page.
 
