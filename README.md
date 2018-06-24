@@ -141,7 +141,7 @@ A number of charts are available to filter the data. The records can be filtered
 
 ## Deployment
 
-The site development began with the creation of an appropriate file structure for a Flask-based project. Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](http://the-crucible.herokuapp.com) in order to begin testing on other devices.
+The site development began with the creation of an appropriate file structure for a Flask-based project. Once the basic outline of the Flask application and one individual HTML page had been set up, the project was immediately committed to GitHub.  Having completed the styling and layout for the first page and created the charts for it, the project and the database were [deployed to Heroku](http://the-crucible.herokuapp.com) in order to begin testing on other devices. The database was uploaded to mLab MongoDB on Heroku.
 
 Content was commited to GitHub on a regular basis when a new piece of site functionality had been completed, and further committed to Heroku when testing on other devices was required.
 
